@@ -1,0 +1,22 @@
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\WFTCloud.DataAccess\bin\Debug\WFTCloud.DataAccess.dll.config
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\WFTCloud.DataAccess\bin\Debug\WFTCloud.DataAccess.dll
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\WFTCloud.DataAccess\bin\Debug\WFTCloud.DataAccess.pdb
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\WFTCloud.DataAccess\obj\Debug\WFTCloud.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\WFTCloud.DataAccess\obj\Debug\WFTCloud.DataAccess.dll
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\WFTCloud.DataAccess\obj\Debug\WFTCloud.DataAccess.pdb
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\WFTCloud.DataAccess\bin\Debug\WFTCloud.DataAccess.dll.config
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\WFTCloud.DataAccess\bin\Debug\WFTCloud.DataAccess.dll
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\WFTCloud.DataAccess\bin\Debug\WFTCloud.DataAccess.pdb
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\WFTCloud.DataAccess\obj\Debug\WFTCloud.DataAccess.dll
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\WFTCloud.DataAccess\obj\Debug\WFTCloud.DataAccess.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\WFTCloud.DataAccess\bin\Debug\WFTCloud.DataAccess.dll.config
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\WFTCloud.DataAccess\bin\Debug\WFTCloud.DataAccess.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\WFTCloud.DataAccess\bin\Debug\WFTCloud.DataAccess.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\WFTCloud.DataAccess\obj\Debug\WFTCloud.DataAccess.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\WFTCloud.DataAccess\obj\Debug\WFTCloud.DataAccess.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\WFTCloud.DataAccess\bin\Debug\WFTCloud.DataAccess.dll.config
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\WFTCloud.DataAccess\bin\Debug\WFTCloud.DataAccess.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\WFTCloud.DataAccess\bin\Debug\WFTCloud.DataAccess.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\WFTCloud.DataAccess\obj\Debug\WFTCloud.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\WFTCloud.DataAccess\obj\Debug\WFTCloud.DataAccess.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\WFTCloud.DataAccess\obj\Debug\WFTCloud.DataAccess.pdb

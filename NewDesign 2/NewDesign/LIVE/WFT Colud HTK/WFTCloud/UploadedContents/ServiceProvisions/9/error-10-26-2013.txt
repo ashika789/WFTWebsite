@@ -1,0 +1,31 @@
+--------------------------------------------------------------------------------------------
+Error Occurred at: 26-Oct-13 7:39:47 PM
+Class Errored:UnitedGroupCompanies.QuotationMgmt.FrmLogin
+Method Errored:GetFactory
+Error Message:The specified store provider cannot be found in the configuration, or is not valid.
+Additional Details:   at System.Data.EntityClient.EntityConnection.GetFactory(String providerString)
+   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at UGC.DataAccess.UGCDatabase..ctor()
+   at UnitedGroupCompanies.QuotationMgmt.FrmLogin.FrmLogin_New_Load(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Error Occurred at: 26-Oct-13 7:53:33 PM
+Class Errored:UnitedGroupCompanies.QuotationMgmt.FrmCalibaration
+Method Errored:InitializeComponent
+Error Message:Could not load file or assembly 'CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304' or one of its dependencies. The system cannot find the file specified.
+Additional Details:   at UnitedGroupCompanies.QuotationMgmt.FrmReportViewer.InitializeComponent()
+   at UnitedGroupCompanies.QuotationMgmt.FrmReportViewer..ctor()
+   at UnitedGroupCompanies.QuotationMgmt.FrmCalibaration.btnPrint_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Error Occurred at: 26-Oct-13 7:54:07 PM
+Class Errored:UnitedGroupCompanies.QuotationMgmt.FrmCalibaration
+Method Errored:InitializeComponent
+Error Message:Could not load file or assembly 'CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304' or one of its dependencies. The system cannot find the file specified.
+Additional Details:   at UnitedGroupCompanies.QuotationMgmt.FrmReportViewer.InitializeComponent()
+   at UnitedGroupCompanies.QuotationMgmt.FrmReportViewer..ctor()
+   at UnitedGroupCompanies.QuotationMgmt.FrmCalibaration.btnPrint_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------

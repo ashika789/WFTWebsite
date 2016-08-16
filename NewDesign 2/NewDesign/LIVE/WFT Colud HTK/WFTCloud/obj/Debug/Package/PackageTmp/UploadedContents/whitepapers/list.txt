@@ -1,0 +1,27 @@
+ Volume in drive D has no label.
+ Volume Serial Number is B6B3-836A
+
+ Directory of D:\CREAGXInnovations\Wharfdale Technologies\WFTCloud\WFTCloud\UploadedContents\whitepapers
+
+10/16/2013  06:47 PM           925,352 AWS-SAP-Support-Model.pdf
+10/16/2013  06:47 PM           344,980 Infrastructure-Strategy-SAP-Cloud-Services.pdf
+10/16/2013  06:47 PM           260,879 SAP-Backup-Challenges.pdf
+10/16/2013  06:47 PM           482,570 SAP-Benefits-with-WFTCloud.pdf
+10/16/2013  06:47 PM           618,596 SAP-Cloud-Services-for-your-business-needs.pdf
+10/16/2013  06:47 PM           474,371 SAP-Data-Center-Migration-Best-Practices.pdf
+10/16/2013  06:47 PM         1,003,361 SAP-HANA-In-Mermory-on-Cloud-Services.pdf
+10/16/2013  06:47 PM           476,150 SAP-Infrastructure-Assessment.pdf
+10/16/2013  06:47 PM           680,183 SAP-NetWeaver-Gateway-on-WFT-Cloud.pdf
+10/16/2013  06:47 PM            94,504 SAP-Partner-Profile-Wharfedale.pdf
+10/16/2013  06:47 PM           443,616 SAP-Virtualization-Consolidation.pdf
+10/16/2013  06:47 PM            33,802 WFT-AND-WHAT-WE-DO.pdf
+10/16/2013  06:47 PM           347,191 WFT-Cloud-HANA-Solutions.pdf
+10/16/2013  06:47 PM         2,651,804 WFT-Cloud-Offerings-for-SAP.pdf
+10/16/2013  06:47 PM           493,971 WFT-Cloud-Offerings-SAP.pdf
+10/16/2013  06:47 PM            77,631 WFT-OSDB-Migration-Services.pdf
+10/16/2013  06:47 PM            70,579 WFT-SAP-DR-Solution-Brief.pdf
+10/16/2013  06:47 PM           530,262 WFT-Services-Brochure.pdf
+10/16/2013  06:47 PM           303,064 WFTCloud-Free-Trial-Brochure.pdf
+10/16/2013  06:47 PM           193,911 WFTCloud-Time-Acceleration.pdf
+              20 File(s)     10,506,777 bytes
+               0 Dir(s)  75,362,910,208 bytes free

@@ -1,0 +1,104 @@
+---------------------------------------------------------
+05-01-2015 12:31:47 : Payment Processing Started...
+05-01-2015 12:31:47 : 
+05-01-2015 12:31:54 : Processing Individual Payments...
+05-01-2015 12:31:54 : CallAuthorizeNetPayment...
+05-01-2015 12:32:02 : Authorize.net - Started
+05-01-2015 12:32:08 : Authorize.net - Completed
+05-01-2015 12:32:09 : Customer Profile ID : 114369999
+05-01-2015 12:32:09 :      Approved? : False
+05-01-2015 12:32:09 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+05-01-2015 12:32:28 : CallAuthorizeNetPayment...
+05-01-2015 12:32:29 : Authorize.net - Started
+05-01-2015 12:32:33 : Authorize.net - Completed
+05-01-2015 12:32:34 : Customer Profile ID : 95328548
+05-01-2015 12:32:34 :      Approved? : True
+05-01-2015 12:32:34 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+05-01-2015 12:32:51 : CallPayPalPayment...
+05-01-2015 12:32:52 : PayPal - Started
+05-01-2015 12:33:00 : PayPal - Completed
+05-01-2015 12:33:01 : Billing Agreement ID : B-64014079UE6965704
+05-01-2015 12:33:01 :      Approved? : True
+05-01-2015 12:33:01 :      Message   : SUCCESS
+CallPayPalPayment...
+05-01-2015 12:33:18 : CallPayPalPayment...
+05-01-2015 12:33:19 : PayPal - Started
+05-01-2015 12:33:24 : PayPal - Completed
+05-01-2015 12:33:26 : Billing Agreement ID : B-3MX35234R6759401A
+05-01-2015 12:33:26 :      Approved? : True
+05-01-2015 12:33:26 :      Message   : SUCCESS
+CallPayPalPayment...
+05-01-2015 12:33:44 : CallPayPalPayment...
+05-01-2015 12:33:45 : PayPal - Started
+05-01-2015 12:33:51 : PayPal - Completed
+05-01-2015 12:33:52 : Billing Agreement ID : B-36L19404RF9938839
+05-01-2015 12:33:52 :      Approved? : True
+05-01-2015 12:33:52 :      Message   : SUCCESS
+CallPayPalPayment...
+05-01-2015 12:34:09 : CallPayPalPayment...
+05-01-2015 12:34:11 : PayPal - Started
+05-01-2015 12:34:18 : PayPal - Completed
+05-01-2015 12:34:19 : Billing Agreement ID : B-9YN03299VG053010E
+05-01-2015 12:34:19 :      Approved? : True
+05-01-2015 12:34:19 :      Message   : SUCCESS
+CallPayPalPayment...
+05-01-2015 12:34:37 : 
+05-01-2015 12:34:37 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+05-01-2015 12:31:47 : Payment Processing Started...
+05-01-2015 12:31:47 : 
+05-01-2015 12:31:54 : Processing Individual Payments...
+05-01-2015 12:31:54 : CallAuthorizeNetPayment...
+05-01-2015 12:32:02 : Authorize.net - Started
+05-01-2015 12:32:08 : Authorize.net - Completed
+05-01-2015 12:32:09 : Customer Profile ID : 114369999
+05-01-2015 12:32:09 :      Approved? : False
+05-01-2015 12:32:09 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+05-01-2015 12:32:28 : CallAuthorizeNetPayment...
+05-01-2015 12:32:29 : Authorize.net - Started
+05-01-2015 12:32:33 : Authorize.net - Completed
+05-01-2015 12:32:34 : Customer Profile ID : 95328548
+05-01-2015 12:32:34 :      Approved? : True
+05-01-2015 12:32:34 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+05-01-2015 12:32:51 : CallPayPalPayment...
+05-01-2015 12:32:52 : PayPal - Started
+05-01-2015 12:33:00 : PayPal - Completed
+05-01-2015 12:33:01 : Billing Agreement ID : B-64014079UE6965704
+05-01-2015 12:33:01 :      Approved? : True
+05-01-2015 12:33:01 :      Message   : SUCCESS
+CallPayPalPayment...
+05-01-2015 12:33:18 : CallPayPalPayment...
+05-01-2015 12:33:19 : PayPal - Started
+05-01-2015 12:33:24 : PayPal - Completed
+05-01-2015 12:33:26 : Billing Agreement ID : B-3MX35234R6759401A
+05-01-2015 12:33:26 :      Approved? : True
+05-01-2015 12:33:26 :      Message   : SUCCESS
+CallPayPalPayment...
+05-01-2015 12:33:44 : CallPayPalPayment...
+05-01-2015 12:33:45 : PayPal - Started
+05-01-2015 12:33:51 : PayPal - Completed
+05-01-2015 12:33:52 : Billing Agreement ID : B-36L19404RF9938839
+05-01-2015 12:33:52 :      Approved? : True
+05-01-2015 12:33:52 :      Message   : SUCCESS
+CallPayPalPayment...
+05-01-2015 12:34:09 : CallPayPalPayment...
+05-01-2015 12:34:11 : PayPal - Started
+05-01-2015 12:34:18 : PayPal - Completed
+05-01-2015 12:34:19 : Billing Agreement ID : B-9YN03299VG053010E
+05-01-2015 12:34:19 :      Approved? : True
+05-01-2015 12:34:19 :      Message   : SUCCESS
+CallPayPalPayment...
+05-01-2015 12:34:37 : 
+05-01-2015 12:34:37 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+05-01-2015 12:34:37 : De-Activate ExpiredSubscription Processing Started...
+05-01-2015 12:34:37 : 
+05-01-2015 12:34:38 : 
+05-01-2015 12:34:38 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

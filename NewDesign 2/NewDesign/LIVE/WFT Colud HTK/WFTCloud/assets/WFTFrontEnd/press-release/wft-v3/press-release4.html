@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Set latest rendering mode for IE -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>WFTCloud - SAP Certified Hosting and Cloud Services Provider</title>
+<!-- Set viewport for mobile devices to zoom to 100% -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Loading fonts in the header makes it work in IE<9 -->
+<link href='http://fonts.googleapis.com/css?family=Bitter:400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+
+<!-- Including bootstrap styles - includes normalize and reset, grid system, layouts, responsive styles and media queries -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Including Font Awesome 3.0 styles -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<!-- Including main template styles -->
+<link rel="stylesheet" href="css/main.css">
+
+<!-- Loading jQuery liblary from CDN with a local fallback when CDN not responding.
+             This is done here not at the bottom of the page to support selectivizr for IE -->
+<!-- Load jQuery from CDN -->
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<!-- Check if "window" is available. If not that means jQuery didn't load from CDN so instead use local version (otherwise skip) -->
+<script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
+
+<!-- If the browser version of IE is less than 9 load HTML5 & CSS3 polyfills -->
+<!--[if lt IE 9]>
+            <script type="text/javascript" src="js/html5shiv.min.js"></script>
+            <script type="text/javascript" src="js/selectivizr.min.js"></script>
+            <link rel="stylesheet" href="css/ie.css">
+        <![endif]-->
+</head>
+
+<body>
+
+<!-- Popover modal box containing client login form -->
+<div id="customer-login" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h5 id="myModalLabel">Customer area login:</h5>
+  </div>
+  <!-- modal-header end -->
+  
+  <div class="modal-body">
+    <p>Login</p>
+    <input type="text" class="customer-login-input" name='login-input' placeholder="Login">
+    <p>Password</p>
+    <input type="password" class="customer-login-input" name='password-input' placeholder="Password">
+  </div>
+  <!-- modal-body end -->
+  
+  <div class="modal-footer">
+    <div class="customer-help-links"> <a href="#">Forgot your password?</a> </div>
+    <button class="btn btn-primary">Login</button>
+  </div>
+  <!-- modal-footer end --> 
+  
+</div>
+<!-- customer-login end --> 
+
+<!-- Start developing your site here -->
+<div class="main-page-wrapper">
+  <div class="top-background">
+    <div class="top-menu-wrapper">
+      <nav class="top-menu container">
+      <ul>
+        <li><a href="contact.html"><i class="icon-phone"></i><strong> Phone support:</strong> 1-888-533-3113</a></li>
+        <li><a href="#"><i class="icon-comment"></i><strong> Live</strong> Chat</a></li>
+        <li><a href="#"><i class="icon-envelope-alt"></i><strong> Submit</strong> a ticket</a></li>
+        <li><a href="#" id="mobile-nav-button"><i class="icon-list-ul"></i><strong> Show/Hide</strong> a menu</a></li>
+        <li ><a href="#customer-login" data-toggle="modal"><i class="icon-user"></i><strong> Sign Up</strong></a></li>
+        <li><a href="#customer-login" data-toggle="modal"><i class="icon-user"></i><strong> Customer</strong> </a></li>
+        <li><a href="contact.html" ><strong> Contact</strong> </a></li>
+      </ul>
+    </nav>
+      <!-- end top-menu --> 
+      
+    </div>
+    <!-- end top-menu-wrapper -->
+    
+    <div class="mobile-nav off"></div>
+    <!-- mobile-nav end -->
+    
+    <header class="container">
+      <div class="row">
+        <div class="span4">
+          <h1 class="logo clearfix"> <a href="index.html"><img src="img/logo.png" alt="WFTCloud Logo"></a> </h1>
+        </div>
+        <!-- end span4 -->
+        
+        <div class="span8">
+          <nav class="main-menu">
+            <ul>
+              <!--li><a href="#" data-description="Cloud Plans" class="current-menu-item">Enterprise Cloud</a></li-->
+              <li><a href="enterprise-cloud.html" data-description="Services">Enterprise Cloud</a></li>
+              <li><a href="express-cloud.html" data-description="Cloud Plans">Express Cloud</a> </li>
+              <li><a href="SAP-training.html" data-description="SAP HANA">Trainings</a></li>
+              <li><a href="about.html" data-description="Our Company" class="current-menu-item">About Us</a>
+                <ul>
+                  <li><a href="management-team.html">Management Team </a></li>
+                  <li><a href="press-release.html">Press Release</a></li>
+                  <li><a href="#">Partners</a></li>
+                  <li><a href="#">Our Clients</a></li>
+                  <li><a href="testimonials.html">Testimonials</a></li>
+                </ul>
+              </li>
+              <!--li><a href="contact.html" data-description="and quotes">Media</a></li-->
+            </ul>
+          </nav>
+          <!-- end main-menu --> 
+          
+        </div>
+        <!-- end span8 --> 
+        
+      </div>
+      <!-- end row -->
+      
+      <hr />
+    </header>
+    <!-- end container --> 
+    
+  </div>
+  <!-- top-background end -->
+  
+  <section id="content">
+    <div class="white-section">
+      <div class="container">
+        <div class="row">
+          <h4>Press Release </h4>
+          <div>
+            <div class="comment-body" style="margin-left:0px;">
+              <div class="comment-meta"> <a class="comment-user" href="#">WFT Cloud Announces On-Premise Private Cloud Solution for SAP customers</a><br> <span class="comment-date">September 25, 2013</span> </div>
+              <!-- comment-meta end -->
+              
+              <div class="comment-text">
+              <p>WFT Cloud a fully owned subsidiary of Wharfedale Technologies Inc. (WFT), a leading professional IT services consulting firm specializing in SAP cloud infrastructure integration, today announced that they are rolling out the new innovative On-Premise Private Cloud for customers to accelerate enterprise SAP customer cloud adoption which includes hardware, migration and managing SAP operations on a monthly subscription basis. The services provide customers a fast track to reap benefits of cloud computing.</p>
+              <h6>Princeton, NJ (PRWEB) June 28, 2013</h6>
+              <div style="clear:both;"><hr><br></div>
+              <div class="span7">
+<p> Wharfedale Technologies Inc. (WFT Cloud), a leading SAP Infrastructure and <a href="http://wftcloud.com/User/EnterpriseCloud.aspx">SAP Cloud consulting firm</a>,   has made significant gains within the cloud computing domain by   focusing on cost savings and faster ROI for customers when they deploy   or migrate SAP Applications to the Cloud.</p>
+<p> Understanding the true cost-saving and benefits for customers   moving SAP landscapes to Cloud, WFT releases the on-premise Cloud   services to meet the rapid and evolving market demands.</p>
+<p> Private Cloud at Customer Premise the following features:</p>
+<p> WFT provides the Cloud Infrastructure: No upfront capital   Investment cost for customers, WFT will procure and manage the Cloud   Infrastructure for SAP.</p>
+<p> Private Cloud at Customer Premises: The Cloud Infrastructure for   the SAP is resides inside Customers Data Center, satisfying customer   security and compliance requirements.</p>
+<p> Production and Non-Production Landscape On Premise: Optimally   designed to accommodate customers production and non-production   landscape.</p>
+<p> Fully   Cloud Enabled (Elastic): Intelligently designed to accommodate varying   resource requirements on demand with scale-back functionality (elastic)   and customers only pay for resource usage.</p>
+<p> Highly Available: Intelligently designed to Exceeds customer SLA's.</p>
+<p> Fully Managed: WFT provides Complete Low Cost Infrastructure and   Basis Operations Management Services as a part of contract.</p>
+<p> Certified Migration: Free <a href="http://wftcloud.com/User/EnterpriseCloud.aspx#">Certified Technical Migration</a>of SAP systems to Private Cloud Infrastructure.</p>
+<p> Monthly Utility Billing: Customers are billed monthly, Utility Billing allows Charge backs to Departments/Projects.</p>
+<p> FAST Landscape Provisioning: Fast on-demand SAP Systems Landscape   Provisioning in minutes, not weeks using WFT's own proprietary SAP Cloud   Image Factory (SCIF).</p>
+<p> Data Protection: Innovative Data Protection Solutions tailored to customer SLAs.</p>
+<p> Disaster Recovery: Optional Disaster Recovery in Private Cloud or in <a href="http://wftcloud.com/User/Index.aspx">WFT CLOUD</a></p>
+<p> WFT&rsquo;s On-Premise Private Cloud for SAP customers are built upon   WFT Cloud&rsquo;s own SAP Cloud Image Factory (SCIF). The SCIF methodology,   based on various &ldquo;permutation &amp; combinations&rdquo; of SAP installation   options , rests at the core of how WFT Cloud saves its customers both   time and money when provisioning their SAP landscapes on Cloud. WFT   Cloud&rsquo;s &ldquo;SCIF&rdquo; library, containing over 800+ SAP Images, combined with   WFT's Rapid Migration approach enables faster deployment of SAP   Landscapes in matter of days (not weeks). This will help customers to   reduce their CapEx and OpEx on running SAP solutions and meet their   SLAs. WFT's subscription based model increases customer ROI.</p>
+<p> WFT Cloud customers realize greater cost savings through a   predictable pricing structure. WFT Cloud&rsquo;s all inclusive fixed-price   model includes: cost for hardware and software, SAP operations support, <a href="https://www.facebook.com/wftcloud">SAP data protection</a>,   as well as SAP system refresh and patching. WFT Cloud customers   experience accelerated ROI and a cost-saving advantage after migrating   their SAP Solutions to Cloud. The following are the average cost savings   for WFT Cloud customers when migrating from legacy Infrastructure.</p>
+<p> WFT Owned and Managed Private Cloud at Customer Premises Minimum of 30-40% savings</p>
+<p> WFT Cloud customers can also take advantage of our &ldquo;Cloud   Aggregation Solution&rdquo;. The cloud aggregation solution provides customers   with the flexibility and choice of selecting between competing cloud   infrastructure solutions to host the SAP application. This option truly   serves to benefit WFT Cloud customers by delivering SLA driven options,   reduced operational costs and faster ROI.</p>
+<p> Ganesh Radhakrishnan, CEO of WFT Cloud, concurs with Gartner&rsquo;s   assumption that, &ldquo;30% of all businesses will own absolutely no IT assets   come 2014&rdquo;. This is why WFT Cloud has become a leader in helping   customers to reduce operation costs and improve efficiencies when   migrating their <a href="https://twitter.com/wftus">SAP landscapes</a> onto a Private, Hybrid or WFT Cloud.</p>
+<h6> About Wharfedale Technologies Inc.</h6>
+<p> Wharfedale Technologies Inc. (WFT Cloud) is a leading technology   consulting firm specializing in SAP infrastructure integrations and   services, as well as private/public hybrid Cloud solutions. As an SAP   certified provider of cloud services, Wharfedale also offers SAP   solutions around - high availability, disaster recovery, advanced sizing   for virtualization, back up/recovery Integration, systems refresh   automation and landscape optimization.</p>
+<p> For more information on Wharfedale and WFT Cloud services, please visit <a href="http://www.wftcloud.com/">http://www.wftcloud.com</a> or call us at (888) 533-3113.</p>
+<p> SAP and all SAP logos are trademarks or registered trademarks of   SAP AG in Germany and in several other countries. All other product and   service names mentioned are the trademarks of their respective   companies.</p>
+              </div>
+              <div class="span4">
+              <iframe allowfullscreen="" frameborder="0" height="196" mozallowfullscreen="" origheight="196" origwidth="307" src="http://www.youtube-nocookie.com/embed/-JQh3VW_kJw?wmode=opaque" webkitallowfullscreen="" width="307" wmode="transparent"></iframe>
+             <br> <hr><br>
+              <p align="center"><img src="img/press-release/4.jpg" style="border:1px solid #ededed;"></p>
+              <blockquote  class="article" style="width:100%;">"WFT On-Premise Cloud offering is your One Stop solution to seamlessly move SAP to Cloud."</blockquote>
+              </div>
+             
+            
+           
+             
+              <div style="clear:both;"><hr><br></div>
+                <p>  <a href="press-release.html">Back to Press Release</a>
+              </p>
+              </div>
+              
+              <!-- comment-text end --> 
+              
+            </div>
+            <!-- comment-body end --> 
+            
+          </div>
+        </div>
+            <!-- comment-body end --> 
+            
+          </div>
+          
+          
+          
+        </div>
+        <!-- row end --> 
+        
+        <!-- row end --> 
+        
+      </div>
+      <!-- conteiner end --> 
+      
+    </div>
+    <!-- white-section end --> 
+    
+</section>
+  <!-- content end -->
+  
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="span3"> <img src="img/twitter-bird-light-bgs.png" style="margin-bottom:20px;">
+          <p>Lorem ipsum dolor sit amet, consectetur. Quisquam impedit <span style="color:#00aced">http://bit.ly/9lorem11.</span> </p>
+          <p>Lorem ipsum dolor sit adipisicing elit. Quisquam <span style="color:#00aced">http://bit.ly/9lorem11.</span> </p>
+        </div>
+        <!-- span3 end -->
+        <div class="span6">
+          <h5>Partners / Certifications</h5>
+          <div class="well"><img src="img/cert.png">
+            <div id="myCarousel" class="carousel slide"> 
+              
+              <!-- Carousel items -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="row-fluid">
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/01.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/02.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/03.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/04.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                  </div>
+                  <!--/row-fluid--> 
+                </div>
+                <!--/item-->
+                
+                <div class="item">
+                  <div class="row-fluid">
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/05.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/06.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/01.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/02.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                  </div>
+                  <!--/row-fluid--> 
+                </div>
+                <!--/item-->
+                
+                <div class="item">
+                  <div class="row-fluid">
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/05.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/06.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/01.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/02.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                  </div>
+                  <!--/row-fluid--> 
+                </div>
+                <!--/item--> 
+                
+              </div>
+              <!--/carousel-inner--> 
+              
+             <a class="left carousel-control" href="#myCarousel" data-slide="prev"><img src="img/bt-prev-fo.png" alt="image" style="margin-top:8px; margin-bottom:-2px;"></a> <a class="right carousel-control" href="#myCarousel" data-slide="next"><img src="img/bt-next-fo.png" alt="image" style="margin-top:5px; margin-bottom:-4px;"></a>
+              </div>
+            <!--/myCarousel--> 
+            
+          </div>
+        </div>
+        <div class="span3">
+          <h5>Support Center</h5>
+          <ul class="support-list">
+            <li><a href="#customer-login" data-toggle="modal"><i class="icon-user"></i><strong>Customer</strong> login</a></li>
+            <li><a href="#"><i class="icon-phone"></i><strong>Phone</strong> 123 456 789</a></li>
+            <li><a href="#"><i class="icon-comment"></i><strong>Live</strong> support</a></li>
+            <li><a href="#"><i class="icon-envelope-alt"></i><strong>Submit</strong> a ticket</a></li>
+          </ul>
+        </div>
+        <!-- span3 end --> 
+        
+      </div>
+      <!-- row end -->
+      
+      <div class="row">
+        <div id="newsletter-wrapper" class="span8">
+          <div id="newsletter">
+            <h5 class="visible-desktop">Sign-up to our newsletter:</h5>
+            <h5 class="hidden-desktop">Newsletter sign-up:</h5>
+            <form method='post' name='ContactForm' id='newsletterForm'>
+              <input type="text" class="input-box" name="user-email" placeholder="Enter your email.">
+              <button type='submit' class='myinputbtn' name='submitf' id="submitf">Sign up</button>
+            </form>
+          </div>
+          <!-- newsletter end --> 
+          
+        </div>
+        <!-- newsletter-wrapper end -->
+        
+        <div id="social-icons-wrapper" class="span4">
+          <div id="social-icons">
+            <h5 class="visible-desktop">Connect via:</h5>
+            <ul>
+              <li><a href="#"><i class="icon-twitter"></i></a></li>
+              <li><a href="#"><i class="icon-facebook"></i></a></li>
+              <li><a href="#"><i class="icon-google-plus"></i></a></li>
+              <li><a href="#"><i class="icon-linkedin"></i></a></li>
+            </ul>
+          </div>
+          <!-- social-icons end --> 
+          
+        </div>
+        <!-- social-icons-wrapper end --> 
+        
+      </div>
+      <!-- row end --> 
+      
+      <!-- this is a container for the newsletter fail or success message -->
+      <div id='message_post2'></div>
+      <!-- message_post2 end -->
+      
+      <hr />
+      <div class="row">
+        <p class="span12">© Copyright 2013. WFTCloud. All rights reserved.</p>
+      </div>
+      <!-- row end --> 
+      
+    </div>
+    <!-- container end --> 
+    
+    <a href="#" class="go-top" style="display: inline;">Go Top</a> </footer>
+</div>
+<!-- end main-page-wrapper --> 
+
+<!-- Loading all JS files the asynchronous way --> 
+<!-- Twitter Bootstrap JavaScript file required for transitions, pupups, modals and other elements  --> 
+<script src="js/bootstrap.min.js"></script> 
+
+<!-- Main file containing all other scripts. This is done to avoid multiple HTTP requests --> 
+<script src="js/main.js"></script> 
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#myCarousel').carousel({
+	interval: 10000
+	})
+});
+</script>
+</body>
+</html>

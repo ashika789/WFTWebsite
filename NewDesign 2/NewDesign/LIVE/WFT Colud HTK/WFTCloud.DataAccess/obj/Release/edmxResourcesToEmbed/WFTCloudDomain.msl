@@ -1,0 +1,2277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="cgxwftcloudModelStoreContainer" CdmEntityContainer="cgxwftcloudEntities">
+    <EntitySetMapping Name="CouponTypes">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.CouponType">
+        <MappingFragment StoreEntitySet="CouponTypes">
+          <ScalarProperty Name="IsCouponUnlimited" ColumnName="IsCouponUnlimited" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="ServiceCount" ColumnName="ServiceCount" />
+          <ScalarProperty Name="CouponType1" ColumnName="CouponType" />
+          <ScalarProperty Name="CouponTypeID" ColumnName="CouponTypeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CRMIssueTypes">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.CRMIssueType">
+        <MappingFragment StoreEntitySet="CRMIssueTypes">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CRMIssueTypeDesc" ColumnName="CRMIssueTypeDesc" />
+          <ScalarProperty Name="CRMIssueTypeID" ColumnName="CRMIssueTypeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CRMRequestNotes">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.CRMRequestNote">
+        <MappingFragment StoreEntitySet="CRMRequestNotes">
+          <ScalarProperty Name="AttachmentSentToCustomer" ColumnName="AttachmentSentToCustomer" />
+          <ScalarProperty Name="ResolutionSentToCustomer" ColumnName="ResolutionSentToCustomer" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CRMStatusChangeTo" ColumnName="CRMStatusChangeTo" />
+          <ScalarProperty Name="CRMStatusChangeFrom" ColumnName="CRMStatusChangeFrom" />
+          <ScalarProperty Name="CRMUpdate" ColumnName="CRMUpdate" />
+          <ScalarProperty Name="CRMRequestID" ColumnName="CRMRequestID" />
+          <ScalarProperty Name="CRMRequestNotesID" ColumnName="CRMRequestNotesID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CRMRequestStatus">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.CRMRequestStatu">
+        <MappingFragment StoreEntitySet="CRMRequestStatus">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CRMRequestStatusDesc" ColumnName="CRMRequestStatusDesc" />
+          <ScalarProperty Name="CRMRequestStatusID" ColumnName="CRMRequestStatusID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FAQTypes">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.FAQType">
+        <MappingFragment StoreEntitySet="FAQTypes">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="FAQTypeText" ColumnName="FAQTypeText" />
+          <ScalarProperty Name="FAQTypeID" ColumnName="FAQTypeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IndexDataTypes">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.IndexDataType">
+        <MappingFragment StoreEntitySet="IndexDataTypes">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="IndexDataTypeText" ColumnName="IndexDataTypeText" />
+          <ScalarProperty Name="IndexDataTypeID" ColumnName="IndexDataTypeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RecordStatus">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.RecordStatu">
+        <MappingFragment StoreEntitySet="RecordStatus">
+          <ScalarProperty Name="RecordStatusDesc" ColumnName="RecordStatusDesc" />
+          <ScalarProperty Name="RecordStatusID" ColumnName="RecordStatusID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ServiceCategories">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.ServiceCategory">
+        <MappingFragment StoreEntitySet="ServiceCategories">
+          <ScalarProperty Name="IsDedicated" ColumnName="IsDedicated" />
+          <ScalarProperty Name="IsPayAsYouGo" ColumnName="IsPayAsYouGo" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CategoryPriority" ColumnName="CategoryPriority" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="ServiceCategoryID" ColumnName="ServiceCategoryID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ServiceProvisions">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.ServiceProvision">
+        <MappingFragment StoreEntitySet="ServiceProvisions">
+          <ScalarProperty Name="DeveloperKey" ColumnName="DeveloperKey" />
+          <ScalarProperty Name="ApplicationServer" ColumnName="ApplicationServer" />
+          <ScalarProperty Name="InstanceNumber" ColumnName="InstanceNumber" />
+          <ScalarProperty Name="AttachmentImgPath" ColumnName="AttachmentImgPath" />
+          <ScalarProperty Name="ServiceCategoryID" ColumnName="ServiceCategoryID" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="ExpirationPeriod" ColumnName="ExpirationPeriod" />
+          <ScalarProperty Name="CurrentUserCounter" ColumnName="CurrentUserCounter" />
+          <ScalarProperty Name="NotificationRequiredAt" ColumnName="NotificationRequiredAt" />
+          <ScalarProperty Name="AttachmentPath" ColumnName="AttachmentPath" />
+          <ScalarProperty Name="AdditionalInformation" ColumnName="AdditionalInformation" />
+          <ScalarProperty Name="UIDOnServer" ColumnName="UIDOnServer" />
+          <ScalarProperty Name="ServiceUrl" ColumnName="ServiceUrl" />
+          <ScalarProperty Name="ServicePassword" ColumnName="ServicePassword" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserMax" ColumnName="UserMax" />
+          <ScalarProperty Name="UserMin" ColumnName="UserMin" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="ServiceProvisionID" ColumnName="ServiceProvisionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SurveyChoices">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.SurveyChoice">
+        <MappingFragment StoreEntitySet="SurveyChoices">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="SurveyChoice1" ColumnName="SurveyChoice" />
+          <ScalarProperty Name="SurveyQuestionID" ColumnName="SurveyQuestionID" />
+          <ScalarProperty Name="SurveyChoiceID" ColumnName="SurveyChoiceID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SurveyQuestions">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.SurveyQuestion">
+        <MappingFragment StoreEntitySet="SurveyQuestions">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="DisplayOrder" ColumnName="DisplayOrder" />
+          <ScalarProperty Name="AllowCustomResponse" ColumnName="AllowCustomResponse" />
+          <ScalarProperty Name="AllowMultipleSelection" ColumnName="AllowMultipleSelection" />
+          <ScalarProperty Name="SurveyQuestion1" ColumnName="SurveyQuestion" />
+          <ScalarProperty Name="SurveyQuestionID" ColumnName="SurveyQuestionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserServicesInvoices">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.UserServicesInvoice">
+        <MappingFragment StoreEntitySet="UserServicesInvoices">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="RefundMessage" ColumnName="RefundMessage" />
+          <ScalarProperty Name="RefundCode" ColumnName="RefundCode" />
+          <ScalarProperty Name="RefundedBy" ColumnName="RefundedBy" />
+          <ScalarProperty Name="RefundReason" ColumnName="RefundReason" />
+          <ScalarProperty Name="RefundAmount" ColumnName="RefundAmount" />
+          <ScalarProperty Name="RefundDate" ColumnName="RefundDate" />
+          <ScalarProperty Name="RefundStatus" ColumnName="RefundStatus" />
+          <ScalarProperty Name="DateModified" ColumnName="DateModified" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="ResultCode" ColumnName="ResultCode" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="MessageCode" ColumnName="MessageCode" />
+          <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+          <ScalarProperty Name="Debit" ColumnName="Debit" />
+          <ScalarProperty Name="Credit" ColumnName="Credit" />
+          <ScalarProperty Name="UserServiceInvoiceID" ColumnName="UserServiceInvoiceID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserSurveyResponses">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.UserSurveyRespons">
+        <MappingFragment StoreEntitySet="UserSurveyResponses">
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="SurveyAnswer" ColumnName="SurveyAnswer" />
+          <ScalarProperty Name="SurveyQuestionID" ColumnName="SurveyQuestionID" />
+          <ScalarProperty Name="UserSurveyResponseID" ColumnName="UserSurveyResponseID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="pr_GetServicesToAdd" FunctionName="cgxwftcloudModel.Store.pr_GetServicesToAdd">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_GetServicesToAdd_Result">
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="ServiceDescription" ColumnName="ServiceDescription" />
+          <ScalarProperty Name="ReleaseVersion" ColumnName="ReleaseVersion" />
+          <ScalarProperty Name="SystemType" ColumnName="SystemType" />
+          <ScalarProperty Name="WFTCloudPrice" ColumnName="WFTCloudPrice" />
+          <ScalarProperty Name="ThirdPartyServicePrice" ColumnName="ThirdPartyServicePrice" />
+          <ScalarProperty Name="UsageUnit" ColumnName="UsageUnit" />
+          <ScalarProperty Name="InitialHoldAmount" ColumnName="InitialHoldAmount" />
+          <ScalarProperty Name="SupportIncluded" ColumnName="SupportIncluded" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="UserSpecific" ColumnName="UserSpecific" />
+          <ScalarProperty Name="ServiceCategoryID" ColumnName="ServiceCategoryID" />
+          <ScalarProperty Name="IsPayAsYouGo" ColumnName="IsPayAsYouGo" />
+          <ScalarProperty Name="PackageLengthInMonths" ColumnName="PackageLengthInMonths" />
+          <ScalarProperty Name="ThreeMonthsSaving" ColumnName="ThreeMonthsSaving" />
+          <ScalarProperty Name="SixMonthsSaving" ColumnName="SixMonthsSaving" />
+          <ScalarProperty Name="NineMonthsSaving" ColumnName="NineMonthsSaving" />
+          <ScalarProperty Name="TwelveMonthsSaving" ColumnName="TwelveMonthsSaving" />
+          <ScalarProperty Name="TrialAmount" ColumnName="TrialAmount" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="UserMembershipID" ColumnName="UserMembershipID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="vwUserSurveyQuestionsResponses">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.vwUserSurveyQuestionsResponse">
+        <MappingFragment StoreEntitySet="vwUserSurveyQuestionsResponse">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="DisplayOrder" ColumnName="DisplayOrder" />
+          <ScalarProperty Name="AllowCustomResponse" ColumnName="AllowCustomResponse" />
+          <ScalarProperty Name="AllowMultipleSelection" ColumnName="AllowMultipleSelection" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="SurveyAnswer" ColumnName="SurveyAnswer" />
+          <ScalarProperty Name="SurveyQuestion" ColumnName="SurveyQuestion" />
+          <ScalarProperty Name="SurveyQuestionID" ColumnName="SurveyQuestionID" />
+          <ScalarProperty Name="UserSurveyResponseID" ColumnName="UserSurveyResponseID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwCouponsLists">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.vwCouponsList">
+        <MappingFragment StoreEntitySet="vwCouponsList">
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="ValidityDate" ColumnName="ValidityDate" />
+          <ScalarProperty Name="ValidityInDays" ColumnName="ValidityInDays" />
+          <ScalarProperty Name="ServiceSpecific" ColumnName="ServiceSpecific" />
+          <ScalarProperty Name="UserSpecific" ColumnName="UserSpecific" />
+          <ScalarProperty Name="IsUsed" ColumnName="IsUsed" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="CouponType" ColumnName="CouponType" />
+          <ScalarProperty Name="CouponCode" ColumnName="CouponCode" />
+          <ScalarProperty Name="CouponName" ColumnName="CouponName" />
+          <ScalarProperty Name="CouponID" ColumnName="CouponID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwUsersListWithFullNames">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.vwUsersListWithFullName">
+        <MappingFragment StoreEntitySet="vwUsersListWithFullName">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="UserRole" ColumnName="UserRole" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="UserMembershipID" ColumnName="UserMembershipID" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdminPageAccesses">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.AdminPageAccess">
+        <MappingFragment StoreEntitySet="AdminPageAccess">
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="WebPageID" ColumnName="WebPageID" />
+          <ScalarProperty Name="AdminUserID" ColumnName="AdminUserID" />
+          <ScalarProperty Name="AdminPageAccessID" ColumnName="AdminPageAccessID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdminPages">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.AdminPage">
+        <MappingFragment StoreEntitySet="AdminPages">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="WebPageName" ColumnName="WebPageName" />
+          <ScalarProperty Name="WebPageID" ColumnName="WebPageID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="pr_GetPagesForAdminAccessAssigment" FunctionName="cgxwftcloudModel.Store.pr_GetPagesForAdminAccessAssigment">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_GetPagesForAdminAccessAssigment_Result">
+          <ScalarProperty Name="WebPageID" ColumnName="WebPageID" />
+          <ScalarProperty Name="WebPageName" ColumnName="WebPageName" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pr_GetPagesWithAdminAccess" FunctionName="cgxwftcloudModel.Store.pr_GetPagesWithAdminAccess">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_GetPagesWithAdminAccess_Result">
+          <ScalarProperty Name="WebPageID" ColumnName="WebPageID" />
+          <ScalarProperty Name="WebPageName" ColumnName="WebPageName" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="KnowAboutUs">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.KnowAboutU">
+        <MappingFragment StoreEntitySet="KnowAboutUs">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="ModeNames" ColumnName="ModeNames" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CourseDetails">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.CourseDetail">
+        <MappingFragment StoreEntitySet="CourseDetails">
+          <ScalarProperty Name="Opportunities" ColumnName="Opportunities" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CourseDuration" ColumnName="CourseDuration" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="CourseName" ColumnName="CourseName" />
+          <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwManageFAQs">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.vwManageFAQ">
+        <MappingFragment StoreEntitySet="vwManageFAQ">
+          <ScalarProperty Name="FAQCategoryName" ColumnName="FAQCategoryName" />
+          <ScalarProperty Name="FAQCategoryTypeID" ColumnName="FAQCategoryTypeID" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="FAQTypeText" ColumnName="FAQTypeText" />
+          <ScalarProperty Name="FAQTypeID" ColumnName="FAQTypeID" />
+          <ScalarProperty Name="MembersOnly" ColumnName="MembersOnly" />
+          <ScalarProperty Name="Answer" ColumnName="Answer" />
+          <ScalarProperty Name="Question" ColumnName="Question" />
+          <ScalarProperty Name="FAQID" ColumnName="FAQID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FAQCategoryTypes">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.FAQCategoryType">
+        <MappingFragment StoreEntitySet="FAQCategoryTypes">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="FAQCategoryName" ColumnName="FAQCategoryName" />
+          <ScalarProperty Name="FAQCategoryID" ColumnName="FAQCategoryID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WftCloudResources">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.WftCloudResource">
+        <MappingFragment StoreEntitySet="WftCloudResource">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="ResourceID" ColumnName="ResourceID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WFTCloudUserTypes">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.WFTCloudUserType">
+        <MappingFragment StoreEntitySet="WFTCloudUserTypes">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="WFTUserTypeText" ColumnName="WFTUserTypeText" />
+          <ScalarProperty Name="WFTUserTypeID" ColumnName="WFTUserTypeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwCloudResourceManagements">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.vwCloudResourceManagement">
+        <MappingFragment StoreEntitySet="vwCloudResourceManagement">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="WFTUserTypeText" ColumnName="WFTUserTypeText" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="ResourceID" ColumnName="ResourceID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwServiceProvisionDetails">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.vwServiceProvisionDetail">
+        <MappingFragment StoreEntitySet="vwServiceProvisionDetails">
+          <ScalarProperty Name="UserSpecific" ColumnName="UserSpecific" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="ServiceCategoryID" ColumnName="ServiceCategoryID" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="ExpirationPeriod" ColumnName="ExpirationPeriod" />
+          <ScalarProperty Name="CurrentUserCounter" ColumnName="CurrentUserCounter" />
+          <ScalarProperty Name="NotificationRequiredAt" ColumnName="NotificationRequiredAt" />
+          <ScalarProperty Name="AttachmentPath" ColumnName="AttachmentPath" />
+          <ScalarProperty Name="AdditionalInformation" ColumnName="AdditionalInformation" />
+          <ScalarProperty Name="UIDOnServer" ColumnName="UIDOnServer" />
+          <ScalarProperty Name="ServiceUrl" ColumnName="ServiceUrl" />
+          <ScalarProperty Name="ServicePassword" ColumnName="ServicePassword" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserMax" ColumnName="UserMax" />
+          <ScalarProperty Name="UserMin" ColumnName="UserMin" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="ServiceProvisionID" ColumnName="ServiceProvisionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IndexDatas">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.IndexData">
+        <MappingFragment StoreEntitySet="IndexDatas">
+          <ScalarProperty Name="ThumbnailPath" ColumnName="ThumbnailPath" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="IndexDataTypeID" ColumnName="IndexDataTypeID" />
+          <ScalarProperty Name="IndexDataID" ColumnName="IndexDataID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwManageIndexDatas">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.vwManageIndexData">
+        <MappingFragment StoreEntitySet="vwManageIndexData">
+          <ScalarProperty Name="ThumbnailPath" ColumnName="ThumbnailPath" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="IndexDataTypeText" ColumnName="IndexDataTypeText" />
+          <ScalarProperty Name="IndexDataTypeID" ColumnName="IndexDataTypeID" />
+          <ScalarProperty Name="IndexDataID" ColumnName="IndexDataID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwManageUserServiceProvisions">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.vwManageUserServiceProvision">
+        <MappingFragment StoreEntitySet="vwManageUserServiceProvision">
+          <ScalarProperty Name="ImagePath" ColumnName="ImagePath" />
+          <ScalarProperty Name="ExpirationPeriod" ColumnName="ExpirationPeriod" />
+          <ScalarProperty Name="ServiceUrl" ColumnName="ServiceUrl" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="ServiceDetailsUpdatedDate" ColumnName="ServiceDetailsUpdatedDate" />
+          <ScalarProperty Name="ServiceDetailsUpdatedBy" ColumnName="ServiceDetailsUpdatedBy" />
+          <ScalarProperty Name="UserCart_Id" ColumnName="UserCart_Id" />
+          <ScalarProperty Name="PreviousBalance" ColumnName="PreviousBalance" />
+          <ScalarProperty Name="TrialAmount" ColumnName="TrialAmount" />
+          <ScalarProperty Name="SelectedDiscount" ColumnName="SelectedDiscount" />
+          <ScalarProperty Name="ARBPeriod" ColumnName="ARBPeriod" />
+          <ScalarProperty Name="ARBSubscriptionId" ColumnName="ARBSubscriptionId" />
+          <ScalarProperty Name="ExpirationDate" ColumnName="ExpirationDate" />
+          <ScalarProperty Name="ActiveDate" ColumnName="ActiveDate" />
+          <ScalarProperty Name="AmazonInstanceId" ColumnName="AmazonInstanceId" />
+          <ScalarProperty Name="CouponCode" ColumnName="CouponCode" />
+          <ScalarProperty Name="CustomerAddressID" ColumnName="CustomerAddressID" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="LastTransactionID" ColumnName="LastTransactionID" />
+          <ScalarProperty Name="FilePath" ColumnName="FilePath" />
+          <ScalarProperty Name="ServiceOtherInformation" ColumnName="ServiceOtherInformation" />
+          <ScalarProperty Name="UIDOnServer" ColumnName="UIDOnServer" />
+          <ScalarProperty Name="ServiceIPAddress" ColumnName="ServiceIPAddress" />
+          <ScalarProperty Name="ServicePassword" ColumnName="ServicePassword" />
+          <ScalarProperty Name="ServiceUserName" ColumnName="ServiceUserName" />
+          <ScalarProperty Name="CustomerPaymentProfileID" ColumnName="CustomerPaymentProfileID" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="UsageUpdatedDate" ColumnName="UsageUpdatedDate" />
+          <ScalarProperty Name="UsageUpdatedBy" ColumnName="UsageUpdatedBy" />
+          <ScalarProperty Name="Usage" ColumnName="Usage" />
+          <ScalarProperty Name="Credit" ColumnName="Credit" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="ServiceCategoryID" ColumnName="ServiceCategoryID" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CreditCardDetails">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.CreditCardDetail">
+        <MappingFragment StoreEntitySet="CreditCardDetails">
+          <ScalarProperty Name="NameOnCard" ColumnName="NameOnCard" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="PostalOrZipCode" ColumnName="PostalOrZipCode" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+          <ScalarProperty Name="TypeOfCard" ColumnName="TypeOfCard" />
+          <ScalarProperty Name="ExpirationYear" ColumnName="ExpirationYear" />
+          <ScalarProperty Name="ExpirationMonth" ColumnName="ExpirationMonth" />
+          <ScalarProperty Name="CreditCardNumber" ColumnName="CreditCardNumber" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="CreditCardDetailsID" ColumnName="CreditCardDetailsID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TrainingDetails">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.TrainingDetail">
+        <MappingFragment StoreEntitySet="TrainingDetails">
+          <ScalarProperty Name="VisitorID" ColumnName="VisitorID" />
+          <ScalarProperty Name="Feedback" ColumnName="Feedback" />
+          <ScalarProperty Name="ImgPath" ColumnName="ImgPath" />
+          <ScalarProperty Name="TimeOut" ColumnName="TimeOut" />
+          <ScalarProperty Name="TimeIn" ColumnName="TimeIn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="TechnologyCurrentlyWork" ColumnName="TechnologyCurrentlyWork" />
+          <ScalarProperty Name="CurrentCompany" ColumnName="CurrentCompany" />
+          <ScalarProperty Name="YearOfExperience" ColumnName="YearOfExperience" />
+          <ScalarProperty Name="OQPercentage" ColumnName="OQPercentage" />
+          <ScalarProperty Name="OQCollege" ColumnName="OQCollege" />
+          <ScalarProperty Name="PGPercentage" ColumnName="PGPercentage" />
+          <ScalarProperty Name="PGCollege" ColumnName="PGCollege" />
+          <ScalarProperty Name="UGPercentage" ColumnName="UGPercentage" />
+          <ScalarProperty Name="UGCollege" ColumnName="UGCollege" />
+          <ScalarProperty Name="Others" ColumnName="Others" />
+          <ScalarProperty Name="KnowAboutUs" ColumnName="KnowAboutUs" />
+          <ScalarProperty Name="CourseOfInterest" ColumnName="CourseOfInterest" />
+          <ScalarProperty Name="TemporaryAddress" ColumnName="TemporaryAddress" />
+          <ScalarProperty Name="PermanentAddress" ColumnName="PermanentAddress" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="TrainnerID" ColumnName="TrainnerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserOrderDetails">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.UserOrderDetail">
+        <MappingFragment StoreEntitySet="UserOrderDetail">
+          <ScalarProperty Name="SelectedDiscountDuration" ColumnName="SelectedDiscountDuration" />
+          <ScalarProperty Name="OrderCartID" ColumnName="OrderCartID" />
+          <ScalarProperty Name="IsPayAsYouGo" ColumnName="IsPayAsYouGo" />
+          <ScalarProperty Name="InitialHoldAmount" ColumnName="InitialHoldAmount" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="UserOrderID" ColumnName="UserOrderID" />
+          <ScalarProperty Name="UserOrderDetailID" ColumnName="UserOrderDetailID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserOrders">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.UserOrder">
+        <MappingFragment StoreEntitySet="UserOrders">
+          <ScalarProperty Name="PaypalPaymentTransactionID" ColumnName="PaypalPaymentTransactionID" />
+          <ScalarProperty Name="PaypalBillingAgreementID" ColumnName="PaypalBillingAgreementID" />
+          <ScalarProperty Name="PaymentMethod" ColumnName="PaymentMethod" />
+          <ScalarProperty Name="InvoiceNumber" ColumnName="InvoiceNumber" />
+          <ScalarProperty Name="AuthPaymentProfileID" ColumnName="AuthPaymentProfileID" />
+          <ScalarProperty Name="AuthCustomerProfileID" ColumnName="AuthCustomerProfileID" />
+          <ScalarProperty Name="IsDiscountValue" ColumnName="IsDiscountValue" />
+          <ScalarProperty Name="IsCouponCode" ColumnName="IsCouponCode" />
+          <ScalarProperty Name="OrderTotal" ColumnName="OrderTotal" />
+          <ScalarProperty Name="OrderStatus" ColumnName="OrderStatus" />
+          <ScalarProperty Name="OrderDateTime" ColumnName="OrderDateTime" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="UserOrderID" ColumnName="UserOrderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserPaymentTransactions">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.UserPaymentTransaction">
+        <MappingFragment StoreEntitySet="UserPaymentTransaction">
+          <ScalarProperty Name="PalpalPaymentTransactionID" ColumnName="PalpalPaymentTransactionID" />
+          <ScalarProperty Name="PaypalBillingAgreementID" ColumnName="PaypalBillingAgreementID" />
+          <ScalarProperty Name="PaypalPayerID" ColumnName="PaypalPayerID" />
+          <ScalarProperty Name="PaypalPayerMailID" ColumnName="PaypalPayerMailID" />
+          <ScalarProperty Name="PaymentMethod" ColumnName="PaymentMethod" />
+          <ScalarProperty Name="IsRefunded" ColumnName="IsRefunded" />
+          <ScalarProperty Name="AuthMessage" ColumnName="AuthMessage" />
+          <ScalarProperty Name="AuthResponseCode" ColumnName="AuthResponseCode" />
+          <ScalarProperty Name="InvoiceNumber" ColumnName="InvoiceNumber" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Approved" ColumnName="Approved" />
+          <ScalarProperty Name="AuthAuthorizationCode" ColumnName="AuthAuthorizationCode" />
+          <ScalarProperty Name="AuthCardNumber" ColumnName="AuthCardNumber" />
+          <ScalarProperty Name="AuthTransactionID" ColumnName="AuthTransactionID" />
+          <ScalarProperty Name="PaymentDateTime" ColumnName="PaymentDateTime" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="UserPaymentTransactionID" ColumnName="UserPaymentTransactionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AutomatedPaymentTransactions">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.AutomatedPaymentTransaction">
+        <MappingFragment StoreEntitySet="AutomatedPaymentTransactions">
+          <ScalarProperty Name="IsRefunded" ColumnName="IsRefunded" />
+          <ScalarProperty Name="RefundDate" ColumnName="RefundDate" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="AuthorizeTransID" ColumnName="AuthorizeTransID" />
+          <ScalarProperty Name="ResponseCode" ColumnName="ResponseCode" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="InvoiceNumber" ColumnName="InvoiceNumber" />
+          <ScalarProperty Name="CardNumber" ColumnName="CardNumber" />
+          <ScalarProperty Name="AuthorizationCode" ColumnName="AuthorizationCode" />
+          <ScalarProperty Name="Approved" ColumnName="Approved" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="AutomatedPaymentID" ColumnName="AutomatedPaymentID" />
+          <ScalarProperty Name="AutomatedPaymentTransID" ColumnName="AutomatedPaymentTransID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Banners">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.Banner">
+        <MappingFragment StoreEntitySet="Banners">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="Mandatory" ColumnName="Mandatory" />
+          <ScalarProperty Name="DisplayEndDateTime" ColumnName="DisplayEndDateTime" />
+          <ScalarProperty Name="DisplayStartDateTime" ColumnName="DisplayStartDateTime" />
+          <ScalarProperty Name="RedirectUrl" ColumnName="RedirectUrl" />
+          <ScalarProperty Name="ImgPriority" ColumnName="ImgPriority" />
+          <ScalarProperty Name="ImgPath" ColumnName="ImgPath" />
+          <ScalarProperty Name="ImgTitle" ColumnName="ImgTitle" />
+          <ScalarProperty Name="BannerID" ColumnName="BannerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Testimonials">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.Testimonial">
+        <MappingFragment StoreEntitySet="Testimonials">
+          <ScalarProperty Name="Usage" ColumnName="Usage" />
+          <ScalarProperty Name="NoOfDedicatedSystems" ColumnName="NoOfDedicatedSystems" />
+          <ScalarProperty Name="CustSince" ColumnName="CustSince" />
+          <ScalarProperty Name="CustOrg" ColumnName="CustOrg" />
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="HomePageVersion" ColumnName="HomePageVersion" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="Testimonial1" ColumnName="Testimonial" />
+          <ScalarProperty Name="TestimonialID" ColumnName="TestimonialID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FAQs">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.FAQ">
+        <MappingFragment StoreEntitySet="FAQs">
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="FAQCategoryTypeID" ColumnName="FAQCategoryTypeID" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="FAQTypeID" ColumnName="FAQTypeID" />
+          <ScalarProperty Name="MembersOnly" ColumnName="MembersOnly" />
+          <ScalarProperty Name="Answer" ColumnName="Answer" />
+          <ScalarProperty Name="Question" ColumnName="Question" />
+          <ScalarProperty Name="FAQID" ColumnName="FAQID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContactRequests">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.ContactRequest">
+        <MappingFragment StoreEntitySet="ContactRequests">
+          <ScalarProperty Name="DateEntered" ColumnName="DateEntered" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="ContactEmailAddress" ColumnName="ContactEmailAddress" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+          <ScalarProperty Name="ContactRequestID" ColumnName="ContactRequestID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NewsLetterSignUps">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.NewsLetterSignUp">
+        <MappingFragment StoreEntitySet="NewsLetterSignUp">
+          <ScalarProperty Name="ActiveStatus" ColumnName="ActiveStatus" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="DateSignedUp" ColumnName="DateSignedUp" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="NewsLetterSignupID" ColumnName="NewsLetterSignupID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserSubscribedServices">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.UserSubscribedService">
+        <MappingFragment StoreEntitySet="UserSubscribedServices">
+          <ScalarProperty Name="Feedback" ColumnName="Feedback" />
+          <ScalarProperty Name="CancelReason" ColumnName="CancelReason" />
+          <ScalarProperty Name="ServiceRating" ColumnName="ServiceRating" />
+          <ScalarProperty Name="DeveloperKey" ColumnName="DeveloperKey" />
+          <ScalarProperty Name="ApplicationServer" ColumnName="ApplicationServer" />
+          <ScalarProperty Name="InstanceNumber" ColumnName="InstanceNumber" />
+          <ScalarProperty Name="CanceledDate" ColumnName="CanceledDate" />
+          <ScalarProperty Name="ImagePath" ColumnName="ImagePath" />
+          <ScalarProperty Name="WorkLog" ColumnName="WorkLog" />
+          <ScalarProperty Name="UsageUnit" ColumnName="UsageUnit" />
+          <ScalarProperty Name="AutoProvisioningDone" ColumnName="AutoProvisioningDone" />
+          <ScalarProperty Name="DiscountPercentage" ColumnName="DiscountPercentage" />
+          <ScalarProperty Name="SelectedDiscountDuration" ColumnName="SelectedDiscountDuration" />
+          <ScalarProperty Name="WFTCloudPrice" ColumnName="WFTCloudPrice" />
+          <ScalarProperty Name="InitialHoldAmount" ColumnName="InitialHoldAmount" />
+          <ScalarProperty Name="IsPayAsYouGo" ColumnName="IsPayAsYouGo" />
+          <ScalarProperty Name="ExpirationPeriod" ColumnName="ExpirationPeriod" />
+          <ScalarProperty Name="ServiceUrl" ColumnName="ServiceUrl" />
+          <ScalarProperty Name="ServiceCategoryID" ColumnName="ServiceCategoryID" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="ServiceDetailsUpdatedDate" ColumnName="ServiceDetailsUpdatedDate" />
+          <ScalarProperty Name="ServiceDetailsUpdatedBy" ColumnName="ServiceDetailsUpdatedBy" />
+          <ScalarProperty Name="UserCart_Id" ColumnName="UserCart_Id" />
+          <ScalarProperty Name="PreviousBalance" ColumnName="PreviousBalance" />
+          <ScalarProperty Name="TrialAmount" ColumnName="TrialAmount" />
+          <ScalarProperty Name="SelectedDiscount" ColumnName="SelectedDiscount" />
+          <ScalarProperty Name="ARBPeriod" ColumnName="ARBPeriod" />
+          <ScalarProperty Name="ARBSubscriptionId" ColumnName="ARBSubscriptionId" />
+          <ScalarProperty Name="ExpirationDate" ColumnName="ExpirationDate" />
+          <ScalarProperty Name="ActiveDate" ColumnName="ActiveDate" />
+          <ScalarProperty Name="UserOrderID" ColumnName="UserOrderID" />
+          <ScalarProperty Name="AmazonInstanceId" ColumnName="AmazonInstanceId" />
+          <ScalarProperty Name="CouponCode" ColumnName="CouponCode" />
+          <ScalarProperty Name="CustomerAddressID" ColumnName="CustomerAddressID" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="LastTransactionID" ColumnName="LastTransactionID" />
+          <ScalarProperty Name="FilePath" ColumnName="FilePath" />
+          <ScalarProperty Name="ServiceOtherInformation" ColumnName="ServiceOtherInformation" />
+          <ScalarProperty Name="UIDOnServer" ColumnName="UIDOnServer" />
+          <ScalarProperty Name="ServiceIPAddress" ColumnName="ServiceIPAddress" />
+          <ScalarProperty Name="ServicePassword" ColumnName="ServicePassword" />
+          <ScalarProperty Name="ServiceUserName" ColumnName="ServiceUserName" />
+          <ScalarProperty Name="CustomerPaymentProfileID" ColumnName="CustomerPaymentProfileID" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="UsageUpdatedDate" ColumnName="UsageUpdatedDate" />
+          <ScalarProperty Name="UsageUpdatedBy" ColumnName="UsageUpdatedBy" />
+          <ScalarProperty Name="Usage" ColumnName="Usage" />
+          <ScalarProperty Name="Credit" ColumnName="Credit" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerPaymentProfiles">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.CustomerPaymentProfile">
+        <MappingFragment StoreEntitySet="CustomerPaymentProfiles">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="DefaultPaymentID" ColumnName="DefaultPaymentID" />
+          <ScalarProperty Name="AuthBillingAddressID" ColumnName="AuthBillingAddressID" />
+          <ScalarProperty Name="AuthPaymentProfileID" ColumnName="AuthPaymentProfileID" />
+          <ScalarProperty Name="AuthCustomerProfileID" ColumnName="AuthCustomerProfileID" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="CustomerPaymenProfileID" ColumnName="CustomerPaymenProfileID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AutomatedPayments">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.AutomatedPayment">
+        <MappingFragment StoreEntitySet="AutomatedPayments">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="BillingEndDate" ColumnName="BillingEndDate" />
+          <ScalarProperty Name="BillingStartDate" ColumnName="BillingStartDate" />
+          <ScalarProperty Name="FrequencyInMonths" ColumnName="FrequencyInMonths" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+          <ScalarProperty Name="AutomatedPaymentID" ColumnName="AutomatedPaymentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwAutomatedPayments">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.vwAutomatedPayment">
+        <MappingFragment StoreEntitySet="vwAutomatedPayments">
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="FrequencyInMonths" ColumnName="FrequencyInMonths" />
+          <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="BillingStartDate" ColumnName="BillingStartDate" />
+          <ScalarProperty Name="AutomatedPaymentID" ColumnName="AutomatedPaymentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwAutomatedPaymentTransactions">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.vwAutomatedPaymentTransaction">
+        <MappingFragment StoreEntitySet="vwAutomatedPaymentTransactions">
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="FrequencyInMonths" ColumnName="FrequencyInMonths" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="AmountToBill" ColumnName="AmountToBill" />
+          <ScalarProperty Name="BillingStartDate" ColumnName="BillingStartDate" />
+          <ScalarProperty Name="IsRefunded" ColumnName="IsRefunded" />
+          <ScalarProperty Name="RefundDate" ColumnName="RefundDate" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="AuthorizeTransID" ColumnName="AuthorizeTransID" />
+          <ScalarProperty Name="ResponseCode" ColumnName="ResponseCode" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="InvoiceNumber" ColumnName="InvoiceNumber" />
+          <ScalarProperty Name="CardNumber" ColumnName="CardNumber" />
+          <ScalarProperty Name="AuthorizationCode" ColumnName="AuthorizationCode" />
+          <ScalarProperty Name="Approved" ColumnName="Approved" />
+          <ScalarProperty Name="BilledAmount" ColumnName="BilledAmount" />
+          <ScalarProperty Name="AutomatedPaymentID" ColumnName="AutomatedPaymentID" />
+          <ScalarProperty Name="AutomatedPaymentTransID" ColumnName="AutomatedPaymentTransID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ServiceCatalogs">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.ServiceCatalog">
+        <MappingFragment StoreEntitySet="ServiceCatalog">
+          <ScalarProperty Name="IsTrial" ColumnName="IsTrial" />
+          <ScalarProperty Name="CostPerAdditionalHours" ColumnName="CostPerAdditionalHours" />
+          <ScalarProperty Name="CostPerMinUsage" ColumnName="CostPerMinUsage" />
+          <ScalarProperty Name="MinimumUsageInHours" ColumnName="MinimumUsageInHours" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="DisplayBlinking" ColumnName="DisplayBlinking" />
+          <ScalarProperty Name="DisplayColor" ColumnName="DisplayColor" />
+          <ScalarProperty Name="TrialAmount" ColumnName="TrialAmount" />
+          <ScalarProperty Name="TwelveMonthsSaving" ColumnName="TwelveMonthsSaving" />
+          <ScalarProperty Name="NineMonthsSaving" ColumnName="NineMonthsSaving" />
+          <ScalarProperty Name="SixMonthsSaving" ColumnName="SixMonthsSaving" />
+          <ScalarProperty Name="ThreeMonthsSaving" ColumnName="ThreeMonthsSaving" />
+          <ScalarProperty Name="PackageLengthInMonths" ColumnName="PackageLengthInMonths" />
+          <ScalarProperty Name="IsPayAsYouGo" ColumnName="IsPayAsYouGo" />
+          <ScalarProperty Name="ServiceCategoryID" ColumnName="ServiceCategoryID" />
+          <ScalarProperty Name="UserSpecific" ColumnName="UserSpecific" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="SupportIncluded" ColumnName="SupportIncluded" />
+          <ScalarProperty Name="InitialHoldAmount" ColumnName="InitialHoldAmount" />
+          <ScalarProperty Name="UsageUnit" ColumnName="UsageUnit" />
+          <ScalarProperty Name="ThirdPartyServicePrice" ColumnName="ThirdPartyServicePrice" />
+          <ScalarProperty Name="WFTCloudPrice" ColumnName="WFTCloudPrice" />
+          <ScalarProperty Name="SystemType" ColumnName="SystemType" />
+          <ScalarProperty Name="ReleaseVersion" ColumnName="ReleaseVersion" />
+          <ScalarProperty Name="ServiceDescription" ColumnName="ServiceDescription" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="pr_GetIndexData" FunctionName="cgxwftcloudModel.Store.pr_GetIndexData">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_GetIndexData_Result">
+          <ScalarProperty Name="IndexDataID" ColumnName="IndexDataID" />
+          <ScalarProperty Name="IndexDataTypeID" ColumnName="IndexDataTypeID" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="ThumbnailPath" ColumnName="ThumbnailPath" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pr_GetRandomTestimonialForIndex" FunctionName="cgxwftcloudModel.Store.pr_GetRandomTestimonialForIndex">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_GetRandomTestimonialForIndex_Result">
+          <ScalarProperty Name="TestimonialID" ColumnName="TestimonialID" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+          <ScalarProperty Name="CustOrg" ColumnName="CustOrg" />
+          <ScalarProperty Name="CustSince" ColumnName="CustSince" />
+          <ScalarProperty Name="NoOfDedicatedSystems" ColumnName="NoOfDedicatedSystems" />
+          <ScalarProperty Name="Usage" ColumnName="Usage" />
+          <ScalarProperty Name="Testimonial" ColumnName="Testimonial" />
+          <ScalarProperty Name="HomePageVersion" ColumnName="HomePageVersion" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pr_GetRandomBannerImages" FunctionName="cgxwftcloudModel.Store.pr_GetRandomBannerImages">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_GetRandomBannerImages_Result">
+          <ScalarProperty Name="BannerID" ColumnName="BannerID" />
+          <ScalarProperty Name="ImgTitle" ColumnName="ImgTitle" />
+          <ScalarProperty Name="ImgPath" ColumnName="ImgPath" />
+          <ScalarProperty Name="ImgPriority" ColumnName="ImgPriority" />
+          <ScalarProperty Name="RedirectUrl" ColumnName="RedirectUrl" />
+          <ScalarProperty Name="DisplayStartDateTime" ColumnName="DisplayStartDateTime" />
+          <ScalarProperty Name="DisplayEndDateTime" ColumnName="DisplayEndDateTime" />
+          <ScalarProperty Name="Mandatory" ColumnName="Mandatory" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="UserCarts">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.UserCart">
+        <MappingFragment StoreEntitySet="UserCart">
+          <ScalarProperty Name="IsPayAsYouGo" ColumnName="IsPayAsYouGo" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="SelectedDiscount" ColumnName="SelectedDiscount" />
+          <ScalarProperty Name="CouponID" ColumnName="CouponID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="UserCartID" ColumnName="UserCartID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwManageSubscribedServices">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.vwManageSubscribedService">
+        <MappingFragment StoreEntitySet="vwManageSubscribedService">
+          <ScalarProperty Name="PackageLengthInMonths" ColumnName="PackageLengthInMonths" />
+          <ScalarProperty Name="DisplayBlinking" ColumnName="DisplayBlinking" />
+          <ScalarProperty Name="DisplayColor" ColumnName="DisplayColor" />
+          <ScalarProperty Name="TwelveMonthsSaving" ColumnName="TwelveMonthsSaving" />
+          <ScalarProperty Name="NineMonthsSaving" ColumnName="NineMonthsSaving" />
+          <ScalarProperty Name="SixMonthsSaving" ColumnName="SixMonthsSaving" />
+          <ScalarProperty Name="ThreeMonthsSaving" ColumnName="ThreeMonthsSaving" />
+          <ScalarProperty Name="ServiceUsageUnit" ColumnName="ServiceUsageUnit" />
+          <ScalarProperty Name="ThirdPartyServicePrice" ColumnName="ThirdPartyServicePrice" />
+          <ScalarProperty Name="ServiceWFTCloudPrice" ColumnName="ServiceWFTCloudPrice" />
+          <ScalarProperty Name="UsageUnit" ColumnName="UsageUnit" />
+          <ScalarProperty Name="AutoProvisioningDone" ColumnName="AutoProvisioningDone" />
+          <ScalarProperty Name="DiscountPercentage" ColumnName="DiscountPercentage" />
+          <ScalarProperty Name="SelectedDiscountDuration" ColumnName="SelectedDiscountDuration" />
+          <ScalarProperty Name="WFTCloudPrice" ColumnName="WFTCloudPrice" />
+          <ScalarProperty Name="InitialHoldAmount" ColumnName="InitialHoldAmount" />
+          <ScalarProperty Name="IsPayAsYouGo" ColumnName="IsPayAsYouGo" />
+          <ScalarProperty Name="ExpirationPeriod" ColumnName="ExpirationPeriod" />
+          <ScalarProperty Name="ServiceUrl" ColumnName="ServiceUrl" />
+          <ScalarProperty Name="ServiceCategoryID" ColumnName="ServiceCategoryID" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="ServiceDetailsUpdatedDate" ColumnName="ServiceDetailsUpdatedDate" />
+          <ScalarProperty Name="ServiceDetailsUpdatedBy" ColumnName="ServiceDetailsUpdatedBy" />
+          <ScalarProperty Name="UserCart_Id" ColumnName="UserCart_Id" />
+          <ScalarProperty Name="PreviousBalance" ColumnName="PreviousBalance" />
+          <ScalarProperty Name="TrialAmount" ColumnName="TrialAmount" />
+          <ScalarProperty Name="SelectedDiscount" ColumnName="SelectedDiscount" />
+          <ScalarProperty Name="ARBPeriod" ColumnName="ARBPeriod" />
+          <ScalarProperty Name="ARBSubscriptionId" ColumnName="ARBSubscriptionId" />
+          <ScalarProperty Name="ExpirationDate" ColumnName="ExpirationDate" />
+          <ScalarProperty Name="ActiveDate" ColumnName="ActiveDate" />
+          <ScalarProperty Name="UserOrderID" ColumnName="UserOrderID" />
+          <ScalarProperty Name="AmazonInstanceId" ColumnName="AmazonInstanceId" />
+          <ScalarProperty Name="CouponCode" ColumnName="CouponCode" />
+          <ScalarProperty Name="CustomerAddressID" ColumnName="CustomerAddressID" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="LastTransactionID" ColumnName="LastTransactionID" />
+          <ScalarProperty Name="FilePath" ColumnName="FilePath" />
+          <ScalarProperty Name="ServiceOtherInformation" ColumnName="ServiceOtherInformation" />
+          <ScalarProperty Name="UIDOnServer" ColumnName="UIDOnServer" />
+          <ScalarProperty Name="ServiceIPAddress" ColumnName="ServiceIPAddress" />
+          <ScalarProperty Name="ServicePassword" ColumnName="ServicePassword" />
+          <ScalarProperty Name="ServiceUserName" ColumnName="ServiceUserName" />
+          <ScalarProperty Name="CustomerPaymentProfileID" ColumnName="CustomerPaymentProfileID" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="UsageUpdatedDate" ColumnName="UsageUpdatedDate" />
+          <ScalarProperty Name="UsageUpdatedBy" ColumnName="UsageUpdatedBy" />
+          <ScalarProperty Name="Usage" ColumnName="Usage" />
+          <ScalarProperty Name="Credit" ColumnName="Credit" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="pr_GetNewInvoiceNumber" FunctionName="cgxwftcloudModel.Store.pr_GetNewInvoiceNumber" />
+    <EntitySetMapping Name="WftSettings">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.WftSetting">
+        <MappingFragment StoreEntitySet="WftSettings">
+          <ScalarProperty Name="SettingValue" ColumnName="SettingValue" />
+          <ScalarProperty Name="SettingKey" ColumnName="SettingKey" />
+          <ScalarProperty Name="SettingsID" ColumnName="SettingsID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwUserPaymentTransactions">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.vwUserPaymentTransaction">
+        <MappingFragment StoreEntitySet="vwUserPaymentTransactions">
+          <ScalarProperty Name="IsRefunded" ColumnName="IsRefunded" />
+          <ScalarProperty Name="AuthPaymentProfileID" ColumnName="AuthPaymentProfileID" />
+          <ScalarProperty Name="AuthCustomerProfileID" ColumnName="AuthCustomerProfileID" />
+          <ScalarProperty Name="IsDiscountValue" ColumnName="IsDiscountValue" />
+          <ScalarProperty Name="IsCouponCode" ColumnName="IsCouponCode" />
+          <ScalarProperty Name="OrderTotal" ColumnName="OrderTotal" />
+          <ScalarProperty Name="OrderStatus" ColumnName="OrderStatus" />
+          <ScalarProperty Name="OrderDateTime" ColumnName="OrderDateTime" />
+          <ScalarProperty Name="UserOrderID" ColumnName="UserOrderID" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="AuthMessage" ColumnName="AuthMessage" />
+          <ScalarProperty Name="AuthResponseCode" ColumnName="AuthResponseCode" />
+          <ScalarProperty Name="InvoiceNumber" ColumnName="InvoiceNumber" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Approved" ColumnName="Approved" />
+          <ScalarProperty Name="AuthAuthorizationCode" ColumnName="AuthAuthorizationCode" />
+          <ScalarProperty Name="AuthCardNumber" ColumnName="AuthCardNumber" />
+          <ScalarProperty Name="AuthTransactionID" ColumnName="AuthTransactionID" />
+          <ScalarProperty Name="PaymentDateTime" ColumnName="PaymentDateTime" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="UserPaymentTransactionID" ColumnName="UserPaymentTransactionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserRefundPayments">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.UserRefundPayment">
+        <MappingFragment StoreEntitySet="UserRefundPayments">
+          <ScalarProperty Name="PaypalRefundTransaction" ColumnName="PaypalRefundTransaction" />
+          <ScalarProperty Name="PaypalPayerID" ColumnName="PaypalPayerID" />
+          <ScalarProperty Name="PaypalPayerMailID" ColumnName="PaypalPayerMailID" />
+          <ScalarProperty Name="PaymentMethod" ColumnName="PaymentMethod" />
+          <ScalarProperty Name="DoneByUserProfileID" ColumnName="DoneByUserProfileID" />
+          <ScalarProperty Name="PaymentDateTime" ColumnName="PaymentDateTime" />
+          <ScalarProperty Name="AuthResponseTransactionID" ColumnName="AuthResponseTransactionID" />
+          <ScalarProperty Name="AuthResponseCode" ColumnName="AuthResponseCode" />
+          <ScalarProperty Name="AuthResponseMessage" ColumnName="AuthResponseMessage" />
+          <ScalarProperty Name="AuthResponseInvoiceNumber" ColumnName="AuthResponseInvoiceNumber" />
+          <ScalarProperty Name="AuthResponseCardNumber" ColumnName="AuthResponseCardNumber" />
+          <ScalarProperty Name="AuthResponseAuthorizationCode" ColumnName="AuthResponseAuthorizationCode" />
+          <ScalarProperty Name="AuthResponseApproved" ColumnName="AuthResponseApproved" />
+          <ScalarProperty Name="AuthResponseAmount" ColumnName="AuthResponseAmount" />
+          <ScalarProperty Name="UserPaymentInvoiceNumber" ColumnName="UserPaymentInvoiceNumber" />
+          <ScalarProperty Name="UserPaymentTransactionID" ColumnName="UserPaymentTransactionID" />
+          <ScalarProperty Name="RefundID" ColumnName="RefundID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AllAutomatedPayments">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.AllAutomatedPayment">
+        <MappingFragment StoreEntitySet="AllAutomatedPayments">
+          <ScalarProperty Name="ResponsePaymentTransactionID" ColumnName="ResponsePaymentTransactionID" />
+          <ScalarProperty Name="ResponseBillingAgreementID" ColumnName="ResponseBillingAgreementID" />
+          <ScalarProperty Name="PaypalPaymentTransactionID" ColumnName="PaypalPaymentTransactionID" />
+          <ScalarProperty Name="PaypalBillingAgreementID" ColumnName="PaypalBillingAgreementID" />
+          <ScalarProperty Name="PaypalPayerID" ColumnName="PaypalPayerID" />
+          <ScalarProperty Name="PaypalPayerMailID" ColumnName="PaypalPayerMailID" />
+          <ScalarProperty Name="PaymentMethod" ColumnName="PaymentMethod" />
+          <ScalarProperty Name="Worklog" ColumnName="Worklog" />
+          <ScalarProperty Name="InvoiceNumber" ColumnName="InvoiceNumber" />
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="ResponseCode" ColumnName="ResponseCode" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="CardNumber" ColumnName="CardNumber" />
+          <ScalarProperty Name="AuthorizationCode" ColumnName="AuthorizationCode" />
+          <ScalarProperty Name="ApprovalStatus" ColumnName="ApprovalStatus" />
+          <ScalarProperty Name="PaymentAmount" ColumnName="PaymentAmount" />
+          <ScalarProperty Name="PaymentStatus" ColumnName="PaymentStatus" />
+          <ScalarProperty Name="CurrentMonthBilling" ColumnName="CurrentMonthBilling" />
+          <ScalarProperty Name="InitialHoldAmount" ColumnName="InitialHoldAmount" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="InitialSubscriptionDate" ColumnName="InitialSubscriptionDate" />
+          <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+          <ScalarProperty Name="CustomerPaymentProfileID" ColumnName="CustomerPaymentProfileID" />
+          <ScalarProperty Name="CustomerProfileID" ColumnName="CustomerProfileID" />
+          <ScalarProperty Name="AllPaymentID" ColumnName="AllPaymentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="pr_UpdateAllPaymentWorklog" FunctionName="cgxwftcloudModel.Store.pr_UpdateAllPaymentWorklog" />
+    <FunctionImportMapping FunctionImportName="pr_NewSignupUserReport" FunctionName="cgxwftcloudModel.Store.pr_NewSignupUserReport">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_NewSignupUserReport_Result">
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="UserMembershipID" ColumnName="UserMembershipID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="UserRole" ColumnName="UserRole" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="MailingAddress" ColumnName="MailingAddress" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="AuthProfileID" ColumnName="AuthProfileID" />
+          <ScalarProperty Name="AuthPaymentProfileID" ColumnName="AuthPaymentProfileID" />
+          <ScalarProperty Name="AuthBillingAddressID" ColumnName="AuthBillingAddressID" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pr_CancelUserSubscription" FunctionName="cgxwftcloudModel.Store.pr_CancelUserSubscription" />
+    <FunctionImportMapping FunctionImportName="pr_UserReportbyExpiryDate" FunctionName="cgxwftcloudModel.Store.pr_UserReportbyExpiryDate">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_UserReportbyExpiryDate_Result">
+          <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="ServiceCategoryID" ColumnName="ServiceCategoryID" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="ServiceCreatedOn" ColumnName="ServiceCreatedOn" />
+          <ScalarProperty Name="ExpirationDate" ColumnName="ExpirationDate" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="UserMembershipID" ColumnName="UserMembershipID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="UserRole" ColumnName="UserRole" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="MailingAddress" ColumnName="MailingAddress" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="AuthProfileID" ColumnName="AuthProfileID" />
+          <ScalarProperty Name="AuthPaymentProfileID" ColumnName="AuthPaymentProfileID" />
+          <ScalarProperty Name="AuthBillingAddressID" ColumnName="AuthBillingAddressID" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pr_UserReportDedicatedService" FunctionName="cgxwftcloudModel.Store.pr_UserReportDedicatedService">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_UserReportDedicatedService_Result">
+          <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="ServiceCategoryID" ColumnName="ServiceCategoryID" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="ServiceCreatedOn" ColumnName="ServiceCreatedOn" />
+          <ScalarProperty Name="ExpirationDate" ColumnName="ExpirationDate" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="UserMembershipID" ColumnName="UserMembershipID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="UserRole" ColumnName="UserRole" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="MailingAddress" ColumnName="MailingAddress" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="AuthProfileID" ColumnName="AuthProfileID" />
+          <ScalarProperty Name="AuthPaymentProfileID" ColumnName="AuthPaymentProfileID" />
+          <ScalarProperty Name="AuthBillingAddressID" ColumnName="AuthBillingAddressID" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pr_UserReportTrialServices" FunctionName="cgxwftcloudModel.Store.pr_UserReportTrialServices">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_UserReportTrialServices_Result">
+          <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="ServiceCategoryID" ColumnName="ServiceCategoryID" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="ServiceCreatedOn" ColumnName="ServiceCreatedOn" />
+          <ScalarProperty Name="ExpirationDate" ColumnName="ExpirationDate" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="UserMembershipID" ColumnName="UserMembershipID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="UserRole" ColumnName="UserRole" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="MailingAddress" ColumnName="MailingAddress" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="AuthProfileID" ColumnName="AuthProfileID" />
+          <ScalarProperty Name="AuthPaymentProfileID" ColumnName="AuthPaymentProfileID" />
+          <ScalarProperty Name="AuthBillingAddressID" ColumnName="AuthBillingAddressID" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pr_UserwithnoservicesReport" FunctionName="cgxwftcloudModel.Store.pr_UserwithnoservicesReport">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_UserwithnoservicesReport_Result">
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="UserMembershipID" ColumnName="UserMembershipID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="UserRole" ColumnName="UserRole" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="MailingAddress" ColumnName="MailingAddress" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="AuthProfileID" ColumnName="AuthProfileID" />
+          <ScalarProperty Name="AuthPaymentProfileID" ColumnName="AuthPaymentProfileID" />
+          <ScalarProperty Name="AuthBillingAddressID" ColumnName="AuthBillingAddressID" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="vwManageAllAutomatedPayments">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.vwManageAllAutomatedPayment">
+        <MappingFragment StoreEntitySet="vwManageAllAutomatedPayments">
+          <ScalarProperty Name="ResponsePaymentTransactionID" ColumnName="ResponsePaymentTransactionID" />
+          <ScalarProperty Name="ResponseBillingAgreementID" ColumnName="ResponseBillingAgreementID" />
+          <ScalarProperty Name="PaymentMethod" ColumnName="PaymentMethod" />
+          <ScalarProperty Name="PaypalPaymentTransactionID" ColumnName="PaypalPaymentTransactionID" />
+          <ScalarProperty Name="PaypalBillingAgreementID" ColumnName="PaypalBillingAgreementID" />
+          <ScalarProperty Name="PaypalPayerID" ColumnName="PaypalPayerID" />
+          <ScalarProperty Name="PaypalPayerMailID" ColumnName="PaypalPayerMailID" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Worklog" ColumnName="Worklog" />
+          <ScalarProperty Name="InvoiceNumber" ColumnName="InvoiceNumber" />
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="ResponseCode" ColumnName="ResponseCode" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="CardNumber" ColumnName="CardNumber" />
+          <ScalarProperty Name="AuthorizationCode" ColumnName="AuthorizationCode" />
+          <ScalarProperty Name="ApprovalStatus" ColumnName="ApprovalStatus" />
+          <ScalarProperty Name="PaymentAmount" ColumnName="PaymentAmount" />
+          <ScalarProperty Name="PaymentStatus" ColumnName="PaymentStatus" />
+          <ScalarProperty Name="CurrentMonthBilling" ColumnName="CurrentMonthBilling" />
+          <ScalarProperty Name="InitialHoldAmount" ColumnName="InitialHoldAmount" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="InitialSubscriptionDate" ColumnName="InitialSubscriptionDate" />
+          <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+          <ScalarProperty Name="CustomerPaymentProfileID" ColumnName="CustomerPaymentProfileID" />
+          <ScalarProperty Name="CustomerProfileID" ColumnName="CustomerProfileID" />
+          <ScalarProperty Name="AllPaymentID" ColumnName="AllPaymentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SocialTweets">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.SocialTweet">
+        <MappingFragment StoreEntitySet="SocialTweets">
+          <ScalarProperty Name="tweetHTMLText" ColumnName="tweetHTMLText" />
+          <ScalarProperty Name="tweetPlainText" ColumnName="tweetPlainText" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="tweetID" ColumnName="tweetID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="pr_ServicewithnoServiceProvision" FunctionName="cgxwftcloudModel.Store.pr_ServicewithnoServiceProvision">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_ServicewithnoServiceProvision_Result">
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="ServiceDescription" ColumnName="ServiceDescription" />
+          <ScalarProperty Name="ReleaseVersion" ColumnName="ReleaseVersion" />
+          <ScalarProperty Name="SystemType" ColumnName="SystemType" />
+          <ScalarProperty Name="WFTCloudPrice" ColumnName="WFTCloudPrice" />
+          <ScalarProperty Name="ThirdPartyServicePrice" ColumnName="ThirdPartyServicePrice" />
+          <ScalarProperty Name="UsageUnit" ColumnName="UsageUnit" />
+          <ScalarProperty Name="InitialHoldAmount" ColumnName="InitialHoldAmount" />
+          <ScalarProperty Name="SupportIncluded" ColumnName="SupportIncluded" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="UserSpecific" ColumnName="UserSpecific" />
+          <ScalarProperty Name="ServiceCategoryID" ColumnName="ServiceCategoryID" />
+          <ScalarProperty Name="IsPayAsYouGo" ColumnName="IsPayAsYouGo" />
+          <ScalarProperty Name="PackageLengthInMonths" ColumnName="PackageLengthInMonths" />
+          <ScalarProperty Name="ThreeMonthsSaving" ColumnName="ThreeMonthsSaving" />
+          <ScalarProperty Name="SixMonthsSaving" ColumnName="SixMonthsSaving" />
+          <ScalarProperty Name="NineMonthsSaving" ColumnName="NineMonthsSaving" />
+          <ScalarProperty Name="TwelveMonthsSaving" ColumnName="TwelveMonthsSaving" />
+          <ScalarProperty Name="TrialAmount" ColumnName="TrialAmount" />
+          <ScalarProperty Name="DisplayColor" ColumnName="DisplayColor" />
+          <ScalarProperty Name="DisplayBlinking" ColumnName="DisplayBlinking" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="MinimumUsageInHours" ColumnName="MinimumUsageInHours" />
+          <ScalarProperty Name="CostPerMinUsage" ColumnName="CostPerMinUsage" />
+          <ScalarProperty Name="CostPerAdditionalHours" ColumnName="CostPerAdditionalHours" />
+          <ScalarProperty Name="IsTrial" ColumnName="IsTrial" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pr_UsersHowDidYouHearAboutUs" FunctionName="cgxwftcloudModel.Store.pr_UsersHowDidYouHearAboutUs">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_UsersHowDidYouHearAboutUs_Result">
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="UserMembershipID" ColumnName="UserMembershipID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="UserRole" ColumnName="UserRole" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="MailingAddress" ColumnName="MailingAddress" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="AuthProfileID" ColumnName="AuthProfileID" />
+          <ScalarProperty Name="AuthPaymentProfileID" ColumnName="AuthPaymentProfileID" />
+          <ScalarProperty Name="AuthBillingAddressID" ColumnName="AuthBillingAddressID" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="UserSurveyResponseID" ColumnName="UserSurveyResponseID" />
+          <ScalarProperty Name="SurveyQuestionID" ColumnName="SurveyQuestionID" />
+          <ScalarProperty Name="SurveyAnswer" ColumnName="SurveyAnswer" />
+          <ScalarProperty Name="ServeyResponseCreatedOn" ColumnName="ServeyResponseCreatedOn" />
+          <ScalarProperty Name="ServeyResponseCreatedBy" ColumnName="ServeyResponseCreatedBy" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="StateNames">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.StateName">
+        <MappingFragment StoreEntitySet="StateName">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="StateName1" ColumnName="StateName" />
+          <ScalarProperty Name="CC_ISO" ColumnName="CC_ISO" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Countries">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.Country">
+        <MappingFragment StoreEntitySet="Country">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="CountryNames" ColumnName="CountryNames" />
+          <ScalarProperty Name="CC_ISO" ColumnName="CC_ISO" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwManageCRMIssues">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.vwManageCRMIssue">
+        <MappingFragment StoreEntitySet="vwManageCRMIssue">
+          <ScalarProperty Name="CRMAdminAttachment" ColumnName="CRMAdminAttachment" />
+          <ScalarProperty Name="CRMSubject" ColumnName="CRMSubject" />
+          <ScalarProperty Name="CRMIssueTypeDesc" ColumnName="CRMIssueTypeDesc" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CRMRequestStatusDesc" ColumnName="CRMRequestStatusDesc" />
+          <ScalarProperty Name="CRMRequestStatus" ColumnName="CRMRequestStatus" />
+          <ScalarProperty Name="AdminNotes" ColumnName="AdminNotes" />
+          <ScalarProperty Name="AssignedEmailID" ColumnName="AssignedEmailID" />
+          <ScalarProperty Name="AssignedToAdmin" ColumnName="AssignedToAdmin" />
+          <ScalarProperty Name="IssueType" ColumnName="IssueType" />
+          <ScalarProperty Name="CRMResolutionSent" ColumnName="CRMResolutionSent" />
+          <ScalarProperty Name="AttachmentURL" ColumnName="AttachmentURL" />
+          <ScalarProperty Name="IssueDescription" ColumnName="IssueDescription" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="CustomerFullName" ColumnName="CustomerFullName" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="ServiceCategoryID" ColumnName="ServiceCategoryID" />
+          <ScalarProperty Name="CRMRequestID" ColumnName="CRMRequestID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SitePagesAndContents">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.SitePagesAndContent">
+        <MappingFragment StoreEntitySet="SitePagesAndContents">
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="PreviewHTMLContent" ColumnName="PreviewHTMLContent" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="MetaKeywords" ColumnName="MetaKeywords" />
+          <ScalarProperty Name="MetaDescription" ColumnName="MetaDescription" />
+          <ScalarProperty Name="PageTitle" ColumnName="PageTitle" />
+          <ScalarProperty Name="ContentZoneName" ColumnName="ContentZoneName" />
+          <ScalarProperty Name="HTMLContent" ColumnName="HTMLContent" />
+          <ScalarProperty Name="PageRelativeUrl" ColumnName="PageRelativeUrl" />
+          <ScalarProperty Name="PageID" ColumnName="PageID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserProfiles">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.UserProfile">
+        <MappingFragment StoreEntitySet="UserProfiles">
+          <ScalarProperty Name="TempPasswordProvided" ColumnName="TempPasswordProvided" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="AuthBillingAddressID" ColumnName="AuthBillingAddressID" />
+          <ScalarProperty Name="AuthPaymentProfileID" ColumnName="AuthPaymentProfileID" />
+          <ScalarProperty Name="AuthProfileID" ColumnName="AuthProfileID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="MailingAddress" ColumnName="MailingAddress" />
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="UserRole" ColumnName="UserRole" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="UserMembershipID" ColumnName="UserMembershipID" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwUserOrderDetailsTransactionFailedOnPurchases">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.vwUserOrderDetailsTransactionFailedOnPurchase">
+        <MappingFragment StoreEntitySet="vwUserOrderDetailsTransactionFailedOnPurchase">
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Middlename" ColumnName="Middlename" />
+          <ScalarProperty Name="Firstname" ColumnName="Firstname" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="OrderDateTime" ColumnName="OrderDateTime" />
+          <ScalarProperty Name="SelectedDiscountDuration" ColumnName="SelectedDiscountDuration" />
+          <ScalarProperty Name="OrderCartID" ColumnName="OrderCartID" />
+          <ScalarProperty Name="IsPayAsYouGo" ColumnName="IsPayAsYouGo" />
+          <ScalarProperty Name="InitialHoldAmount" ColumnName="InitialHoldAmount" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="UserOrderID" ColumnName="UserOrderID" />
+          <ScalarProperty Name="UserOrderDetailID" ColumnName="UserOrderDetailID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwUserOrderDetailsTransactionSucceedOnPurchases">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.vwUserOrderDetailsTransactionSucceedOnPurchase">
+        <MappingFragment StoreEntitySet="vwUserOrderDetailsTransactionSucceedOnPurchase">
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Middlename" ColumnName="Middlename" />
+          <ScalarProperty Name="Firstname" ColumnName="Firstname" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="OrderDateTime" ColumnName="OrderDateTime" />
+          <ScalarProperty Name="SelectedDiscountDuration" ColumnName="SelectedDiscountDuration" />
+          <ScalarProperty Name="OrderCartID" ColumnName="OrderCartID" />
+          <ScalarProperty Name="IsPayAsYouGo" ColumnName="IsPayAsYouGo" />
+          <ScalarProperty Name="InitialHoldAmount" ColumnName="InitialHoldAmount" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="UserOrderID" ColumnName="UserOrderID" />
+          <ScalarProperty Name="UserOrderDetailID" ColumnName="UserOrderDetailID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PressReleases">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.PressRelease">
+        <MappingFragment StoreEntitySet="PressRelease">
+          <ScalarProperty Name="ActualPRLink" ColumnName="ActualPRLink" />
+          <ScalarProperty Name="PreviewPressReleaseDate" ColumnName="PreviewPressReleaseDate" />
+          <ScalarProperty Name="PreviewImagePath" ColumnName="PreviewImagePath" />
+          <ScalarProperty Name="PreviewVideoURL" ColumnName="PreviewVideoURL" />
+          <ScalarProperty Name="PreviewCaptionContent" ColumnName="PreviewCaptionContent" />
+          <ScalarProperty Name="PreviewPlaceName" ColumnName="PreviewPlaceName" />
+          <ScalarProperty Name="PreviewCompanyDescription" ColumnName="PreviewCompanyDescription" />
+          <ScalarProperty Name="PreviewPressReleaseHeader" ColumnName="PreviewPressReleaseHeader" />
+          <ScalarProperty Name="PreviewCompanyName" ColumnName="PreviewCompanyName" />
+          <ScalarProperty Name="PreviewPressReleaseContent" ColumnName="PreviewPressReleaseContent" />
+          <ScalarProperty Name="PreviewAboutUs" ColumnName="PreviewAboutUs" />
+          <ScalarProperty Name="AboutUs" ColumnName="AboutUs" />
+          <ScalarProperty Name="PressReleaseDate" ColumnName="PressReleaseDate" />
+          <ScalarProperty Name="ImagePath" ColumnName="ImagePath" />
+          <ScalarProperty Name="VideoURL" ColumnName="VideoURL" />
+          <ScalarProperty Name="CaptionContent" ColumnName="CaptionContent" />
+          <ScalarProperty Name="PressReleaseContent" ColumnName="PressReleaseContent" />
+          <ScalarProperty Name="PlaceName" ColumnName="PlaceName" />
+          <ScalarProperty Name="CompanyDescription" ColumnName="CompanyDescription" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="MainContent" ColumnName="MainContent" />
+          <ScalarProperty Name="PressReleaseHeader" ColumnName="PressReleaseHeader" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="PressReleaseID" ColumnName="PressReleaseID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PaypalResponses">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.PaypalRespons">
+        <MappingFragment StoreEntitySet="PaypalResponses">
+          <ScalarProperty Name="UserMembershipID" ColumnName="UserMembershipID" />
+          <ScalarProperty Name="UpdatedDateTime" ColumnName="UpdatedDateTime" />
+          <ScalarProperty Name="JsonReponseFormPaypal" ColumnName="JsonReponseFormPaypal" />
+          <ScalarProperty Name="MethodName" ColumnName="MethodName" />
+          <ScalarProperty Name="UserOrderID" ColumnName="UserOrderID" />
+          <ScalarProperty Name="InvoiceNumber" ColumnName="InvoiceNumber" />
+          <ScalarProperty Name="PaypalActionID" ColumnName="PaypalActionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="pr_GenerateAllPaymentEntries" FunctionName="cgxwftcloudModel.Store.pr_GenerateAllPaymentEntries" />
+    <FunctionImportMapping FunctionImportName="pr_GetTodaysPaymentItems" FunctionName="cgxwftcloudModel.Store.pr_GetTodaysPaymentItems">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_GetTodaysPaymentItems_Result1">
+          <ScalarProperty Name="CustomerProfileID" ColumnName="CustomerProfileID" />
+          <ScalarProperty Name="CustomerPaymentProfileID" ColumnName="CustomerPaymentProfileID" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+          <ScalarProperty Name="PaypalBillingAgreementID" ColumnName="PaypalBillingAgreementID" />
+          <ScalarProperty Name="PaypalPaymentTransactionID" ColumnName="PaypalPaymentTransactionID" />
+          <ScalarProperty Name="BillingAmount" ColumnName="BillingAmount" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pr_UpdatePaymentResponse" FunctionName="cgxwftcloudModel.Store.pr_UpdatePaymentResponse" />
+    <FunctionImportMapping FunctionImportName="pr_GetServicesByMembershipID" FunctionName="cgxwftcloudModel.Store.pr_GetServicesByMembershipID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_GetServicesByMembershipID_Result">
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="ServiceCategoryID" ColumnName="ServiceCategoryID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pr_GetCategoriesByMembershipID" FunctionName="cgxwftcloudModel.Store.pr_GetCategoriesByMembershipID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_GetCategoriesByMembershipID_Result1">
+          <ScalarProperty Name="ServiceCategoryID" ColumnName="ServiceCategoryID" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="CRMRequestsHistories">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.CRMRequestsHistory">
+        <MappingFragment StoreEntitySet="CRMRequestsHistory">
+          <ScalarProperty Name="CRMAdminAttachment" ColumnName="CRMAdminAttachment" />
+          <ScalarProperty Name="CRMResolutionSubject" ColumnName="CRMResolutionSubject" />
+          <ScalarProperty Name="CRMSubject" ColumnName="CRMSubject" />
+          <ScalarProperty Name="CRMResolutionSent" ColumnName="CRMResolutionSent" />
+          <ScalarProperty Name="AttachmentURL" ColumnName="AttachmentURL" />
+          <ScalarProperty Name="AdminNotes" ColumnName="AdminNotes" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CRMRequestStatus" ColumnName="CRMRequestStatus" />
+          <ScalarProperty Name="AssignedToAdmin" ColumnName="AssignedToAdmin" />
+          <ScalarProperty Name="IssueType" ColumnName="IssueType" />
+          <ScalarProperty Name="IssueDescription" ColumnName="IssueDescription" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="ServiceCategoryID" ColumnName="ServiceCategoryID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="CRMRequestID" ColumnName="CRMRequestID" />
+          <ScalarProperty Name="CRMHistoryID" ColumnName="CRMHistoryID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwCRMIssueHistoryDetails">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.vwCRMIssueHistoryDetail">
+        <MappingFragment StoreEntitySet="vwCRMIssueHistoryDetails">
+          <ScalarProperty Name="CRMHistoryID" ColumnName="CRMHistoryID" />
+          <ScalarProperty Name="CRMIssueTypeDesc" ColumnName="CRMIssueTypeDesc" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CRMRequestStatusDesc" ColumnName="CRMRequestStatusDesc" />
+          <ScalarProperty Name="CRMRequestStatus" ColumnName="CRMRequestStatus" />
+          <ScalarProperty Name="AdminNotes" ColumnName="AdminNotes" />
+          <ScalarProperty Name="AssignedEmailID" ColumnName="AssignedEmailID" />
+          <ScalarProperty Name="AssignedToAdmin" ColumnName="AssignedToAdmin" />
+          <ScalarProperty Name="IssueType" ColumnName="IssueType" />
+          <ScalarProperty Name="CRMResolutionSent" ColumnName="CRMResolutionSent" />
+          <ScalarProperty Name="CRMAdminAttachment" ColumnName="CRMAdminAttachment" />
+          <ScalarProperty Name="AttachmentURL" ColumnName="AttachmentURL" />
+          <ScalarProperty Name="IssueDescription" ColumnName="IssueDescription" />
+          <ScalarProperty Name="CRMSubject" ColumnName="CRMSubject" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="CustomerFullName" ColumnName="CustomerFullName" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="ServiceCategoryID" ColumnName="ServiceCategoryID" />
+          <ScalarProperty Name="CRMRequestID" ColumnName="CRMRequestID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetServiceProvisionUserName" FunctionName="cgxwftcloudModel.Store.GetServiceProvisionUserName" />
+    <FunctionImportMapping FunctionImportName="pr_UpdateSelectedSubscriptionPaymentProfileIDAndWorklog" FunctionName="cgxwftcloudModel.Store.pr_UpdateSelectedSubscriptionPaymentProfileIDAndWorklog" />
+    <FunctionImportMapping FunctionImportName="pr_UpdateAllPaymentProfileIDAndWorklog" FunctionName="cgxwftcloudModel.Store.pr_UpdateAllPaymentProfileIDAndWorklog" />
+    <EntitySetMapping Name="VisitorsDetails">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.VisitorsDetail">
+        <MappingFragment StoreEntitySet="VisitorsDetails">
+          <ScalarProperty Name="TrainnerID" ColumnName="TrainnerID" />
+          <ScalarProperty Name="ImgPath" ColumnName="ImgPath" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="TimeOut" ColumnName="TimeOut" />
+          <ScalarProperty Name="TimeIn" ColumnName="TimeIn" />
+          <ScalarProperty Name="Purpose" ColumnName="Purpose" />
+          <ScalarProperty Name="ToMeet" ColumnName="ToMeet" />
+          <ScalarProperty Name="CompanyNameAddress" ColumnName="CompanyNameAddress" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="VisitorID" ColumnName="VisitorID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwManageTrainingDetails">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.vwManageTrainingDetail">
+        <MappingFragment StoreEntitySet="vwManageTrainingDetails">
+          <ScalarProperty Name="Feedback" ColumnName="Feedback" />
+          <ScalarProperty Name="TimeOut" ColumnName="TimeOut" />
+          <ScalarProperty Name="TimeIn" ColumnName="TimeIn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="TechnologyCurrentlyWork" ColumnName="TechnologyCurrentlyWork" />
+          <ScalarProperty Name="CurrentCompany" ColumnName="CurrentCompany" />
+          <ScalarProperty Name="YearOfExperience" ColumnName="YearOfExperience" />
+          <ScalarProperty Name="OQPercentage" ColumnName="OQPercentage" />
+          <ScalarProperty Name="OQCollege" ColumnName="OQCollege" />
+          <ScalarProperty Name="PGPercentage" ColumnName="PGPercentage" />
+          <ScalarProperty Name="PGCollege" ColumnName="PGCollege" />
+          <ScalarProperty Name="UGPercentage" ColumnName="UGPercentage" />
+          <ScalarProperty Name="UGCollege" ColumnName="UGCollege" />
+          <ScalarProperty Name="Others" ColumnName="Others" />
+          <ScalarProperty Name="ModeName" ColumnName="ModeName" />
+          <ScalarProperty Name="KnowAboutUs" ColumnName="KnowAboutUs" />
+          <ScalarProperty Name="CourseNames" ColumnName="CourseNames" />
+          <ScalarProperty Name="CourseOfInterest" ColumnName="CourseOfInterest" />
+          <ScalarProperty Name="TemporaryAddress" ColumnName="TemporaryAddress" />
+          <ScalarProperty Name="PermanentAddress" ColumnName="PermanentAddress" />
+          <ScalarProperty Name="ImgPath" ColumnName="ImgPath" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="TrainnerID" ColumnName="TrainnerID" />
+          <ScalarProperty Name="VisitorID" ColumnName="VisitorID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="pr_AutomatedPaymentsFailedForCurrentActiveServices" FunctionName="cgxwftcloudModel.Store.pr_AutomatedPaymentsFailedForCurrentActiveServices">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_AutomatedPaymentsFailedForCurrentActiveServices_Result">
+          <ScalarProperty Name="AllPaymentID" ColumnName="AllPaymentID" />
+          <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+          <ScalarProperty Name="CustomerProfileID" ColumnName="CustomerProfileID" />
+          <ScalarProperty Name="CustomerPaymentProfileID" ColumnName="CustomerPaymentProfileID" />
+          <ScalarProperty Name="InitialSubscriptionDate" ColumnName="InitialSubscriptionDate" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="InitialHoldAmount" ColumnName="InitialHoldAmount" />
+          <ScalarProperty Name="CurrentMonthBilling" ColumnName="CurrentMonthBilling" />
+          <ScalarProperty Name="PaymentStatus" ColumnName="PaymentStatus" />
+          <ScalarProperty Name="PaymentAmount" ColumnName="PaymentAmount" />
+          <ScalarProperty Name="ApprovalStatus" ColumnName="ApprovalStatus" />
+          <ScalarProperty Name="AuthorizationCode" ColumnName="AuthorizationCode" />
+          <ScalarProperty Name="CardNumber" ColumnName="CardNumber" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="ResponseCode" ColumnName="ResponseCode" />
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="InvoiceNumber" ColumnName="InvoiceNumber" />
+          <ScalarProperty Name="Worklog" ColumnName="Worklog" />
+          <ScalarProperty Name="PaymentMethod" ColumnName="PaymentMethod" />
+          <ScalarProperty Name="PaypalPayerMailID" ColumnName="PaypalPayerMailID" />
+          <ScalarProperty Name="PaypalPayerID" ColumnName="PaypalPayerID" />
+          <ScalarProperty Name="PaypalBillingAgreementID" ColumnName="PaypalBillingAgreementID" />
+          <ScalarProperty Name="PaypalPaymentTransactionID" ColumnName="PaypalPaymentTransactionID" />
+          <ScalarProperty Name="ResponseBillingAgreementID" ColumnName="ResponseBillingAgreementID" />
+          <ScalarProperty Name="ResponsePaymentTransactionID" ColumnName="ResponsePaymentTransactionID" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="ServiceCategoryID" ColumnName="ServiceCategoryID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="Coupons">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.Coupon">
+        <MappingFragment StoreEntitySet="Coupons">
+          <ScalarProperty Name="CouponCount" ColumnName="CouponCount" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="ForServiceID" ColumnName="ForServiceID" />
+          <ScalarProperty Name="ForUser" ColumnName="ForUser" />
+          <ScalarProperty Name="ValidityDate" ColumnName="ValidityDate" />
+          <ScalarProperty Name="ValidityInDays" ColumnName="ValidityInDays" />
+          <ScalarProperty Name="UserCount" ColumnName="UserCount" />
+          <ScalarProperty Name="IsUsed" ColumnName="IsUsed" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="CouponTypeID" ColumnName="CouponTypeID" />
+          <ScalarProperty Name="CouponCode" ColumnName="CouponCode" />
+          <ScalarProperty Name="CouponName" ColumnName="CouponName" />
+          <ScalarProperty Name="CouponID" ColumnName="CouponID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="pr_GetGroupOfTodaysPaymentItems" FunctionName="cgxwftcloudModel.Store.pr_GetGroupOfTodaysPaymentItems">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_GetGroupOfTodaysPaymentItems_Result">
+          <ScalarProperty Name="CustomerProfileID" ColumnName="CustomerProfileID" />
+          <ScalarProperty Name="CustomerPaymentProfileID" ColumnName="CustomerPaymentProfileID" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="PaypalBillingAgreementID" ColumnName="PaypalBillingAgreementID" />
+          <ScalarProperty Name="PaypalPaymentTransactionID" ColumnName="PaypalPaymentTransactionID" />
+          <ScalarProperty Name="PaymentMethod" ColumnName="PaymentMethod" />
+          <ScalarProperty Name="BillingAmount" ColumnName="BillingAmount" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pr_GroupOfUpdatePaymentResponse" FunctionName="cgxwftcloudModel.Store.pr_GroupOfUpdatePaymentResponse" />
+    <EntitySetMapping Name="QuoteComputeDetails">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.QuoteComputeDetail">
+        <MappingFragment StoreEntitySet="QuoteComputeDetails">
+          <ScalarProperty Name="QuoteReferenceID" ColumnName="QuoteReferenceID" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="BK" ColumnName="BK" />
+          <ScalarProperty Name="SR" ColumnName="SR" />
+          <ScalarProperty Name="HA" ColumnName="HA" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Storage" ColumnName="Storage" />
+          <ScalarProperty Name="SAPS" ColumnName="SAPS" />
+          <ScalarProperty Name="Memory" ColumnName="Memory" />
+          <ScalarProperty Name="CPU" ColumnName="CPU" />
+          <ScalarProperty Name="OS" ColumnName="OS" />
+          <ScalarProperty Name="ServerName" ColumnName="ServerName" />
+          <ScalarProperty Name="QuoteRegisterID" ColumnName="QuoteRegisterID" />
+          <ScalarProperty Name="QuoteComputeID" ColumnName="QuoteComputeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuoteRegisters">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.QuoteRegister">
+        <MappingFragment StoreEntitySet="QuoteRegister">
+          <ScalarProperty Name="Descriptions" ColumnName="Descriptions" />
+          <ScalarProperty Name="QuoteReferenceID" ColumnName="QuoteReferenceID" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="EstimatedBandwidth" ColumnName="EstimatedBandwidth" />
+          <ScalarProperty Name="BasisSupport" ColumnName="BasisSupport" />
+          <ScalarProperty Name="Landscapes" ColumnName="Landscapes" />
+          <ScalarProperty Name="SAPModules" ColumnName="SAPModules" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="QuoteRegisterID" ColumnName="QuoteRegisterID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuoteStorageDetails">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.QuoteStorageDetail">
+        <MappingFragment StoreEntitySet="QuoteStorageDetails">
+          <ScalarProperty Name="QuoteReferenceID" ColumnName="QuoteReferenceID" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="Snapshot" ColumnName="Snapshot" />
+          <ScalarProperty Name="IOPS" ColumnName="IOPS" />
+          <ScalarProperty Name="Storage" ColumnName="Storage" />
+          <ScalarProperty Name="Volumes" ColumnName="Volumes" />
+          <ScalarProperty Name="VolumeType" ColumnName="VolumeType" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="QuoteRegisterID" ColumnName="QuoteRegisterID" />
+          <ScalarProperty Name="QuoteStorageID" ColumnName="QuoteStorageID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="pr_DeleteExistingQuoteRegisterDetails" FunctionName="cgxwftcloudModel.Store.pr_DeleteExistingQuoteRegisterDetails" />
+    <EntitySetMapping Name="CRMRequests">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.CRMRequest">
+        <MappingFragment StoreEntitySet="CRMRequests">
+          <ScalarProperty Name="CRMAdminAttachment" ColumnName="CRMAdminAttachment" />
+          <ScalarProperty Name="CRMResolutionSubject" ColumnName="CRMResolutionSubject" />
+          <ScalarProperty Name="CRMSubject" ColumnName="CRMSubject" />
+          <ScalarProperty Name="CRMResolutionSent" ColumnName="CRMResolutionSent" />
+          <ScalarProperty Name="AttachmentURL" ColumnName="AttachmentURL" />
+          <ScalarProperty Name="AdminNotes" ColumnName="AdminNotes" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CRMRequestStatus" ColumnName="CRMRequestStatus" />
+          <ScalarProperty Name="AssignedToAdmin" ColumnName="AssignedToAdmin" />
+          <ScalarProperty Name="IssueType" ColumnName="IssueType" />
+          <ScalarProperty Name="IssueDescription" ColumnName="IssueDescription" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="ServiceCategoryID" ColumnName="ServiceCategoryID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="CRMRequestID" ColumnName="CRMRequestID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwManageAllUserDetails">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.vwManageAllUserDetail">
+        <MappingFragment StoreEntitySet="vwManageAllUserDetails">
+          <ScalarProperty Name="TempPasswordProvided" ColumnName="TempPasswordProvided" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="AuthBillingAddressID" ColumnName="AuthBillingAddressID" />
+          <ScalarProperty Name="AuthPaymentProfileID" ColumnName="AuthPaymentProfileID" />
+          <ScalarProperty Name="AuthProfileID" ColumnName="AuthProfileID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="MailingAddress" ColumnName="MailingAddress" />
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="UserRole" ColumnName="UserRole" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="UserMembershipID" ColumnName="UserMembershipID" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="pr_SearchUserName" FunctionName="cgxwftcloudModel.Store.pr_SearchUserName">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_SearchUserName_Result">
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="UserMembershipID" ColumnName="UserMembershipID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="UserRole" ColumnName="UserRole" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+          <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="MailingAddress" ColumnName="MailingAddress" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="AuthProfileID" ColumnName="AuthProfileID" />
+          <ScalarProperty Name="AuthPaymentProfileID" ColumnName="AuthPaymentProfileID" />
+          <ScalarProperty Name="AuthBillingAddressID" ColumnName="AuthBillingAddressID" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="TempPasswordProvided" ColumnName="TempPasswordProvided" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pr_GetTodaysPaymentNotification" FunctionName="cgxwftcloudModel.Store.pr_GetTodaysPaymentNotification">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_GetTodaysPaymentNotification_Result">
+          <ScalarProperty Name="CustomerProfileID" ColumnName="CustomerProfileID" />
+          <ScalarProperty Name="CustomerPaymentProfileID" ColumnName="CustomerPaymentProfileID" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+          <ScalarProperty Name="PaypalBillingAgreementID" ColumnName="PaypalBillingAgreementID" />
+          <ScalarProperty Name="PaypalPaymentTransactionID" ColumnName="PaypalPaymentTransactionID" />
+          <ScalarProperty Name="PaymentMethod" ColumnName="PaymentMethod" />
+          <ScalarProperty Name="BillingAmount" ColumnName="BillingAmount" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="vwGetPaymentHistories">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.vwGetPaymentHistory">
+        <MappingFragment StoreEntitySet="vwGetPaymentHistory">
+          <ScalarProperty Name="PaymentMethod" ColumnName="PaymentMethod" />
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="PaypalPaymentTransactionID" ColumnName="PaypalPaymentTransactionID" />
+          <ScalarProperty Name="PaypalBillingAgreementID" ColumnName="PaypalBillingAgreementID" />
+          <ScalarProperty Name="CustomerPaymentProfileID" ColumnName="CustomerPaymentProfileID" />
+          <ScalarProperty Name="PaypalPayerID" ColumnName="PaypalPayerID" />
+          <ScalarProperty Name="CustomerProfileID" ColumnName="CustomerProfileID" />
+          <ScalarProperty Name="UsersubscriptionID" ColumnName="UsersubscriptionID" />
+          <ScalarProperty Name="InvoiceNumber" ColumnName="InvoiceNumber" />
+          <ScalarProperty Name="PaymentStatus" ColumnName="PaymentStatus" />
+          <ScalarProperty Name="PaymentAmount" ColumnName="PaymentAmount" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HANARegistrations">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.HANARegistration">
+        <MappingFragment StoreEntitySet="HANARegistration">
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="SurveyAnswer" ColumnName="SurveyAnswer" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="RegistrationID" ColumnName="RegistrationID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwGetPurchasePaymentHistories">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.vwGetPurchasePaymentHistory">
+        <MappingFragment StoreEntitySet="vwGetPurchasePaymentHistory">
+          <ScalarProperty Name="UserOrderID" ColumnName="UserOrderID" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="PalpalPaymentTransactionID" ColumnName="PalpalPaymentTransactionID" />
+          <ScalarProperty Name="PaypalBillingAgreementID" ColumnName="PaypalBillingAgreementID" />
+          <ScalarProperty Name="PaypalPayerID" ColumnName="PaypalPayerID" />
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="CustomerPaymentProfileID" ColumnName="CustomerPaymentProfileID" />
+          <ScalarProperty Name="CustomerProfileID" ColumnName="CustomerProfileID" />
+          <ScalarProperty Name="InvoiceNumber" ColumnName="InvoiceNumber" />
+          <ScalarProperty Name="PaymentStatus" ColumnName="PaymentStatus" />
+          <ScalarProperty Name="PaymentAmount" ColumnName="PaymentAmount" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="pr_SearchUserSubscription" FunctionName="cgxwftcloudModel.Store.pr_SearchUserSubscription">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_SearchUserSubscription_Result">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+          <ScalarProperty Name="ActiveDate" ColumnName="ActiveDate" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pr_NewServicePurchasedReport" FunctionName="cgxwftcloudModel.Store.pr_NewServicePurchasedReport">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_NewServicePurchasedReport_Result">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+          <ScalarProperty Name="ActiveDate" ColumnName="ActiveDate" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pr_GetUsersAllSubscriptionDetails" FunctionName="cgxwftcloudModel.Store.pr_GetUsersAllSubscriptionDetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_GetUsersAllSubscriptionDetails_Result">
+          <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+          <ScalarProperty Name="ActiveDate" ColumnName="ActiveDate" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="PaymentAmount" ColumnName="PaymentAmount" />
+          <ScalarProperty Name="PaymentStatus" ColumnName="PaymentStatus" />
+          <ScalarProperty Name="PaymentMethod" ColumnName="PaymentMethod" />
+          <ScalarProperty Name="AuthorizeTransactionID" ColumnName="AuthorizeTransactionID" />
+          <ScalarProperty Name="PayPalTransactionID" ColumnName="PayPalTransactionID" />
+          <ScalarProperty Name="InvoiceNumber" ColumnName="InvoiceNumber" />
+          <ScalarProperty Name="CancelledDate" ColumnName="CancelledDate" />
+          <ScalarProperty Name="ActualCharge" ColumnName="ActualCharge" />
+          <ScalarProperty Name="SAPStatus" ColumnName="SAPStatus" />
+          <ScalarProperty Name="UnSubscribedDate" ColumnName="UnSubscribedDate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pr_GetCustomerPayPalMailIDs" FunctionName="cgxwftcloudModel.Store.pr_GetCustomerPayPalMailIDs">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_GetCustomerPayPalMailIDs_Result">
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="UserPaymentTransactionID" ColumnName="UserPaymentTransactionID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pr_UpdateSelectedPayPalSubscriptionPaymentProfileIDAndWorklog" FunctionName="cgxwftcloudModel.Store.pr_UpdateSelectedPayPalSubscriptionPaymentProfileIDAndWorklog" />
+    <FunctionImportMapping FunctionImportName="pr_GetGroupOfTodaysPaymentExpiredService" FunctionName="cgxwftcloudModel.Store.pr_GetGroupOfTodaysPaymentExpiredService" />
+    <FunctionImportMapping FunctionImportName="pr_GetPaymentExpiredServiceTotal" FunctionName="cgxwftcloudModel.Store.pr_GetPaymentExpiredServiceTotal" />
+    <FunctionImportMapping FunctionImportName="pr_UpdateUserPaymentProfileIDAndWorklog" FunctionName="cgxwftcloudModel.Store.pr_UpdateUserPaymentProfileIDAndWorklog" />
+    <EntitySetMapping Name="TrainingRequestDetails">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.TrainingRequestDetail">
+        <MappingFragment StoreEntitySet="TrainingRequestDetails">
+          <ScalarProperty Name="Module" ColumnName="Module" />
+          <ScalarProperty Name="Course" ColumnName="Course" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="SurveyAnswer" ColumnName="SurveyAnswer" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="RegistrationID" ColumnName="RegistrationID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="pr_GetTodaysFailedPaymentItems" FunctionName="cgxwftcloudModel.Store.pr_GetTodaysFailedPaymentItems">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_GetTodaysFailedPaymentItems_Result">
+          <ScalarProperty Name="CustomerProfileID" ColumnName="CustomerProfileID" />
+          <ScalarProperty Name="CustomerPaymentProfileID" ColumnName="CustomerPaymentProfileID" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="PaypalBillingAgreementID" ColumnName="PaypalBillingAgreementID" />
+          <ScalarProperty Name="PaypalPaymentTransactionID" ColumnName="PaypalPaymentTransactionID" />
+          <ScalarProperty Name="PaymentMethod" ColumnName="PaymentMethod" />
+          <ScalarProperty Name="BillingAmount" ColumnName="BillingAmount" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pr_GetTodaysCancellationNotification" FunctionName="cgxwftcloudModel.Store.pr_GetTodaysCancellationNotification">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_GetTodaysCancellationNotification_Result">
+          <ScalarProperty Name="CustomerProfileID" ColumnName="CustomerProfileID" />
+          <ScalarProperty Name="CustomerPaymentProfileID" ColumnName="CustomerPaymentProfileID" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+          <ScalarProperty Name="PaypalBillingAgreementID" ColumnName="PaypalBillingAgreementID" />
+          <ScalarProperty Name="PaypalPaymentTransactionID" ColumnName="PaypalPaymentTransactionID" />
+          <ScalarProperty Name="PaypalPayerMailID" ColumnName="PaypalPayerMailID" />
+          <ScalarProperty Name="PaymentMethod" ColumnName="PaymentMethod" />
+          <ScalarProperty Name="BillingAmount" ColumnName="BillingAmount" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pr_UpdateRecurringPaymentMannual" FunctionName="cgxwftcloudModel.Store.pr_UpdateRecurringPaymentMannual" />
+    <FunctionImportMapping FunctionImportName="pr_ReActivateUserSubscription" FunctionName="cgxwftcloudModel.Store.pr_ReActivateUserSubscription" />
+    <FunctionImportMapping FunctionImportName="pr_UpdateUserNewsLetterInfo" FunctionName="cgxwftcloudModel.Store.pr_UpdateUserNewsLetterInfo" />
+    <EntitySetMapping Name="TrainingCourses">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.TrainingCourse">
+        <MappingFragment StoreEntitySet="TrainingCourse">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="CourseName" ColumnName="CourseName" />
+          <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TrainingModules">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.TrainingModule">
+        <MappingFragment StoreEntitySet="TrainingModule">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="ModuleName" ColumnName="ModuleName" />
+          <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+          <ScalarProperty Name="ModuleID" ColumnName="ModuleID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="pr_TrainingRequestReport" FunctionName="cgxwftcloudModel.Store.pr_TrainingRequestReport">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_TrainingRequestReport_Result">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="SurveyAnswer" ColumnName="SurveyAnswer" />
+          <ScalarProperty Name="Course" ColumnName="Course" />
+          <ScalarProperty Name="Module" ColumnName="Module" />
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pr_MonthlyFailedPaymentReport" FunctionName="cgxwftcloudModel.Store.pr_MonthlyFailedPaymentReport">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cgxwftcloudModel.pr_MonthlyFailedPaymentReport_Result">
+          <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+          <ScalarProperty Name="ActiveDate" ColumnName="ActiveDate" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="PaymentStatus" ColumnName="PaymentStatus" />
+          <ScalarProperty Name="PaymentAmount" ColumnName="PaymentAmount" />
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="InvoiceNumber" ColumnName="InvoiceNumber" />
+          <ScalarProperty Name="PaymentMethod" ColumnName="PaymentMethod" />
+          <ScalarProperty Name="SAPUserName" ColumnName="SAPUserName" />
+          <ScalarProperty Name="LastLogonDate" ColumnName="LastLogonDate" />
+          <ScalarProperty Name="CancelledDate" ColumnName="CancelledDate" />
+          <ScalarProperty Name="ActualCharge" ColumnName="ActualCharge" />
+          <ScalarProperty Name="LockedDate" ColumnName="LockedDate" />
+          <ScalarProperty Name="UnSubscribedDate" ColumnName="UnSubscribedDate" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="vwGetMonthlySubscriptionHistories">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.vwGetMonthlySubscriptionHistory">
+        <MappingFragment StoreEntitySet="vwGetMonthlySubscriptionHistory">
+          <ScalarProperty Name="TotalService" ColumnName="TotalService" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="ReleaseVersion" ColumnName="ReleaseVersion" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_GetUserSubscriptionHistory">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.vw_GetUserSubscriptionHistory">
+        <MappingFragment StoreEntitySet="vw_GetUserSubscriptionHistory">
+          <ScalarProperty Name="TotalService" ColumnName="TotalService" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="ReleaseVersion" ColumnName="ReleaseVersion" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="pr_UpdateUserEmailID" FunctionName="cgxwftcloudModel.Store.pr_UpdateUserEmailID" />
+    <EntitySetMapping Name="vw_GetUserPaymentFailedHistory">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.vw_GetUserPaymentFailedHistory">
+        <MappingFragment StoreEntitySet="vw_GetUserPaymentFailedHistory">
+          <ScalarProperty Name="PaymentStatus" ColumnName="PaymentStatus" />
+          <ScalarProperty Name="PaymentAmount" ColumnName="PaymentAmount" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="ActiveDate" ColumnName="ActiveDate" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

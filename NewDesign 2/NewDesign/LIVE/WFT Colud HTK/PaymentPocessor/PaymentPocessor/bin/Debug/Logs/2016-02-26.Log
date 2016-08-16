@@ -1,0 +1,136 @@
+---------------------------------------------------------
+26-02-2016 04:59:05 : Payment Processing Started...
+26-02-2016 04:59:05 : 
+26-02-2016 04:59:05 : Processing Individual Payments...
+26-02-2016 04:59:05 : CallAuthorizeNetPayment...
+26-02-2016 04:59:06 : Authorize.net - Started
+26-02-2016 04:59:23 : Authorize.net - Completed
+26-02-2016 04:59:23 : Customer Profile ID : 36058374
+26-02-2016 04:59:23 :      Approved? : False
+26-02-2016 04:59:23 :      Message   : The credit card has expired.
+CallAuthorizeNetPayment...
+26-02-2016 04:59:23 : 
+26-02-2016 04:59:23 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+26-02-2016 04:59:05 : Payment Processing Started...
+26-02-2016 04:59:05 : 
+26-02-2016 04:59:05 : Processing Individual Payments...
+26-02-2016 04:59:05 : CallAuthorizeNetPayment...
+26-02-2016 04:59:06 : Authorize.net - Started
+26-02-2016 04:59:23 : Authorize.net - Completed
+26-02-2016 04:59:23 : Customer Profile ID : 36058374
+26-02-2016 04:59:23 :      Approved? : False
+26-02-2016 04:59:23 :      Message   : The credit card has expired.
+CallAuthorizeNetPayment...
+26-02-2016 04:59:23 : 
+26-02-2016 04:59:23 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+26-02-2016 04:59:23 : De-Activate ExpiredSubscription Processing Started...
+26-02-2016 04:59:23 : 
+26-02-2016 04:59:23 : 
+26-02-2016 04:59:23 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+26-02-2016 05:04:31 : Payment Processing Started...
+26-02-2016 05:04:31 : 
+26-02-2016 05:04:31 : Processing Individual Payments...
+26-02-2016 05:04:31 : CallAuthorizeNetPayment...
+26-02-2016 05:04:32 : Authorize.net - Started
+26-02-2016 05:04:46 : Authorize.net - Completed
+26-02-2016 05:04:46 : Customer Profile ID : 31492015
+26-02-2016 05:04:46 :      Approved? : True
+26-02-2016 05:04:46 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+26-02-2016 05:04:46 : 
+26-02-2016 05:04:46 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+26-02-2016 05:04:31 : Payment Processing Started...
+26-02-2016 05:04:31 : 
+26-02-2016 05:04:31 : Processing Individual Payments...
+26-02-2016 05:04:31 : CallAuthorizeNetPayment...
+26-02-2016 05:04:32 : Authorize.net - Started
+26-02-2016 05:04:46 : Authorize.net - Completed
+26-02-2016 05:04:46 : Customer Profile ID : 31492015
+26-02-2016 05:04:46 :      Approved? : True
+26-02-2016 05:04:46 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+26-02-2016 05:04:46 : 
+26-02-2016 05:04:46 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+26-02-2016 05:04:46 : De-Activate ExpiredSubscription Processing Started...
+26-02-2016 05:04:46 : 
+26-02-2016 05:04:46 : 
+26-02-2016 05:04:46 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+26-02-2016 07:33:27 : Payment Processing Started...
+26-02-2016 07:33:27 : 
+26-02-2016 07:33:27 : Processing Individual Payments...
+26-02-2016 07:33:27 : CallAuthorizeNetPayment...
+26-02-2016 07:33:28 : Authorize.net - Started
+26-02-2016 07:33:44 : Authorize.net - Completed
+26-02-2016 07:33:44 : Customer Profile ID : 36058374
+26-02-2016 07:33:44 :      Approved? : False
+26-02-2016 07:33:44 :      Message   : The credit card has expired.
+CallAuthorizeNetPayment...
+26-02-2016 07:33:44 : 
+26-02-2016 07:33:44 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+26-02-2016 07:33:27 : Payment Processing Started...
+26-02-2016 07:33:27 : 
+26-02-2016 07:33:27 : Processing Individual Payments...
+26-02-2016 07:33:27 : CallAuthorizeNetPayment...
+26-02-2016 07:33:28 : Authorize.net - Started
+26-02-2016 07:33:44 : Authorize.net - Completed
+26-02-2016 07:33:44 : Customer Profile ID : 36058374
+26-02-2016 07:33:44 :      Approved? : False
+26-02-2016 07:33:44 :      Message   : The credit card has expired.
+CallAuthorizeNetPayment...
+26-02-2016 07:33:44 : 
+26-02-2016 07:33:44 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+26-02-2016 07:33:44 : De-Activate ExpiredSubscription Processing Started...
+26-02-2016 07:33:44 : 
+26-02-2016 07:33:44 : 
+26-02-2016 07:33:44 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+26-02-2016 07:38:21 : Payment Processing Started...
+26-02-2016 07:38:21 : 
+26-02-2016 07:38:21 : Processing Individual Payments...
+26-02-2016 07:38:21 : CallAuthorizeNetPayment...
+26-02-2016 07:38:22 : Authorize.net - Started
+26-02-2016 07:38:37 : Authorize.net - Completed
+26-02-2016 07:38:37 : Customer Profile ID : 36058374
+26-02-2016 07:38:37 :      Approved? : False
+26-02-2016 07:38:37 :      Message   : The credit card has expired.
+CallAuthorizeNetPayment...
+26-02-2016 07:38:37 : 
+26-02-2016 07:38:37 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+26-02-2016 07:38:21 : Payment Processing Started...
+26-02-2016 07:38:21 : 
+26-02-2016 07:38:21 : Processing Individual Payments...
+26-02-2016 07:38:21 : CallAuthorizeNetPayment...
+26-02-2016 07:38:22 : Authorize.net - Started
+26-02-2016 07:38:37 : Authorize.net - Completed
+26-02-2016 07:38:37 : Customer Profile ID : 36058374
+26-02-2016 07:38:37 :      Approved? : False
+26-02-2016 07:38:37 :      Message   : The credit card has expired.
+CallAuthorizeNetPayment...
+26-02-2016 07:38:37 : 
+26-02-2016 07:38:37 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+26-02-2016 07:38:37 : De-Activate ExpiredSubscription Processing Started...
+26-02-2016 07:38:37 : 
+26-02-2016 07:38:37 : 
+26-02-2016 07:38:37 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

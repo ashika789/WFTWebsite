@@ -1,0 +1,112 @@
+---------------------------------------------------------
+29-09-2014 12:27:13 : Payment Processing Started...
+29-09-2014 12:27:13 : 
+29-09-2014 12:27:18 : Processing Individual Payments...
+29-09-2014 12:27:18 : CallAuthorizeNetPayment...
+29-09-2014 12:27:23 : Authorize.net - Started
+29-09-2014 12:27:29 : Authorize.net - Completed
+29-09-2014 12:27:30 : Customer Profile ID : 114369999
+29-09-2014 12:27:30 :      Approved? : True
+29-09-2014 12:27:30 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+29-09-2014 12:27:47 : CallAuthorizeNetPayment...
+29-09-2014 12:27:48 : Authorize.net - Started
+29-09-2014 12:27:50 : Authorize.net - Completed
+29-09-2014 12:27:51 : Customer Profile ID : 116871551
+29-09-2014 12:27:51 :      Approved? : True
+29-09-2014 12:27:51 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+29-09-2014 12:28:04 : CallAuthorizeNetPayment...
+29-09-2014 12:28:05 : Authorize.net - Started
+29-09-2014 12:28:07 : Authorize.net - Completed
+29-09-2014 12:28:08 : Customer Profile ID : 120666942
+29-09-2014 12:28:08 :      Approved? : True
+29-09-2014 12:28:08 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+29-09-2014 12:28:21 : CallPayPalPayment...
+29-09-2014 12:28:22 : PayPal - Started
+29-09-2014 12:28:30 : PayPal - Completed
+29-09-2014 12:28:31 : Billing Agreement ID : B-6YB340002G778964F
+29-09-2014 12:28:31 :      Approved? : True
+29-09-2014 12:28:31 :      Message   : SUCCESS
+CallPayPalPayment...
+29-09-2014 12:28:47 : 
+29-09-2014 12:28:47 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+29-09-2014 12:27:13 : Payment Processing Started...
+29-09-2014 12:27:13 : 
+29-09-2014 12:27:18 : Processing Individual Payments...
+29-09-2014 12:27:18 : CallAuthorizeNetPayment...
+29-09-2014 12:27:23 : Authorize.net - Started
+29-09-2014 12:27:29 : Authorize.net - Completed
+29-09-2014 12:27:30 : Customer Profile ID : 114369999
+29-09-2014 12:27:30 :      Approved? : True
+29-09-2014 12:27:30 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+29-09-2014 12:27:47 : CallAuthorizeNetPayment...
+29-09-2014 12:27:48 : Authorize.net - Started
+29-09-2014 12:27:50 : Authorize.net - Completed
+29-09-2014 12:27:51 : Customer Profile ID : 116871551
+29-09-2014 12:27:51 :      Approved? : True
+29-09-2014 12:27:51 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+29-09-2014 12:28:04 : CallAuthorizeNetPayment...
+29-09-2014 12:28:05 : Authorize.net - Started
+29-09-2014 12:28:07 : Authorize.net - Completed
+29-09-2014 12:28:08 : Customer Profile ID : 120666942
+29-09-2014 12:28:08 :      Approved? : True
+29-09-2014 12:28:08 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+29-09-2014 12:28:21 : CallPayPalPayment...
+29-09-2014 12:28:22 : PayPal - Started
+29-09-2014 12:28:30 : PayPal - Completed
+29-09-2014 12:28:31 : Billing Agreement ID : B-6YB340002G778964F
+29-09-2014 12:28:31 :      Approved? : True
+29-09-2014 12:28:31 :      Message   : SUCCESS
+CallPayPalPayment...
+29-09-2014 12:28:47 : 
+29-09-2014 12:28:47 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+29-09-2014 12:28:47 : De-Activate ExpiredSubscription Processing Started...
+29-09-2014 12:28:47 : 
+29-09-2014 12:28:48 : 
+29-09-2014 12:28:48 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+29-09-2014 12:41:36 : Payment Processing Started...
+29-09-2014 12:41:36 : 
+29-09-2014 12:41:41 : Processing Individual Payments...
+29-09-2014 12:41:41 : CallPayPalPayment...
+29-09-2014 12:41:46 : PayPal - Started
+29-09-2014 12:41:53 : Error 1: ErrorCode10417-- Error Message:Instruct the customer to retry the transaction using an alternative payment method from the customers PayPal wallet. The transaction did not complete with the customers selected payment method.SeverityCodeERROR
+29-09-2014 12:41:53 : PayPal - Completed
+29-09-2014 12:41:54 : Billing Agreement ID : B-7F195424KC117104U
+29-09-2014 12:41:54 :      Approved? : False
+29-09-2014 12:41:54 :      Message   : FAILED
+CallPayPalPayment...
+29-09-2014 12:42:11 : 
+29-09-2014 12:42:11 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+29-09-2014 12:41:36 : Payment Processing Started...
+29-09-2014 12:41:36 : 
+29-09-2014 12:41:41 : Processing Individual Payments...
+29-09-2014 12:41:41 : CallPayPalPayment...
+29-09-2014 12:41:46 : PayPal - Started
+29-09-2014 12:41:53 : Error 1: ErrorCode10417-- Error Message:Instruct the customer to retry the transaction using an alternative payment method from the customers PayPal wallet. The transaction did not complete with the customers selected payment method.SeverityCodeERROR
+29-09-2014 12:41:53 : PayPal - Completed
+29-09-2014 12:41:54 : Billing Agreement ID : B-7F195424KC117104U
+29-09-2014 12:41:54 :      Approved? : False
+29-09-2014 12:41:54 :      Message   : FAILED
+CallPayPalPayment...
+29-09-2014 12:42:11 : 
+29-09-2014 12:42:11 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+29-09-2014 12:42:11 : De-Activate ExpiredSubscription Processing Started...
+29-09-2014 12:42:11 : 
+29-09-2014 12:42:12 : 
+29-09-2014 12:42:12 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

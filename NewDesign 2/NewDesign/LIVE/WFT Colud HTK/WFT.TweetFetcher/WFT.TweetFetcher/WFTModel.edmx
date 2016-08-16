@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="cgxwftcloudModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="cgxwftcloudModelStoreContainer">
+          <EntitySet Name="SocialTweets" EntityType="cgxwftcloudModel.Store.SocialTweets" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="SocialTweets">
+          <Key>
+            <PropertyRef Name="tweetID" />
+          </Key>
+          <Property Name="tweetID" Type="bigint" Nullable="false" />
+          <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+          <Property Name="tweetPlainText" Type="varchar(max)" Nullable="false" />
+          <Property Name="tweetHTMLText" Type="varchar(max)" Nullable="false" />
+        </EntityType>
+        <Function Name="InsertExceptionLog" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ExceptionClassName" Type="varchar" Mode="In" />
+          <Parameter Name="ExceptionMessage" Type="varchar" Mode="In" />
+          <Parameter Name="ExceptionStackTrace" Type="varchar(max)" Mode="In" />
+          <Parameter Name="ExceptionDateTime" Type="datetime" Mode="In" />
+          <Parameter Name="ExceptionMethodName" Type="varchar" Mode="In" />
+        </Function>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="cgxwftcloudModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="cgxwftcloudEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="SocialTweets" EntityType="cgxwftcloudModel.SocialTweet" />
+          <FunctionImport Name="InsertExceptionLog">
+            <Parameter Name="ExceptionClassName" Mode="In" Type="String" />
+            <Parameter Name="ExceptionMessage" Mode="In" Type="String" />
+            <Parameter Name="ExceptionStackTrace" Mode="In" Type="String" />
+            <Parameter Name="ExceptionDateTime" Mode="In" Type="DateTime" />
+            <Parameter Name="ExceptionMethodName" Mode="In" Type="String" />
+          </FunctionImport>
+        </EntityContainer>
+        <EntityType Name="SocialTweet">
+          <Key>
+            <PropertyRef Name="tweetID" />
+          </Key>
+          <Property Name="tweetID" Type="Int64" Nullable="false" />
+          <Property Name="CreatedDate" Type="DateTime" Nullable="false" />
+          <Property Name="tweetPlainText" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="tweetHTMLText" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="cgxwftcloudModelStoreContainer" CdmEntityContainer="cgxwftcloudEntities">
+          <EntitySetMapping Name="SocialTweets">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.SocialTweet">
+              <MappingFragment StoreEntitySet="SocialTweets">
+                <ScalarProperty Name="tweetID" ColumnName="tweetID" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="tweetPlainText" ColumnName="tweetPlainText" />
+                <ScalarProperty Name="tweetHTMLText" ColumnName="tweetHTMLText" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="InsertExceptionLog" FunctionName="cgxwftcloudModel.Store.InsertExceptionLog" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="WFTModel">
+        <EntityTypeShape EntityType="cgxwftcloudModel.SocialTweet" Width="1.5" PointX="0.75" PointY="0.75" Height="1.787985026041667" IsExpanded="true" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

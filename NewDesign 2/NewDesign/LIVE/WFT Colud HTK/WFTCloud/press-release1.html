@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Set latest rendering mode for IE -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>WFTCloud - SAP Certified Hosting and Cloud Services Provider</title>
+<!-- Set viewport for mobile devices to zoom to 100% -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Loading fonts in the header makes it work in IE<9 -->
+<link href='http://fonts.googleapis.com/css?family=Bitter:400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+
+<!-- Including bootstrap styles - includes normalize and reset, grid system, layouts, responsive styles and media queries -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Including Font Awesome 3.0 styles -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<!-- Including main template styles -->
+<link rel="stylesheet" href="css/main.css">
+
+<!-- Loading jQuery liblary from CDN with a local fallback when CDN not responding.
+             This is done here not at the bottom of the page to support selectivizr for IE -->
+<!-- Load jQuery from CDN -->
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<!-- Check if "window" is available. If not that means jQuery didn't load from CDN so instead use local version (otherwise skip) -->
+<script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
+
+<!-- If the browser version of IE is less than 9 load HTML5 & CSS3 polyfills -->
+<!--[if lt IE 9]>
+            <script type="text/javascript" src="js/html5shiv.min.js"></script>
+            <script type="text/javascript" src="js/selectivizr.min.js"></script>
+            <link rel="stylesheet" href="css/ie.css">
+        <![endif]-->
+</head>
+
+<body>
+
+<!-- Popover modal box containing client login form -->
+<div id="customer-login" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h5 id="myModalLabel">Customer area login:</h5>
+  </div>
+  <!-- modal-header end -->
+  
+  <div class="modal-body">
+    <p>Login</p>
+    <input type="text" class="customer-login-input" name='login-input' placeholder="Login">
+    <p>Password</p>
+    <input type="password" class="customer-login-input" name='password-input' placeholder="Password">
+  </div>
+  <!-- modal-body end -->
+  
+  <div class="modal-footer">
+    <div class="customer-help-links"> <a href="#">Forgot your password?</a> </div>
+    <button class="btn btn-primary">Login</button>
+  </div>
+  <!-- modal-footer end --> 
+  
+</div>
+<!-- customer-login end --> 
+
+<!-- Start developing your site here -->
+<div class="main-page-wrapper">
+  <div class="top-background">
+    <div class="top-menu-wrapper">
+      <nav class="top-menu container">
+      <ul>
+        <li><a href="contact.html"><i class="icon-phone"></i><strong> Phone support:</strong> 1-888-533-3113</a></li>
+        <li><a href="#"><i class="icon-comment"></i><strong> Live</strong> Chat</a></li>
+        <li><a href="#"><i class="icon-envelope-alt"></i><strong> Submit</strong> a ticket</a></li>
+        <li><a href="#" id="mobile-nav-button"><i class="icon-list-ul"></i><strong> Show/Hide</strong> a menu</a></li>
+        <li ><a href="#customer-login" data-toggle="modal"><i class="icon-user"></i><strong> Sign Up</strong></a></li>
+        <li><a href="#customer-login" data-toggle="modal"><i class="icon-user"></i><strong> Customer</strong> </a></li>
+        <li><a href="contact.html" ><strong> Contact</strong> </a></li>
+      </ul>
+    </nav>
+      <!-- end top-menu --> 
+      
+    </div>
+    <!-- end top-menu-wrapper -->
+    
+    <div class="mobile-nav off"></div>
+    <!-- mobile-nav end -->
+    
+    <header class="container">
+      <div class="row">
+        <div class="span4">
+          <h1 class="logo clearfix"> <a href="index.html"><img src="img/logo.png" alt="WFTCloud Logo"></a> </h1>
+        </div>
+        <!-- end span4 -->
+        
+        <div class="span8">
+          <nav class="main-menu">
+            <ul>
+              <!--li><a href="#" data-description="Cloud Plans" class="current-menu-item">Enterprise Cloud</a></li-->
+              <li><a href="enterprise-cloud.html" data-description="Services">Enterprise Cloud</a></li>
+              <li><a href="express-cloud.html" data-description="Cloud Plans">Express Cloud</a> </li>
+              <li><a href="SAP-training.html" data-description="SAP HANA">Trainings</a></li>
+              <li><a href="about.html" data-description="Our Company" class="current-menu-item">About Us</a>
+                <ul>
+                  <li><a href="management-team.html">Management Team </a></li>
+                  <li><a href="press-release.html">Press Release</a></li>
+                  <li><a href="#">Partners</a></li>
+                  <li><a href="#">Our Clients</a></li>
+                  <li><a href="testimonials.html">Testimonials</a></li>
+                </ul>
+              </li>
+              <!--li><a href="contact.html" data-description="and quotes">Media</a></li-->
+            </ul>
+          </nav>
+          <!-- end main-menu --> 
+          
+        </div>
+        <!-- end span8 --> 
+        
+      </div>
+      <!-- end row -->
+      
+      <hr />
+    </header>
+    <!-- end container --> 
+    
+  </div>
+  <!-- top-background end -->
+  
+  <section id="content">
+    <div class="white-section">
+      <div class="container">
+        <div class="row">
+          <h4>Press Release </h4>
+          <div>
+            <div class="comment-body" style="margin-left:0px;">
+              <div class="comment-meta"> <a class="comment-user" href="#">Wharfedale Technologies Inc. (WFT), a Global Leader in Enterprise SAP Solution, Announces Foray Into Education by Signing a Partnership With Global College Malta</a><br> <span class="comment-date">September 17, 2013</span> </div>
+              <!-- comment-meta end -->
+              
+              <div class="comment-text">
+              <p>Wharfedale Technologies Inc. (WFT) today announced its foray into higher education by introducing a master's program "Cloud Management with Business." This unique master's program combines technology and management to bring out best of breed managers and future entrepreneurs.</p>
+              <h6>Princeton, NJ (PRWEB) September 17, 2013</h6>
+              <div style="clear:both;"><hr><br></div>
+              <div class="span7">
+             
+<p> Wharfedale Technologies Inc. (WFT) today announced its foray into   higher education by introducing a master&rsquo;s program &ldquo;Cloud Management   with Business.&rdquo; This 15-month program including a dissertation will   commence on January 14, 2014. WFT has recently commenced its education   division with a sole aim to bring out state-of-art unique programs,   which not only satisfy the current needs of the industry, but also allow   potential students to exploit the future demand that Cloud   infrastructure management has to offer. Running over three semesters   starting on January 14, 2014, the <a href="http://www.wftcloud.org/" rel="nofollow">Master of Science</a> (MSc)   program has been designed to attract people with degrees in Computer   Engineering / Information Technology related subjects. The modules in   the course will introduce students to the various areas of Cloud   Technology as well as business-related topics such as Project   Management, Leadership, Enterprise and Strategy.</p>
+<p> When questioned the rationale behind this program, Ganesh   Radhakrishnan, CEO of WFT says, &ldquo;The Information Technology (IT)   landscape is ever evolving. Over the last few years it has brought about   changes that are meaningful and beneficial to the corporate world. As   we look into the future, it is likely that more and more corporates will   evaluate their current IT topography and move more into a SAAS   (Software As A Service) based model, which is driven by the <a href="http://www.wftcloud.com/" rel="nofollow">Cloud platform</a> and   technology. This not only ensures cost savings, but removes redundant   hardware.&rdquo; Elaborating further, he says, &ldquo;More and more corporations are   restructuring their internal IT needs and deployment strategy. They   would require resources with a deep understanding of Cloud (private and   hybrid) technology to be implemented in their data centers. Cloud   infrastructure specialists will be much sought after and will be in high   demand as they will be required to move data in and out of their data   centers and remove the inherent latency in cloud-based applications.   There will be a tremendous need for professionals who will be able to   understand and implement various <a href="http://www.wftcloud.com/User/EnterpriseCloud.aspx" rel="nofollow">ERP applications</a>,   as well as manage data and various security aspects around it.&rdquo; This   offering will be a great boon for potential students to exploit the   demand/supply gap. A recent Gartner survey projects a global demand of   14 million jobs by the end of 2016 with an expected market value of   about $75 billion.</p>
+<p> This program will be delivered in eight modules across three   semesters with a dissertation to follow. The students during this time   will be exposed to real time cloud environment and projects that will   allow the students to experience real life situation in a corporate.   Apart from the real time environment, students will be privy to the   latest white papers; guest lectures from prominent industry experts and   more importantly, to be a certified professional at the end of the   program. The net result will be newly certified professionals that will   not only be industry ready but may also open up opportunities to create   or form new business ventures, if one is looking in that direction.</p>
+<p> Summing up Radhakrishnan says, &ldquo;This is a great opportunity for   students to exploit the huge gap between supply and demand to meet the   needs of the market. With a comprehensive scholarship offer from WFT and   a job offer for 20 percent of the deserving students in the first year,   this presents an unprecedented opportunity for the graduates of this   course.&rdquo;</p>
+<p> The first course commences on Jan. 14th 2014 at Global College Malta   (A venture from Smart City Malta). For more information and   registrations, please visit us at <a href="http://www.gcmalta.com/m-sc-cloud-management-with-business/" rel="nofollow">http://www.gcmalta.com/m-sc-cloud-management-with-business/</a>.</p>
+<h6> About Wharfedale Technologies Inc.</h6>
+<p> Founded in 2000, Wharfedale Technologies, Inc. (WFT) is a leader in   SAP infrastructure solutions. As a highly skilled SAP infrastructure   consulting firm, WFT works closely with vendors, jointly delivering   solutions to some of the largest clients in the financial,   pharmaceutical, manufacturing and entertainment industries, as well as   key government agencies. As an SAP certified provider of cloud services,   Wharfedale also offers SAP solutions around - high availability,   disaster recovery, advanced sizing for virtualization, back up/recovery   Integration, systems refresh automation and landscape optimization.   Recently WFT has started its education division with a focus on   delivering niche higher education to students and professionals. For   more information, please visit <a href="http://www.wftcloud.org/" rel="nofollow">http://www.wftcloud.org</a>.</p>
+
+              </div>
+              <div class="span4">
+              <iframe allowfullscreen="" frameborder="0" height="196" mozallowfullscreen="" origheight="196" origwidth="307" src="http://www.youtube-nocookie.com/embed/-JQh3VW_kJw?wmode=opaque" webkitallowfullscreen="" width="307" wmode="transparent"></iframe>
+             <br> <hr><br>
+              <p align="center"><img src="img/press-release/1.png" style="border:1px solid #ededed;"></p>
+              <blockquote  class="article" style="width:100%;">"A recent Gartner survey projects a global demand of 14 million jobs by the end of 2016 with an expected market value of about $75 billion."</blockquote>
+              </div>
+             
+            
+           
+             
+              <div style="clear:both;"><hr><br></div>
+                <p>  <a href="press-release.html">Back to Press Release</a>
+              </p>
+              </div>
+              
+              <!-- comment-text end --> 
+              
+            </div>
+            <!-- comment-body end --> 
+            
+          </div>
+        </div>
+            <!-- comment-body end --> 
+            
+          </div>
+          
+          
+          
+        </div>
+        <!-- row end --> 
+        
+        <!-- row end --> 
+        
+      </div>
+      <!-- conteiner end --> 
+      
+    </div>
+    <!-- white-section end --> 
+    
+</section>
+  <!-- content end -->
+  
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="span3"> <img src="img/twitter-bird-light-bgs.png" style="margin-bottom:20px;">
+          <p>Lorem ipsum dolor sit amet, consectetur. Quisquam impedit <span style="color:#00aced">http://bit.ly/9lorem11.</span> </p>
+          <p>Lorem ipsum dolor sit adipisicing elit. Quisquam <span style="color:#00aced">http://bit.ly/9lorem11.</span> </p>
+        </div>
+        <!-- span3 end -->
+        <div class="span6">
+          <h5>Partners / Certifications</h5>
+          <div class="well"><img src="img/cert.png">
+            <div id="myCarousel" class="carousel slide"> 
+              
+              <!-- Carousel items -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="row-fluid">
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/01.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/02.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/03.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/04.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                  </div>
+                  <!--/row-fluid--> 
+                </div>
+                <!--/item-->
+                
+                <div class="item">
+                  <div class="row-fluid">
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/05.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/06.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/01.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/02.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                  </div>
+                  <!--/row-fluid--> 
+                </div>
+                <!--/item-->
+                
+                <div class="item">
+                  <div class="row-fluid">
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/05.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/06.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/01.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/02.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                  </div>
+                  <!--/row-fluid--> 
+                </div>
+                <!--/item--> 
+                
+              </div>
+              <!--/carousel-inner--> 
+              
+             <a class="left carousel-control" href="#myCarousel" data-slide="prev"><img src="img/bt-prev-fo.png" alt="image" style="margin-top:8px; margin-bottom:-2px;"></a> <a class="right carousel-control" href="#myCarousel" data-slide="next"><img src="img/bt-next-fo.png" alt="image" style="margin-top:5px; margin-bottom:-4px;"></a>
+              </div>
+            <!--/myCarousel--> 
+            
+          </div>
+        </div>
+        <div class="span3">
+          <h5>Support Center</h5>
+          <ul class="support-list">
+            <li><a href="#customer-login" data-toggle="modal"><i class="icon-user"></i><strong>Customer</strong> login</a></li>
+            <li><a href="#"><i class="icon-phone"></i><strong>Phone</strong> 123 456 789</a></li>
+            <li><a href="#"><i class="icon-comment"></i><strong>Live</strong> support</a></li>
+            <li><a href="#"><i class="icon-envelope-alt"></i><strong>Submit</strong> a ticket</a></li>
+          </ul>
+        </div>
+        <!-- span3 end --> 
+        
+      </div>
+      <!-- row end -->
+      
+      <div class="row">
+        <div id="newsletter-wrapper" class="span8">
+          <div id="newsletter">
+            <h5 class="visible-desktop">Sign-up to our newsletter:</h5>
+            <h5 class="hidden-desktop">Newsletter sign-up:</h5>
+            <form method='post' name='ContactForm' id='newsletterForm'>
+              <input type="text" class="input-box" name="user-email" placeholder="Enter your email.">
+              <button type='submit' class='myinputbtn' name='submitf' id="submitf">Sign up</button>
+            </form>
+          </div>
+          <!-- newsletter end --> 
+          
+        </div>
+        <!-- newsletter-wrapper end -->
+        
+        <div id="social-icons-wrapper" class="span4">
+          <div id="social-icons">
+            <h5 class="visible-desktop">Connect via:</h5>
+            <ul>
+              <li><a href="#"><i class="icon-twitter"></i></a></li>
+              <li><a href="#"><i class="icon-facebook"></i></a></li>
+              <li><a href="#"><i class="icon-google-plus"></i></a></li>
+              <li><a href="#"><i class="icon-linkedin"></i></a></li>
+            </ul>
+          </div>
+          <!-- social-icons end --> 
+          
+        </div>
+        <!-- social-icons-wrapper end --> 
+        
+      </div>
+      <!-- row end --> 
+      
+      <!-- this is a container for the newsletter fail or success message -->
+      <div id='message_post2'></div>
+      <!-- message_post2 end -->
+      
+      <hr />
+      <div class="row">
+        <p class="span12">© Copyright 2013. WFTCloud. All rights reserved.</p>
+      </div>
+      <!-- row end --> 
+      
+    </div>
+    <!-- container end --> 
+    
+    <a href="#" class="go-top" style="display: inline;">Go Top</a> </footer>
+</div>
+<!-- end main-page-wrapper --> 
+
+<!-- Loading all JS files the asynchronous way --> 
+<!-- Twitter Bootstrap JavaScript file required for transitions, pupups, modals and other elements  --> 
+<script src="js/bootstrap.min.js"></script> 
+
+<!-- Main file containing all other scripts. This is done to avoid multiple HTTP requests --> 
+<script src="js/main.js"></script> 
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#myCarousel').carousel({
+	interval: 10000
+	})
+});
+</script>
+</body>
+</html>

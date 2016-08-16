@@ -1,0 +1,174 @@
+---------------------------------------------------------
+26-09-2014 12:39:40 : Payment Processing Started...
+26-09-2014 12:39:40 : 
+26-09-2014 12:39:44 : Processing Individual Payments...
+26-09-2014 12:39:44 : CallAuthorizeNetPayPalPayment...
+26-09-2014 12:39:48 : PayPal - Started
+26-09-2014 12:39:56 : PayPal - Completed
+26-09-2014 12:39:57 : Billing Agreement ID : B-07424312FS0877426
+26-09-2014 12:39:57 :      Approved? : True
+26-09-2014 12:39:57 :      Message   : SUCCESS
+CallAuthorizeNetPayPalPayment...
+26-09-2014 12:40:11 : CallAuthorizeNetPayPalPayment...
+26-09-2014 12:40:11 : PayPal - Started
+26-09-2014 12:40:14 : Error 1: ErrorCode10201-- Error Message:Agreement was canceledSeverityCodeERROR
+26-09-2014 12:40:14 : PayPal - Completed
+26-09-2014 12:40:14 : Billing Agreement ID : B-4JC794489C7835710
+26-09-2014 12:40:14 :      Approved? : False
+26-09-2014 12:40:14 :      Message   : FAILED
+CallAuthorizeNetPayPalPayment...
+26-09-2014 12:40:31 : CallAuthorizeNetPayPalPayment...
+26-09-2014 12:40:31 : PayPal - Started
+26-09-2014 12:40:37 : PayPal - Completed
+26-09-2014 12:40:38 : Billing Agreement ID : B-77V13135M4049503L
+26-09-2014 12:40:38 :      Approved? : True
+26-09-2014 12:40:38 :      Message   : SUCCESS
+CallAuthorizeNetPayPalPayment...
+26-09-2014 12:40:51 : CallAuthorizeNetPayPalPayment...
+26-09-2014 12:40:51 : PayPal - Started
+26-09-2014 12:40:56 : PayPal - Completed
+26-09-2014 12:40:57 : Billing Agreement ID : B-9L350306Y20639105
+26-09-2014 12:40:57 :      Approved? : True
+26-09-2014 12:40:57 :      Message   : SUCCESS
+CallAuthorizeNetPayPalPayment...
+26-09-2014 12:41:12 : 
+26-09-2014 12:41:12 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+26-09-2014 12:39:40 : Payment Processing Started...
+26-09-2014 12:39:40 : 
+26-09-2014 12:39:44 : Processing Individual Payments...
+26-09-2014 12:39:44 : CallAuthorizeNetPayPalPayment...
+26-09-2014 12:39:48 : PayPal - Started
+26-09-2014 12:39:56 : PayPal - Completed
+26-09-2014 12:39:57 : Billing Agreement ID : B-07424312FS0877426
+26-09-2014 12:39:57 :      Approved? : True
+26-09-2014 12:39:57 :      Message   : SUCCESS
+CallAuthorizeNetPayPalPayment...
+26-09-2014 12:40:11 : CallAuthorizeNetPayPalPayment...
+26-09-2014 12:40:11 : PayPal - Started
+26-09-2014 12:40:14 : Error 1: ErrorCode10201-- Error Message:Agreement was canceledSeverityCodeERROR
+26-09-2014 12:40:14 : PayPal - Completed
+26-09-2014 12:40:14 : Billing Agreement ID : B-4JC794489C7835710
+26-09-2014 12:40:14 :      Approved? : False
+26-09-2014 12:40:14 :      Message   : FAILED
+CallAuthorizeNetPayPalPayment...
+26-09-2014 12:40:31 : CallAuthorizeNetPayPalPayment...
+26-09-2014 12:40:31 : PayPal - Started
+26-09-2014 12:40:37 : PayPal - Completed
+26-09-2014 12:40:38 : Billing Agreement ID : B-77V13135M4049503L
+26-09-2014 12:40:38 :      Approved? : True
+26-09-2014 12:40:38 :      Message   : SUCCESS
+CallAuthorizeNetPayPalPayment...
+26-09-2014 12:40:51 : CallAuthorizeNetPayPalPayment...
+26-09-2014 12:40:51 : PayPal - Started
+26-09-2014 12:40:56 : PayPal - Completed
+26-09-2014 12:40:57 : Billing Agreement ID : B-9L350306Y20639105
+26-09-2014 12:40:57 :      Approved? : True
+26-09-2014 12:40:57 :      Message   : SUCCESS
+CallAuthorizeNetPayPalPayment...
+26-09-2014 12:41:12 : 
+26-09-2014 12:41:12 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+26-09-2014 12:41:12 : De-Activate ExpiredSubscription Processing Started...
+26-09-2014 12:41:12 : 
+26-09-2014 12:41:13 : 
+26-09-2014 12:41:13 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+26-09-2014 03:33:36 : Payment Processing Started...
+26-09-2014 03:33:36 : 
+26-09-2014 03:33:36 : Processing Individual Payments...
+26-09-2014 03:33:36 : CallPayPalPayment...
+26-09-2014 03:33:37 : PayPal - Started
+26-09-2014 03:33:41 : PayPal - Completed
+26-09-2014 03:33:41 : Billing Agreement ID : B-43W27452SU6983206
+26-09-2014 03:33:41 :      Approved? : True
+26-09-2014 03:33:41 :      Message   : SUCCESS
+CallPayPalPayment...
+26-09-2014 03:33:51 : 
+26-09-2014 03:33:51 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+26-09-2014 03:33:36 : Payment Processing Started...
+26-09-2014 03:33:36 : 
+26-09-2014 03:33:36 : Processing Individual Payments...
+26-09-2014 03:33:36 : CallPayPalPayment...
+26-09-2014 03:33:37 : PayPal - Started
+26-09-2014 03:33:41 : PayPal - Completed
+26-09-2014 03:33:41 : Billing Agreement ID : B-43W27452SU6983206
+26-09-2014 03:33:41 :      Approved? : True
+26-09-2014 03:33:41 :      Message   : SUCCESS
+CallPayPalPayment...
+26-09-2014 03:33:51 : 
+26-09-2014 03:33:51 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+26-09-2014 03:33:51 : De-Activate ExpiredSubscription Processing Started...
+26-09-2014 03:33:51 : 
+26-09-2014 03:33:51 : 
+26-09-2014 03:33:51 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+26-09-2014 04:50:58 : Payment Processing Started...
+26-09-2014 04:50:58 : 
+26-09-2014 04:50:58 : Processing Individual Payments...
+26-09-2014 04:50:58 : CallAuthorizeNetPayment...
+26-09-2014 04:50:58 : Authorize.net - Started
+26-09-2014 04:51:02 : Authorize.net - Completed
+26-09-2014 04:51:02 : Customer Profile ID : 24531910
+26-09-2014 04:51:02 :      Approved? : True
+26-09-2014 04:51:02 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+26-09-2014 04:51:12 : CallAuthorizeNetPayment...
+26-09-2014 04:51:12 : Authorize.net - Started
+26-09-2014 04:51:17 : Authorize.net - Completed
+26-09-2014 04:51:17 : Customer Profile ID : 24531910
+26-09-2014 04:51:17 :      Approved? : True
+26-09-2014 04:51:17 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+26-09-2014 04:51:55 : CallPayPalPayment...
+26-09-2014 04:51:55 : PayPal - Started
+26-09-2014 04:52:09 : PayPal - Completed
+26-09-2014 04:52:09 : Billing Agreement ID : B-43W27452SU6983206
+26-09-2014 04:52:09 :      Approved? : True
+26-09-2014 04:52:09 :      Message   : SUCCESS
+CallPayPalPayment...
+26-09-2014 04:52:20 : 
+26-09-2014 04:52:20 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+26-09-2014 04:50:58 : Payment Processing Started...
+26-09-2014 04:50:58 : 
+26-09-2014 04:50:58 : Processing Individual Payments...
+26-09-2014 04:50:58 : CallAuthorizeNetPayment...
+26-09-2014 04:50:58 : Authorize.net - Started
+26-09-2014 04:51:02 : Authorize.net - Completed
+26-09-2014 04:51:02 : Customer Profile ID : 24531910
+26-09-2014 04:51:02 :      Approved? : True
+26-09-2014 04:51:02 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+26-09-2014 04:51:12 : CallAuthorizeNetPayment...
+26-09-2014 04:51:12 : Authorize.net - Started
+26-09-2014 04:51:17 : Authorize.net - Completed
+26-09-2014 04:51:17 : Customer Profile ID : 24531910
+26-09-2014 04:51:17 :      Approved? : True
+26-09-2014 04:51:17 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+26-09-2014 04:51:55 : CallPayPalPayment...
+26-09-2014 04:51:55 : PayPal - Started
+26-09-2014 04:52:09 : PayPal - Completed
+26-09-2014 04:52:09 : Billing Agreement ID : B-43W27452SU6983206
+26-09-2014 04:52:09 :      Approved? : True
+26-09-2014 04:52:09 :      Message   : SUCCESS
+CallPayPalPayment...
+26-09-2014 04:52:20 : 
+26-09-2014 04:52:20 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+26-09-2014 04:52:20 : De-Activate ExpiredSubscription Processing Started...
+26-09-2014 04:52:20 : 
+26-09-2014 04:52:20 : 
+26-09-2014 04:52:20 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

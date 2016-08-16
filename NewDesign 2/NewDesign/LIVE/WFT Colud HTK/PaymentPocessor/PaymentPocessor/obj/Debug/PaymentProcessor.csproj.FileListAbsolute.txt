@@ -1,0 +1,181 @@
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\authorPicture.jpg
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\blank.gif
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderBottomLeft.png
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderBottomLeft2.png
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderBottomRight.png
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderBottomRight2.png
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderTopLeft.png
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderTopLeft2.png
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderTopRight.png
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderTopRight2.png
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\copyright.png
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\facebookIcon.png
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\googlePlusIcon.png
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\linkedinIcon.png
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\logo.png
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\phoneIcon.png
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\SAP-Lanscape.jpg
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\shadow_610.png
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\twitterIcon.png
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\Payment-Details.html
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\App.config
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PaymentProcessor.exe.config
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PaymentProcessor.exe
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PaymentProcessor.pdb
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\AuthorizeNet.dll
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\AuthorizeNet.Helpers.dll
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\log4net.dll
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PayPalCoreSDK.dll
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PayPalMerchantSDK.dll
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\WFTCloud.DataAccess.dll
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\WFTCloud.DataAccess.pdb
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\obj\Debug\PaymentProcessor.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\obj\Debug\PaymentProcessor.exe
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\PaymentPocessor\PaymentPocessor\obj\Debug\PaymentProcessor.pdb
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\authorPicture.jpg
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\blank.gif
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderBottomLeft.png
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderBottomLeft2.png
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderBottomRight.png
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderBottomRight2.png
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderTopLeft.png
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderTopLeft2.png
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderTopRight.png
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderTopRight2.png
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\copyright.png
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\facebookIcon.png
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\googlePlusIcon.png
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\linkedinIcon.png
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\logo.png
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\phoneIcon.png
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\SAP-Lanscape.jpg
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\shadow_610.png
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\twitterIcon.png
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\Payment-Details.html
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\App.config
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PaymentProcessor.exe.config
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PaymentProcessor.exe
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PaymentProcessor.pdb
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\AuthorizeNet.dll
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\AuthorizeNet.Helpers.dll
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PayPalCoreSDK.dll
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PayPalMerchantSDK.dll
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\WFTCloud.DataAccess.dll
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\WFTCloud.DataAccess.pdb
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\obj\Debug\PaymentProcessor.csprojResolveAssemblyReference.cache
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\obj\Debug\PaymentProcessor.exe
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\obj\Debug\PaymentProcessor.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\authorPicture.jpg
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\blank.gif
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderBottomLeft.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderBottomLeft2.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderBottomRight.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderBottomRight2.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderTopLeft.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderTopLeft2.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderTopRight.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderTopRight2.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\copyright.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\facebookIcon.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\googlePlusIcon.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\linkedinIcon.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\logo.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\phoneIcon.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\SAP-Lanscape.jpg
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\shadow_610.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\twitterIcon.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\Payment-Details.html
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\App.config
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PaymentProcessor.exe.config
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PaymentProcessor.exe
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PaymentProcessor.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\AuthorizeNet.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\AuthorizeNet.Helpers.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PayPalCoreSDK.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PayPalMerchantSDK.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\WFTCloud.DataAccess.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\WFTCloud.DataAccess.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\obj\Debug\PaymentProcessor.csprojResolveAssemblyReference.cache
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\obj\Debug\PaymentProcessor.exe
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\PaymentPocessor\PaymentPocessor\obj\Debug\PaymentProcessor.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\CardFailure-Details.html
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\authorPicture.jpg
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\blank.gif
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderBottomLeft.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderBottomLeft2.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderBottomRight.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderBottomRight2.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderTopLeft.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderTopLeft2.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderTopRight.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderTopRight2.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\copyright.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\facebookIcon.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\googlePlusIcon.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\linkedinIcon.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\logo.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\phoneIcon.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\SAP-Lanscape.jpg
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\shadow_610.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\twitterIcon.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\Payment-Receipt.html
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\App.config
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PaymentProcessor.exe.config
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PaymentProcessor.exe.manifest
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PaymentProcessor.application
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PaymentProcessor.exe
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PaymentProcessor.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\AuthorizeNet.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\AuthorizeNet.Helpers.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PayPalCoreSDK.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PayPalMerchantSDK.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\WFTCloud.DataAccess.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\WFTCloud.DataAccess.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\obj\Debug\PaymentProcessor.csprojResolveAssemblyReference.cache
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\obj\Debug\PaymentProcessor.exe.manifest
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\obj\Debug\PaymentProcessor.application
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\obj\Debug\PaymentProcessor.exe
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\obj\Debug\PaymentProcessor.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\CardFailure-Details.html
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\authorPicture.jpg
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\blank.gif
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderBottomLeft.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderBottomLeft2.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderBottomRight.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderBottomRight2.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderTopLeft.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderTopLeft2.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderTopRight.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\borderTopRight2.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\copyright.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\facebookIcon.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\googlePlusIcon.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\linkedinIcon.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\logo.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\phoneIcon.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\SAP-Lanscape.jpg
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\shadow_610.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\images\twitterIcon.png
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\EmailTemplates\Payment-Receipt.html
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\App.config
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PaymentProcessor.exe.config
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PaymentProcessor.exe.manifest
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PaymentProcessor.application
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PaymentProcessor.exe
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PaymentProcessor.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\AuthorizeNet.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\AuthorizeNet.Helpers.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PayPalCoreSDK.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\PayPalMerchantSDK.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\WFTCloud.DataAccess.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\bin\Debug\WFTCloud.DataAccess.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\obj\Debug\PaymentProcessor.csprojResolveAssemblyReference.cache
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\obj\Debug\PaymentProcessor.exe.manifest
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\obj\Debug\PaymentProcessor.application
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\obj\Debug\PaymentProcessor.exe
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\PaymentPocessor\PaymentPocessor\obj\Debug\PaymentProcessor.pdb

@@ -1,0 +1,50 @@
+/* fix for the features in the slider */
+.slider-content ul li {
+	white-space: nowrap;
+	font-size: 14px !important;
+}
+
+/* fix for the modal popup login box */
+#customer-login {
+	border: none;
+}
+
+/* testimonial fix */
+.testimonial p {
+	font-size: 15px !important;
+}
+
+/* footer fixes */
+#footer ul li a {
+	display: inline-block !important;
+	margin-left: -10px;
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+
+/* keep blog tags on top */
+.post-meta li span {
+	z-index: 99;
+}
+
+/* movie post fix */
+.post iframe {
+	height: 449px;
+}
+
+/* fix position of plus and minus on accordions */
+.accordion-toggle {
+	background-position: right 14px !important;
+}
+
+/* fixes for rounded corners and gradients in ie 6-8 */
+.testimonial-image,.slider-content ul,.button,button,.huge-round-icon,.plan-container,.message-box,.staff img,.pagination li a,.staff h5,.post-meta li,.link-container,.post blockquote,.post-image,.arrow.article,.comments-number span,.comment-avatar img,.comment-reply-area span,#comment-form input,#comment-form textarea,#contactForm input,#contactForm textarea {
+	behavior: url(css/pie/PIE.htc);
+	position: relative;
+}
+
+/* prevents PIE behavior rule to duplicate elements outside slider container */
+.slider-content {
+	position: relative;
+	z-index: 1;
+}

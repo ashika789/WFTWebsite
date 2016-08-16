@@ -1,0 +1,132 @@
+---------------------------------------------------------
+01-10-2014 12:29:17 : Payment Processing Started...
+01-10-2014 12:29:17 : 
+01-10-2014 12:29:23 : Processing Individual Payments...
+01-10-2014 12:29:23 : CallAuthorizeNetPayment...
+01-10-2014 12:29:27 : Authorize.net - Started
+01-10-2014 12:29:33 : Authorize.net - Completed
+01-10-2014 12:29:33 : Customer Profile ID : 112586049
+01-10-2014 12:29:33 :      Approved? : False
+01-10-2014 12:29:33 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+01-10-2014 12:29:47 : CallAuthorizeNetPayment...
+01-10-2014 12:29:48 : Authorize.net - Started
+01-10-2014 12:29:51 : Authorize.net - Completed
+01-10-2014 12:29:51 : Customer Profile ID : 120992210
+01-10-2014 12:29:51 :      Approved? : True
+01-10-2014 12:29:51 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+01-10-2014 12:30:05 : CallAuthorizeNetPayment...
+01-10-2014 12:30:05 : Authorize.net - Started
+01-10-2014 12:30:10 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+01-10-2014 12:30:10 : CallPayPalPayment...
+01-10-2014 12:30:11 : PayPal - Started
+01-10-2014 12:30:13 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+01-10-2014 12:30:13 : 
+01-10-2014 12:30:13 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+01-10-2014 12:29:17 : Payment Processing Started...
+01-10-2014 12:29:17 : 
+01-10-2014 12:29:23 : Processing Individual Payments...
+01-10-2014 12:29:23 : CallAuthorizeNetPayment...
+01-10-2014 12:29:27 : Authorize.net - Started
+01-10-2014 12:29:33 : Authorize.net - Completed
+01-10-2014 12:29:33 : Customer Profile ID : 112586049
+01-10-2014 12:29:33 :      Approved? : False
+01-10-2014 12:29:33 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+01-10-2014 12:29:47 : CallAuthorizeNetPayment...
+01-10-2014 12:29:48 : Authorize.net - Started
+01-10-2014 12:29:51 : Authorize.net - Completed
+01-10-2014 12:29:51 : Customer Profile ID : 120992210
+01-10-2014 12:29:51 :      Approved? : True
+01-10-2014 12:29:51 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+01-10-2014 12:30:05 : CallAuthorizeNetPayment...
+01-10-2014 12:30:05 : Authorize.net - Started
+01-10-2014 12:30:10 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+01-10-2014 12:30:10 : CallPayPalPayment...
+01-10-2014 12:30:11 : PayPal - Started
+01-10-2014 12:30:13 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+01-10-2014 12:30:13 : 
+01-10-2014 12:30:13 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+01-10-2014 12:30:13 : De-Activate ExpiredSubscription Processing Started...
+01-10-2014 12:30:13 : 
+01-10-2014 12:30:13 : 
+01-10-2014 12:30:13 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+01-10-2014 01:00:12 : Payment Processing Started...
+01-10-2014 01:00:12 : 
+01-10-2014 01:00:18 : Processing Individual Payments...
+01-10-2014 01:00:18 : CallPayPalPayment...
+01-10-2014 01:00:22 : PayPal - Started
+01-10-2014 01:00:32 : PayPal - Completed
+01-10-2014 01:00:33 : Billing Agreement ID : B-1YL23677714000254
+01-10-2014 01:00:33 :      Approved? : True
+01-10-2014 01:00:33 :      Message   : SUCCESS
+CallPayPalPayment...
+01-10-2014 01:00:47 : 
+01-10-2014 01:00:47 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+01-10-2014 01:00:12 : Payment Processing Started...
+01-10-2014 01:00:12 : 
+01-10-2014 01:00:18 : Processing Individual Payments...
+01-10-2014 01:00:18 : CallPayPalPayment...
+01-10-2014 01:00:22 : PayPal - Started
+01-10-2014 01:00:32 : PayPal - Completed
+01-10-2014 01:00:33 : Billing Agreement ID : B-1YL23677714000254
+01-10-2014 01:00:33 :      Approved? : True
+01-10-2014 01:00:33 :      Message   : SUCCESS
+CallPayPalPayment...
+01-10-2014 01:00:47 : 
+01-10-2014 01:00:47 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+01-10-2014 01:00:47 : De-Activate ExpiredSubscription Processing Started...
+01-10-2014 01:00:47 : 
+01-10-2014 01:00:47 : 
+01-10-2014 01:00:47 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+01-10-2014 04:59:17 : Payment Processing Started...
+01-10-2014 04:59:17 : 
+01-10-2014 04:59:17 : Processing Individual Payments...
+01-10-2014 04:59:17 : CallAuthorizeNetPayment...
+01-10-2014 04:59:18 : Authorize.net - Started
+01-10-2014 04:59:21 : Authorize.net - Completed
+01-10-2014 04:59:21 : Customer Profile ID : 29302470
+01-10-2014 04:59:21 :      Approved? : True
+01-10-2014 04:59:21 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+01-10-2014 04:59:30 : 
+01-10-2014 04:59:30 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+01-10-2014 04:59:17 : Payment Processing Started...
+01-10-2014 04:59:17 : 
+01-10-2014 04:59:17 : Processing Individual Payments...
+01-10-2014 04:59:17 : CallAuthorizeNetPayment...
+01-10-2014 04:59:18 : Authorize.net - Started
+01-10-2014 04:59:21 : Authorize.net - Completed
+01-10-2014 04:59:21 : Customer Profile ID : 29302470
+01-10-2014 04:59:21 :      Approved? : True
+01-10-2014 04:59:21 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+01-10-2014 04:59:30 : 
+01-10-2014 04:59:30 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+01-10-2014 04:59:30 : De-Activate ExpiredSubscription Processing Started...
+01-10-2014 04:59:30 : 
+01-10-2014 04:59:30 : 
+01-10-2014 04:59:30 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

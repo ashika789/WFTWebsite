@@ -1,0 +1,214 @@
+---------------------------------------------------------
+18-09-2014 11:09:27 : Payment Processing Started...
+18-09-2014 11:09:27 : 
+18-09-2014 11:09:38 : CallAuthorizeNetPayPalPayment...
+18-09-2014 11:10:06 : Authorize.net - Started
+18-09-2014 11:10:39 : Error while Processing: Object reference not set to an instance of an object.
+18-09-2014 11:10:39 : CallAuthorizeNetPayPalPayment...
+18-09-2014 11:10:39 : Authorize.net - Started
+18-09-2014 11:10:41 : Authorize.net - Completed
+18-09-2014 11:10:41 : Customer Profile ID : 22148872
+18-09-2014 11:10:41 :      Approved? : False
+18-09-2014 11:10:41 :      Message   : An error occurred during processing.  Please try again.
+CallAuthorizeNetPayment...
+18-09-2014 11:10:51 : CallAuthorizeNetPayPalPayment...
+18-09-2014 11:10:51 : PayPal - Started
+18-09-2014 11:10:55 : PayPal - Completed
+18-09-2014 11:10:55 : Billing Agreement ID : B-0YA82325DH949181B
+18-09-2014 11:10:55 :      Approved? : True
+18-09-2014 11:10:55 :      Message   : SUCCESS
+CallAuthorizeNetPayment...
+18-09-2014 11:11:04 : Processing Individual Payments...
+18-09-2014 11:11:04 : 
+18-09-2014 11:11:04 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+18-09-2014 11:09:27 : Payment Processing Started...
+18-09-2014 11:09:27 : 
+18-09-2014 11:09:38 : CallAuthorizeNetPayPalPayment...
+18-09-2014 11:10:06 : Authorize.net - Started
+18-09-2014 11:10:39 : Error while Processing: Object reference not set to an instance of an object.
+18-09-2014 11:10:39 : CallAuthorizeNetPayPalPayment...
+18-09-2014 11:10:39 : Authorize.net - Started
+18-09-2014 11:10:41 : Authorize.net - Completed
+18-09-2014 11:10:41 : Customer Profile ID : 22148872
+18-09-2014 11:10:41 :      Approved? : False
+18-09-2014 11:10:41 :      Message   : An error occurred during processing.  Please try again.
+CallAuthorizeNetPayment...
+18-09-2014 11:10:51 : CallAuthorizeNetPayPalPayment...
+18-09-2014 11:10:51 : PayPal - Started
+18-09-2014 11:10:55 : PayPal - Completed
+18-09-2014 11:10:55 : Billing Agreement ID : B-0YA82325DH949181B
+18-09-2014 11:10:55 :      Approved? : True
+18-09-2014 11:10:55 :      Message   : SUCCESS
+CallAuthorizeNetPayment...
+18-09-2014 11:11:04 : Processing Individual Payments...
+18-09-2014 11:11:04 : 
+18-09-2014 11:11:04 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+18-09-2014 11:11:04 : De-Activate ExpiredSubscription Processing Started...
+18-09-2014 11:11:04 : 
+18-09-2014 11:11:04 : 
+18-09-2014 11:11:04 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+18-09-2014 11:44:15 : Payment Processing Started...
+18-09-2014 11:44:15 : 
+18-09-2014 11:44:45 : CallAuthorizeNetPayPalPayment...
+18-09-2014 11:44:55 : Authorize.net - Started
+18-09-2014 11:45:39 : Error while Processing: Object reference not set to an instance of an object.
+18-09-2014 11:45:57 : CallAuthorizeNetPayPalPayment...
+18-09-2014 11:46:07 : Authorize.net - Started
+18-09-2014 11:46:55 : Authorize.net - Completed
+18-09-2014 11:46:59 : Customer Profile ID : 24531910
+18-09-2014 11:46:59 :      Approved? : True
+18-09-2014 11:46:59 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+18-09-2014 11:47:15 : Processing Individual Payments...
+18-09-2014 11:47:18 : 
+18-09-2014 11:47:18 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+18-09-2014 11:44:15 : Payment Processing Started...
+18-09-2014 11:44:15 : 
+18-09-2014 11:44:45 : CallAuthorizeNetPayPalPayment...
+18-09-2014 11:44:55 : Authorize.net - Started
+18-09-2014 11:45:39 : Error while Processing: Object reference not set to an instance of an object.
+18-09-2014 11:45:57 : CallAuthorizeNetPayPalPayment...
+18-09-2014 11:46:07 : Authorize.net - Started
+18-09-2014 11:46:55 : Authorize.net - Completed
+18-09-2014 11:46:59 : Customer Profile ID : 24531910
+18-09-2014 11:46:59 :      Approved? : True
+18-09-2014 11:46:59 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+18-09-2014 11:47:15 : Processing Individual Payments...
+18-09-2014 11:47:18 : 
+18-09-2014 11:47:18 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+18-09-2014 11:47:18 : De-Activate ExpiredSubscription Processing Started...
+18-09-2014 11:47:18 : 
+18-09-2014 11:47:18 : 
+18-09-2014 11:47:18 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+18-09-2014 12:10:08 : Payment Processing Started...
+18-09-2014 12:10:08 : 
+18-09-2014 12:10:08 : CallAuthorizeNetPayPalPayment...
+18-09-2014 12:10:08 : Authorize.net - Started
+18-09-2014 12:10:11 : Error while Processing: Object reference not set to an instance of an object.
+18-09-2014 12:10:11 : CallAuthorizeNetPayPalPayment...
+18-09-2014 12:10:12 : Authorize.net - Started
+18-09-2014 12:10:13 : Authorize.net - Completed
+18-09-2014 12:10:13 : Customer Profile ID : 24531910
+18-09-2014 12:10:13 :      Approved? : True
+18-09-2014 12:10:13 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+18-09-2014 12:10:22 : Processing Individual Payments...
+18-09-2014 12:10:22 : 
+18-09-2014 12:10:22 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+18-09-2014 12:10:08 : Payment Processing Started...
+18-09-2014 12:10:08 : 
+18-09-2014 12:10:08 : CallAuthorizeNetPayPalPayment...
+18-09-2014 12:10:08 : Authorize.net - Started
+18-09-2014 12:10:11 : Error while Processing: Object reference not set to an instance of an object.
+18-09-2014 12:10:11 : CallAuthorizeNetPayPalPayment...
+18-09-2014 12:10:12 : Authorize.net - Started
+18-09-2014 12:10:13 : Authorize.net - Completed
+18-09-2014 12:10:13 : Customer Profile ID : 24531910
+18-09-2014 12:10:13 :      Approved? : True
+18-09-2014 12:10:13 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+18-09-2014 12:10:22 : Processing Individual Payments...
+18-09-2014 12:10:22 : 
+18-09-2014 12:10:22 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+18-09-2014 12:10:22 : De-Activate ExpiredSubscription Processing Started...
+18-09-2014 12:10:22 : 
+18-09-2014 12:10:22 : 
+18-09-2014 12:10:22 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+18-09-2014 01:15:39 : Payment Processing Started...
+18-09-2014 01:15:39 : 
+18-09-2014 01:15:39 : Processing Individual Payments...
+18-09-2014 01:15:39 : 
+18-09-2014 01:15:39 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+18-09-2014 01:15:39 : Payment Processing Started...
+18-09-2014 01:15:39 : 
+18-09-2014 01:15:39 : Processing Individual Payments...
+18-09-2014 01:15:39 : 
+18-09-2014 01:15:39 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+18-09-2014 01:15:39 : De-Activate ExpiredSubscription Processing Started...
+18-09-2014 01:15:39 : 
+18-09-2014 01:15:39 : 
+18-09-2014 01:15:39 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+18-09-2014 01:16:27 : Payment Processing Started...
+18-09-2014 01:16:27 : 
+18-09-2014 01:16:27 : Processing Individual Payments...
+18-09-2014 01:16:27 : 
+18-09-2014 01:16:27 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+18-09-2014 01:16:27 : Payment Processing Started...
+18-09-2014 01:16:27 : 
+18-09-2014 01:16:27 : Processing Individual Payments...
+18-09-2014 01:16:27 : 
+18-09-2014 01:16:27 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+18-09-2014 01:16:27 : De-Activate ExpiredSubscription Processing Started...
+18-09-2014 01:16:27 : 
+18-09-2014 01:16:27 : 
+18-09-2014 01:16:27 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+18-09-2014 01:17:42 : Payment Processing Started...
+18-09-2014 01:17:42 : 
+18-09-2014 01:17:42 : Processing Individual Payments...
+18-09-2014 01:17:42 : CallAuthorizeNetPayPalPayment...
+18-09-2014 01:17:42 : Authorize.net - Started
+18-09-2014 01:17:58 : Error while Processing: Object reference not set to an instance of an object.
+18-09-2014 01:17:58 : CallAuthorizeNetPayPalPayment...
+18-09-2014 01:17:58 : Authorize.net - Started
+18-09-2014 01:18:04 : Authorize.net - Completed
+18-09-2014 01:18:04 : Customer Profile ID : 24531910
+18-09-2014 01:18:04 :      Approved? : True
+18-09-2014 01:18:04 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayPalPayment...
+18-09-2014 01:18:49 : 
+18-09-2014 01:18:49 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+18-09-2014 01:17:42 : Payment Processing Started...
+18-09-2014 01:17:42 : 
+18-09-2014 01:17:42 : Processing Individual Payments...
+18-09-2014 01:17:42 : CallAuthorizeNetPayPalPayment...
+18-09-2014 01:17:42 : Authorize.net - Started
+18-09-2014 01:17:58 : Error while Processing: Object reference not set to an instance of an object.
+18-09-2014 01:17:58 : CallAuthorizeNetPayPalPayment...
+18-09-2014 01:17:58 : Authorize.net - Started
+18-09-2014 01:18:04 : Authorize.net - Completed
+18-09-2014 01:18:04 : Customer Profile ID : 24531910
+18-09-2014 01:18:04 :      Approved? : True
+18-09-2014 01:18:04 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayPalPayment...
+18-09-2014 01:18:49 : 
+18-09-2014 01:18:49 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+18-09-2014 01:18:49 : De-Activate ExpiredSubscription Processing Started...
+18-09-2014 01:18:49 : 
+18-09-2014 01:18:49 : 
+18-09-2014 01:18:49 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

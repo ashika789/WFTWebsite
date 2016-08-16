@@ -1,0 +1,52 @@
+---------------------------------------------------------
+11-12-2014 07:01:50 : Payment Processing Started...
+11-12-2014 07:01:50 : 
+11-12-2014 07:01:59 : Processing Individual Payments...
+11-12-2014 07:01:59 : CallPayPalPayment...
+11-12-2014 07:02:14 : PayPal - Started
+11-12-2014 07:02:23 : Error 1: ErrorCode10201-- Error Message:Agreement was canceledSeverityCodeERROR
+11-12-2014 07:02:23 : PayPal - Completed
+11-12-2014 07:02:26 : Billing Agreement ID : B-9HF729099N412952L
+11-12-2014 07:02:26 :      Approved? : False
+11-12-2014 07:02:26 :      Message   : FAILED
+CallPayPalPayment...
+11-12-2014 07:03:31 : CallPayPalPayment...
+11-12-2014 07:03:33 : PayPal - Started
+11-12-2014 07:03:41 : Error 1: ErrorCode10417-- Error Message:Instruct the customer to retry the transaction using an alternative payment method from the customers PayPal wallet. The transaction did not complete with the customers selected payment method.SeverityCodeERROR
+11-12-2014 07:03:41 : PayPal - Completed
+11-12-2014 07:03:44 : Billing Agreement ID : B-65N69179UK521315E
+11-12-2014 07:03:44 :      Approved? : False
+11-12-2014 07:03:44 :      Message   : FAILED
+CallPayPalPayment...
+11-12-2014 07:04:25 : 
+11-12-2014 07:04:25 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+11-12-2014 07:01:50 : Payment Processing Started...
+11-12-2014 07:01:50 : 
+11-12-2014 07:01:59 : Processing Individual Payments...
+11-12-2014 07:01:59 : CallPayPalPayment...
+11-12-2014 07:02:14 : PayPal - Started
+11-12-2014 07:02:23 : Error 1: ErrorCode10201-- Error Message:Agreement was canceledSeverityCodeERROR
+11-12-2014 07:02:23 : PayPal - Completed
+11-12-2014 07:02:26 : Billing Agreement ID : B-9HF729099N412952L
+11-12-2014 07:02:26 :      Approved? : False
+11-12-2014 07:02:26 :      Message   : FAILED
+CallPayPalPayment...
+11-12-2014 07:03:31 : CallPayPalPayment...
+11-12-2014 07:03:33 : PayPal - Started
+11-12-2014 07:03:41 : Error 1: ErrorCode10417-- Error Message:Instruct the customer to retry the transaction using an alternative payment method from the customers PayPal wallet. The transaction did not complete with the customers selected payment method.SeverityCodeERROR
+11-12-2014 07:03:41 : PayPal - Completed
+11-12-2014 07:03:44 : Billing Agreement ID : B-65N69179UK521315E
+11-12-2014 07:03:44 :      Approved? : False
+11-12-2014 07:03:44 :      Message   : FAILED
+CallPayPalPayment...
+11-12-2014 07:04:25 : 
+11-12-2014 07:04:25 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+11-12-2014 07:04:25 : De-Activate ExpiredSubscription Processing Started...
+11-12-2014 07:04:25 : 
+11-12-2014 07:04:27 : 
+11-12-2014 07:04:27 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

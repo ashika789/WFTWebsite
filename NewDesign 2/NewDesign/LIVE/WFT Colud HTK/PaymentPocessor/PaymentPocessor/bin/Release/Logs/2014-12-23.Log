@@ -1,0 +1,104 @@
+---------------------------------------------------------
+23-12-2014 01:23:04 : Payment Processing Started...
+23-12-2014 01:23:04 : 
+23-12-2014 01:23:10 : Processing Individual Payments...
+23-12-2014 01:23:10 : CallAuthorizeNetPayment...
+23-12-2014 01:23:16 : Authorize.net - Started
+23-12-2014 01:23:22 : Authorize.net - Completed
+23-12-2014 01:23:23 : Customer Profile ID : 93624951
+23-12-2014 01:23:23 :      Approved? : False
+23-12-2014 01:23:23 :      Message   : The credit card has expired.
+CallAuthorizeNetPayment...
+23-12-2014 01:23:49 : CallAuthorizeNetPayment...
+23-12-2014 01:23:50 : Authorize.net - Started
+23-12-2014 01:23:54 : Authorize.net - Completed
+23-12-2014 01:23:55 : Customer Profile ID : 119913799
+23-12-2014 01:23:55 :      Approved? : False
+23-12-2014 01:23:55 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+23-12-2014 01:24:13 : CallAuthorizeNetPayment...
+23-12-2014 01:24:14 : Authorize.net - Started
+23-12-2014 01:24:17 : Authorize.net - Completed
+23-12-2014 01:24:18 : Customer Profile ID : 126317104
+23-12-2014 01:24:18 :      Approved? : True
+23-12-2014 01:24:18 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+23-12-2014 01:24:38 : CallAuthorizeNetPayment...
+23-12-2014 01:24:39 : Authorize.net - Started
+23-12-2014 01:24:42 : Authorize.net - Completed
+23-12-2014 01:24:43 : Customer Profile ID : 127888681
+23-12-2014 01:24:43 :      Approved? : False
+23-12-2014 01:24:43 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+23-12-2014 01:25:01 : CallPayPalPayment...
+23-12-2014 01:25:02 : PayPal - Started
+23-12-2014 01:25:10 : PayPal - Completed
+23-12-2014 01:25:11 : Billing Agreement ID : B-76920489A1506103C
+23-12-2014 01:25:11 :      Approved? : True
+23-12-2014 01:25:11 :      Message   : SUCCESS
+CallPayPalPayment...
+23-12-2014 01:25:28 : CallPayPalPayment...
+23-12-2014 01:25:29 : PayPal - Started
+23-12-2014 01:25:36 : PayPal - Completed
+23-12-2014 01:25:37 : Billing Agreement ID : B-3N878698F5110664U
+23-12-2014 01:25:37 :      Approved? : True
+23-12-2014 01:25:37 :      Message   : SUCCESS
+CallPayPalPayment...
+23-12-2014 01:25:55 : 
+23-12-2014 01:25:55 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+23-12-2014 01:23:04 : Payment Processing Started...
+23-12-2014 01:23:04 : 
+23-12-2014 01:23:10 : Processing Individual Payments...
+23-12-2014 01:23:10 : CallAuthorizeNetPayment...
+23-12-2014 01:23:16 : Authorize.net - Started
+23-12-2014 01:23:22 : Authorize.net - Completed
+23-12-2014 01:23:23 : Customer Profile ID : 93624951
+23-12-2014 01:23:23 :      Approved? : False
+23-12-2014 01:23:23 :      Message   : The credit card has expired.
+CallAuthorizeNetPayment...
+23-12-2014 01:23:49 : CallAuthorizeNetPayment...
+23-12-2014 01:23:50 : Authorize.net - Started
+23-12-2014 01:23:54 : Authorize.net - Completed
+23-12-2014 01:23:55 : Customer Profile ID : 119913799
+23-12-2014 01:23:55 :      Approved? : False
+23-12-2014 01:23:55 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+23-12-2014 01:24:13 : CallAuthorizeNetPayment...
+23-12-2014 01:24:14 : Authorize.net - Started
+23-12-2014 01:24:17 : Authorize.net - Completed
+23-12-2014 01:24:18 : Customer Profile ID : 126317104
+23-12-2014 01:24:18 :      Approved? : True
+23-12-2014 01:24:18 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+23-12-2014 01:24:38 : CallAuthorizeNetPayment...
+23-12-2014 01:24:39 : Authorize.net - Started
+23-12-2014 01:24:42 : Authorize.net - Completed
+23-12-2014 01:24:43 : Customer Profile ID : 127888681
+23-12-2014 01:24:43 :      Approved? : False
+23-12-2014 01:24:43 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+23-12-2014 01:25:01 : CallPayPalPayment...
+23-12-2014 01:25:02 : PayPal - Started
+23-12-2014 01:25:10 : PayPal - Completed
+23-12-2014 01:25:11 : Billing Agreement ID : B-76920489A1506103C
+23-12-2014 01:25:11 :      Approved? : True
+23-12-2014 01:25:11 :      Message   : SUCCESS
+CallPayPalPayment...
+23-12-2014 01:25:28 : CallPayPalPayment...
+23-12-2014 01:25:29 : PayPal - Started
+23-12-2014 01:25:36 : PayPal - Completed
+23-12-2014 01:25:37 : Billing Agreement ID : B-3N878698F5110664U
+23-12-2014 01:25:37 :      Approved? : True
+23-12-2014 01:25:37 :      Message   : SUCCESS
+CallPayPalPayment...
+23-12-2014 01:25:55 : 
+23-12-2014 01:25:55 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+23-12-2014 01:25:55 : De-Activate ExpiredSubscription Processing Started...
+23-12-2014 01:25:55 : 
+23-12-2014 01:25:56 : 
+23-12-2014 01:25:56 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

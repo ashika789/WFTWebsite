@@ -1,0 +1,68 @@
+---------------------------------------------------------
+11-08-2015 04:40:13 : Payment Processing Started...
+11-08-2015 04:40:13 : 
+11-08-2015 04:40:14 : Processing Individual Payments...
+11-08-2015 04:40:14 : CallAuthorizeNetPayment...
+11-08-2015 04:40:17 : Authorize.net - Started
+11-08-2015 04:40:23 : Authorize.net - Completed
+11-08-2015 04:40:24 : Customer Profile ID : 21797952
+11-08-2015 04:40:24 :      Approved? : True
+11-08-2015 04:40:24 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+11-08-2015 04:40:34 : 
+11-08-2015 04:40:34 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+11-08-2015 04:40:13 : Payment Processing Started...
+11-08-2015 04:40:13 : 
+11-08-2015 04:40:14 : Processing Individual Payments...
+11-08-2015 04:40:14 : CallAuthorizeNetPayment...
+11-08-2015 04:40:17 : Authorize.net - Started
+11-08-2015 04:40:23 : Authorize.net - Completed
+11-08-2015 04:40:24 : Customer Profile ID : 21797952
+11-08-2015 04:40:24 :      Approved? : True
+11-08-2015 04:40:24 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+11-08-2015 04:40:34 : 
+11-08-2015 04:40:34 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+11-08-2015 04:40:34 : De-Activate ExpiredSubscription Processing Started...
+11-08-2015 04:40:34 : 
+11-08-2015 04:40:34 : 
+11-08-2015 04:40:34 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+11-08-2015 04:59:47 : Payment Processing Started...
+11-08-2015 04:59:47 : 
+11-08-2015 04:59:47 : Processing Individual Payments...
+11-08-2015 04:59:47 : CallAuthorizeNetPayment...
+11-08-2015 04:59:48 : Authorize.net - Started
+11-08-2015 04:59:52 : Authorize.net - Completed
+11-08-2015 04:59:52 : Customer Profile ID : 21797952
+11-08-2015 04:59:52 :      Approved? : True
+11-08-2015 04:59:52 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+11-08-2015 05:00:02 : 
+11-08-2015 05:00:02 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+11-08-2015 04:59:47 : Payment Processing Started...
+11-08-2015 04:59:47 : 
+11-08-2015 04:59:47 : Processing Individual Payments...
+11-08-2015 04:59:47 : CallAuthorizeNetPayment...
+11-08-2015 04:59:48 : Authorize.net - Started
+11-08-2015 04:59:52 : Authorize.net - Completed
+11-08-2015 04:59:52 : Customer Profile ID : 21797952
+11-08-2015 04:59:52 :      Approved? : True
+11-08-2015 04:59:52 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+11-08-2015 05:00:02 : 
+11-08-2015 05:00:02 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+11-08-2015 05:00:02 : De-Activate ExpiredSubscription Processing Started...
+11-08-2015 05:00:02 : 
+11-08-2015 05:00:02 : 
+11-08-2015 05:00:02 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

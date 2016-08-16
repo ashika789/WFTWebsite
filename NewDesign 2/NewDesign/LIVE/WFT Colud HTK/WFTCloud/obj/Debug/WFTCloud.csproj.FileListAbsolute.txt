@@ -1,0 +1,82 @@
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\WFTCloud\bin\WFTCloud.dll
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\WFTCloud\bin\WFTCloud.pdb
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\WFTCloud\bin\AjaxControlToolkit.dll
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\WFTCloud\bin\AuthorizeNet.dll
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\WFTCloud\bin\AuthorizeNet.Helpers.dll
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\WFTCloud\bin\HtmlAgilityPack.dll
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\WFTCloud\bin\Newtonsoft.Json.dll
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\WFTCloud\bin\PayPalCoreSDK.dll
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\WFTCloud\bin\PayPalMerchantSDK.dll
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\WFTCloud\bin\SanitizerProviders.dll
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\WFTCloud\bin\WFTCloud.DataAccess.dll
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\WFTCloud\bin\WFTCloud.DataAccess.pdb
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\WFTCloud\bin\AjaxControlToolkit.pdb
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\WFTCloud\obj\Debug\WFTCloud.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\WFTCloud\obj\Debug\WFTCloud.dll
+C:\Users\Administrator.EAZYSAVINGS\Desktop\Vinoth\WFT\WFT Cloud\WFT Colud HTK\WFTCloud\obj\Debug\WFTCloud.pdb
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\WFTCloud\bin\WFTCloud.dll
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\WFTCloud\bin\WFTCloud.pdb
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\WFTCloud\bin\AjaxControlToolkit.dll
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\WFTCloud\bin\AuthorizeNet.dll
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\WFTCloud\bin\AuthorizeNet.Helpers.dll
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\WFTCloud\bin\HtmlAgilityPack.dll
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\WFTCloud\bin\Newtonsoft.Json.dll
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\WFTCloud\bin\PayPalCoreSDK.dll
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\WFTCloud\bin\PayPalMerchantSDK.dll
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\WFTCloud\bin\SanitizerProviders.dll
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\WFTCloud\bin\WFTCloud.DataAccess.dll
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\WFTCloud\bin\WFTCloud.DataAccess.pdb
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\WFTCloud\bin\AjaxControlToolkit.pdb
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\WFTCloud\obj\Debug\WFTCloud.csprojResolveAssemblyReference.cache
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\WFTCloud\obj\Debug\WFTCloud.dll
+C:\Users\Ravi\Desktop\WFT.com\WFT Colud HTK\WFTCloud\obj\Debug\WFTCloud.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\WFTCloud\bin\WFTCloud.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\WFTCloud\bin\WFTCloud.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\WFTCloud\bin\AjaxControlToolkit.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\WFTCloud\bin\AuthorizeNet.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\WFTCloud\bin\AuthorizeNet.Helpers.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\WFTCloud\bin\HtmlAgilityPack.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\WFTCloud\bin\Newtonsoft.Json.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\WFTCloud\bin\PayPalCoreSDK.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\WFTCloud\bin\PayPalMerchantSDK.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\WFTCloud\bin\SanitizerProviders.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\WFTCloud\bin\WFTCloud.DataAccess.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\WFTCloud\bin\WFTCloud.DataAccess.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\WFTCloud\bin\AjaxControlToolkit.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\WFTCloud\obj\Debug\WFTCloud.csprojResolveAssemblyReference.cache
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\WFTCloud\obj\Debug\WFTCloud.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\WFT Colud HTK\WFTCloud\obj\Debug\WFTCloud.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\WFTCloud\bin\UploadedContents\EmailTemplates\CardFailure-Details.html
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\WFTCloud\bin\WFTCloud.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\WFTCloud\bin\WFTCloud.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\WFTCloud\bin\AjaxControlToolkit.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\WFTCloud\bin\AuthorizeNet.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\WFTCloud\bin\AuthorizeNet.Helpers.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\WFTCloud\bin\HtmlAgilityPack.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\WFTCloud\bin\Newtonsoft.Json.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\WFTCloud\bin\PayPalCoreSDK.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\WFTCloud\bin\PayPalMerchantSDK.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\WFTCloud\bin\SanitizerProviders.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\WFTCloud\bin\WFTCloud.DataAccess.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\WFTCloud\bin\WFTCloud.DataAccess.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\WFTCloud\bin\AjaxControlToolkit.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\WFTCloud\obj\Debug\WFTCloud.csprojResolveAssemblyReference.cache
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\WFTCloud\obj\Debug\WFTCloud.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\LIVE\WFT Colud HTK\WFTCloud\obj\Debug\WFTCloud.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\WFTCloud\bin\UploadedContents\EmailTemplates\CardFailure-Details.html
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\WFTCloud\bin\WFTCloud.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\WFTCloud\bin\WFTCloud.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\WFTCloud\bin\AjaxControlToolkit.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\WFTCloud\bin\AuthorizeNet.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\WFTCloud\bin\AuthorizeNet.Helpers.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\WFTCloud\bin\HtmlAgilityPack.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\WFTCloud\bin\Newtonsoft.Json.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\WFTCloud\bin\PayPalCoreSDK.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\WFTCloud\bin\PayPalMerchantSDK.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\WFTCloud\bin\SanitizerProviders.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\WFTCloud\bin\WFTCloud.DataAccess.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\WFTCloud\bin\WFTCloud.DataAccess.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\WFTCloud\bin\AjaxControlToolkit.pdb
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\WFTCloud\obj\Debug\WFTCloud.csprojResolveAssemblyReference.cache
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\WFTCloud\obj\Debug\WFTCloud.dll
+C:\Users\Ravi\Desktop\DeskBackUp\WFT.com\NewDesign\LIVE\WFT Colud HTK\WFTCloud\obj\Debug\WFTCloud.pdb

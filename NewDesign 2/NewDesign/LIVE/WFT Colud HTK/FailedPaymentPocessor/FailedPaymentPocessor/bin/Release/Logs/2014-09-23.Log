@@ -1,0 +1,48 @@
+---------------------------------------------------------
+23-09-2014 06:36:25 : Payment Processing Started...
+23-09-2014 06:36:25 : 
+23-09-2014 06:36:29 : Processing Individual Payments...
+23-09-2014 06:36:30 : CallAuthorizeNetPayPalPayment...
+23-09-2014 06:36:34 : PayPal - Started
+23-09-2014 06:36:43 : PayPal - Completed
+23-09-2014 06:36:43 : Billing Agreement ID : B-3N878698F5110664U
+23-09-2014 06:36:43 :      Approved? : True
+23-09-2014 06:36:43 :      Message   : SUCCESS
+CallAuthorizeNetPayPalPayment...
+23-09-2014 06:36:58 : CallAuthorizeNetPayPalPayment...
+23-09-2014 06:36:59 : PayPal - Started
+23-09-2014 06:37:04 : PayPal - Completed
+23-09-2014 06:37:05 : Billing Agreement ID : B-76920489A1506103C
+23-09-2014 06:37:05 :      Approved? : True
+23-09-2014 06:37:05 :      Message   : SUCCESS
+CallAuthorizeNetPayPalPayment...
+23-09-2014 06:37:22 : 
+23-09-2014 06:37:22 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+23-09-2014 06:36:25 : Payment Processing Started...
+23-09-2014 06:36:25 : 
+23-09-2014 06:36:29 : Processing Individual Payments...
+23-09-2014 06:36:30 : CallAuthorizeNetPayPalPayment...
+23-09-2014 06:36:34 : PayPal - Started
+23-09-2014 06:36:43 : PayPal - Completed
+23-09-2014 06:36:43 : Billing Agreement ID : B-3N878698F5110664U
+23-09-2014 06:36:43 :      Approved? : True
+23-09-2014 06:36:43 :      Message   : SUCCESS
+CallAuthorizeNetPayPalPayment...
+23-09-2014 06:36:58 : CallAuthorizeNetPayPalPayment...
+23-09-2014 06:36:59 : PayPal - Started
+23-09-2014 06:37:04 : PayPal - Completed
+23-09-2014 06:37:05 : Billing Agreement ID : B-76920489A1506103C
+23-09-2014 06:37:05 :      Approved? : True
+23-09-2014 06:37:05 :      Message   : SUCCESS
+CallAuthorizeNetPayPalPayment...
+23-09-2014 06:37:22 : 
+23-09-2014 06:37:22 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+23-09-2014 06:37:22 : De-Activate ExpiredSubscription Processing Started...
+23-09-2014 06:37:22 : 
+23-09-2014 06:37:23 : 
+23-09-2014 06:37:23 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

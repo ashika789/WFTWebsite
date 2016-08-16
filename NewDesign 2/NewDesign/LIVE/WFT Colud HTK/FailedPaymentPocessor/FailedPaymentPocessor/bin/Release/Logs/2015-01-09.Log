@@ -1,0 +1,62 @@
+---------------------------------------------------------
+09-01-2015 01:55:29 : Payment Processing Started...
+09-01-2015 01:55:29 : 
+09-01-2015 01:55:35 : Processing Individual Payments...
+09-01-2015 01:55:35 : CallPayPalPayment...
+09-01-2015 01:55:41 : PayPal - Started
+09-01-2015 01:55:48 : PayPal - Completed
+09-01-2015 01:55:49 : Billing Agreement ID : B-7E191451JB480430B
+09-01-2015 01:55:49 :      Approved? : True
+09-01-2015 01:55:49 :      Message   : SUCCESS
+CallPayPalPayment...
+09-01-2015 01:56:09 : CallPayPalPayment...
+09-01-2015 01:56:10 : PayPal - Started
+09-01-2015 01:56:16 : PayPal - Completed
+09-01-2015 01:56:17 : Billing Agreement ID : B-30K83220P7002580C
+09-01-2015 01:56:17 :      Approved? : True
+09-01-2015 01:56:17 :      Message   : SUCCESS
+CallPayPalPayment...
+09-01-2015 01:56:35 : CallPayPalPayment...
+09-01-2015 01:56:36 : PayPal - Started
+09-01-2015 01:56:41 : PayPal - Completed
+09-01-2015 01:56:42 : Billing Agreement ID : B-71W69248KU4717548
+09-01-2015 01:56:42 :      Approved? : True
+09-01-2015 01:56:42 :      Message   : SUCCESS
+CallPayPalPayment...
+09-01-2015 01:56:59 : 
+09-01-2015 01:56:59 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+09-01-2015 01:55:29 : Payment Processing Started...
+09-01-2015 01:55:29 : 
+09-01-2015 01:55:35 : Processing Individual Payments...
+09-01-2015 01:55:35 : CallPayPalPayment...
+09-01-2015 01:55:41 : PayPal - Started
+09-01-2015 01:55:48 : PayPal - Completed
+09-01-2015 01:55:49 : Billing Agreement ID : B-7E191451JB480430B
+09-01-2015 01:55:49 :      Approved? : True
+09-01-2015 01:55:49 :      Message   : SUCCESS
+CallPayPalPayment...
+09-01-2015 01:56:09 : CallPayPalPayment...
+09-01-2015 01:56:10 : PayPal - Started
+09-01-2015 01:56:16 : PayPal - Completed
+09-01-2015 01:56:17 : Billing Agreement ID : B-30K83220P7002580C
+09-01-2015 01:56:17 :      Approved? : True
+09-01-2015 01:56:17 :      Message   : SUCCESS
+CallPayPalPayment...
+09-01-2015 01:56:35 : CallPayPalPayment...
+09-01-2015 01:56:36 : PayPal - Started
+09-01-2015 01:56:41 : PayPal - Completed
+09-01-2015 01:56:42 : Billing Agreement ID : B-71W69248KU4717548
+09-01-2015 01:56:42 :      Approved? : True
+09-01-2015 01:56:42 :      Message   : SUCCESS
+CallPayPalPayment...
+09-01-2015 01:56:59 : 
+09-01-2015 01:56:59 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+09-01-2015 01:56:59 : De-Activate ExpiredSubscription Processing Started...
+09-01-2015 01:56:59 : 
+09-01-2015 01:57:00 : 
+09-01-2015 01:57:00 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

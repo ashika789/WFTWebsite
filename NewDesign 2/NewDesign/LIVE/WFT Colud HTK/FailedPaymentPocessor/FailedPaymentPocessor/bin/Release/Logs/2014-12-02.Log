@@ -1,0 +1,76 @@
+---------------------------------------------------------
+02-12-2014 12:57:37 : Payment Processing Started...
+02-12-2014 12:57:37 : 
+02-12-2014 12:57:42 : Processing Individual Payments...
+02-12-2014 12:57:42 : CallAuthorizeNetPayment...
+02-12-2014 12:57:49 : Authorize.net - Started
+02-12-2014 12:57:57 : Authorize.net - Completed
+02-12-2014 12:57:58 : Customer Profile ID : 102380829
+02-12-2014 12:57:58 :      Approved? : True
+02-12-2014 12:57:58 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+02-12-2014 12:58:21 : CallAuthorizeNetPayment...
+02-12-2014 12:58:22 : Authorize.net - Started
+02-12-2014 12:58:26 : Authorize.net - Completed
+02-12-2014 12:58:27 : Customer Profile ID : 113677129
+02-12-2014 12:58:27 :      Approved? : False
+02-12-2014 12:58:27 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+02-12-2014 12:58:44 : CallAuthorizeNetPayment...
+02-12-2014 12:58:44 : Authorize.net - Started
+02-12-2014 12:58:47 : Authorize.net - Completed
+02-12-2014 12:58:48 : Customer Profile ID : 122690828
+02-12-2014 12:58:48 :      Approved? : True
+02-12-2014 12:58:48 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+02-12-2014 12:59:05 : CallPayPalPayment...
+02-12-2014 12:59:06 : PayPal - Started
+02-12-2014 12:59:12 : PayPal - Completed
+02-12-2014 12:59:13 : Billing Agreement ID : B-98N658971J849735X
+02-12-2014 12:59:13 :      Approved? : True
+02-12-2014 12:59:13 :      Message   : SUCCESS
+CallPayPalPayment...
+02-12-2014 12:59:29 : 
+02-12-2014 12:59:29 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+02-12-2014 12:57:37 : Payment Processing Started...
+02-12-2014 12:57:37 : 
+02-12-2014 12:57:42 : Processing Individual Payments...
+02-12-2014 12:57:42 : CallAuthorizeNetPayment...
+02-12-2014 12:57:49 : Authorize.net - Started
+02-12-2014 12:57:57 : Authorize.net - Completed
+02-12-2014 12:57:58 : Customer Profile ID : 102380829
+02-12-2014 12:57:58 :      Approved? : True
+02-12-2014 12:57:58 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+02-12-2014 12:58:21 : CallAuthorizeNetPayment...
+02-12-2014 12:58:22 : Authorize.net - Started
+02-12-2014 12:58:26 : Authorize.net - Completed
+02-12-2014 12:58:27 : Customer Profile ID : 113677129
+02-12-2014 12:58:27 :      Approved? : False
+02-12-2014 12:58:27 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+02-12-2014 12:58:44 : CallAuthorizeNetPayment...
+02-12-2014 12:58:44 : Authorize.net - Started
+02-12-2014 12:58:47 : Authorize.net - Completed
+02-12-2014 12:58:48 : Customer Profile ID : 122690828
+02-12-2014 12:58:48 :      Approved? : True
+02-12-2014 12:58:48 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+02-12-2014 12:59:05 : CallPayPalPayment...
+02-12-2014 12:59:06 : PayPal - Started
+02-12-2014 12:59:12 : PayPal - Completed
+02-12-2014 12:59:13 : Billing Agreement ID : B-98N658971J849735X
+02-12-2014 12:59:13 :      Approved? : True
+02-12-2014 12:59:13 :      Message   : SUCCESS
+CallPayPalPayment...
+02-12-2014 12:59:29 : 
+02-12-2014 12:59:29 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+02-12-2014 12:59:29 : De-Activate ExpiredSubscription Processing Started...
+02-12-2014 12:59:29 : 
+02-12-2014 12:59:30 : 
+02-12-2014 12:59:30 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

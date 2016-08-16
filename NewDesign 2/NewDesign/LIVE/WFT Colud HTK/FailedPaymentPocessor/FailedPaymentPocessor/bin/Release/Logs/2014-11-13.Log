@@ -1,0 +1,90 @@
+---------------------------------------------------------
+13-11-2014 12:56:08 : Payment Processing Started...
+13-11-2014 12:56:08 : 
+13-11-2014 12:56:12 : Processing Individual Payments...
+13-11-2014 12:56:12 : CallAuthorizeNetPayment...
+13-11-2014 12:56:18 : Authorize.net - Started
+13-11-2014 12:56:24 : Authorize.net - Completed
+13-11-2014 12:56:26 : Customer Profile ID : 92604539
+13-11-2014 12:56:26 :      Approved? : False
+13-11-2014 12:56:26 :      Message   : Your order has been received. Thank you for your business!
+CallAuthorizeNetPayment...
+13-11-2014 12:56:42 : CallAuthorizeNetPayment...
+13-11-2014 12:56:43 : Authorize.net - Started
+13-11-2014 12:56:46 : Authorize.net - Completed
+13-11-2014 12:56:50 : Customer Profile ID : 114369999
+13-11-2014 12:56:50 :      Approved? : True
+13-11-2014 12:56:50 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+13-11-2014 12:57:07 : CallPayPalPayment...
+13-11-2014 12:57:09 : PayPal - Started
+13-11-2014 12:57:16 : PayPal - Completed
+13-11-2014 12:57:17 : Billing Agreement ID : B-6VX26241Y3445643D
+13-11-2014 12:57:17 :      Approved? : True
+13-11-2014 12:57:17 :      Message   : SUCCESS
+CallPayPalPayment...
+13-11-2014 12:57:33 : CallPayPalPayment...
+13-11-2014 12:57:34 : PayPal - Started
+13-11-2014 12:57:39 : PayPal - Completed
+13-11-2014 12:57:39 : Billing Agreement ID : B-0AN9235056520170V
+13-11-2014 12:57:39 :      Approved? : True
+13-11-2014 12:57:39 :      Message   : SUCCESS
+CallPayPalPayment...
+13-11-2014 12:58:03 : CallPayPalPayment...
+13-11-2014 12:58:05 : PayPal - Started
+13-11-2014 12:58:13 : PayPal - Completed
+13-11-2014 12:58:14 : Billing Agreement ID : B-65B47544KK023580K
+13-11-2014 12:58:14 :      Approved? : True
+13-11-2014 12:58:14 :      Message   : SUCCESS
+CallPayPalPayment...
+13-11-2014 12:58:30 : 
+13-11-2014 12:58:30 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+13-11-2014 12:56:08 : Payment Processing Started...
+13-11-2014 12:56:08 : 
+13-11-2014 12:56:12 : Processing Individual Payments...
+13-11-2014 12:56:12 : CallAuthorizeNetPayment...
+13-11-2014 12:56:18 : Authorize.net - Started
+13-11-2014 12:56:24 : Authorize.net - Completed
+13-11-2014 12:56:26 : Customer Profile ID : 92604539
+13-11-2014 12:56:26 :      Approved? : False
+13-11-2014 12:56:26 :      Message   : Your order has been received. Thank you for your business!
+CallAuthorizeNetPayment...
+13-11-2014 12:56:42 : CallAuthorizeNetPayment...
+13-11-2014 12:56:43 : Authorize.net - Started
+13-11-2014 12:56:46 : Authorize.net - Completed
+13-11-2014 12:56:50 : Customer Profile ID : 114369999
+13-11-2014 12:56:50 :      Approved? : True
+13-11-2014 12:56:50 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+13-11-2014 12:57:07 : CallPayPalPayment...
+13-11-2014 12:57:09 : PayPal - Started
+13-11-2014 12:57:16 : PayPal - Completed
+13-11-2014 12:57:17 : Billing Agreement ID : B-6VX26241Y3445643D
+13-11-2014 12:57:17 :      Approved? : True
+13-11-2014 12:57:17 :      Message   : SUCCESS
+CallPayPalPayment...
+13-11-2014 12:57:33 : CallPayPalPayment...
+13-11-2014 12:57:34 : PayPal - Started
+13-11-2014 12:57:39 : PayPal - Completed
+13-11-2014 12:57:39 : Billing Agreement ID : B-0AN9235056520170V
+13-11-2014 12:57:39 :      Approved? : True
+13-11-2014 12:57:39 :      Message   : SUCCESS
+CallPayPalPayment...
+13-11-2014 12:58:03 : CallPayPalPayment...
+13-11-2014 12:58:05 : PayPal - Started
+13-11-2014 12:58:13 : PayPal - Completed
+13-11-2014 12:58:14 : Billing Agreement ID : B-65B47544KK023580K
+13-11-2014 12:58:14 :      Approved? : True
+13-11-2014 12:58:14 :      Message   : SUCCESS
+CallPayPalPayment...
+13-11-2014 12:58:30 : 
+13-11-2014 12:58:30 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+13-11-2014 12:58:30 : De-Activate ExpiredSubscription Processing Started...
+13-11-2014 12:58:30 : 
+13-11-2014 12:58:31 : 
+13-11-2014 12:58:31 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

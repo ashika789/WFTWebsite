@@ -1,0 +1,236 @@
+---------------------------------------------------------
+10-11-2014 12:45:05 : Payment Processing Started...
+10-11-2014 12:45:05 : 
+10-11-2014 12:45:09 : Processing Individual Payments...
+10-11-2014 12:45:09 : CallAuthorizeNetPayment...
+10-11-2014 12:45:16 : Authorize.net - Started
+10-11-2014 12:45:21 : Authorize.net - Completed
+10-11-2014 12:45:22 : Customer Profile ID : 88651471
+10-11-2014 12:45:22 :      Approved? : False
+10-11-2014 12:45:22 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+10-11-2014 12:45:36 : CallAuthorizeNetPayment...
+10-11-2014 12:45:37 : Authorize.net - Started
+10-11-2014 12:45:39 : Authorize.net - Completed
+10-11-2014 12:45:40 : Customer Profile ID : 88894466
+10-11-2014 12:45:40 :      Approved? : False
+10-11-2014 12:45:40 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+10-11-2014 12:45:53 : CallAuthorizeNetPayment...
+10-11-2014 12:45:54 : Authorize.net - Started
+10-11-2014 12:45:56 : Authorize.net - Completed
+10-11-2014 12:45:57 : Customer Profile ID : 107863996
+10-11-2014 12:45:57 :      Approved? : True
+10-11-2014 12:45:57 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+10-11-2014 12:46:10 : CallAuthorizeNetPayment...
+10-11-2014 12:46:10 : Authorize.net - Started
+10-11-2014 12:46:13 : Authorize.net - Completed
+10-11-2014 12:46:14 : Customer Profile ID : 114369999
+10-11-2014 12:46:14 :      Approved? : False
+10-11-2014 12:46:14 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+10-11-2014 12:46:28 : CallAuthorizeNetPayment...
+10-11-2014 12:46:29 : Authorize.net - Started
+10-11-2014 12:46:32 : Authorize.net - Completed
+10-11-2014 12:46:32 : Customer Profile ID : 114369999
+10-11-2014 12:46:32 :      Approved? : True
+10-11-2014 12:46:32 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+10-11-2014 12:46:49 : CallAuthorizeNetPayment...
+10-11-2014 12:46:49 : Authorize.net - Started
+10-11-2014 12:46:52 : Authorize.net - Completed
+10-11-2014 12:46:52 : Customer Profile ID : 99562120
+10-11-2014 12:46:52 :      Approved? : False
+10-11-2014 12:46:52 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+10-11-2014 12:47:06 : CallPayPalPayment...
+10-11-2014 12:47:06 : PayPal - Started
+10-11-2014 12:47:22 : PayPal - Completed
+10-11-2014 12:47:23 : Billing Agreement ID : B-7E191451JB480430B
+10-11-2014 12:47:23 :      Approved? : False
+10-11-2014 12:47:23 :      Message   : FAILED
+CallPayPalPayment...
+10-11-2014 12:47:37 : CallPayPalPayment...
+10-11-2014 12:47:38 : PayPal - Started
+10-11-2014 12:47:45 : PayPal - Completed
+10-11-2014 12:47:46 : Billing Agreement ID : B-3RX16446YW176342S
+10-11-2014 12:47:46 :      Approved? : True
+10-11-2014 12:47:46 :      Message   : SUCCESS
+CallPayPalPayment...
+10-11-2014 12:48:00 : CallPayPalPayment...
+10-11-2014 12:48:00 : PayPal - Started
+10-11-2014 12:48:05 : PayPal - Completed
+10-11-2014 12:48:06 : Billing Agreement ID : B-30K83220P7002580C
+10-11-2014 12:48:06 :      Approved? : True
+10-11-2014 12:48:06 :      Message   : SUCCESS
+CallPayPalPayment...
+10-11-2014 12:48:19 : CallPayPalPayment...
+10-11-2014 12:48:20 : PayPal - Started
+10-11-2014 12:48:24 : PayPal - Completed
+10-11-2014 12:48:25 : Billing Agreement ID : B-0FH13142YE2605914
+10-11-2014 12:48:25 :      Approved? : True
+10-11-2014 12:48:25 :      Message   : SUCCESS
+CallPayPalPayment...
+10-11-2014 12:48:38 : CallPayPalPayment...
+10-11-2014 12:48:39 : PayPal - Started
+10-11-2014 12:48:44 : PayPal - Completed
+10-11-2014 12:48:45 : Billing Agreement ID : B-71W69248KU4717548
+10-11-2014 12:48:45 :      Approved? : True
+10-11-2014 12:48:45 :      Message   : SUCCESS
+CallPayPalPayment...
+10-11-2014 12:48:58 : CallPayPalPayment...
+10-11-2014 12:48:59 : PayPal - Started
+10-11-2014 12:49:04 : PayPal - Completed
+10-11-2014 12:49:05 : Billing Agreement ID : B-6193305258173671N
+10-11-2014 12:49:05 :      Approved? : True
+10-11-2014 12:49:05 :      Message   : SUCCESS
+CallPayPalPayment...
+10-11-2014 12:49:18 : CallPayPalPayment...
+10-11-2014 12:49:20 : PayPal - Started
+10-11-2014 12:49:21 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+10-11-2014 12:49:21 : CallPayPalPayment...
+10-11-2014 12:49:22 : PayPal - Started
+10-11-2014 12:49:23 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+10-11-2014 12:49:23 : CallPayPalPayment...
+10-11-2014 12:49:24 : PayPal - Started
+10-11-2014 12:49:25 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+10-11-2014 12:49:25 : CallPayPalPayment...
+10-11-2014 12:49:26 : PayPal - Started
+10-11-2014 12:49:27 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+10-11-2014 12:49:27 : CallPayPalPayment...
+10-11-2014 12:49:28 : PayPal - Started
+10-11-2014 12:49:30 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+10-11-2014 12:49:30 : CallPayPalPayment...
+10-11-2014 12:49:30 : PayPal - Started
+10-11-2014 12:49:32 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+10-11-2014 12:49:32 : 
+10-11-2014 12:49:32 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+10-11-2014 12:45:05 : Payment Processing Started...
+10-11-2014 12:45:05 : 
+10-11-2014 12:45:09 : Processing Individual Payments...
+10-11-2014 12:45:09 : CallAuthorizeNetPayment...
+10-11-2014 12:45:16 : Authorize.net - Started
+10-11-2014 12:45:21 : Authorize.net - Completed
+10-11-2014 12:45:22 : Customer Profile ID : 88651471
+10-11-2014 12:45:22 :      Approved? : False
+10-11-2014 12:45:22 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+10-11-2014 12:45:36 : CallAuthorizeNetPayment...
+10-11-2014 12:45:37 : Authorize.net - Started
+10-11-2014 12:45:39 : Authorize.net - Completed
+10-11-2014 12:45:40 : Customer Profile ID : 88894466
+10-11-2014 12:45:40 :      Approved? : False
+10-11-2014 12:45:40 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+10-11-2014 12:45:53 : CallAuthorizeNetPayment...
+10-11-2014 12:45:54 : Authorize.net - Started
+10-11-2014 12:45:56 : Authorize.net - Completed
+10-11-2014 12:45:57 : Customer Profile ID : 107863996
+10-11-2014 12:45:57 :      Approved? : True
+10-11-2014 12:45:57 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+10-11-2014 12:46:10 : CallAuthorizeNetPayment...
+10-11-2014 12:46:10 : Authorize.net - Started
+10-11-2014 12:46:13 : Authorize.net - Completed
+10-11-2014 12:46:14 : Customer Profile ID : 114369999
+10-11-2014 12:46:14 :      Approved? : False
+10-11-2014 12:46:14 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+10-11-2014 12:46:28 : CallAuthorizeNetPayment...
+10-11-2014 12:46:29 : Authorize.net - Started
+10-11-2014 12:46:32 : Authorize.net - Completed
+10-11-2014 12:46:32 : Customer Profile ID : 114369999
+10-11-2014 12:46:32 :      Approved? : True
+10-11-2014 12:46:32 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+10-11-2014 12:46:49 : CallAuthorizeNetPayment...
+10-11-2014 12:46:49 : Authorize.net - Started
+10-11-2014 12:46:52 : Authorize.net - Completed
+10-11-2014 12:46:52 : Customer Profile ID : 99562120
+10-11-2014 12:46:52 :      Approved? : False
+10-11-2014 12:46:52 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+10-11-2014 12:47:06 : CallPayPalPayment...
+10-11-2014 12:47:06 : PayPal - Started
+10-11-2014 12:47:22 : PayPal - Completed
+10-11-2014 12:47:23 : Billing Agreement ID : B-7E191451JB480430B
+10-11-2014 12:47:23 :      Approved? : False
+10-11-2014 12:47:23 :      Message   : FAILED
+CallPayPalPayment...
+10-11-2014 12:47:37 : CallPayPalPayment...
+10-11-2014 12:47:38 : PayPal - Started
+10-11-2014 12:47:45 : PayPal - Completed
+10-11-2014 12:47:46 : Billing Agreement ID : B-3RX16446YW176342S
+10-11-2014 12:47:46 :      Approved? : True
+10-11-2014 12:47:46 :      Message   : SUCCESS
+CallPayPalPayment...
+10-11-2014 12:48:00 : CallPayPalPayment...
+10-11-2014 12:48:00 : PayPal - Started
+10-11-2014 12:48:05 : PayPal - Completed
+10-11-2014 12:48:06 : Billing Agreement ID : B-30K83220P7002580C
+10-11-2014 12:48:06 :      Approved? : True
+10-11-2014 12:48:06 :      Message   : SUCCESS
+CallPayPalPayment...
+10-11-2014 12:48:19 : CallPayPalPayment...
+10-11-2014 12:48:20 : PayPal - Started
+10-11-2014 12:48:24 : PayPal - Completed
+10-11-2014 12:48:25 : Billing Agreement ID : B-0FH13142YE2605914
+10-11-2014 12:48:25 :      Approved? : True
+10-11-2014 12:48:25 :      Message   : SUCCESS
+CallPayPalPayment...
+10-11-2014 12:48:38 : CallPayPalPayment...
+10-11-2014 12:48:39 : PayPal - Started
+10-11-2014 12:48:44 : PayPal - Completed
+10-11-2014 12:48:45 : Billing Agreement ID : B-71W69248KU4717548
+10-11-2014 12:48:45 :      Approved? : True
+10-11-2014 12:48:45 :      Message   : SUCCESS
+CallPayPalPayment...
+10-11-2014 12:48:58 : CallPayPalPayment...
+10-11-2014 12:48:59 : PayPal - Started
+10-11-2014 12:49:04 : PayPal - Completed
+10-11-2014 12:49:05 : Billing Agreement ID : B-6193305258173671N
+10-11-2014 12:49:05 :      Approved? : True
+10-11-2014 12:49:05 :      Message   : SUCCESS
+CallPayPalPayment...
+10-11-2014 12:49:18 : CallPayPalPayment...
+10-11-2014 12:49:20 : PayPal - Started
+10-11-2014 12:49:21 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+10-11-2014 12:49:21 : CallPayPalPayment...
+10-11-2014 12:49:22 : PayPal - Started
+10-11-2014 12:49:23 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+10-11-2014 12:49:23 : CallPayPalPayment...
+10-11-2014 12:49:24 : PayPal - Started
+10-11-2014 12:49:25 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+10-11-2014 12:49:25 : CallPayPalPayment...
+10-11-2014 12:49:26 : PayPal - Started
+10-11-2014 12:49:27 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+10-11-2014 12:49:27 : CallPayPalPayment...
+10-11-2014 12:49:28 : PayPal - Started
+10-11-2014 12:49:30 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+10-11-2014 12:49:30 : CallPayPalPayment...
+10-11-2014 12:49:30 : PayPal - Started
+10-11-2014 12:49:32 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+10-11-2014 12:49:32 : 
+10-11-2014 12:49:32 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+10-11-2014 12:49:32 : De-Activate ExpiredSubscription Processing Started...
+10-11-2014 12:49:32 : 
+10-11-2014 12:49:33 : 
+10-11-2014 12:49:33 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

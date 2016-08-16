@@ -1,0 +1,607 @@
+//@import "_font-awesome.scss";
+
+//@extend-elements
+//original selectors
+//.moderate-blue .inner-container .btn-lg, .moderate-blue .inner-container .btn-group-lg >.btn
+%extend_1 {
+  padding: 10px 16px;
+  font-size: 22px;
+  line-height: 1.5;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  border-radius: 6px;
+}
+
+//original selectors
+//.nav-tabs-price >li.active >a, .nav-tabs-price >li.active >a:hover, .nav-tabs-price >li.active >a:focus
+%extend_2 {
+  background-color: #d2d2d2;
+  border-bottom: none;
+  color: #515151;
+  margin-right: 0;
+}
+
+
+.top-navbar {
+  background: #426284;
+  padding: 5px 0;
+}
+.top-left-sap {
+  margin-left: 225px;
+  a {
+    color: #fff;
+  }
+}
+.top-right-nav {
+  float: right;
+  li {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    margin-left: 28px;
+    a {
+      color: #fff;
+    }
+  }
+}
+.primary-navbar {
+  background: #ffffff;
+  background: linear-gradient(to bottom, #ffffff 0, #ffffff 33%, #f8f8f8 71%, #f4f4f4 81%, #f2f2f2 100%);
+  filter: progid:dximagetransform.microsoft.gradient(startcolorstr='#ffffff', endcolorstr='#f2f2f2',gradienttype=0 );
+  height: 70px;
+  .navbar-right {
+    margin-right: 0;
+  }
+  .navbar-nav {
+    padding: 10px 16px 10px 0;
+    li a {
+      color: #747474;
+      text-transform: uppercase;
+      font-size: 15px;
+      font-weight: normal;
+      line-height: normal;
+      font-family: source_sans_prosemibold;
+      padding: 10px 22px;
+    }
+  }
+}
+header {
+  position: relative;
+  .logo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 66px;
+  }
+}
+.main-banner {
+  background: #ffffff;
+  background: linear-gradient(to bottom, #ffffff 0, #ffffff 33%, #f8f8f8 71%, #f4f4f4 81%, #f2f2f2 100%);
+  filter: progid:dximagetransform.microsoft.gradient(startcolorstr='#ffffff', endcolorstr='#f2f2f2',gradienttype=0 );
+  padding-top: 100px;
+}
+.service-box {
+  float: left;
+  width: 100%;
+  background: #333;
+  margin-right: 10px;
+  h3 {
+    padding: 0 20px;
+  }
+  p {
+    padding: 10px 20px;
+    margin-bottom: 0;
+  }
+  .learn-more {
+    display: block;
+    text-align: left;
+    color: #fff;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    border-radius: 0;
+  }
+}
+.sap-draas {
+  background: #4489a6;
+}
+.service-wrap {
+  padding: 30px 0;
+  .container .row .col-md-2 {
+    width: 20%;
+    .sap-cloud {
+      background: #dbebf6;
+      position: relative;
+      .btn-sap-cloud {
+        background: #477eb7;
+      }
+    }
+    .sap-draas {
+      background: #dbf1f6;
+      position: relative;
+      .sap-draas {
+        background: #4489a6;
+      }
+    }
+    .audit-compliance {
+      background: #dbf6e9;
+      position: relative;
+      .btn-audit {
+        background: #44a688;
+      }
+    }
+    .s4-hana {
+      background: #f6f2db;
+      position: relative;
+      .s4-hana {
+        background: #dfb167;
+      }
+    }
+    .express-sap {
+      background: #f1cfb1;
+      position: relative;
+      .btn-express {
+        background: #e39139;
+      }
+    }
+  }
+}
+.moderate-blue {
+  background: #426284;
+  background-image: url(../images/bg-stripe-01.jpg);
+  padding: 2em 0;
+  .inner-container {
+    width: 60%;
+    margin: 0 auto;
+    h3 {
+      text-transform: uppercase;
+      color: #fff;
+      font-family: source_sans_proregular;
+      margin: 0 0 20px 0;
+    }
+    p {
+      font-family: source_sans_prolight;
+      font-size: 36px;
+      font-weight: normal;
+      line-height: normal;
+      color: #859ab0;
+    }
+    .btn-lg {
+      @extend %extend_1;
+    }
+    .btn-danger {
+      color: #fff;
+      background-color: #e6751b;
+      border-color: #f99342;
+    }
+    .tel-number a {
+      font-size: 36px;
+      font-weight: normal;
+      line-height: normal;
+      color: #fff;
+      border-top: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+      padding: 7px 0;
+      display: block;
+      text-align: center;
+      font-family: source_sans_prolight;
+      letter-spacing: 1px;
+    }
+    .btn-group-lg > .btn {
+      @extend %extend_1;
+    }
+  }
+}
+.content-wrap {
+  padding: 2em 0;
+  h3 {
+    padding: 20px 20px 5px 20px;
+    color: #456476;
+  }
+  p {
+    padding: 10px 20px;
+    margin-bottom: 0;
+    color: #456476;
+  }
+  figure {
+    padding: 1em 0;
+    img {
+      margin: 0 auto;
+    }
+  }
+  .learn-more-large {
+    padding: 10px 0 20px 20px;
+    display: block;
+    color: #e6551b;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: normal;
+    font-family: source_sans_proregular;
+  }
+  .container .row {
+    margin-left: 0;
+    margin-right: 0;
+    .col-md-6 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+.content-left {
+  background: #d5eaf6;
+}
+.global-sap {
+  padding: 2em 0;
+}
+.customers-wrap {
+  padding: 2em 0;
+  h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #4289a6;
+  }
+  .cloud-customer-content {
+    margin-top: 20px;
+  }
+  .media-body h3 {
+    color: #456476;
+    text-transform: capitalize;
+  }
+}
+.text-center {
+  text-align: center;
+}
+.content-right {
+  background: #f1faff;
+}
+.customers-brand {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    padding: 1em 0;
+    margin-right: 1.7em;
+  }
+}
+.testimonial {
+  h2 {
+    color: #404040;
+  }
+  .testimonial-block {
+    padding: 20px;
+    p {
+      color: #456476;
+    }
+    h3 {
+      color: #456476;
+    }
+    h4 {
+      color: #456476;
+    }
+  }
+}
+.grey-wrap {
+  background: #f3f3f3;
+  padding: 2em 0;
+}
+.partners {
+  h2 {
+    color: #404040;
+  }
+  .customers-brand {
+    border-top: none;
+    border-bottom: none;
+    li {
+      margin-right: 0;
+    }
+  }
+}
+.our-mission {
+  padding: 10px 0 20px;
+  .well {
+    background: #d8d8d8;
+    p {
+      font-size: 16px;
+      margin-bottom: 0;
+    }
+  }
+}
+.img-with-text {
+  background: #ecf9ff;
+  border-top: 1px solid #8f8f8f;
+  figure {
+    padding: 20px;
+  }
+  figcaption {
+    padding: 0 20px;
+  }
+  .btn-sap-cloud {
+    background: #477eb7;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    border-radius: 0;
+  }
+}
+.advantages-content {
+  padding: 15px 0;
+}
+.advantage-panel-body {
+  h3 {
+    color: #476577;
+    font-size: 20px;
+  }
+  p {
+    color: #456476;
+  }
+}
+.solutions-content {
+  .about-section {
+    margin-bottom: 40px;
+  }
+  .sap-cloud {
+    background: #dbebf6;
+  }
+  .sap-draas {
+    background: #dbf1f6;
+  }
+  .audit-compliance {
+    background: #dbf6e9;
+  }
+  .s4-hana {
+    background: #f6f2db;
+  }
+  .express-sap {
+    background: #f1cfb1;
+  }
+}
+.sap-panel {
+  margin-bottom: 20px;
+  figure img {
+    width: 100%;
+  }
+}
+.inner-panel {
+  padding: 20px;
+  h3 {
+    margin-top: 0;
+  }
+  p {
+    margin-top: 10px;
+  }
+}
+.nav-tabs-price {
+  border-bottom: none;
+  text-align: center;
+  li {
+    display: inline-block;
+    float: none;
+    border: 1px solid #d2d2d2;
+    background-color: #ebebeb;
+    a {
+      padding: 10px 25px;
+      background-color: #ebebeb;
+      color: #3e86c2;
+      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+      border-radius: 0;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: normal;
+      &:hover {
+        border-color: transparent;
+        background-color: #ebebeb;
+      }
+    }
+    &.active {
+      background: url(../images/pricing.png) no-repeat bottom center;
+    }
+  }
+  > li.active > a {
+    @extend %extend_2;
+    &:hover {
+      @extend %extend_2;
+    }
+    &:focus {
+      @extend %extend_2;
+    }
+  }
+}
+.price-matrix {
+  margin: 30px 0;
+  .tab-content {
+    margin-top: 2em;
+  }
+  table {
+    font-family: open_sansregular !important;
+  }
+  .table-bordered thead tr th {
+    border-bottom-width: 1px;
+    padding: 18px;
+  }
+  .table tbody tr td {
+    padding: 18px;
+  }
+}
+.adword-panel {
+  margin-top: -72px;
+  margin-bottom: 20px;
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+    .col-md-3 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+.adword-panel-box {
+  background: #ededed;
+  border-right: 1px solid #fff;
+  .box1 {
+    background: #afdaf8;
+  }
+  .box2 {
+    background: #baecf7;
+  }
+  .box3 {
+    background: #b8f8d9;
+  }
+  .box4 {
+    background: #f5eaac;
+  }
+  h3 {
+    font-size: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ffffff;
+  }
+  .adword-panel-content {
+    position: relative;
+    background: #dbebf6;
+    margin-top: 100px;
+    padding: 15px;
+    .btn-sap-cloud {
+      background: #477eb7;
+      bottom: 0;
+      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+      border-radius: 0;
+      width: 100%;
+      text-align: left;
+      color: #fff;
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .learn-more {
+    width: 100%;
+    text-align: left;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    border-radius: 0;
+    color: #fff;
+  }
+  .steel-blue {
+    background-color: #477eb7;
+  }
+  .boston-blue {
+    background-color: #4489a6;
+  }
+  .gossamer {
+    background-color: #44a688;
+  }
+  .heliotrope {
+    background-color: #dfb167;
+  }
+  .pattern-blue {
+    background-color: #dbf1f6;
+  }
+  .white-ice {
+    background-color: #dbf6e9;
+  }
+  .promenade {
+    background-color: #f6f2db;
+  }
+}
+.inner-text-panel {
+  margin-top: 30px;
+}
+.feature-panel {
+  padding: 30px 0;
+  h3 {
+    font-size: 20px;
+    color: #476577;
+  }
+  .media {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    .media-body {
+      padding-left: 20px;
+      h3.media-heading {
+        padding-bottom: 20px;
+      }
+    }
+  }
+  p {
+    color: #506d7e;
+  }
+  h4 {
+    color: #456476;
+  }
+}
+.dark-blue {
+  background: #274463;
+  padding: 5px 0;
+  p {
+    margin-bottom: 0;
+    color: #fff;
+  }
+}
+.align-center {
+  text-align: center;
+}
+.light-blue {
+  color: #4eb8e6;
+}
+.mantis {
+  color: #8dc151;
+}
+.soft-violet {
+  color: #8c6fde;
+}
+.moderate-pink {
+  color: #ae5b8a;
+}
+.bright-orange {
+  color: #f1a332;
+}
+.soft-blue {
+  color: #5094ea;
+}
+.list-with-heading {
+  margin-bottom: 1em;
+  h4 {
+    font-family: source_sans_proregular;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal;
+    color: #fff;
+    margin-bottom: 3px;
+  }
+  ul li a {
+    color: #989c9f;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: normal;
+  }
+}
+.about-cloud-customer .customers-brand {
+  border-top: none;
+  border-bottom: none;
+}
+.cloud-customers h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #4289a6;
+}
+.about-section ul {
+  margin: 0;
+  padding: 10px 0 20px;
+}
+h3.page-sub-header {
+  color: #4489a6;
+}
+.social-media li {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  margin-right: 5px;
+}
+footer.moderate-blue {
+  background-image: none;
+}

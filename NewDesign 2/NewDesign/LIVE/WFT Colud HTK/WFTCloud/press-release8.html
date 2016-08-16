@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Set latest rendering mode for IE -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>WFTCloud - SAP Certified Hosting and Cloud Services Provider</title>
+<!-- Set viewport for mobile devices to zoom to 100% -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Loading fonts in the header makes it work in IE<9 -->
+<link href='http://fonts.googleapis.com/css?family=Bitter:400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+
+<!-- Including bootstrap styles - includes normalize and reset, grid system, layouts, responsive styles and media queries -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Including Font Awesome 3.0 styles -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<!-- Including main template styles -->
+<link rel="stylesheet" href="css/main.css">
+
+<!-- Loading jQuery liblary from CDN with a local fallback when CDN not responding.
+             This is done here not at the bottom of the page to support selectivizr for IE -->
+<!-- Load jQuery from CDN -->
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<!-- Check if "window" is available. If not that means jQuery didn't load from CDN so instead use local version (otherwise skip) -->
+<script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
+
+<!-- If the browser version of IE is less than 9 load HTML5 & CSS3 polyfills -->
+<!--[if lt IE 9]>
+            <script type="text/javascript" src="js/html5shiv.min.js"></script>
+            <script type="text/javascript" src="js/selectivizr.min.js"></script>
+            <link rel="stylesheet" href="css/ie.css">
+        <![endif]-->
+</head>
+
+<body>
+
+<!-- Popover modal box containing client login form -->
+<div id="customer-login" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h5 id="myModalLabel">Customer area login:</h5>
+  </div>
+  <!-- modal-header end -->
+  
+  <div class="modal-body">
+    <p>Login</p>
+    <input type="text" class="customer-login-input" name='login-input' placeholder="Login">
+    <p>Password</p>
+    <input type="password" class="customer-login-input" name='password-input' placeholder="Password">
+  </div>
+  <!-- modal-body end -->
+  
+  <div class="modal-footer">
+    <div class="customer-help-links"> <a href="#">Forgot your password?</a> </div>
+    <button class="btn btn-primary">Login</button>
+  </div>
+  <!-- modal-footer end --> 
+  
+</div>
+<!-- customer-login end --> 
+
+<!-- Start developing your site here -->
+<div class="main-page-wrapper">
+  <div class="top-background">
+    <div class="top-menu-wrapper">
+      <nav class="top-menu container">
+      <ul>
+        <li><a href="contact.html"><i class="icon-phone"></i><strong> Phone support:</strong> 1-888-533-3113</a></li>
+        <li><a href="#"><i class="icon-comment"></i><strong> Live</strong> Chat</a></li>
+        <li><a href="#"><i class="icon-envelope-alt"></i><strong> Submit</strong> a ticket</a></li>
+        <li><a href="#" id="mobile-nav-button"><i class="icon-list-ul"></i><strong> Show/Hide</strong> a menu</a></li>
+        <li ><a href="#customer-login" data-toggle="modal"><i class="icon-user"></i><strong> Sign Up</strong></a></li>
+        <li><a href="#customer-login" data-toggle="modal"><i class="icon-user"></i><strong> Customer</strong> </a></li>
+        <li><a href="contact.html" ><strong> Contact</strong> </a></li>
+      </ul>
+    </nav>
+      <!-- end top-menu --> 
+      
+    </div>
+    <!-- end top-menu-wrapper -->
+    
+    <div class="mobile-nav off"></div>
+    <!-- mobile-nav end -->
+    
+    <header class="container">
+      <div class="row">
+        <div class="span4">
+          <h1 class="logo clearfix"> <a href="index.html"><img src="img/logo.png" alt="WFTCloud Logo"></a> </h1>
+        </div>
+        <!-- end span4 -->
+        
+        <div class="span8">
+          <nav class="main-menu">
+            <ul>
+              <!--li><a href="#" data-description="Cloud Plans" class="current-menu-item">Enterprise Cloud</a></li-->
+              <li><a href="enterprise-cloud.html" data-description="Services">Enterprise Cloud</a></li>
+              <li><a href="express-cloud.html" data-description="Cloud Plans">Express Cloud</a> </li>
+              <li><a href="SAP-training.html" data-description="SAP HANA">Trainings</a></li>
+              <li><a href="about.html" data-description="Our Company" class="current-menu-item">About Us</a>
+                <ul>
+                  <li><a href="management-team.html">Management Team </a></li>
+                  <li><a href="press-release.html">Press Release</a></li>
+                  <li><a href="#">Partners</a></li>
+                  <li><a href="#">Our Clients</a></li>
+                  <li><a href="testimonials.html">Testimonials</a></li>
+                </ul>
+              </li>
+              <!--li><a href="contact.html" data-description="and quotes">Media</a></li-->
+            </ul>
+          </nav>
+          <!-- end main-menu --> 
+          
+        </div>
+        <!-- end span8 --> 
+        
+      </div>
+      <!-- end row -->
+      
+      <hr />
+    </header>
+    <!-- end container --> 
+    
+  </div>
+  <!-- top-background end -->
+  
+  <section id="content">
+    <div class="white-section">
+      <div class="container">
+        <div class="row">
+          <h4>Press Release </h4>
+          <div>
+            <div class="comment-body" style="margin-left:0px;">
+              <div class="comment-meta"> <a class="comment-user" href="#">WFT Announces Availability of Enterprise-Class, Remote Support for Basis for USD $2.29 per hour</a><br> <span class="comment-date">April 23, 2013</span> </div>
+              <!-- comment-meta end -->
+              
+              <div class="comment-text">
+              <p>WFT Cloud, a fully owned subsidiary of Wharfedale Technologies Inc. (WFT), is a leading professional IT services consulting firm specializing in cloud system infrastructure integration and operational management services for SAP® solutions, today announced it has started providing enterprise-class, remote support for Basis, available for USD $2.29 per hour per server to clients worldwide.</p>
+              <h6>Princeton, NJ (PRWEB) April 23, 2013</h6>
+              <div style="clear:both;"><hr><br></div>
+              <div class="span7">
+<p> <a href="http://www.wftus.com/">Wharfedale Technologies, Inc</a>. (WFT, <a href="http://www.wftcloud.com/">WFT Cloud</a>),   today announced that it has started offering enterprise-class, remote   services for Basis to customers at a fraction of the traditional costs.</p>
+<p> <a href="http://wftcloud.com/User/WFTRemoteBasisSupportserviceoffering.aspx">WFT Remote support service</a> for   Basis is a comprehensive, operational management offering that helps   customers to improve the quality of overall support operations for Basis   while reducing the operational overhead involved in managing IT   landscapes running SAP® solutions.</p>
+<p> This service includes the following: </p>
+<ul>
+  <li>     Enterprise-class support for Basis</li>
+  <li>     Daily health checks to Service Pack upgrades</li>
+  <li>     ITIL-based service desk</li>
+  <li>     Toll free number access</li>
+  <li>     Pre-defined SLAs</li>
+  <li>     Support for entire SAP application suite</li>
+  <li>     Highly scalable from a few servers to thousands of servers</li>
+  <li>     Support for physical, virtual and cloud environments</li>
+</ul>
+<p>  </p>
+<p> All of these features are being offered with a simple cost structure of USD $2.29 per hour per server.</p>
+<p> &ldquo;Providing enterprise-class, remote support services for SAP Basis   presents a tremendous opportunity for WFT and our clients,&rdquo; said Ganesh   Radhakrishnan, CEO of WFT. &ldquo;The advantage of WFT managing client's   support for Basis drastically reduces the client's operational   management costs (OpEx) and enables them to concentrate on their core   business; it also helps clients to refocus their IT on innovation rather   than on operations management.&rdquo;</p>
+<p> WFT Cloud is an SAP-certified provider of hosting and cloud   services. WFT leverages SAP best practices when operating IT   environments running SAP solutions to deliver high-quality services in   support of SAP solutions to its clients.</p>
+<h6> About Wharfedale Technologies Inc. </h6>
+<p>
+  Wharfedale Technologies Inc. (WFT Cloud) is a leading <a href="https://www.facebook.com/wftcloud">technology consulting firm</a> specializing   in infrastructure integrations and services in support of SAP   solutions, as well as private/public hybrid cloud solutions. WFT is an<a href="https://twitter.com/wftus">SAP-certified provider</a> of   cloud and hosting services and offers solutions for high availability,   disaster recovery, advanced sizing for virtualization, backup/recovery   Integration, systems refresh automation and landscape optimization.</p>
+<p> For more information on Wharfedale and WFT Cloud services, please visit <a href="http://www.wftcloud.com/">http://www.WFTCloud.com</a> or call us at (888) 533-3113.</p>
+<p> SAP and all SAP logos are trademarks or registered trademarks of SAP   AG in Germany and in several other countries. All other product and   service names mentioned are the trademarks of their respective   companies.</p>
+              </div>
+              <div class="span4">
+             
+              <p align="center"><img src="img/press-release/8.jpg" style="border:1px solid #ededed;"></p>
+              <blockquote  class="article" style="width:100%;">"The advantage of WFT managing client's support for Basis drastically reduces the client's operational management costs (OpEx) and enables them to concentrate on their core business"</blockquote>
+              </div>
+             
+            
+           
+             
+              <div style="clear:both;"><hr><br></div>
+                <p>  <a href="press-release.html">Back to Press Release</a>
+              </p>
+              </div>
+              
+              <!-- comment-text end --> 
+              
+            </div>
+            <!-- comment-body end --> 
+            
+          </div>
+        </div>
+            <!-- comment-body end --> 
+            
+          </div>
+          
+          
+          
+        </div>
+        <!-- row end --> 
+        
+        <!-- row end --> 
+        
+      </div>
+      <!-- conteiner end --> 
+      
+    </div>
+    <!-- white-section end --> 
+    
+</section>
+  <!-- content end -->
+  
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="span3"> <img src="img/twitter-bird-light-bgs.png" style="margin-bottom:20px;">
+          <p>Lorem ipsum dolor sit amet, consectetur. Quisquam impedit <span style="color:#00aced">http://bit.ly/9lorem11.</span> </p>
+          <p>Lorem ipsum dolor sit adipisicing elit. Quisquam <span style="color:#00aced">http://bit.ly/9lorem11.</span> </p>
+        </div>
+        <!-- span3 end -->
+        <div class="span6">
+          <h5>Partners / Certifications</h5>
+          <div class="well"><img src="img/cert.png">
+            <div id="myCarousel" class="carousel slide"> 
+              
+              <!-- Carousel items -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="row-fluid">
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/01.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/02.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/03.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/04.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                  </div>
+                  <!--/row-fluid--> 
+                </div>
+                <!--/item-->
+                
+                <div class="item">
+                  <div class="row-fluid">
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/05.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/06.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/01.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/02.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                  </div>
+                  <!--/row-fluid--> 
+                </div>
+                <!--/item-->
+                
+                <div class="item">
+                  <div class="row-fluid">
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/05.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/06.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/01.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                    <div class="span3"><a href="#x" class="thumbnail"><img src="img/partners/02.jpg" alt="Image" style="max-width:100%;" /></a></div>
+                  </div>
+                  <!--/row-fluid--> 
+                </div>
+                <!--/item--> 
+                
+              </div>
+              <!--/carousel-inner--> 
+              
+             <a class="left carousel-control" href="#myCarousel" data-slide="prev"><img src="img/bt-prev-fo.png" alt="image" style="margin-top:8px; margin-bottom:-2px;"></a> <a class="right carousel-control" href="#myCarousel" data-slide="next"><img src="img/bt-next-fo.png" alt="image" style="margin-top:5px; margin-bottom:-4px;"></a>
+              </div>
+            <!--/myCarousel--> 
+            
+          </div>
+        </div>
+        <div class="span3">
+          <h5>Support Center</h5>
+          <ul class="support-list">
+            <li><a href="#customer-login" data-toggle="modal"><i class="icon-user"></i><strong>Customer</strong> login</a></li>
+            <li><a href="#"><i class="icon-phone"></i><strong>Phone</strong> 123 456 789</a></li>
+            <li><a href="#"><i class="icon-comment"></i><strong>Live</strong> support</a></li>
+            <li><a href="#"><i class="icon-envelope-alt"></i><strong>Submit</strong> a ticket</a></li>
+          </ul>
+        </div>
+        <!-- span3 end --> 
+        
+      </div>
+      <!-- row end -->
+      
+      <div class="row">
+        <div id="newsletter-wrapper" class="span8">
+          <div id="newsletter">
+            <h5 class="visible-desktop">Sign-up to our newsletter:</h5>
+            <h5 class="hidden-desktop">Newsletter sign-up:</h5>
+            <form method='post' name='ContactForm' id='newsletterForm'>
+              <input type="text" class="input-box" name="user-email" placeholder="Enter your email.">
+              <button type='submit' class='myinputbtn' name='submitf' id="submitf">Sign up</button>
+            </form>
+          </div>
+          <!-- newsletter end --> 
+          
+        </div>
+        <!-- newsletter-wrapper end -->
+        
+        <div id="social-icons-wrapper" class="span4">
+          <div id="social-icons">
+            <h5 class="visible-desktop">Connect via:</h5>
+            <ul>
+              <li><a href="#"><i class="icon-twitter"></i></a></li>
+              <li><a href="#"><i class="icon-facebook"></i></a></li>
+              <li><a href="#"><i class="icon-google-plus"></i></a></li>
+              <li><a href="#"><i class="icon-linkedin"></i></a></li>
+            </ul>
+          </div>
+          <!-- social-icons end --> 
+          
+        </div>
+        <!-- social-icons-wrapper end --> 
+        
+      </div>
+      <!-- row end --> 
+      
+      <!-- this is a container for the newsletter fail or success message -->
+      <div id='message_post2'></div>
+      <!-- message_post2 end -->
+      
+      <hr />
+      <div class="row">
+        <p class="span12">© Copyright 2013. WFTCloud. All rights reserved.</p>
+      </div>
+      <!-- row end --> 
+      
+    </div>
+    <!-- container end --> 
+    
+    <a href="#" class="go-top" style="display: inline;">Go Top</a> </footer>
+</div>
+<!-- end main-page-wrapper --> 
+
+<!-- Loading all JS files the asynchronous way --> 
+<!-- Twitter Bootstrap JavaScript file required for transitions, pupups, modals and other elements  --> 
+<script src="js/bootstrap.min.js"></script> 
+
+<!-- Main file containing all other scripts. This is done to avoid multiple HTTP requests --> 
+<script src="js/main.js"></script> 
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#myCarousel').carousel({
+	interval: 10000
+	})
+});
+</script>
+</body>
+</html>

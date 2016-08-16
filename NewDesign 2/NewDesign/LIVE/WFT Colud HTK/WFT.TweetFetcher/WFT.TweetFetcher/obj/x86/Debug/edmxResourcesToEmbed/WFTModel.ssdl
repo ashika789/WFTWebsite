@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="cgxwftcloudModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="cgxwftcloudModelStoreContainer">
+    <EntitySet Name="SocialTweets" EntityType="cgxwftcloudModel.Store.SocialTweets" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="SocialTweets">
+    <Key>
+      <PropertyRef Name="tweetID" />
+    </Key>
+    <Property Name="tweetID" Type="bigint" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="tweetPlainText" Type="varchar(max)" Nullable="false" />
+    <Property Name="tweetHTMLText" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <Function Name="InsertExceptionLog" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ExceptionClassName" Type="varchar" Mode="In" />
+    <Parameter Name="ExceptionMessage" Type="varchar" Mode="In" />
+    <Parameter Name="ExceptionStackTrace" Type="varchar(max)" Mode="In" />
+    <Parameter Name="ExceptionDateTime" Type="datetime" Mode="In" />
+    <Parameter Name="ExceptionMethodName" Type="varchar" Mode="In" />
+  </Function>
+</Schema>

@@ -1,0 +1,34 @@
+---------------------------------------------------------
+24-09-2014 12:43:43 : Payment Processing Started...
+24-09-2014 12:43:43 : 
+24-09-2014 12:43:47 : Processing Individual Payments...
+24-09-2014 12:43:47 : CallAuthorizeNetPayPalPayment...
+24-09-2014 12:43:51 : PayPal - Started
+24-09-2014 12:44:00 : PayPal - Completed
+24-09-2014 12:44:01 : Billing Agreement ID : B-94T7652149787083U
+24-09-2014 12:44:01 :      Approved? : True
+24-09-2014 12:44:01 :      Message   : SUCCESS
+CallAuthorizeNetPayPalPayment...
+24-09-2014 12:44:15 : 
+24-09-2014 12:44:15 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+24-09-2014 12:43:43 : Payment Processing Started...
+24-09-2014 12:43:43 : 
+24-09-2014 12:43:47 : Processing Individual Payments...
+24-09-2014 12:43:47 : CallAuthorizeNetPayPalPayment...
+24-09-2014 12:43:51 : PayPal - Started
+24-09-2014 12:44:00 : PayPal - Completed
+24-09-2014 12:44:01 : Billing Agreement ID : B-94T7652149787083U
+24-09-2014 12:44:01 :      Approved? : True
+24-09-2014 12:44:01 :      Message   : SUCCESS
+CallAuthorizeNetPayPalPayment...
+24-09-2014 12:44:15 : 
+24-09-2014 12:44:15 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+24-09-2014 12:44:15 : De-Activate ExpiredSubscription Processing Started...
+24-09-2014 12:44:15 : 
+24-09-2014 12:44:16 : 
+24-09-2014 12:44:16 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

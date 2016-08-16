@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="cgxwftcloudModelStoreContainer" CdmEntityContainer="cgxwftcloudEntities">
+    <EntitySetMapping Name="SocialTweets">
+      <EntityTypeMapping TypeName="cgxwftcloudModel.SocialTweet">
+        <MappingFragment StoreEntitySet="SocialTweets">
+          <ScalarProperty Name="tweetID" ColumnName="tweetID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="tweetPlainText" ColumnName="tweetPlainText" />
+          <ScalarProperty Name="tweetHTMLText" ColumnName="tweetHTMLText" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="InsertExceptionLog" FunctionName="cgxwftcloudModel.Store.InsertExceptionLog" />
+  </EntityContainerMapping>
+</Mapping>

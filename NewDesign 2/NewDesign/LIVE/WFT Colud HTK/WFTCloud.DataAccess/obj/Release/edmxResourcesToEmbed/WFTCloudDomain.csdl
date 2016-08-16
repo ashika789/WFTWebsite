@@ -1,0 +1,2651 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="cgxwftcloudModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="cgxwftcloudEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CouponTypes" EntityType="cgxwftcloudModel.CouponType" />
+    <EntitySet Name="CRMIssueTypes" EntityType="cgxwftcloudModel.CRMIssueType" />
+    <EntitySet Name="CRMRequestNotes" EntityType="cgxwftcloudModel.CRMRequestNote" />
+    <EntitySet Name="CRMRequestStatus" EntityType="cgxwftcloudModel.CRMRequestStatu" />
+    <EntitySet Name="FAQTypes" EntityType="cgxwftcloudModel.FAQType" />
+    <EntitySet Name="IndexDataTypes" EntityType="cgxwftcloudModel.IndexDataType" />
+    <EntitySet Name="RecordStatus" EntityType="cgxwftcloudModel.RecordStatu" />
+    <EntitySet Name="ServiceCategories" EntityType="cgxwftcloudModel.ServiceCategory" />
+    <EntitySet Name="ServiceProvisions" EntityType="cgxwftcloudModel.ServiceProvision" />
+    <EntitySet Name="SurveyChoices" EntityType="cgxwftcloudModel.SurveyChoice" />
+    <EntitySet Name="SurveyQuestions" EntityType="cgxwftcloudModel.SurveyQuestion" />
+    <EntitySet Name="UserServicesInvoices" EntityType="cgxwftcloudModel.UserServicesInvoice" />
+    <EntitySet Name="UserSurveyResponses" EntityType="cgxwftcloudModel.UserSurveyRespons" />
+    <FunctionImport Name="pr_GetServicesToAdd" ReturnType="Collection(cgxwftcloudModel.pr_GetServicesToAdd_Result)">
+      <Parameter Name="UserMembershipID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <EntitySet Name="vwUserSurveyQuestionsResponses" EntityType="cgxwftcloudModel.vwUserSurveyQuestionsResponse" />
+    <EntitySet Name="vwCouponsLists" EntityType="cgxwftcloudModel.vwCouponsList" />
+    <EntitySet Name="vwUsersListWithFullNames" EntityType="cgxwftcloudModel.vwUsersListWithFullName" />
+    <EntitySet Name="AdminPageAccesses" EntityType="cgxwftcloudModel.AdminPageAccess" />
+    <EntitySet Name="AdminPages" EntityType="cgxwftcloudModel.AdminPage" />
+    <FunctionImport Name="pr_GetPagesForAdminAccessAssigment" ReturnType="Collection(cgxwftcloudModel.pr_GetPagesForAdminAccessAssigment_Result)">
+      <Parameter Name="UserProfileID" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="pr_GetPagesWithAdminAccess" ReturnType="Collection(cgxwftcloudModel.pr_GetPagesWithAdminAccess_Result)">
+      <Parameter Name="UserProfileID" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <EntitySet Name="KnowAboutUs" EntityType="cgxwftcloudModel.KnowAboutU" />
+    <EntitySet Name="CourseDetails" EntityType="cgxwftcloudModel.CourseDetail" />
+    <EntitySet Name="vwManageFAQs" EntityType="cgxwftcloudModel.vwManageFAQ" />
+    <EntitySet Name="FAQCategoryTypes" EntityType="cgxwftcloudModel.FAQCategoryType" />
+    <EntitySet Name="WftCloudResources" EntityType="cgxwftcloudModel.WftCloudResource" />
+    <EntitySet Name="WFTCloudUserTypes" EntityType="cgxwftcloudModel.WFTCloudUserType" />
+    <EntitySet Name="vwCloudResourceManagements" EntityType="cgxwftcloudModel.vwCloudResourceManagement" />
+    <EntitySet Name="vwServiceProvisionDetails" EntityType="cgxwftcloudModel.vwServiceProvisionDetail" />
+    <EntitySet Name="IndexDatas" EntityType="cgxwftcloudModel.IndexData" />
+    <EntitySet Name="vwManageIndexDatas" EntityType="cgxwftcloudModel.vwManageIndexData" />
+    <EntitySet Name="vwManageUserServiceProvisions" EntityType="cgxwftcloudModel.vwManageUserServiceProvision" />
+    <EntitySet Name="CreditCardDetails" EntityType="cgxwftcloudModel.CreditCardDetail" />
+    <EntitySet Name="TrainingDetails" EntityType="cgxwftcloudModel.TrainingDetail" />
+    <EntitySet Name="UserOrderDetails" EntityType="cgxwftcloudModel.UserOrderDetail" />
+    <EntitySet Name="UserOrders" EntityType="cgxwftcloudModel.UserOrder" />
+    <EntitySet Name="UserPaymentTransactions" EntityType="cgxwftcloudModel.UserPaymentTransaction" />
+    <EntitySet Name="AutomatedPaymentTransactions" EntityType="cgxwftcloudModel.AutomatedPaymentTransaction" />
+    <EntitySet Name="Banners" EntityType="cgxwftcloudModel.Banner" />
+    <EntitySet Name="Testimonials" EntityType="cgxwftcloudModel.Testimonial" />
+    <EntitySet Name="FAQs" EntityType="cgxwftcloudModel.FAQ" />
+    <EntitySet Name="ContactRequests" EntityType="cgxwftcloudModel.ContactRequest" />
+    <EntitySet Name="NewsLetterSignUps" EntityType="cgxwftcloudModel.NewsLetterSignUp" />
+    <EntitySet Name="UserSubscribedServices" EntityType="cgxwftcloudModel.UserSubscribedService" />
+    <EntitySet Name="CustomerPaymentProfiles" EntityType="cgxwftcloudModel.CustomerPaymentProfile" />
+    <EntitySet Name="AutomatedPayments" EntityType="cgxwftcloudModel.AutomatedPayment" />
+    <EntitySet Name="vwAutomatedPayments" EntityType="cgxwftcloudModel.vwAutomatedPayment" />
+    <EntitySet Name="vwAutomatedPaymentTransactions" EntityType="cgxwftcloudModel.vwAutomatedPaymentTransaction" />
+    <EntitySet Name="ServiceCatalogs" EntityType="cgxwftcloudModel.ServiceCatalog" />
+    <FunctionImport Name="pr_GetIndexData" ReturnType="Collection(cgxwftcloudModel.pr_GetIndexData_Result)">
+      <Parameter Name="IndexDataID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="pr_GetRandomTestimonialForIndex" ReturnType="Collection(cgxwftcloudModel.pr_GetRandomTestimonialForIndex_Result)" />
+    <FunctionImport Name="pr_GetRandomBannerImages" ReturnType="Collection(cgxwftcloudModel.pr_GetRandomBannerImages_Result)">
+      <Parameter Name="MANDATORY" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <EntitySet Name="UserCarts" EntityType="cgxwftcloudModel.UserCart" />
+    <EntitySet Name="vwManageSubscribedServices" EntityType="cgxwftcloudModel.vwManageSubscribedService" />
+    <FunctionImport Name="pr_GetNewInvoiceNumber" ReturnType="Collection(String)" />
+    <EntitySet Name="WftSettings" EntityType="cgxwftcloudModel.WftSetting" />
+    <EntitySet Name="vwUserPaymentTransactions" EntityType="cgxwftcloudModel.vwUserPaymentTransaction" />
+    <EntitySet Name="UserRefundPayments" EntityType="cgxwftcloudModel.UserRefundPayment" />
+    <EntitySet Name="AllAutomatedPayments" EntityType="cgxwftcloudModel.AllAutomatedPayment" />
+    <FunctionImport Name="pr_UpdateAllPaymentWorklog" ReturnType="Collection(String)">
+      <Parameter Name="PaymentID" Mode="In" Type="Int64" />
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="WorklogText" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="pr_NewSignupUserReport" ReturnType="Collection(cgxwftcloudModel.pr_NewSignupUserReport_Result)">
+      <Parameter Name="FromDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ToDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="pr_CancelUserSubscription" ReturnType="Collection(String)">
+      <Parameter Name="UserSubscriptionID" Mode="In" Type="Int64" />
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="Reason" Mode="In" Type="String" />
+      <Parameter Name="Feedback" Mode="In" Type="String" />
+      <Parameter Name="ServiceRating" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="pr_UserReportbyExpiryDate" ReturnType="Collection(cgxwftcloudModel.pr_UserReportbyExpiryDate_Result)">
+      <Parameter Name="FromDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ToDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="pr_UserReportDedicatedService" ReturnType="Collection(cgxwftcloudModel.pr_UserReportDedicatedService_Result)">
+      <Parameter Name="FromDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ToDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="pr_UserReportTrialServices" ReturnType="Collection(cgxwftcloudModel.pr_UserReportTrialServices_Result)">
+      <Parameter Name="FromDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ToDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="pr_UserwithnoservicesReport" ReturnType="Collection(cgxwftcloudModel.pr_UserwithnoservicesReport_Result)" />
+    <EntitySet Name="vwManageAllAutomatedPayments" EntityType="cgxwftcloudModel.vwManageAllAutomatedPayment" />
+    <EntitySet Name="SocialTweets" EntityType="cgxwftcloudModel.SocialTweet" />
+    <FunctionImport Name="pr_ServicewithnoServiceProvision" ReturnType="Collection(cgxwftcloudModel.pr_ServicewithnoServiceProvision_Result)" />
+    <FunctionImport Name="pr_UsersHowDidYouHearAboutUs" ReturnType="Collection(cgxwftcloudModel.pr_UsersHowDidYouHearAboutUs_Result)">
+      <Parameter Name="FromDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ToDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <EntitySet Name="StateNames" EntityType="cgxwftcloudModel.StateName" />
+    <EntitySet Name="Countries" EntityType="cgxwftcloudModel.Country" />
+    <EntitySet Name="vwManageCRMIssues" EntityType="cgxwftcloudModel.vwManageCRMIssue" />
+    <EntitySet Name="SitePagesAndContents" EntityType="cgxwftcloudModel.SitePagesAndContent" />
+    <EntitySet Name="UserProfiles" EntityType="cgxwftcloudModel.UserProfile" />
+    <EntitySet Name="vwUserOrderDetailsTransactionFailedOnPurchases" EntityType="cgxwftcloudModel.vwUserOrderDetailsTransactionFailedOnPurchase" />
+    <EntitySet Name="vwUserOrderDetailsTransactionSucceedOnPurchases" EntityType="cgxwftcloudModel.vwUserOrderDetailsTransactionSucceedOnPurchase" />
+    <EntitySet Name="PressReleases" EntityType="cgxwftcloudModel.PressRelease" />
+    <EntitySet Name="PaypalResponses" EntityType="cgxwftcloudModel.PaypalRespons" />
+    <FunctionImport Name="pr_GenerateAllPaymentEntries">
+      <Parameter Name="CustProfileID" Mode="In" Type="String" />
+      <Parameter Name="CustPaymentProfileID" Mode="In" Type="String" />
+      <Parameter Name="UserSubscriptionID" Mode="In" Type="Int64" />
+      <Parameter Name="SubscriptionDuration" Mode="In" Type="Int32" />
+      <Parameter Name="InitialHoldAmount" Mode="In" Type="Decimal" />
+      <Parameter Name="DiscountDuration" Mode="In" Type="Int32" />
+      <Parameter Name="DiscountPercentage" Mode="In" Type="Decimal" />
+      <Parameter Name="PaymentMethod" Mode="In" Type="String" />
+      <Parameter Name="PaypalPayerMailID" Mode="In" Type="String" />
+      <Parameter Name="PaypalPayerID" Mode="In" Type="String" />
+      <Parameter Name="PaypalBillingAgreementID" Mode="In" Type="String" />
+      <Parameter Name="PaypalPaymentTransactionID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="pr_GetTodaysPaymentItems" ReturnType="Collection(cgxwftcloudModel.pr_GetTodaysPaymentItems_Result1)" />
+    <FunctionImport Name="pr_UpdatePaymentResponse" ReturnType="Collection(String)">
+      <Parameter Name="CustomerProfileID" Mode="In" Type="String" />
+      <Parameter Name="PaymentProfileID" Mode="In" Type="String" />
+      <Parameter Name="ReturnAmount" Mode="In" Type="Decimal" />
+      <Parameter Name="ReturnApproved" Mode="In" Type="Int32" />
+      <Parameter Name="ReturnAuthorizationCode" Mode="In" Type="String" />
+      <Parameter Name="ReturnCardNumber" Mode="In" Type="String" />
+      <Parameter Name="ReturnAuthMessage" Mode="In" Type="String" />
+      <Parameter Name="ReturnResponseCode" Mode="In" Type="String" />
+      <Parameter Name="ReturnTransactionID" Mode="In" Type="String" />
+      <Parameter Name="InvoiceNumber" Mode="In" Type="String" />
+      <Parameter Name="ResponseBillingAgreementID" Mode="In" Type="String" />
+      <Parameter Name="ResponsePaymentTransactionID" Mode="In" Type="String" />
+      <Parameter Name="PaymentMethod" Mode="In" Type="String" />
+      <Parameter Name="PaypalPayerMailID" Mode="In" Type="String" />
+      <Parameter Name="PaypalPayerID" Mode="In" Type="String" />
+      <Parameter Name="PaypalBillingAgreementID" Mode="In" Type="String" />
+      <Parameter Name="PalpalPaymentTransactionID" Mode="In" Type="String" />
+      <Parameter Name="UserProfileID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="pr_GetServicesByMembershipID" ReturnType="Collection(cgxwftcloudModel.pr_GetServicesByMembershipID_Result)">
+      <Parameter Name="UserID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="pr_GetCategoriesByMembershipID" ReturnType="Collection(cgxwftcloudModel.pr_GetCategoriesByMembershipID_Result1)">
+      <Parameter Name="UserID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <EntitySet Name="CRMRequestsHistories" EntityType="cgxwftcloudModel.CRMRequestsHistory" />
+    <EntitySet Name="vwCRMIssueHistoryDetails" EntityType="cgxwftcloudModel.vwCRMIssueHistoryDetail" />
+    <FunctionImport Name="GetServiceProvisionUserName" ReturnType="Collection(String)">
+      <Parameter Name="ServiceProvisionID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="pr_UpdateSelectedSubscriptionPaymentProfileIDAndWorklog" ReturnType="Collection(String)">
+      <Parameter Name="DeletedPaymentID" Mode="In" Type="String" />
+      <Parameter Name="UserSubscriptionID" Mode="In" Type="Int64" />
+      <Parameter Name="SelectedPaymentID" Mode="In" Type="String" />
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="WorklogText" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="pr_UpdateAllPaymentProfileIDAndWorklog" ReturnType="Collection(String)">
+      <Parameter Name="DeletedPaymentID" Mode="In" Type="String" />
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="WorklogText" Mode="In" Type="String" />
+      <Parameter Name="UserProfileID" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <EntitySet Name="VisitorsDetails" EntityType="cgxwftcloudModel.VisitorsDetail" />
+    <EntitySet Name="vwManageTrainingDetails" EntityType="cgxwftcloudModel.vwManageTrainingDetail" />
+    <FunctionImport Name="pr_UpdateAllFuturePaymentCurrentMonthBillingAndWorklog" ReturnType="Collection(String)">
+      <Parameter Name="UserSubscriptionID" Mode="In" Type="Int64" />
+      <Parameter Name="AutomatedPaymentID" Mode="In" Type="Int64" />
+      <Parameter Name="OldAmount" Mode="In" Type="Decimal" />
+      <Parameter Name="NewAmount" Mode="In" Type="Decimal" />
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="WorklogText" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="pr_AutomatedPaymentsFailedForCurrentActiveServices" ReturnType="Collection(cgxwftcloudModel.pr_AutomatedPaymentsFailedForCurrentActiveServices_Result)" />
+    <EntitySet Name="Coupons" EntityType="cgxwftcloudModel.Coupon" />
+    <FunctionImport Name="pr_GetGroupOfTodaysPaymentItems" ReturnType="Collection(cgxwftcloudModel.pr_GetGroupOfTodaysPaymentItems_Result)" />
+    <FunctionImport Name="pr_GroupOfUpdatePaymentResponse" ReturnType="Collection(String)">
+      <Parameter Name="CustomerProfileID" Mode="In" Type="String" />
+      <Parameter Name="PaymentProfileID" Mode="In" Type="String" />
+      <Parameter Name="ReturnAmount" Mode="In" Type="Decimal" />
+      <Parameter Name="ReturnApproved" Mode="In" Type="Int32" />
+      <Parameter Name="ReturnAuthorizationCode" Mode="In" Type="String" />
+      <Parameter Name="ReturnCardNumber" Mode="In" Type="String" />
+      <Parameter Name="ReturnAuthMessage" Mode="In" Type="String" />
+      <Parameter Name="ReturnResponseCode" Mode="In" Type="String" />
+      <Parameter Name="ReturnTransactionID" Mode="In" Type="String" />
+      <Parameter Name="InvoiceNumber" Mode="In" Type="String" />
+      <Parameter Name="ResponseBillingAgreementID" Mode="In" Type="String" />
+      <Parameter Name="ResponsePaymentTransactionID" Mode="In" Type="String" />
+      <Parameter Name="PaymentMethod" Mode="In" Type="String" />
+      <Parameter Name="PaypalPayerMailID" Mode="In" Type="String" />
+      <Parameter Name="PaypalPayerID" Mode="In" Type="String" />
+      <Parameter Name="PaypalBillingAgreementID" Mode="In" Type="String" />
+      <Parameter Name="PalpalPaymentTransactionID" Mode="In" Type="String" />
+      <Parameter Name="UserProfileID" Mode="In" Type="Int32" />
+      <Parameter Name="UserSubscriptionIDs" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="QuoteComputeDetails" EntityType="cgxwftcloudModel.QuoteComputeDetail" />
+    <EntitySet Name="QuoteRegisters" EntityType="cgxwftcloudModel.QuoteRegister" />
+    <EntitySet Name="QuoteStorageDetails" EntityType="cgxwftcloudModel.QuoteStorageDetail" />
+    <AssociationSet Name="FK__QuoteComp__Quote__25A691D2" Association="cgxwftcloudModel.FK__QuoteComp__Quote__25A691D2">
+      <End Role="QuoteRegister" EntitySet="QuoteRegisters" />
+      <End Role="QuoteComputeDetail" EntitySet="QuoteComputeDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__QuoteStor__Quote__22CA2527" Association="cgxwftcloudModel.FK__QuoteStor__Quote__22CA2527">
+      <End Role="QuoteRegister" EntitySet="QuoteRegisters" />
+      <End Role="QuoteStorageDetail" EntitySet="QuoteStorageDetails" />
+    </AssociationSet>
+    <FunctionImport Name="pr_DeleteExistingQuoteRegisterDetails">
+      <Parameter Name="QuoteRegisterID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="CRMRequests" EntityType="cgxwftcloudModel.CRMRequest" />
+    <EntitySet Name="vwManageAllUserDetails" EntityType="cgxwftcloudModel.vwManageAllUserDetail" />
+    <FunctionImport Name="pr_SearchUserName" ReturnType="Collection(cgxwftcloudModel.pr_SearchUserName_Result)">
+      <Parameter Name="UserNmae" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="pr_GetTodaysPaymentNotification" ReturnType="Collection(cgxwftcloudModel.pr_GetTodaysPaymentNotification_Result)" />
+    <EntitySet Name="vwGetPaymentHistories" EntityType="cgxwftcloudModel.vwGetPaymentHistory" />
+    <EntitySet Name="HANARegistrations" EntityType="cgxwftcloudModel.HANARegistration" />
+    <EntitySet Name="vwGetPurchasePaymentHistories" EntityType="cgxwftcloudModel.vwGetPurchasePaymentHistory" />
+    <FunctionImport Name="pr_SearchUserSubscription" ReturnType="Collection(cgxwftcloudModel.pr_SearchUserSubscription_Result)">
+      <Parameter Name="Subscription" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="pr_NewServicePurchasedReport" ReturnType="Collection(cgxwftcloudModel.pr_NewServicePurchasedReport_Result)">
+      <Parameter Name="FromDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ToDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="pr_GetUsersAllSubscriptionDetails" ReturnType="Collection(cgxwftcloudModel.pr_GetUsersAllSubscriptionDetails_Result)">
+      <Parameter Name="UserProfileID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="pr_GetCustomerPayPalMailIDs" ReturnType="Collection(cgxwftcloudModel.pr_GetCustomerPayPalMailIDs_Result)">
+      <Parameter Name="UserProfileID" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="pr_UpdateSelectedPayPalSubscriptionPaymentProfileIDAndWorklog" ReturnType="Collection(String)">
+      <Parameter Name="DeletedPaymentID" Mode="In" Type="String" />
+      <Parameter Name="UserSubscriptionID" Mode="In" Type="Int64" />
+      <Parameter Name="SelectedPaymentID" Mode="In" Type="String" />
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="WorklogText" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="pr_GetGroupOfTodaysPaymentExpiredService" ReturnType="Collection(Int64)" />
+    <FunctionImport Name="pr_GetPaymentExpiredServiceTotal" ReturnType="Collection(Int32)">
+      <Parameter Name="UserSubscriptionID" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="pr_UpdateUserPaymentProfileIDAndWorklog" ReturnType="Collection(String)">
+      <Parameter Name="DeletedPaymentID" Mode="In" Type="String" />
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="WorklogText" Mode="In" Type="String" />
+      <Parameter Name="UserProfileID" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <EntitySet Name="TrainingRequestDetails" EntityType="cgxwftcloudModel.TrainingRequestDetail" />
+    <FunctionImport Name="pr_GetTodaysFailedPaymentItems" ReturnType="Collection(cgxwftcloudModel.pr_GetTodaysFailedPaymentItems_Result)" />
+    <FunctionImport Name="pr_GetTodaysCancellationNotification" ReturnType="Collection(cgxwftcloudModel.pr_GetTodaysCancellationNotification_Result)" />
+    <FunctionImport Name="pr_UpdateRecurringPaymentMannual" ReturnType="Collection(String)">
+      <Parameter Name="PaymentID" Mode="In" Type="Int64" />
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="WorklogText" Mode="In" Type="String" />
+      <Parameter Name="TransactionID" Mode="In" Type="String" />
+      <Parameter Name="PaymentMode" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="pr_ReActivateUserSubscription" ReturnType="Collection(Int32)">
+      <Parameter Name="UserSubscriptionID" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="pr_UpdateUserNewsLetterInfo" ReturnType="Collection(Int32)">
+      <Parameter Name="NewsLetterSignupID" Mode="In" Type="Int64" />
+      <Parameter Name="FirstName" Mode="In" Type="String" />
+      <Parameter Name="LastName" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="TrainingCourses" EntityType="cgxwftcloudModel.TrainingCourse" />
+    <EntitySet Name="TrainingModules" EntityType="cgxwftcloudModel.TrainingModule" />
+    <FunctionImport Name="pr_TrainingRequestReport" ReturnType="Collection(cgxwftcloudModel.pr_TrainingRequestReport_Result)">
+      <Parameter Name="FromDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ToDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="pr_MonthlyFailedPaymentReport" ReturnType="Collection(cgxwftcloudModel.pr_MonthlyFailedPaymentReport_Result)">
+      <Parameter Name="FromDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ToDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <EntitySet Name="vwGetMonthlySubscriptionHistories" EntityType="cgxwftcloudModel.vwGetMonthlySubscriptionHistory" />
+    <EntitySet Name="vw_GetUserSubscriptionHistory" EntityType="cgxwftcloudModel.vw_GetUserSubscriptionHistory" />
+    <FunctionImport Name="pr_UpdateUserEmailID" ReturnType="Collection(Int32)">
+      <Parameter Name="UserProfileID" Mode="In" Type="Int64" />
+      <Parameter Name="NewEmailID" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="vw_GetUserPaymentFailedHistory" EntityType="cgxwftcloudModel.vw_GetUserPaymentFailedHistory" />
+  </EntityContainer>
+  <EntityType Name="CouponType">
+    <Key>
+      <PropertyRef Name="CouponTypeID" />
+    </Key>
+    <Property Type="Int32" Name="CouponTypeID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="CouponType1" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="ServiceCount" Nullable="false" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="ModifiedOn" Precision="3" />
+    <Property Type="Guid" Name="ModifiedBy" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="Boolean" Name="IsCouponUnlimited" />
+  </EntityType>
+  <EntityType Name="CRMIssueType">
+    <Key>
+      <PropertyRef Name="CRMIssueTypeID" />
+    </Key>
+    <Property Type="Int32" Name="CRMIssueTypeID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="CRMIssueTypeDesc" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CRMRequestNote">
+    <Key>
+      <PropertyRef Name="CRMRequestNotesID" />
+    </Key>
+    <Property Type="Int32" Name="CRMRequestNotesID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="CRMRequestID" Nullable="false" />
+    <Property Type="String" Name="CRMUpdate" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="CRMStatusChangeFrom" />
+    <Property Type="Int32" Name="CRMStatusChangeTo" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="String" Name="ResolutionSentToCustomer" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AttachmentSentToCustomer" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CRMRequestStatu">
+    <Key>
+      <PropertyRef Name="CRMRequestStatusID" />
+    </Key>
+    <Property Type="Int32" Name="CRMRequestStatusID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="CRMRequestStatusDesc" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FAQType">
+    <Key>
+      <PropertyRef Name="FAQTypeID" />
+    </Key>
+    <Property Type="Int32" Name="FAQTypeID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="FAQTypeText" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+  </EntityType>
+  <EntityType Name="IndexDataType">
+    <Key>
+      <PropertyRef Name="IndexDataTypeID" />
+    </Key>
+    <Property Type="Int32" Name="IndexDataTypeID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="IndexDataTypeText" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RecordStatu">
+    <Key>
+      <PropertyRef Name="RecordStatusID" />
+    </Key>
+    <Property Type="Int32" Name="RecordStatusID" Nullable="false" />
+    <Property Type="String" Name="RecordStatusDesc" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ServiceCategory">
+    <Key>
+      <PropertyRef Name="ServiceCategoryID" />
+    </Key>
+    <Property Type="Int32" Name="ServiceCategoryID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="CategoryPriority" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="Boolean" Name="IsPayAsYouGo" />
+    <Property Type="Boolean" Name="IsDedicated" />
+  </EntityType>
+  <EntityType Name="ServiceProvision">
+    <Key>
+      <PropertyRef Name="ServiceProvisionID" />
+    </Key>
+    <Property Type="Int32" Name="ServiceProvisionID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="ServiceID" Nullable="false" />
+    <Property Type="Int32" Name="UserMin" Nullable="false" />
+    <Property Type="Int32" Name="UserMax" Nullable="false" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ServicePassword" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ServiceUrl" Nullable="false" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UIDOnServer" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AdditionalInformation" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AttachmentPath" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="NotificationRequiredAt" Nullable="false" />
+    <Property Type="Int32" Name="CurrentUserCounter" Nullable="false" />
+    <Property Type="Int32" Name="ExpirationPeriod" Nullable="false" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="Int32" Name="ServiceCategoryID" />
+    <Property Type="String" Name="AttachmentImgPath" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="InstanceNumber" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ApplicationServer" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DeveloperKey" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="SurveyChoice">
+    <Key>
+      <PropertyRef Name="SurveyChoiceID" />
+    </Key>
+    <Property Type="Int32" Name="SurveyChoiceID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="SurveyQuestionID" Nullable="false" />
+    <Property Type="String" Name="SurveyChoice1" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SurveyQuestion">
+    <Key>
+      <PropertyRef Name="SurveyQuestionID" />
+    </Key>
+    <Property Type="Int32" Name="SurveyQuestionID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="SurveyQuestion1" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="AllowMultipleSelection" Nullable="false" />
+    <Property Type="Boolean" Name="AllowCustomResponse" Nullable="false" />
+    <Property Type="Int32" Name="DisplayOrder" Nullable="false" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserServicesInvoice">
+    <Key>
+      <PropertyRef Name="UserServiceInvoiceID" />
+    </Key>
+    <Property Type="Int64" Name="UserServiceInvoiceID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Decimal" Name="Credit" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="Debit" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Int64" Name="UserSubscriptionID" Nullable="false" />
+    <Property Type="String" Name="MessageCode" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Message" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ResultCode" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Status" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DateCreated" Precision="3" />
+    <Property Type="DateTime" Name="DateModified" Precision="3" />
+    <Property Type="Int64" Name="RefundStatus" />
+    <Property Type="DateTime" Name="RefundDate" Precision="3" />
+    <Property Type="Decimal" Name="RefundAmount" Precision="18" Scale="2" />
+    <Property Type="String" Name="RefundReason" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="Int64" Name="RefundedBy" />
+    <Property Type="Int64" Name="RefundCode" />
+    <Property Type="String" Name="RefundMessage" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserSurveyRespons">
+    <Key>
+      <PropertyRef Name="UserSurveyResponseID" />
+    </Key>
+    <Property Type="Int32" Name="UserSurveyResponseID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="SurveyQuestionID" Nullable="false" />
+    <Property Type="String" Name="SurveyAnswer" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="false" Precision="3" />
+    <Property Type="Guid" Name="CreatedBy" Nullable="false" />
+  </EntityType>
+  <ComplexType Name="pr_GetServicesToAdd_Result">
+    <Property Type="Int32" Name="ServiceID" Nullable="false" />
+    <Property Type="String" Name="ServiceName" Nullable="false" MaxLength="200" />
+    <Property Type="String" Name="ServiceDescription" Nullable="false" MaxLength="8000" />
+    <Property Type="String" Name="ReleaseVersion" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="SystemType" Nullable="false" MaxLength="100" />
+    <Property Type="Decimal" Name="WFTCloudPrice" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ThirdPartyServicePrice" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="UsageUnit" Nullable="true" MaxLength="1" />
+    <Property Type="Decimal" Name="InitialHoldAmount" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Boolean" Name="SupportIncluded" Nullable="true" />
+    <Property Type="Int32" Name="Priority" Nullable="true" />
+    <Property Type="Boolean" Name="UserSpecific" Nullable="true" />
+    <Property Type="Int32" Name="ServiceCategoryID" Nullable="true" />
+    <Property Type="Boolean" Name="IsPayAsYouGo" Nullable="true" />
+    <Property Type="Int32" Name="PackageLengthInMonths" Nullable="true" />
+    <Property Type="Decimal" Name="ThreeMonthsSaving" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="SixMonthsSaving" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="NineMonthsSaving" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="TwelveMonthsSaving" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="TrialAmount" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Guid" Name="CreatedBy" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="true" Precision="23" />
+    <Property Type="Guid" Name="LastModifiedBy" Nullable="true" />
+    <Property Type="DateTime" Name="LastModifiedOn" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="true" />
+    <Property Type="Guid" Name="UserMembershipID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="cxServicesToAdd">
+    <Property Type="Int32" Name="ServiceID" Nullable="false" />
+    <Property Type="String" Name="ServiceName" Nullable="false" MaxLength="200" />
+    <Property Type="String" Name="ServiceDescription" Nullable="false" MaxLength="8000" />
+    <Property Type="String" Name="ReleaseVersion" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="SystemType" Nullable="false" MaxLength="100" />
+    <Property Type="Decimal" Name="WFTCloudPrice" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ThirdPartyServicePrice" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="UsageUnit" Nullable="true" MaxLength="1" />
+    <Property Type="Decimal" Name="InitialHoldAmount" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Boolean" Name="SupportIncluded" Nullable="true" />
+    <Property Type="Int32" Name="Priority" Nullable="true" />
+    <Property Type="Boolean" Name="UserSpecific" Nullable="true" />
+    <Property Type="Int32" Name="ServiceCategoryID" Nullable="true" />
+    <Property Type="Boolean" Name="IsPayAsYouGo" Nullable="true" />
+    <Property Type="Int32" Name="PackageLengthInMonths" Nullable="true" />
+    <Property Type="Decimal" Name="ThreeMonthsSaving" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="SixMonthsSaving" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="NineMonthsSaving" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="TwelveMonthsSaving" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="TrialAmount" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Guid" Name="CreatedBy" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="true" Precision="23" />
+    <Property Type="Guid" Name="LastModifiedBy" Nullable="true" />
+    <Property Type="DateTime" Name="LastModifiedOn" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="true" />
+    <Property Type="Guid" Name="UserMembershipID" Nullable="true" />
+  </ComplexType>
+  <EntityType Name="vwUserSurveyQuestionsResponse">
+    <Key>
+      <PropertyRef Name="UserSurveyResponseID" />
+      <PropertyRef Name="SurveyQuestionID" />
+      <PropertyRef Name="SurveyQuestion" />
+      <PropertyRef Name="SurveyAnswer" />
+      <PropertyRef Name="CreatedOn" />
+      <PropertyRef Name="CreatedBy" />
+      <PropertyRef Name="AllowMultipleSelection" />
+      <PropertyRef Name="AllowCustomResponse" />
+      <PropertyRef Name="DisplayOrder" />
+      <PropertyRef Name="RecordStatus" />
+    </Key>
+    <Property Type="Int32" Name="UserSurveyResponseID" Nullable="false" />
+    <Property Type="Int32" Name="SurveyQuestionID" Nullable="false" />
+    <Property Type="String" Name="SurveyQuestion" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SurveyAnswer" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="false" Precision="3" />
+    <Property Type="Guid" Name="CreatedBy" Nullable="false" />
+    <Property Type="Boolean" Name="AllowMultipleSelection" Nullable="false" />
+    <Property Type="Boolean" Name="AllowCustomResponse" Nullable="false" />
+    <Property Type="Int32" Name="DisplayOrder" Nullable="false" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vwCouponsList">
+    <Key>
+      <PropertyRef Name="CouponID" />
+      <PropertyRef Name="CouponName" />
+      <PropertyRef Name="CouponCode" />
+      <PropertyRef Name="CouponType" />
+      <PropertyRef Name="Discount" />
+      <PropertyRef Name="IsUsed" />
+      <PropertyRef Name="UserSpecific" />
+      <PropertyRef Name="ServiceSpecific" />
+      <PropertyRef Name="ValidityInDays" />
+      <PropertyRef Name="RecordStatus" />
+    </Key>
+    <Property Type="Int32" Name="CouponID" Nullable="false" />
+    <Property Type="String" Name="CouponName" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CouponCode" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CouponType" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="Discount" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="String" Name="IsUsed" Nullable="false" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UserSpecific" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ServiceSpecific" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ValidityInDays" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="ValidityDate" Precision="3" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+  </EntityType>
+  <EntityType Name="vwUsersListWithFullName">
+    <Key>
+      <PropertyRef Name="UserProfileID" />
+      <PropertyRef Name="UserMembershipID" />
+      <PropertyRef Name="FirstName" />
+      <PropertyRef Name="FullName" />
+      <PropertyRef Name="RecordStatus" />
+    </Key>
+    <Property Type="Int64" Name="UserProfileID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Guid" Name="UserMembershipID" Nullable="false" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LastName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MiddleName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="FullName" Nullable="false" MaxLength="152" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UserRole" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="EmailID" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AdminPageAccess">
+    <Key>
+      <PropertyRef Name="AdminPageAccessID" />
+    </Key>
+    <Property Type="Int32" Name="AdminPageAccessID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="AdminUserID" Nullable="false" />
+    <Property Type="Int32" Name="WebPageID" Nullable="false" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+  </EntityType>
+  <EntityType Name="AdminPage">
+    <Key>
+      <PropertyRef Name="WebPageID" />
+    </Key>
+    <Property Type="Int32" Name="WebPageID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="WebPageName" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="Int32" Name="RecordStatus" />
+  </EntityType>
+  <ComplexType Name="pr_GetPagesForAdminAccessAssigment_Result">
+    <Property Type="Int32" Name="WebPageID" Nullable="false" />
+    <Property Type="String" Name="WebPageName" Nullable="false" MaxLength="500" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="true" Precision="23" />
+    <Property Type="Guid" Name="CreatedBy" Nullable="true" />
+    <Property Type="DateTime" Name="LastModifiedOn" Nullable="true" Precision="23" />
+    <Property Type="Guid" Name="LastModifiedBy" Nullable="true" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="pr_GetPagesWithAdminAccess_Result">
+    <Property Type="Int32" Name="WebPageID" Nullable="false" />
+    <Property Type="String" Name="WebPageName" Nullable="false" MaxLength="500" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="true" Precision="23" />
+    <Property Type="Guid" Name="CreatedBy" Nullable="true" />
+    <Property Type="DateTime" Name="LastModifiedOn" Nullable="true" Precision="23" />
+    <Property Type="Guid" Name="LastModifiedBy" Nullable="true" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="true" />
+  </ComplexType>
+  <EntityType Name="KnowAboutU">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="ModeNames" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Status" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CourseDetail">
+    <Key>
+      <PropertyRef Name="CourseID" />
+    </Key>
+    <Property Type="Int32" Name="CourseID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="CourseName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Description" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CourseDuration" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Status" Nullable="false" />
+    <Property Type="String" Name="Opportunities" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vwManageFAQ">
+    <Key>
+      <PropertyRef Name="FAQID" />
+      <PropertyRef Name="Question" />
+      <PropertyRef Name="Answer" />
+      <PropertyRef Name="MembersOnly" />
+      <PropertyRef Name="FAQTypeID" />
+      <PropertyRef Name="FAQTypeText" />
+      <PropertyRef Name="RecordStatus" />
+      <PropertyRef Name="FAQCategoryName" />
+    </Key>
+    <Property Type="Int32" Name="FAQID" Nullable="false" />
+    <Property Type="String" Name="Question" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Answer" Nullable="false" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="MembersOnly" Nullable="false" />
+    <Property Type="Int32" Name="FAQTypeID" Nullable="false" />
+    <Property Type="String" Name="FAQTypeText" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Priority" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="Int32" Name="FAQCategoryTypeID" />
+    <Property Type="String" Name="FAQCategoryName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="FAQCategoryType">
+    <Key>
+      <PropertyRef Name="FAQCategoryID" />
+    </Key>
+    <Property Type="Int32" Name="FAQCategoryID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="FAQCategoryName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+  </EntityType>
+  <EntityType Name="WftCloudResource">
+    <Key>
+      <PropertyRef Name="ResourceID" />
+    </Key>
+    <Property Type="Int32" Name="ResourceID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Title" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Path" Nullable="false" MaxLength="595" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="UserType" Nullable="false" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+  </EntityType>
+  <EntityType Name="WFTCloudUserType">
+    <Key>
+      <PropertyRef Name="WFTUserTypeID" />
+    </Key>
+    <Property Type="Int32" Name="WFTUserTypeID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="WFTUserTypeText" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vwCloudResourceManagement">
+    <Key>
+      <PropertyRef Name="ResourceID" />
+      <PropertyRef Name="Title" />
+      <PropertyRef Name="Path" />
+      <PropertyRef Name="UserType" />
+      <PropertyRef Name="WFTUserTypeText" />
+      <PropertyRef Name="RecordStatus" />
+    </Key>
+    <Property Type="Int32" Name="ResourceID" Nullable="false" />
+    <Property Type="String" Name="Title" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Path" Nullable="false" MaxLength="595" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="UserType" Nullable="false" />
+    <Property Type="String" Name="WFTUserTypeText" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vwServiceProvisionDetail">
+    <Key>
+      <PropertyRef Name="ServiceProvisionID" />
+      <PropertyRef Name="ServiceID" />
+      <PropertyRef Name="ServiceName" />
+      <PropertyRef Name="UserMin" />
+      <PropertyRef Name="UserMax" />
+      <PropertyRef Name="UserName" />
+      <PropertyRef Name="ServicePassword" />
+      <PropertyRef Name="ServiceUrl" />
+      <PropertyRef Name="UIDOnServer" />
+      <PropertyRef Name="AdditionalInformation" />
+      <PropertyRef Name="NotificationRequiredAt" />
+      <PropertyRef Name="CurrentUserCounter" />
+      <PropertyRef Name="ExpirationPeriod" />
+      <PropertyRef Name="RecordStatus" />
+      <PropertyRef Name="CategoryName" />
+    </Key>
+    <Property Type="Int32" Name="ServiceProvisionID" Nullable="false" />
+    <Property Type="Int32" Name="ServiceID" Nullable="false" />
+    <Property Type="String" Name="ServiceName" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="UserMin" Nullable="false" />
+    <Property Type="Int32" Name="UserMax" Nullable="false" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ServicePassword" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ServiceUrl" Nullable="false" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UIDOnServer" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AdditionalInformation" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AttachmentPath" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="NotificationRequiredAt" Nullable="false" />
+    <Property Type="Int32" Name="CurrentUserCounter" Nullable="false" />
+    <Property Type="Int32" Name="ExpirationPeriod" Nullable="false" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="Int32" Name="ServiceCategoryID" />
+    <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="UserSpecific" />
+  </EntityType>
+  <EntityType Name="IndexData">
+    <Key>
+      <PropertyRef Name="IndexDataID" />
+    </Key>
+    <Property Type="Int64" Name="IndexDataID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="IndexDataTypeID" Nullable="false" />
+    <Property Type="Int32" Name="Priority" />
+    <Property Type="String" Name="Description" Nullable="false" MaxLength="595" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Title" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Path" Nullable="false" MaxLength="595" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="ModifiedOn" Precision="3" />
+    <Property Type="Guid" Name="ModifiedBy" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="String" Name="ThumbnailPath" Nullable="false" MaxLength="300" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vwManageIndexData">
+    <Key>
+      <PropertyRef Name="IndexDataID" />
+      <PropertyRef Name="IndexDataTypeID" />
+      <PropertyRef Name="IndexDataTypeText" />
+      <PropertyRef Name="Description" />
+      <PropertyRef Name="Title" />
+      <PropertyRef Name="Path" />
+      <PropertyRef Name="RecordStatus" />
+      <PropertyRef Name="ThumbnailPath" />
+    </Key>
+    <Property Type="Int64" Name="IndexDataID" Nullable="false" />
+    <Property Type="Int32" Name="IndexDataTypeID" Nullable="false" />
+    <Property Type="String" Name="IndexDataTypeText" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Priority" />
+    <Property Type="String" Name="Description" Nullable="false" MaxLength="595" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Title" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Path" Nullable="false" MaxLength="595" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="ModifiedOn" Precision="3" />
+    <Property Type="Guid" Name="ModifiedBy" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="String" Name="ThumbnailPath" Nullable="false" MaxLength="300" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vwManageUserServiceProvision">
+    <Key>
+      <PropertyRef Name="UserSubscriptionID" />
+      <PropertyRef Name="UserID" />
+      <PropertyRef Name="FirstName" />
+      <PropertyRef Name="ServiceID" />
+      <PropertyRef Name="ServiceName" />
+      <PropertyRef Name="ServiceCategoryID" />
+      <PropertyRef Name="CategoryName" />
+      <PropertyRef Name="Credit" />
+      <PropertyRef Name="Status" />
+      <PropertyRef Name="RecordStatus" />
+      <PropertyRef Name="ARBSubscriptionId" />
+      <PropertyRef Name="ARBPeriod" />
+    </Key>
+    <Property Type="Int64" Name="UserSubscriptionID" Nullable="false" />
+    <Property Type="Guid" Name="UserID" Nullable="false" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LastName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MiddleName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="EmailID" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="ServiceID" Nullable="false" />
+    <Property Type="String" Name="ServiceName" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="ServiceCategoryID" Nullable="false" />
+    <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="Credit" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="Usage" Precision="18" Scale="2" />
+    <Property Type="Guid" Name="UsageUpdatedBy" />
+    <Property Type="DateTime" Name="UsageUpdatedDate" Precision="3" />
+    <Property Type="Int64" Name="UserProfileID" />
+    <Property Type="Int64" Name="CustomerPaymentProfileID" />
+    <Property Type="String" Name="ServiceUserName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ServicePassword" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ServiceIPAddress" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UIDOnServer" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ServiceOtherInformation" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="FilePath" MaxLength="595" FixedLength="false" Unicode="false" />
+    <Property Type="Int64" Name="LastTransactionID" />
+    <Property Type="String" Name="Status" Nullable="false" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="ModifiedOn" Precision="3" />
+    <Property Type="Guid" Name="ModifiedBy" />
+    <Property Type="String" Name="CustomerAddressID" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int64" Name="CouponCode" />
+    <Property Type="String" Name="AmazonInstanceId" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="ActiveDate" Precision="3" />
+    <Property Type="DateTime" Name="ExpirationDate" Precision="3" />
+    <Property Type="String" Name="ARBSubscriptionId" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="ARBPeriod" Nullable="false" />
+    <Property Type="Decimal" Name="SelectedDiscount" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="TrialAmount" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="PreviousBalance" Precision="18" Scale="2" />
+    <Property Type="Int64" Name="UserCart_Id" />
+    <Property Type="Guid" Name="ServiceDetailsUpdatedBy" />
+    <Property Type="DateTime" Name="ServiceDetailsUpdatedDate" Precision="3" />
+    <Property Type="Guid" Name="AddedBy" />
+    <Property Type="String" Name="ServiceUrl" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="ExpirationPeriod" />
+    <Property Type="String" Name="ImagePath" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CreditCardDetail">
+    <Key>
+      <PropertyRef Name="CreditCardDetailsID" />
+    </Key>
+    <Property Type="Int64" Name="CreditCardDetailsID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int64" Name="UserProfileID" Nullable="false" />
+    <Property Type="String" Name="CreditCardNumber" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ExpirationMonth" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ExpirationYear" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TypeOfCard" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ContactNumber" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Address1" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Address2" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="City" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="State" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Country" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PostalOrZipCode" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Int32" Name="RecordStatus" />
+    <Property Type="String" Name="NameOnCard" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TrainingDetail">
+    <Key>
+      <PropertyRef Name="TrainnerID" />
+    </Key>
+    <Property Type="Int32" Name="TrainnerID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LastName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Email" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PhoneNumber" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PermanentAddress" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TemporaryAddress" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="CourseOfInterest" />
+    <Property Type="Int32" Name="KnowAboutUs" />
+    <Property Type="String" Name="Others" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UGCollege" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="UGPercentage" Precision="18" Scale="2" />
+    <Property Type="String" Name="PGCollege" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="PGPercentage" Precision="18" Scale="2" />
+    <Property Type="String" Name="OQCollege" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="OQPercentage" Precision="18" Scale="2" />
+    <Property Type="String" Name="YearOfExperience" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CurrentCompany" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TechnologyCurrentlyWork" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Status" Nullable="false" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Int32" Name="CreatedBy" />
+    <Property Type="Int32" Name="LastModifiedBy" />
+    <Property Type="DateTime" Name="TimeIn" Precision="3" />
+    <Property Type="DateTime" Name="TimeOut" Precision="3" />
+    <Property Type="String" Name="ImgPath" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Feedback" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="VisitorID" />
+  </EntityType>
+  <EntityType Name="UserOrderDetail">
+    <Key>
+      <PropertyRef Name="UserOrderDetailID" />
+    </Key>
+    <Property Type="Int32" Name="UserOrderDetailID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="UserOrderID" Nullable="false" />
+    <Property Type="Int32" Name="ServiceID" Nullable="false" />
+    <Property Type="Int32" Name="Quantity" Nullable="false" />
+    <Property Type="Decimal" Name="InitialHoldAmount" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Boolean" Name="IsPayAsYouGo" />
+    <Property Type="Int64" Name="OrderCartID" />
+    <Property Type="Int32" Name="SelectedDiscountDuration" />
+  </EntityType>
+  <EntityType Name="UserOrder">
+    <Key>
+      <PropertyRef Name="UserOrderID" />
+    </Key>
+    <Property Type="Int32" Name="UserOrderID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="UserProfileID" Nullable="false" />
+    <Property Type="DateTime" Name="OrderDateTime" Nullable="false" Precision="3" />
+    <Property Type="Int32" Name="OrderStatus" Nullable="false" />
+    <Property Type="Decimal" Name="OrderTotal" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="String" Name="IsCouponCode" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="IsDiscountValue" Precision="18" Scale="2" />
+    <Property Type="String" Name="AuthCustomerProfileID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthPaymentProfileID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="InvoiceNumber" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaymentMethod" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaypalBillingAgreementID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaypalPaymentTransactionID" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="UserPaymentTransaction">
+    <Key>
+      <PropertyRef Name="UserPaymentTransactionID" />
+    </Key>
+    <Property Type="Int32" Name="UserPaymentTransactionID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="UserProfileID" Nullable="false" />
+    <Property Type="DateTime" Name="PaymentDateTime" Nullable="false" Precision="3" />
+    <Property Type="String" Name="AuthTransactionID" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthCardNumber" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthAuthorizationCode" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="Approved" Nullable="false" />
+    <Property Type="Decimal" Name="Amount" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="String" Name="InvoiceNumber" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthResponseCode" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthMessage" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="IsRefunded" />
+    <Property Type="String" Name="PaymentMethod" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaypalPayerMailID" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaypalPayerID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaypalBillingAgreementID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PalpalPaymentTransactionID" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="AutomatedPaymentTransaction">
+    <Key>
+      <PropertyRef Name="AutomatedPaymentTransID" />
+    </Key>
+    <Property Type="Int32" Name="AutomatedPaymentTransID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="AutomatedPaymentID" Nullable="false" />
+    <Property Type="Decimal" Name="Amount" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Boolean" Name="Approved" Nullable="false" />
+    <Property Type="String" Name="AuthorizationCode" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CardNumber" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="InvoiceNumber" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Message" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ResponseCode" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthorizeTransID" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="PaymentDate" Nullable="false" Precision="3" />
+    <Property Type="DateTime" Name="RefundDate" Precision="3" />
+    <Property Type="Boolean" Name="IsRefunded" />
+  </EntityType>
+  <ComplexType Name="pr_GetCategoriesByMembershipID_Result">
+    <Property Type="Int32" Name="ServiceCategoryID" Nullable="false" />
+    <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="200" />
+  </ComplexType>
+  <EntityType Name="Banner">
+    <Key>
+      <PropertyRef Name="BannerID" />
+    </Key>
+    <Property Type="Int64" Name="BannerID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="ImgTitle" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ImgPath" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="ImgPriority" />
+    <Property Type="String" Name="RedirectUrl" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DisplayStartDateTime" Precision="3" />
+    <Property Type="DateTime" Name="DisplayEndDateTime" Precision="3" />
+    <Property Type="Boolean" Name="Mandatory" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Testimonial">
+    <Key>
+      <PropertyRef Name="TestimonialID" />
+    </Key>
+    <Property Type="Int32" Name="TestimonialID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Testimonial1" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="RecordStatus" />
+    <Property Type="Int32" Name="Priority" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="ModifiedOn" Precision="3" />
+    <Property Type="Guid" Name="ModifiedBy" />
+    <Property Type="String" Name="HomePageVersion" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CustomerName" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Designation" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CustOrg" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CustSince" Precision="0" />
+    <Property Type="String" Name="NoOfDedicatedSystems" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Usage" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="FAQ">
+    <Key>
+      <PropertyRef Name="FAQID" />
+    </Key>
+    <Property Type="Int32" Name="FAQID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Question" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Answer" Nullable="false" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="MembersOnly" Nullable="false" />
+    <Property Type="Int32" Name="FAQTypeID" Nullable="false" />
+    <Property Type="Int32" Name="Priority" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="Int32" Name="FAQCategoryTypeID" />
+    <Property Type="String" Name="Language" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ContactRequest">
+    <Key>
+      <PropertyRef Name="ContactRequestID" />
+    </Key>
+    <Property Type="Int32" Name="ContactRequestID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="ContactName" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ContactEmailAddress" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Subject" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Message" MaxLength="2000" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DateEntered" Precision="3" />
+  </EntityType>
+  <EntityType Name="NewsLetterSignUp">
+    <Key>
+      <PropertyRef Name="NewsLetterSignupID" />
+    </Key>
+    <Property Type="Int32" Name="NewsLetterSignupID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="EmailID" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DateSignedUp" Nullable="false" Precision="3" />
+    <Property Type="String" Name="FirstName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LastName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="ActiveStatus" />
+  </EntityType>
+  <EntityType Name="UserSubscribedService">
+    <Key>
+      <PropertyRef Name="UserSubscriptionID" />
+    </Key>
+    <Property Type="Int64" Name="UserSubscriptionID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Guid" Name="UserID" Nullable="false" />
+    <Property Type="Int32" Name="ServiceID" Nullable="false" />
+    <Property Type="Decimal" Name="Credit" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="Usage" Precision="18" Scale="2" />
+    <Property Type="Guid" Name="UsageUpdatedBy" />
+    <Property Type="DateTime" Name="UsageUpdatedDate" Precision="3" />
+    <Property Type="Int64" Name="UserProfileID" />
+    <Property Type="Int64" Name="CustomerPaymentProfileID" />
+    <Property Type="String" Name="ServiceUserName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ServicePassword" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ServiceIPAddress" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UIDOnServer" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ServiceOtherInformation" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="FilePath" MaxLength="595" FixedLength="false" Unicode="false" />
+    <Property Type="Int64" Name="LastTransactionID" />
+    <Property Type="String" Name="Status" Nullable="false" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="ModifiedOn" Precision="3" />
+    <Property Type="Guid" Name="ModifiedBy" />
+    <Property Type="String" Name="CustomerAddressID" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int64" Name="CouponCode" />
+    <Property Type="String" Name="AmazonInstanceId" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int64" Name="UserOrderID" Nullable="false" />
+    <Property Type="DateTime" Name="ActiveDate" Precision="3" />
+    <Property Type="DateTime" Name="ExpirationDate" Precision="3" />
+    <Property Type="String" Name="ARBSubscriptionId" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="ARBPeriod" Nullable="false" />
+    <Property Type="Decimal" Name="SelectedDiscount" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="TrialAmount" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="PreviousBalance" Precision="18" Scale="2" />
+    <Property Type="Int64" Name="UserCart_Id" />
+    <Property Type="Guid" Name="ServiceDetailsUpdatedBy" />
+    <Property Type="DateTime" Name="ServiceDetailsUpdatedDate" Precision="3" />
+    <Property Type="Guid" Name="AddedBy" />
+    <Property Type="Int32" Name="ServiceCategoryID" Nullable="false" />
+    <Property Type="String" Name="ServiceUrl" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="ExpirationPeriod" />
+    <Property Type="Boolean" Name="IsPayAsYouGo" />
+    <Property Type="Decimal" Name="InitialHoldAmount" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="WFTCloudPrice" Precision="18" Scale="2" />
+    <Property Type="Int32" Name="SelectedDiscountDuration" />
+    <Property Type="Decimal" Name="DiscountPercentage" Precision="18" Scale="2" />
+    <Property Type="Boolean" Name="AutoProvisioningDone" />
+    <Property Type="String" Name="UsageUnit" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="WorkLog" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ImagePath" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CanceledDate" Precision="3" />
+    <Property Type="String" Name="InstanceNumber" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ApplicationServer" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DeveloperKey" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ServiceRating" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CancelReason" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Feedback" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CustomerPaymentProfile">
+    <Key>
+      <PropertyRef Name="CustomerPaymenProfileID" />
+    </Key>
+    <Property Type="Int64" Name="CustomerPaymenProfileID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int64" Name="UserProfileID" />
+    <Property Type="String" Name="AuthCustomerProfileID" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthPaymentProfileID" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthBillingAddressID" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="DefaultPaymentID" />
+    <Property Type="Boolean" Name="Status" />
+  </EntityType>
+  <EntityType Name="AutomatedPayment">
+    <Key>
+      <PropertyRef Name="AutomatedPaymentID" />
+    </Key>
+    <Property Type="Int64" Name="AutomatedPaymentID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int64" Name="UserSubscriptionID" Nullable="false" />
+    <Property Type="Decimal" Name="Amount" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Int32" Name="FrequencyInMonths" Nullable="false" />
+    <Property Type="DateTime" Name="BillingStartDate" Nullable="false" Precision="3" />
+    <Property Type="DateTime" Name="BillingEndDate" Nullable="false" Precision="3" />
+    <Property Type="Int64" Name="RecordStatus" />
+  </EntityType>
+  <EntityType Name="vwAutomatedPayment">
+    <Key>
+      <PropertyRef Name="AutomatedPaymentID" />
+      <PropertyRef Name="BillingStartDate" />
+      <PropertyRef Name="Amount" />
+      <PropertyRef Name="UserSubscriptionID" />
+      <PropertyRef Name="FrequencyInMonths" />
+    </Key>
+    <Property Type="Int64" Name="AutomatedPaymentID" Nullable="false" />
+    <Property Type="DateTime" Name="BillingStartDate" Nullable="false" Precision="3" />
+    <Property Type="Decimal" Name="Amount" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Int64" Name="UserSubscriptionID" Nullable="false" />
+    <Property Type="Int32" Name="FrequencyInMonths" Nullable="false" />
+    <Property Type="Int64" Name="UserProfileID" />
+    <Property Type="String" Name="CategoryName" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Type="String" Name="ServiceName" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Type="String" Name="FirstName" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Type="String" Name="LastName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MiddleName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="EmailID" MaxLength="500" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vwAutomatedPaymentTransaction">
+    <Key>
+      <PropertyRef Name="AutomatedPaymentTransID" />
+      <PropertyRef Name="AutomatedPaymentID" />
+      <PropertyRef Name="BilledAmount" />
+      <PropertyRef Name="Approved" />
+      <PropertyRef Name="AuthorizationCode" />
+      <PropertyRef Name="CardNumber" />
+      <PropertyRef Name="InvoiceNumber" />
+      <PropertyRef Name="Message" />
+      <PropertyRef Name="ResponseCode" />
+      <PropertyRef Name="AuthorizeTransID" />
+      <PropertyRef Name="PaymentDate" />
+      <PropertyRef Name="BillingStartDate" />
+      <PropertyRef Name="AmountToBill" />
+      <PropertyRef Name="ServiceID" />
+      <PropertyRef Name="CategoryID" />
+      <PropertyRef Name="FrequencyInMonths" />
+      <PropertyRef Name="UserProfileID" />
+      <PropertyRef Name="CategoryName" />
+      <PropertyRef Name="ServiceName" />
+      <PropertyRef Name="FirstName" />
+    </Key>
+    <Property Type="Int32" Name="AutomatedPaymentTransID" Nullable="false" />
+    <Property Type="Int32" Name="AutomatedPaymentID" Nullable="false" />
+    <Property Type="Decimal" Name="BilledAmount" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Boolean" Name="Approved" Nullable="false" />
+    <Property Type="String" Name="AuthorizationCode" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CardNumber" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="InvoiceNumber" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Message" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ResponseCode" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthorizeTransID" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="PaymentDate" Nullable="false" Precision="3" />
+    <Property Type="DateTime" Name="RefundDate" Precision="3" />
+    <Property Type="Boolean" Name="IsRefunded" />
+    <Property Type="DateTime" Name="BillingStartDate" Nullable="false" Precision="3" />
+    <Property Type="Decimal" Name="AmountToBill" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Int32" Name="ServiceID" Nullable="false" />
+    <Property Type="Int32" Name="CategoryID" Nullable="false" />
+    <Property Type="Int32" Name="FrequencyInMonths" Nullable="false" />
+    <Property Type="Int64" Name="UserProfileID" Nullable="false" />
+    <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ServiceName" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LastName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MiddleName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="EmailID" MaxLength="500" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ServiceCatalog">
+    <Key>
+      <PropertyRef Name="ServiceID" />
+    </Key>
+    <Property Type="Int32" Name="ServiceID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="ServiceName" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ServiceDescription" Nullable="false" MaxLength="8000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ReleaseVersion" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SystemType" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="WFTCloudPrice" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ThirdPartyServicePrice" Precision="18" Scale="2" />
+    <Property Type="String" Name="UsageUnit" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="InitialHoldAmount" Precision="18" Scale="2" />
+    <Property Type="Boolean" Name="SupportIncluded" />
+    <Property Type="Int32" Name="Priority" />
+    <Property Type="Boolean" Name="UserSpecific" />
+    <Property Type="Int32" Name="ServiceCategoryID" />
+    <Property Type="Boolean" Name="IsPayAsYouGo" />
+    <Property Type="Int32" Name="PackageLengthInMonths" />
+    <Property Type="Decimal" Name="ThreeMonthsSaving" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="SixMonthsSaving" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="NineMonthsSaving" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="TwelveMonthsSaving" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="TrialAmount" Precision="18" Scale="2" />
+    <Property Type="String" Name="DisplayColor" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="DisplayBlinking" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Int32" Name="RecordStatus" />
+    <Property Type="Int64" Name="UserProfileID" />
+    <Property Type="Decimal" Name="MinimumUsageInHours" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="CostPerMinUsage" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="CostPerAdditionalHours" Precision="18" Scale="2" />
+    <Property Type="Boolean" Name="IsTrial" />
+  </EntityType>
+  <ComplexType Name="pr_GetCategoriesByMembershipID1_Result">
+    <Property Type="Int32" Name="ServiceCategoryID" Nullable="false" />
+    <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="pr_GetServicesByMembershipID1_Result">
+    <Property Type="Int32" Name="ServiceID" Nullable="false" />
+    <Property Type="String" Name="ServiceName" Nullable="false" MaxLength="200" />
+    <Property Type="Int32" Name="ServiceCategoryID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="pr_GetIndexData_Result">
+    <Property Type="Int64" Name="IndexDataID" Nullable="false" />
+    <Property Type="Int32" Name="IndexDataTypeID" Nullable="false" />
+    <Property Type="Int32" Name="Priority" Nullable="true" />
+    <Property Type="String" Name="Description" Nullable="false" MaxLength="595" />
+    <Property Type="String" Name="Title" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Path" Nullable="false" MaxLength="595" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="true" Precision="23" />
+    <Property Type="Guid" Name="CreatedBy" Nullable="true" />
+    <Property Type="DateTime" Name="ModifiedOn" Nullable="true" Precision="23" />
+    <Property Type="Guid" Name="ModifiedBy" Nullable="true" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="String" Name="ThumbnailPath" Nullable="false" MaxLength="300" />
+  </ComplexType>
+  <ComplexType Name="pr_GetRandomTestimonialForIndex_Result">
+    <Property Type="Int32" Name="TestimonialID" Nullable="false" />
+    <Property Type="String" Name="CustomerName" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Designation" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="CustOrg" Nullable="true" MaxLength="200" />
+    <Property Type="DateTime" Name="CustSince" Nullable="true" />
+    <Property Type="String" Name="NoOfDedicatedSystems" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Usage" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Testimonial" Nullable="true" />
+    <Property Type="String" Name="HomePageVersion" Nullable="true" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="true" />
+    <Property Type="Int32" Name="Priority" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="true" Precision="23" />
+    <Property Type="Guid" Name="CreatedBy" Nullable="true" />
+    <Property Type="DateTime" Name="ModifiedOn" Nullable="true" Precision="23" />
+    <Property Type="Guid" Name="ModifiedBy" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="pr_GetRandomBannerImages_Result">
+    <Property Type="Int64" Name="BannerID" Nullable="false" />
+    <Property Type="String" Name="ImgTitle" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="ImgPath" Nullable="false" />
+    <Property Type="Int32" Name="ImgPriority" Nullable="true" />
+    <Property Type="String" Name="RedirectUrl" Nullable="true" />
+    <Property Type="DateTime" Name="DisplayStartDateTime" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="DisplayEndDateTime" Nullable="true" Precision="23" />
+    <Property Type="Boolean" Name="Mandatory" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="true" Precision="23" />
+    <Property Type="Guid" Name="CreatedBy" Nullable="true" />
+    <Property Type="DateTime" Name="LastModifiedOn" Nullable="true" Precision="23" />
+    <Property Type="Guid" Name="LastModifiedBy" Nullable="true" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="UserCart">
+    <Key>
+      <PropertyRef Name="UserCartID" />
+    </Key>
+    <Property Type="Int64" Name="UserCartID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int64" Name="ServiceID" Nullable="false" />
+    <Property Type="Int64" Name="UserProfileID" Nullable="false" />
+    <Property Type="Int32" Name="Quantity" Nullable="false" />
+    <Property Type="Int64" Name="CouponID" />
+    <Property Type="Int32" Name="SelectedDiscount" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="ModifiedOn" Precision="3" />
+    <Property Type="Guid" Name="ModifiedBy" />
+    <Property Type="Int32" Name="RecordStatus" />
+    <Property Type="Boolean" Name="IsPayAsYouGo" />
+  </EntityType>
+  <EntityType Name="vwManageSubscribedService">
+    <Key>
+      <PropertyRef Name="UserSubscriptionID" />
+      <PropertyRef Name="UserID" />
+      <PropertyRef Name="ServiceID" />
+      <PropertyRef Name="Credit" />
+      <PropertyRef Name="Status" />
+      <PropertyRef Name="RecordStatus" />
+      <PropertyRef Name="UserOrderID" />
+      <PropertyRef Name="ARBSubscriptionId" />
+      <PropertyRef Name="ARBPeriod" />
+      <PropertyRef Name="ServiceCategoryID" />
+      <PropertyRef Name="ServiceWFTCloudPrice" />
+    </Key>
+    <Property Type="Int64" Name="UserSubscriptionID" Nullable="false" />
+    <Property Type="Guid" Name="UserID" Nullable="false" />
+    <Property Type="Int32" Name="ServiceID" Nullable="false" />
+    <Property Type="Decimal" Name="Credit" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="Usage" Precision="18" Scale="2" />
+    <Property Type="Guid" Name="UsageUpdatedBy" />
+    <Property Type="DateTime" Name="UsageUpdatedDate" Precision="3" />
+    <Property Type="Int64" Name="UserProfileID" />
+    <Property Type="Int64" Name="CustomerPaymentProfileID" />
+    <Property Type="String" Name="ServiceUserName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ServicePassword" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ServiceIPAddress" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UIDOnServer" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ServiceOtherInformation" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="FilePath" MaxLength="595" FixedLength="false" Unicode="false" />
+    <Property Type="Int64" Name="LastTransactionID" />
+    <Property Type="String" Name="Status" Nullable="false" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="ModifiedOn" Precision="3" />
+    <Property Type="Guid" Name="ModifiedBy" />
+    <Property Type="String" Name="CustomerAddressID" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int64" Name="CouponCode" />
+    <Property Type="String" Name="AmazonInstanceId" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int64" Name="UserOrderID" Nullable="false" />
+    <Property Type="DateTime" Name="ActiveDate" Precision="3" />
+    <Property Type="DateTime" Name="ExpirationDate" Precision="3" />
+    <Property Type="String" Name="ARBSubscriptionId" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="ARBPeriod" Nullable="false" />
+    <Property Type="Decimal" Name="SelectedDiscount" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="TrialAmount" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="PreviousBalance" Precision="18" Scale="2" />
+    <Property Type="Int64" Name="UserCart_Id" />
+    <Property Type="Guid" Name="ServiceDetailsUpdatedBy" />
+    <Property Type="DateTime" Name="ServiceDetailsUpdatedDate" Precision="3" />
+    <Property Type="Guid" Name="AddedBy" />
+    <Property Type="Int32" Name="ServiceCategoryID" Nullable="false" />
+    <Property Type="String" Name="ServiceUrl" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="ExpirationPeriod" />
+    <Property Type="Boolean" Name="IsPayAsYouGo" />
+    <Property Type="Decimal" Name="InitialHoldAmount" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="WFTCloudPrice" Precision="18" Scale="2" />
+    <Property Type="Int32" Name="SelectedDiscountDuration" />
+    <Property Type="Decimal" Name="DiscountPercentage" Precision="18" Scale="2" />
+    <Property Type="Boolean" Name="AutoProvisioningDone" />
+    <Property Type="String" Name="UsageUnit" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="ServiceWFTCloudPrice" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ThirdPartyServicePrice" Precision="18" Scale="2" />
+    <Property Type="String" Name="ServiceUsageUnit" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="ThreeMonthsSaving" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="SixMonthsSaving" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="NineMonthsSaving" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="TwelveMonthsSaving" Precision="18" Scale="2" />
+    <Property Type="String" Name="DisplayColor" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="DisplayBlinking" />
+    <Property Type="Int32" Name="PackageLengthInMonths" />
+  </EntityType>
+  <EntityType Name="WftSetting">
+    <Key>
+      <PropertyRef Name="SettingsID" />
+    </Key>
+    <Property Type="Int32" Name="SettingsID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="SettingKey" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SettingValue" MaxLength="500" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vwUserPaymentTransaction">
+    <Key>
+      <PropertyRef Name="UserPaymentTransactionID" />
+      <PropertyRef Name="UserProfileID" />
+      <PropertyRef Name="PaymentDateTime" />
+      <PropertyRef Name="AuthCardNumber" />
+      <PropertyRef Name="AuthAuthorizationCode" />
+      <PropertyRef Name="Approved" />
+      <PropertyRef Name="Amount" />
+      <PropertyRef Name="InvoiceNumber" />
+      <PropertyRef Name="AuthResponseCode" />
+      <PropertyRef Name="AuthMessage" />
+      <PropertyRef Name="FirstName" />
+      <PropertyRef Name="UserOrderID" />
+      <PropertyRef Name="OrderDateTime" />
+      <PropertyRef Name="OrderStatus" />
+      <PropertyRef Name="OrderTotal" />
+    </Key>
+    <Property Type="Int32" Name="UserPaymentTransactionID" Nullable="false" />
+    <Property Type="Int32" Name="UserProfileID" Nullable="false" />
+    <Property Type="DateTime" Name="PaymentDateTime" Nullable="false" Precision="3" />
+    <Property Type="String" Name="AuthTransactionID" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthCardNumber" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthAuthorizationCode" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="Approved" Nullable="false" />
+    <Property Type="Decimal" Name="Amount" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="String" Name="InvoiceNumber" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthResponseCode" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthMessage" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LastName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MiddleName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="EmailID" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="UserOrderID" Nullable="false" />
+    <Property Type="DateTime" Name="OrderDateTime" Nullable="false" Precision="3" />
+    <Property Type="Int32" Name="OrderStatus" Nullable="false" />
+    <Property Type="Decimal" Name="OrderTotal" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="String" Name="IsCouponCode" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="IsDiscountValue" Precision="18" Scale="2" />
+    <Property Type="String" Name="AuthCustomerProfileID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthPaymentProfileID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="IsRefunded" />
+  </EntityType>
+  <EntityType Name="UserRefundPayment">
+    <Key>
+      <PropertyRef Name="RefundID" />
+    </Key>
+    <Property Type="Int64" Name="RefundID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int64" Name="UserPaymentTransactionID" />
+    <Property Type="String" Name="UserPaymentInvoiceNumber" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="AuthResponseAmount" Precision="18" Scale="2" />
+    <Property Type="Boolean" Name="AuthResponseApproved" />
+    <Property Type="String" Name="AuthResponseAuthorizationCode" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthResponseCardNumber" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthResponseInvoiceNumber" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthResponseMessage" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthResponseCode" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthResponseTransactionID" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="PaymentDateTime" Precision="3" />
+    <Property Type="Int64" Name="DoneByUserProfileID" />
+    <Property Type="String" Name="PaymentMethod" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaypalPayerMailID" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaypalPayerID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaypalRefundTransaction" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="AllAutomatedPayment">
+    <Key>
+      <PropertyRef Name="AllPaymentID" />
+    </Key>
+    <Property Type="Int64" Name="AllPaymentID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="CustomerProfileID" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CustomerPaymentProfileID" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int64" Name="UserSubscriptionID" Nullable="false" />
+    <Property Type="DateTime" Name="InitialSubscriptionDate" Nullable="false" Precision="0" />
+    <Property Type="DateTime" Name="PaymentDate" Nullable="false" Precision="0" />
+    <Property Type="Decimal" Name="InitialHoldAmount" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="CurrentMonthBilling" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="String" Name="PaymentStatus" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="PaymentAmount" Precision="18" Scale="2" />
+    <Property Type="Int32" Name="ApprovalStatus" />
+    <Property Type="String" Name="AuthorizationCode" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CardNumber" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Message" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ResponseCode" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TransactionID" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="InvoiceNumber" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Worklog" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaymentMethod" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaypalPayerMailID" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaypalPayerID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaypalBillingAgreementID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaypalPaymentTransactionID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ResponseBillingAgreementID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ResponsePaymentTransactionID" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <ComplexType Name="pr_NewSignupUserReport_Result">
+    <Property Type="Int64" Name="UserProfileID" Nullable="false" />
+    <Property Type="Guid" Name="UserMembershipID" Nullable="false" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="LastName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MiddleName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="UserRole" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="EmailID" Nullable="true" MaxLength="500" />
+    <Property Type="Guid" Name="CreatedBy" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="true" Precision="23" />
+    <Property Type="Guid" Name="LastModifiedBy" Nullable="true" />
+    <Property Type="DateTime" Name="LastModifiedOn" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="String" Name="ContactNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="PhoneNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MobileNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MailingAddress" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="CompanyName" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="AuthProfileID" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="AuthPaymentProfileID" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="AuthBillingAddressID" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="Location" Nullable="true" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="pr_UserReportbyExpiryDate_Result">
+    <Property Type="Int64" Name="UserSubscriptionID" Nullable="false" />
+    <Property Type="Int32" Name="ServiceID" Nullable="false" />
+    <Property Type="String" Name="ServiceName" Nullable="false" MaxLength="200" />
+    <Property Type="Int32" Name="ServiceCategoryID" Nullable="true" />
+    <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="200" />
+    <Property Type="DateTime" Name="ServiceCreatedOn" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="ExpirationDate" Nullable="true" Precision="23" />
+    <Property Type="Int64" Name="UserProfileID" Nullable="false" />
+    <Property Type="Guid" Name="UserMembershipID" Nullable="false" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="LastName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MiddleName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="UserRole" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="EmailID" Nullable="true" MaxLength="500" />
+    <Property Type="Guid" Name="CreatedBy" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="true" Precision="23" />
+    <Property Type="Guid" Name="LastModifiedBy" Nullable="true" />
+    <Property Type="DateTime" Name="LastModifiedOn" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="String" Name="ContactNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="PhoneNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MobileNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MailingAddress" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="CompanyName" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="AuthProfileID" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="AuthPaymentProfileID" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="AuthBillingAddressID" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="Location" Nullable="true" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="pr_UserReportDedicatedService_Result">
+    <Property Type="Int64" Name="UserSubscriptionID" Nullable="false" />
+    <Property Type="Int32" Name="ServiceID" Nullable="false" />
+    <Property Type="String" Name="ServiceName" Nullable="false" MaxLength="200" />
+    <Property Type="Int32" Name="ServiceCategoryID" Nullable="true" />
+    <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="200" />
+    <Property Type="DateTime" Name="ServiceCreatedOn" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="ExpirationDate" Nullable="true" Precision="23" />
+    <Property Type="Int64" Name="UserProfileID" Nullable="false" />
+    <Property Type="Guid" Name="UserMembershipID" Nullable="false" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="LastName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MiddleName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="UserRole" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="EmailID" Nullable="true" MaxLength="500" />
+    <Property Type="Guid" Name="CreatedBy" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="true" Precision="23" />
+    <Property Type="Guid" Name="LastModifiedBy" Nullable="true" />
+    <Property Type="DateTime" Name="LastModifiedOn" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="String" Name="ContactNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="PhoneNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MobileNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MailingAddress" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="CompanyName" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="AuthProfileID" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="AuthPaymentProfileID" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="AuthBillingAddressID" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="Location" Nullable="true" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="pr_UserReportTrialServices_Result">
+    <Property Type="Int64" Name="UserSubscriptionID" Nullable="false" />
+    <Property Type="Int32" Name="ServiceID" Nullable="false" />
+    <Property Type="String" Name="ServiceName" Nullable="false" MaxLength="200" />
+    <Property Type="Int32" Name="ServiceCategoryID" Nullable="true" />
+    <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="200" />
+    <Property Type="DateTime" Name="ServiceCreatedOn" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="ExpirationDate" Nullable="true" Precision="23" />
+    <Property Type="Int64" Name="UserProfileID" Nullable="false" />
+    <Property Type="Guid" Name="UserMembershipID" Nullable="false" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="LastName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MiddleName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="UserRole" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="EmailID" Nullable="true" MaxLength="500" />
+    <Property Type="Guid" Name="CreatedBy" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="true" Precision="23" />
+    <Property Type="Guid" Name="LastModifiedBy" Nullable="true" />
+    <Property Type="DateTime" Name="LastModifiedOn" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="String" Name="ContactNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="PhoneNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MobileNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MailingAddress" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="CompanyName" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="AuthProfileID" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="AuthPaymentProfileID" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="AuthBillingAddressID" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="Location" Nullable="true" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="pr_UserwithnoservicesReport_Result">
+    <Property Type="Int64" Name="UserProfileID" Nullable="false" />
+    <Property Type="Guid" Name="UserMembershipID" Nullable="false" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="LastName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MiddleName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="UserRole" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="EmailID" Nullable="true" MaxLength="500" />
+    <Property Type="Guid" Name="CreatedBy" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="true" Precision="23" />
+    <Property Type="Guid" Name="LastModifiedBy" Nullable="true" />
+    <Property Type="DateTime" Name="LastModifiedOn" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="String" Name="ContactNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="PhoneNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MobileNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MailingAddress" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="CompanyName" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="AuthProfileID" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="AuthPaymentProfileID" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="AuthBillingAddressID" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="Location" Nullable="true" MaxLength="200" />
+  </ComplexType>
+  <EntityType Name="vwManageAllAutomatedPayment">
+    <Key>
+      <PropertyRef Name="AllPaymentID" />
+      <PropertyRef Name="CustomerProfileID" />
+      <PropertyRef Name="CustomerPaymentProfileID" />
+      <PropertyRef Name="UserSubscriptionID" />
+      <PropertyRef Name="InitialSubscriptionDate" />
+      <PropertyRef Name="PaymentDate" />
+      <PropertyRef Name="InitialHoldAmount" />
+      <PropertyRef Name="CurrentMonthBilling" />
+      <PropertyRef Name="PaymentStatus" />
+      <PropertyRef Name="FirstName" />
+      <PropertyRef Name="UserProfileID" />
+      <PropertyRef Name="ServiceName" />
+      <PropertyRef Name="CategoryName" />
+    </Key>
+    <Property Type="Int64" Name="AllPaymentID" Nullable="false" />
+    <Property Type="String" Name="CustomerProfileID" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CustomerPaymentProfileID" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int64" Name="UserSubscriptionID" Nullable="false" />
+    <Property Type="DateTime" Name="InitialSubscriptionDate" Nullable="false" Precision="0" />
+    <Property Type="DateTime" Name="PaymentDate" Nullable="false" Precision="0" />
+    <Property Type="Decimal" Name="InitialHoldAmount" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="CurrentMonthBilling" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="String" Name="PaymentStatus" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="PaymentAmount" Precision="18" Scale="2" />
+    <Property Type="Int32" Name="ApprovalStatus" />
+    <Property Type="String" Name="AuthorizationCode" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CardNumber" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Message" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ResponseCode" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TransactionID" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="InvoiceNumber" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Worklog" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LastName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MiddleName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int64" Name="UserProfileID" Nullable="false" />
+    <Property Type="String" Name="ServiceName" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaypalPayerMailID" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaypalPayerID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaypalBillingAgreementID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaypalPaymentTransactionID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaymentMethod" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ResponseBillingAgreementID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ResponsePaymentTransactionID" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="SocialTweet">
+    <Key>
+      <PropertyRef Name="tweetID" />
+    </Key>
+    <Property Type="Int64" Name="tweetID" Nullable="false" />
+    <Property Type="DateTime" Name="CreatedDate" Nullable="false" Precision="3" />
+    <Property Type="String" Name="tweetPlainText" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="tweetHTMLText" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <ComplexType Name="pr_ServicewithnoServiceProvision_Result">
+    <Property Type="Int32" Name="ServiceID" Nullable="false" />
+    <Property Type="String" Name="ServiceName" Nullable="false" MaxLength="200" />
+    <Property Type="String" Name="ServiceDescription" Nullable="false" MaxLength="8000" />
+    <Property Type="String" Name="ReleaseVersion" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="SystemType" Nullable="false" MaxLength="100" />
+    <Property Type="Decimal" Name="WFTCloudPrice" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ThirdPartyServicePrice" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="UsageUnit" Nullable="true" MaxLength="20" />
+    <Property Type="Decimal" Name="InitialHoldAmount" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Boolean" Name="SupportIncluded" Nullable="true" />
+    <Property Type="Int32" Name="Priority" Nullable="true" />
+    <Property Type="Boolean" Name="UserSpecific" Nullable="true" />
+    <Property Type="Int32" Name="ServiceCategoryID" Nullable="true" />
+    <Property Type="Boolean" Name="IsPayAsYouGo" Nullable="true" />
+    <Property Type="Int32" Name="PackageLengthInMonths" Nullable="true" />
+    <Property Type="Decimal" Name="ThreeMonthsSaving" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="SixMonthsSaving" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="NineMonthsSaving" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="TwelveMonthsSaving" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="TrialAmount" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="DisplayColor" Nullable="true" MaxLength="20" />
+    <Property Type="Boolean" Name="DisplayBlinking" Nullable="true" />
+    <Property Type="Guid" Name="CreatedBy" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="true" Precision="23" />
+    <Property Type="Guid" Name="LastModifiedBy" Nullable="true" />
+    <Property Type="DateTime" Name="LastModifiedOn" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="true" />
+    <Property Type="Int64" Name="UserProfileID" Nullable="true" />
+    <Property Type="Decimal" Name="MinimumUsageInHours" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="CostPerMinUsage" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="CostPerAdditionalHours" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Boolean" Name="IsTrial" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="pr_UsersHowDidYouHearAboutUs_Result">
+    <Property Type="Int64" Name="UserProfileID" Nullable="false" />
+    <Property Type="Guid" Name="UserMembershipID" Nullable="false" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="LastName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MiddleName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="UserRole" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="EmailID" Nullable="true" MaxLength="500" />
+    <Property Type="Guid" Name="CreatedBy" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="true" Precision="23" />
+    <Property Type="Guid" Name="LastModifiedBy" Nullable="true" />
+    <Property Type="DateTime" Name="LastModifiedOn" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="String" Name="ContactNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="PhoneNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MobileNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MailingAddress" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="CompanyName" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="AuthProfileID" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="AuthPaymentProfileID" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="AuthBillingAddressID" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="Location" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="UserSurveyResponseID" Nullable="false" />
+    <Property Type="Int32" Name="SurveyQuestionID" Nullable="false" />
+    <Property Type="String" Name="SurveyAnswer" Nullable="false" MaxLength="100" />
+    <Property Type="DateTime" Name="ServeyResponseCreatedOn" Nullable="false" Precision="23" />
+    <Property Type="Guid" Name="ServeyResponseCreatedBy" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="StateName">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="CC_ISO" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="StateName1" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="RecordStatus" />
+  </EntityType>
+  <EntityType Name="Country">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="CC_ISO" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CountryNames" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="RecordStatus" />
+  </EntityType>
+  <EntityType Name="vwManageCRMIssue">
+    <Key>
+      <PropertyRef Name="CRMRequestID" />
+      <PropertyRef Name="CustomerID" />
+      <PropertyRef Name="CustomerFullName" />
+      <PropertyRef Name="IssueDescription" />
+      <PropertyRef Name="IssueType" />
+      <PropertyRef Name="CRMRequestStatus" />
+      <PropertyRef Name="CRMRequestStatusDesc" />
+      <PropertyRef Name="RecordStatus" />
+      <PropertyRef Name="CRMIssueTypeDesc" />
+    </Key>
+    <Property Type="Int32" Name="CRMRequestID" Nullable="false" />
+    <Property Type="Int32" Name="ServiceCategoryID" />
+    <Property Type="String" Name="CategoryName" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="ServiceID" />
+    <Property Type="String" Name="ServiceName" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Guid" Name="CustomerID" Nullable="false" />
+    <Property Type="String" Name="CustomerFullName" Nullable="false" MaxLength="152" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="EmailID" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="IssueDescription" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AttachmentURL" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CRMResolutionSent" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="IssueType" Nullable="false" />
+    <Property Type="Guid" Name="AssignedToAdmin" />
+    <Property Type="String" Name="AssignedEmailID" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AdminNotes" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="CRMRequestStatus" Nullable="false" />
+    <Property Type="String" Name="CRMRequestStatusDesc" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="String" Name="CRMIssueTypeDesc" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CRMSubject" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CRMAdminAttachment" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="SitePagesAndContent">
+    <Key>
+      <PropertyRef Name="PageID" />
+    </Key>
+    <Property Type="Int32" Name="PageID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="PageRelativeUrl" Nullable="false" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="HTMLContent" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ContentZoneName" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PageTitle" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MetaDescription" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MetaKeywords" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="String" Name="PreviewHTMLContent" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Language" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="UserProfile">
+    <Key>
+      <PropertyRef Name="UserProfileID" />
+    </Key>
+    <Property Type="Int64" Name="UserProfileID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Guid" Name="UserMembershipID" Nullable="false" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LastName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MiddleName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UserRole" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="EmailID" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="String" Name="ContactNumber" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PhoneNumber" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MobileNumber" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MailingAddress" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CompanyName" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthProfileID" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthPaymentProfileID" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthBillingAddressID" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Location" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="TempPasswordProvided" />
+  </EntityType>
+  <EntityType Name="vwUserOrderDetailsTransactionFailedOnPurchase">
+    <Key>
+      <PropertyRef Name="UserOrderDetailID" />
+      <PropertyRef Name="UserOrderID" />
+      <PropertyRef Name="ServiceID" />
+      <PropertyRef Name="Quantity" />
+      <PropertyRef Name="InitialHoldAmount" />
+      <PropertyRef Name="OrderDateTime" />
+      <PropertyRef Name="UserProfileID" />
+      <PropertyRef Name="Firstname" />
+    </Key>
+    <Property Type="Int32" Name="UserOrderDetailID" Nullable="false" />
+    <Property Type="Int32" Name="UserOrderID" Nullable="false" />
+    <Property Type="Int32" Name="ServiceID" Nullable="false" />
+    <Property Type="Int32" Name="Quantity" Nullable="false" />
+    <Property Type="Decimal" Name="InitialHoldAmount" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Boolean" Name="IsPayAsYouGo" />
+    <Property Type="Int64" Name="OrderCartID" />
+    <Property Type="Int32" Name="SelectedDiscountDuration" />
+    <Property Type="DateTime" Name="OrderDateTime" Nullable="false" Precision="3" />
+    <Property Type="Int32" Name="UserProfileID" Nullable="false" />
+    <Property Type="String" Name="Firstname" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Middlename" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LastName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="EmailID" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PhoneNumber" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MobileNumber" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vwUserOrderDetailsTransactionSucceedOnPurchase">
+    <Key>
+      <PropertyRef Name="UserOrderDetailID" />
+      <PropertyRef Name="UserOrderID" />
+      <PropertyRef Name="ServiceID" />
+      <PropertyRef Name="Quantity" />
+      <PropertyRef Name="InitialHoldAmount" />
+      <PropertyRef Name="OrderDateTime" />
+      <PropertyRef Name="UserProfileID" />
+      <PropertyRef Name="Firstname" />
+    </Key>
+    <Property Type="Int32" Name="UserOrderDetailID" Nullable="false" />
+    <Property Type="Int32" Name="UserOrderID" Nullable="false" />
+    <Property Type="Int32" Name="ServiceID" Nullable="false" />
+    <Property Type="Int32" Name="Quantity" Nullable="false" />
+    <Property Type="Decimal" Name="InitialHoldAmount" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Boolean" Name="IsPayAsYouGo" />
+    <Property Type="Int64" Name="OrderCartID" />
+    <Property Type="Int32" Name="SelectedDiscountDuration" />
+    <Property Type="DateTime" Name="OrderDateTime" Nullable="false" Precision="3" />
+    <Property Type="Int32" Name="UserProfileID" Nullable="false" />
+    <Property Type="String" Name="Firstname" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Middlename" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LastName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="EmailID" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PhoneNumber" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MobileNumber" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="PressRelease">
+    <Key>
+      <PropertyRef Name="PressReleaseID" />
+    </Key>
+    <Property Type="Int32" Name="PressReleaseID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="CompanyName" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PressReleaseHeader" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MainContent" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="String" Name="CompanyDescription" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PlaceName" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PressReleaseContent" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CaptionContent" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="VideoURL" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ImagePath" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="PressReleaseDate" Precision="3" />
+    <Property Type="String" Name="AboutUs" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PreviewAboutUs" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PreviewPressReleaseContent" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PreviewCompanyName" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PreviewPressReleaseHeader" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PreviewCompanyDescription" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PreviewPlaceName" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PreviewCaptionContent" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PreviewVideoURL" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PreviewImagePath" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="PreviewPressReleaseDate" Precision="3" />
+    <Property Type="String" Name="ActualPRLink" MaxLength="1000" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="PaypalRespons">
+    <Key>
+      <PropertyRef Name="PaypalActionID" />
+    </Key>
+    <Property Type="Int64" Name="PaypalActionID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="InvoiceNumber" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="UserOrderID" />
+    <Property Type="String" Name="MethodName" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="JsonReponseFormPaypal" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="UpdatedDateTime" Precision="3" />
+    <Property Type="Guid" Name="UserMembershipID" />
+  </EntityType>
+  <ComplexType Name="pr_GetTodaysPaymentItems_Result">
+    <Property Type="String" Name="CustomerProfileID" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="CustomerPaymentProfileID" Nullable="false" MaxLength="100" />
+    <Property Type="DateTime" Name="PaymentDate" Nullable="false" />
+    <Property Type="Decimal" Name="BillingAmount" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="pr_GetTodaysPaymentItems_Result1">
+    <Property Type="String" Name="CustomerProfileID" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="CustomerPaymentProfileID" Nullable="false" MaxLength="100" />
+    <Property Type="DateTime" Name="PaymentDate" Nullable="false" />
+    <Property Type="Int64" Name="UserSubscriptionID" Nullable="false" />
+    <Property Type="String" Name="PaypalBillingAgreementID" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="PaypalPaymentTransactionID" Nullable="true" MaxLength="100" />
+    <Property Type="Decimal" Name="BillingAmount" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="pr_GetServicesByMembershipID_Result">
+    <Property Type="Int32" Name="ServiceID" Nullable="false" />
+    <Property Type="String" Name="ServiceName" Nullable="false" MaxLength="200" />
+    <Property Type="Int32" Name="ServiceCategoryID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="pr_GetCategoriesByMembershipID_Result1">
+    <Property Type="Int32" Name="ServiceCategoryID" Nullable="false" />
+    <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="200" />
+  </ComplexType>
+  <EntityType Name="CRMRequestsHistory">
+    <Key>
+      <PropertyRef Name="CRMHistoryID" />
+    </Key>
+    <Property Type="Int32" Name="CRMHistoryID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="CRMRequestID" Nullable="false" />
+    <Property Type="Guid" Name="CustomerID" Nullable="false" />
+    <Property Type="Int32" Name="ServiceCategoryID" />
+    <Property Type="Int32" Name="ServiceID" />
+    <Property Type="String" Name="IssueDescription" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="IssueType" Nullable="false" />
+    <Property Type="Guid" Name="AssignedToAdmin" />
+    <Property Type="Int32" Name="CRMRequestStatus" Nullable="false" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="String" Name="AdminNotes" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AttachmentURL" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CRMResolutionSent" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CRMSubject" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CRMResolutionSubject" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CRMAdminAttachment" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vwCRMIssueHistoryDetail">
+    <Key>
+      <PropertyRef Name="CRMRequestID" />
+      <PropertyRef Name="CustomerID" />
+      <PropertyRef Name="CustomerFullName" />
+      <PropertyRef Name="IssueDescription" />
+      <PropertyRef Name="IssueType" />
+      <PropertyRef Name="CRMRequestStatus" />
+      <PropertyRef Name="CRMRequestStatusDesc" />
+      <PropertyRef Name="RecordStatus" />
+      <PropertyRef Name="CRMIssueTypeDesc" />
+      <PropertyRef Name="CRMHistoryID" />
+    </Key>
+    <Property Type="Int32" Name="CRMRequestID" Nullable="false" />
+    <Property Type="Int32" Name="ServiceCategoryID" />
+    <Property Type="String" Name="CategoryName" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="ServiceID" />
+    <Property Type="String" Name="ServiceName" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Guid" Name="CustomerID" Nullable="false" />
+    <Property Type="String" Name="CustomerFullName" Nullable="false" MaxLength="152" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="EmailID" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CRMSubject" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="IssueDescription" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AttachmentURL" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CRMAdminAttachment" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CRMResolutionSent" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="IssueType" Nullable="false" />
+    <Property Type="Guid" Name="AssignedToAdmin" />
+    <Property Type="String" Name="AssignedEmailID" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AdminNotes" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="CRMRequestStatus" Nullable="false" />
+    <Property Type="String" Name="CRMRequestStatusDesc" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="String" Name="CRMIssueTypeDesc" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="CRMHistoryID" Nullable="false" />
+  </EntityType>
+  <EntityType Name="VisitorsDetail">
+    <Key>
+      <PropertyRef Name="VisitorID" />
+    </Key>
+    <Property Type="Int32" Name="VisitorID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LastName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Email" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PhoneNumber" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CompanyNameAddress" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ToMeet" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Purpose" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="TimeIn" Precision="3" />
+    <Property Type="DateTime" Name="TimeOut" Precision="3" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="String" Name="CreatedBy" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="String" Name="LastModifiedBy" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Status" Nullable="false" />
+    <Property Type="String" Name="ImgPath" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="TrainnerID" />
+  </EntityType>
+  <EntityType Name="vwManageTrainingDetail">
+    <Key>
+      <PropertyRef Name="VisitorID" />
+      <PropertyRef Name="FirstName" />
+      <PropertyRef Name="LastName" />
+      <PropertyRef Name="Email" />
+      <PropertyRef Name="ImgPath" />
+      <PropertyRef Name="PermanentAddress" />
+      <PropertyRef Name="TemporaryAddress" />
+      <PropertyRef Name="CourseOfInterest" />
+      <PropertyRef Name="CourseNames" />
+      <PropertyRef Name="KnowAboutUs" />
+      <PropertyRef Name="ModeName" />
+      <PropertyRef Name="Others" />
+      <PropertyRef Name="UGCollege" />
+      <PropertyRef Name="UGPercentage" />
+      <PropertyRef Name="PGCollege" />
+      <PropertyRef Name="PGPercentage" />
+      <PropertyRef Name="OQCollege" />
+      <PropertyRef Name="OQPercentage" />
+      <PropertyRef Name="YearOfExperience" />
+      <PropertyRef Name="CurrentCompany" />
+      <PropertyRef Name="TechnologyCurrentlyWork" />
+      <PropertyRef Name="Status" />
+      <PropertyRef Name="CreatedOn" />
+      <PropertyRef Name="LastModifiedOn" />
+      <PropertyRef Name="CreatedBy" />
+      <PropertyRef Name="LastModifiedBy" />
+      <PropertyRef Name="TimeIn" />
+      <PropertyRef Name="TimeOut" />
+      <PropertyRef Name="Feedback" />
+    </Key>
+    <Property Type="Int32" Name="VisitorID" Nullable="false" />
+    <Property Type="Int32" Name="TrainnerID" Nullable="false" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LastName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PhoneNumber" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ImgPath" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PermanentAddress" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TemporaryAddress" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="CourseOfInterest" Nullable="false" />
+    <Property Type="String" Name="CourseNames" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="KnowAboutUs" Nullable="false" />
+    <Property Type="String" Name="ModeName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Others" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UGCollege" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="UGPercentage" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="String" Name="PGCollege" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="PGPercentage" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="String" Name="OQCollege" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="OQPercentage" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="String" Name="YearOfExperience" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CurrentCompany" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TechnologyCurrentlyWork" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Status" Nullable="false" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="false" Precision="3" />
+    <Property Type="DateTime" Name="LastModifiedOn" Nullable="false" Precision="3" />
+    <Property Type="Int32" Name="CreatedBy" Nullable="false" />
+    <Property Type="Int32" Name="LastModifiedBy" Nullable="false" />
+    <Property Type="DateTime" Name="TimeIn" Nullable="false" Precision="3" />
+    <Property Type="DateTime" Name="TimeOut" Nullable="false" Precision="3" />
+    <Property Type="String" Name="Feedback" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <ComplexType Name="pr_AutomatedPaymentsFailedForCurrentActiveServices_Result">
+    <Property Type="Int64" Name="AllPaymentID" Nullable="false" />
+    <Property Type="Int64" Name="UserSubscriptionID" Nullable="false" />
+    <Property Type="String" Name="CustomerProfileID" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="CustomerPaymentProfileID" Nullable="false" MaxLength="100" />
+    <Property Type="DateTime" Name="InitialSubscriptionDate" Nullable="false" />
+    <Property Type="DateTime" Name="PaymentDate" Nullable="false" />
+    <Property Type="Decimal" Name="InitialHoldAmount" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="CurrentMonthBilling" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="String" Name="PaymentStatus" Nullable="false" MaxLength="50" />
+    <Property Type="Decimal" Name="PaymentAmount" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Int32" Name="ApprovalStatus" Nullable="true" />
+    <Property Type="String" Name="AuthorizationCode" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="CardNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Message" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ResponseCode" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="TransactionID" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="InvoiceNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Worklog" Nullable="true" />
+    <Property Type="String" Name="PaymentMethod" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="PaypalPayerMailID" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="PaypalPayerID" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="PaypalBillingAgreementID" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="PaypalPaymentTransactionID" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="ResponseBillingAgreementID" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="ResponsePaymentTransactionID" Nullable="true" MaxLength="100" />
+    <Property Type="Int64" Name="UserProfileID" Nullable="true" />
+    <Property Type="Int32" Name="ServiceID" Nullable="false" />
+    <Property Type="Int32" Name="ServiceCategoryID" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="Coupon">
+    <Key>
+      <PropertyRef Name="CouponID" />
+    </Key>
+    <Property Type="Int32" Name="CouponID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="CouponName" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CouponCode" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="CouponTypeID" Nullable="false" />
+    <Property Type="Decimal" Name="Discount" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Boolean" Name="IsUsed" />
+    <Property Type="Int32" Name="UserCount" />
+    <Property Type="Int32" Name="ValidityInDays" />
+    <Property Type="DateTime" Name="ValidityDate" Precision="3" />
+    <Property Type="Guid" Name="ForUser" />
+    <Property Type="Int32" Name="ForServiceID" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="ModifiedOn" Precision="3" />
+    <Property Type="Guid" Name="ModifiedBy" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="Int64" Name="CouponCount" />
+  </EntityType>
+  <ComplexType Name="XXpr_GetTodaysPaymentItems_Result">
+    <Property Type="String" Name="CustomerProfileID" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="CustomerPaymentProfileID" Nullable="false" MaxLength="100" />
+    <Property Type="DateTime" Name="PaymentDate" Nullable="false" />
+    <Property Type="String" Name="PaypalBillingAgreementID" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="PaypalPaymentTransactionID" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="PaymentMethod" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="BillingAmount" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="pr_GetGroupOfTodaysPaymentItems_Result">
+    <Property Type="String" Name="CustomerProfileID" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="CustomerPaymentProfileID" Nullable="false" MaxLength="100" />
+    <Property Type="DateTime" Name="PaymentDate" Nullable="false" />
+    <Property Type="String" Name="PaypalBillingAgreementID" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="PaypalPaymentTransactionID" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="PaymentMethod" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="BillingAmount" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+  <EntityType Name="QuoteComputeDetail">
+    <Key>
+      <PropertyRef Name="QuoteComputeID" />
+    </Key>
+    <Property Type="Int32" Name="QuoteComputeID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="QuoteRegisterID" Nullable="false" />
+    <Property Type="String" Name="ServerName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="OS" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CPU" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Memory" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SAPS" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Storage" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Type" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="HA" />
+    <Property Type="Boolean" Name="SR" />
+    <Property Type="Boolean" Name="BK" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <NavigationProperty Name="QuoteRegister" Relationship="cgxwftcloudModel.FK__QuoteComp__Quote__25A691D2" FromRole="QuoteComputeDetail" ToRole="QuoteRegister" />
+    <Property Type="String" Name="QuoteReferenceID" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="QuoteRegister">
+    <Key>
+      <PropertyRef Name="QuoteRegisterID" />
+    </Key>
+    <Property Type="Int32" Name="QuoteRegisterID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LastName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PhoneNumber" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Email" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CompanyName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SAPModules" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Landscapes" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="BasisSupport" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="EstimatedBandwidth" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <NavigationProperty Name="QuoteComputeDetails" Relationship="cgxwftcloudModel.FK__QuoteComp__Quote__25A691D2" FromRole="QuoteRegister" ToRole="QuoteComputeDetail" />
+    <NavigationProperty Name="QuoteStorageDetails" Relationship="cgxwftcloudModel.FK__QuoteStor__Quote__22CA2527" FromRole="QuoteRegister" ToRole="QuoteStorageDetail" />
+    <Property Type="String" Name="QuoteReferenceID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Descriptions" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="QuoteStorageDetail">
+    <Key>
+      <PropertyRef Name="QuoteStorageID" />
+    </Key>
+    <Property Type="Int32" Name="QuoteStorageID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="QuoteRegisterID" Nullable="false" />
+    <Property Type="String" Name="Description" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="VolumeType" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Volumes" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Storage" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="IOPS" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Snapshot" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <NavigationProperty Name="QuoteRegister" Relationship="cgxwftcloudModel.FK__QuoteStor__Quote__22CA2527" FromRole="QuoteStorageDetail" ToRole="QuoteRegister" />
+    <Property Type="String" Name="QuoteReferenceID" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK__QuoteComp__Quote__25A691D2">
+    <End Type="cgxwftcloudModel.QuoteRegister" Role="QuoteRegister" Multiplicity="1" />
+    <End Type="cgxwftcloudModel.QuoteComputeDetail" Role="QuoteComputeDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QuoteRegister">
+        <PropertyRef Name="QuoteRegisterID" />
+      </Principal>
+      <Dependent Role="QuoteComputeDetail">
+        <PropertyRef Name="QuoteRegisterID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__QuoteStor__Quote__22CA2527">
+    <End Type="cgxwftcloudModel.QuoteRegister" Role="QuoteRegister" Multiplicity="1" />
+    <End Type="cgxwftcloudModel.QuoteStorageDetail" Role="QuoteStorageDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QuoteRegister">
+        <PropertyRef Name="QuoteRegisterID" />
+      </Principal>
+      <Dependent Role="QuoteStorageDetail">
+        <PropertyRef Name="QuoteRegisterID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="CRMRequest">
+    <Key>
+      <PropertyRef Name="CRMRequestID" />
+    </Key>
+    <Property Type="Int32" Name="CRMRequestID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Guid" Name="CustomerID" Nullable="false" />
+    <Property Type="Int32" Name="ServiceCategoryID" />
+    <Property Type="Int32" Name="ServiceID" />
+    <Property Type="String" Name="IssueDescription" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="IssueType" Nullable="false" />
+    <Property Type="Guid" Name="AssignedToAdmin" />
+    <Property Type="Int32" Name="CRMRequestStatus" Nullable="false" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="String" Name="AdminNotes" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AttachmentURL" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CRMResolutionSent" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CRMSubject" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CRMResolutionSubject" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CRMAdminAttachment" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vwManageAllUserDetail">
+    <Key>
+      <PropertyRef Name="UserProfileID" />
+      <PropertyRef Name="UserMembershipID" />
+      <PropertyRef Name="FirstName" />
+      <PropertyRef Name="RecordStatus" />
+    </Key>
+    <Property Type="Int64" Name="UserProfileID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Guid" Name="UserMembershipID" Nullable="false" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LastName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MiddleName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UserRole" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="EmailID" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Guid" Name="CreatedBy" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="Guid" Name="LastModifiedBy" />
+    <Property Type="DateTime" Name="LastModifiedOn" Precision="3" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="String" Name="ContactNumber" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PhoneNumber" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MobileNumber" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MailingAddress" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CompanyName" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthProfileID" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthPaymentProfileID" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AuthBillingAddressID" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Location" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="TempPasswordProvided" />
+  </EntityType>
+  <ComplexType Name="pr_SearchUserName_Result">
+    <Property Type="Int64" Name="UserProfileID" Nullable="false" />
+    <Property Type="Guid" Name="UserMembershipID" Nullable="false" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="LastName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MiddleName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="UserRole" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="EmailID" Nullable="true" MaxLength="500" />
+    <Property Type="Guid" Name="CreatedBy" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="true" Precision="23" />
+    <Property Type="Guid" Name="LastModifiedBy" Nullable="true" />
+    <Property Type="DateTime" Name="LastModifiedOn" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+    <Property Type="String" Name="ContactNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="PhoneNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MobileNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MailingAddress" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="CompanyName" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="AuthProfileID" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="AuthPaymentProfileID" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="AuthBillingAddressID" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="Location" Nullable="true" MaxLength="200" />
+    <Property Type="Boolean" Name="TempPasswordProvided" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="pr_GetTodaysPaymentNotification_Result">
+    <Property Type="String" Name="CustomerProfileID" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="CustomerPaymentProfileID" Nullable="false" MaxLength="100" />
+    <Property Type="DateTime" Name="PaymentDate" Nullable="false" />
+    <Property Type="Int64" Name="UserSubscriptionID" Nullable="false" />
+    <Property Type="String" Name="PaypalBillingAgreementID" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="PaypalPaymentTransactionID" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="PaymentMethod" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="BillingAmount" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+  <EntityType Name="vwGetPaymentHistory">
+    <Key>
+      <PropertyRef Name="PaymentDate" />
+      <PropertyRef Name="PaymentStatus" />
+      <PropertyRef Name="UsersubscriptionID" />
+      <PropertyRef Name="CustomerProfileID" />
+      <PropertyRef Name="CustomerPaymentProfileID" />
+    </Key>
+    <Property Type="DateTime" Name="PaymentDate" Nullable="false" Precision="0" />
+    <Property Type="Decimal" Name="PaymentAmount" Precision="18" Scale="2" />
+    <Property Type="String" Name="PaymentStatus" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="InvoiceNumber" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int64" Name="UsersubscriptionID" Nullable="false" />
+    <Property Type="String" Name="CustomerProfileID" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaypalPayerID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CustomerPaymentProfileID" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaypalBillingAgreementID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaypalPaymentTransactionID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TransactionID" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaymentMethod" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="HANARegistration">
+    <Key>
+      <PropertyRef Name="RegistrationID" />
+    </Key>
+    <Property Type="Int32" Name="RegistrationID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LastName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Email" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PhoneNumber" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Location" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CompanyName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SurveyAnswer" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Subject" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+  </EntityType>
+  <EntityType Name="vwGetPurchasePaymentHistory">
+    <Key>
+      <PropertyRef Name="UserSubscriptionID" />
+      <PropertyRef Name="PaymentDate" />
+      <PropertyRef Name="PaymentStatus" />
+      <PropertyRef Name="ServiceID" />
+      <PropertyRef Name="UserOrderID" />
+    </Key>
+    <Property Type="Int64" Name="UserSubscriptionID" Nullable="false" />
+    <Property Type="DateTime" Name="PaymentDate" Nullable="false" Precision="3" />
+    <Property Type="Decimal" Name="PaymentAmount" Precision="18" Scale="2" />
+    <Property Type="String" Name="PaymentStatus" Nullable="false" MaxLength="13" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="InvoiceNumber" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CustomerProfileID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CustomerPaymentProfileID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TransactionID" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaypalPayerID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaypalBillingAgreementID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PalpalPaymentTransactionID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="ServiceID" Nullable="false" />
+    <Property Type="Int64" Name="UserOrderID" Nullable="false" />
+  </EntityType>
+  <ComplexType Name="pr_SearchUserSubscription_Result">
+    <Property Type="String" Name="UserName" Nullable="true" MaxLength="101" />
+    <Property Type="String" Name="ServiceName" Nullable="false" MaxLength="200" />
+    <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="200" />
+    <Property Type="Int64" Name="UserSubscriptionID" Nullable="false" />
+    <Property Type="DateTime" Name="ActiveDate" Nullable="true" Precision="23" />
+    <Property Type="Decimal" Name="Amount" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Int32" Name="RecordStatus" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="pr_NewServicePurchasedReport_Result">
+    <Property Type="String" Name="UserName" Nullable="true" MaxLength="101" />
+    <Property Type="String" Name="EmailID" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="ServiceName" Nullable="false" MaxLength="200" />
+    <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="200" />
+    <Property Type="Int64" Name="UserSubscriptionID" Nullable="false" />
+    <Property Type="DateTime" Name="ActiveDate" Nullable="true" Precision="23" />
+    <Property Type="Decimal" Name="Amount" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="Status" Nullable="false" MaxLength="17" />
+  </ComplexType>
+  <ComplexType Name="pr_GetUsersAllSubscriptionDetails_Result">
+    <Property Type="Int64" Name="UserSubscriptionID" Nullable="false" />
+    <Property Type="DateTime" Name="ActiveDate" Nullable="false" />
+    <Property Type="DateTime" Name="PaymentDate" Nullable="false" />
+    <Property Type="Decimal" Name="PaymentAmount" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="PaymentStatus" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="PaymentMethod" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="AuthorizeTransactionID" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="PayPalTransactionID" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="InvoiceNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="CancelledDate" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="ActualCharge" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="SAPStatus" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="UnSubscribedDate" Nullable="false" MaxLength="1" />
+  </ComplexType>
+  <ComplexType Name="pr_GetCustomerPayPalMailIDs_Result">
+    <Property Type="String" Name="EmailID" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="UserPaymentTransactionID" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="TrainingRequestDetail">
+    <Key>
+      <PropertyRef Name="RegistrationID" />
+    </Key>
+    <Property Type="Int32" Name="RegistrationID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MiddleName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LastName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Email" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PhoneNumber" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Location" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SurveyAnswer" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Comments" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreatedOn" Precision="3" />
+    <Property Type="String" Name="Course" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Module" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <ComplexType Name="pr_GetTodaysFailedPaymentItems_Result">
+    <Property Type="String" Name="CustomerProfileID" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="CustomerPaymentProfileID" Nullable="false" MaxLength="100" />
+    <Property Type="DateTime" Name="PaymentDate" Nullable="false" />
+    <Property Type="String" Name="PaypalBillingAgreementID" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="PaypalPaymentTransactionID" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="PaymentMethod" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="BillingAmount" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="pr_GetTodaysCancellationNotification_Result">
+    <Property Type="String" Name="CustomerProfileID" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="CustomerPaymentProfileID" Nullable="false" MaxLength="100" />
+    <Property Type="DateTime" Name="PaymentDate" Nullable="false" />
+    <Property Type="Int64" Name="UserSubscriptionID" Nullable="false" />
+    <Property Type="String" Name="PaypalBillingAgreementID" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="PaypalPaymentTransactionID" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="PaypalPayerMailID" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="PaymentMethod" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="BillingAmount" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+  <EntityType Name="TrainingCourse">
+    <Key>
+      <PropertyRef Name="CourseID" />
+    </Key>
+    <Property Type="Int32" Name="CourseID" Nullable="false" />
+    <Property Type="String" Name="CourseName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="RecordStatus" />
+  </EntityType>
+  <EntityType Name="TrainingModule">
+    <Key>
+      <PropertyRef Name="ModuleID" />
+    </Key>
+    <Property Type="Int32" Name="ModuleID" Nullable="false" />
+    <Property Type="Int32" Name="CourseID" Nullable="false" />
+    <Property Type="String" Name="ModuleName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="RecordStatus" />
+  </EntityType>
+  <ComplexType Name="pr_TrainingRequestReport_Result">
+    <Property Type="String" Name="UserName" Nullable="true" MaxLength="302" />
+    <Property Type="String" Name="Email" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="PhoneNumber" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Location" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="SurveyAnswer" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Course" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Module" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Comments" Nullable="true" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="pr_MonthlyFailedPaymentReport_Result">
+    <Property Type="Int64" Name="UserSubscriptionID" Nullable="false" />
+    <Property Type="DateTime" Name="ActiveDate" Nullable="false" />
+    <Property Type="DateTime" Name="PaymentDate" Nullable="false" />
+    <Property Type="String" Name="PaymentStatus" Nullable="false" MaxLength="50" />
+    <Property Type="Decimal" Name="PaymentAmount" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="TransactionID" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="InvoiceNumber" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="PaymentMethod" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="SAPUserName" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="LastLogonDate" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="CancelledDate" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="ActualCharge" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="LockedDate" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="UnSubscribedDate" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="Status" Nullable="false" MaxLength="1" />
+  </ComplexType>
+  <EntityType Name="vwGetMonthlySubscriptionHistory">
+    <Key>
+      <PropertyRef Name="ServiceName" />
+      <PropertyRef Name="ReleaseVersion" />
+      <PropertyRef Name="CategoryName" />
+    </Key>
+    <Property Type="String" Name="ServiceName" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ReleaseVersion" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="TotalService" />
+  </EntityType>
+  <ComplexType Name="pr_GetUserSubscriptionHistory_Result">
+    <Property Type="String" Name="ServiceName" Nullable="false" MaxLength="200" />
+    <Property Type="String" Name="ReleaseVersion" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="200" />
+    <Property Type="Int32" Name="TotalService" Nullable="true" />
+  </ComplexType>
+  <EntityType Name="vw_GetUserSubscriptionHistory">
+    <Key>
+      <PropertyRef Name="ServiceName" />
+      <PropertyRef Name="ReleaseVersion" />
+      <PropertyRef Name="CategoryName" />
+    </Key>
+    <Property Type="Int64" Name="UserProfileID" />
+    <Property Type="String" Name="ServiceName" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ReleaseVersion" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="TotalService" />
+  </EntityType>
+  <EntityType Name="vw_GetUserPaymentFailedHistory">
+    <Key>
+      <PropertyRef Name="UserSubscriptionID" />
+      <PropertyRef Name="PaymentDate" />
+      <PropertyRef Name="PaymentStatus" />
+    </Key>
+    <Property Type="Int64" Name="UserSubscriptionID" Nullable="false" />
+    <Property Type="Int64" Name="UserProfileID" />
+    <Property Type="DateTime" Name="ActiveDate" Precision="3" />
+    <Property Type="DateTime" Name="PaymentDate" Nullable="false" Precision="0" />
+    <Property Type="Decimal" Name="PaymentAmount" Precision="18" Scale="2" />
+    <Property Type="String" Name="PaymentStatus" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

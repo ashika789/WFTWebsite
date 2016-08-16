@@ -1,0 +1,108 @@
+---------------------------------------------------------
+14-11-2014 01:07:05 : Payment Processing Started...
+14-11-2014 01:07:05 : 
+14-11-2014 01:07:11 : Processing Individual Payments...
+14-11-2014 01:07:11 : CallAuthorizeNetPayment...
+14-11-2014 01:07:18 : Authorize.net - Started
+14-11-2014 01:07:34 : Error while Processing: The remote name could not be resolved: 'api.authorize.net'
+14-11-2014 01:07:34 : CallAuthorizeNetPayment...
+14-11-2014 01:07:35 : Authorize.net - Started
+14-11-2014 01:07:37 : Error while Processing: The remote name could not be resolved: 'api.authorize.net'
+14-11-2014 01:07:38 : CallPayPalPayment...
+14-11-2014 01:07:39 : PayPal - Started
+14-11-2014 01:07:53 : PayPal - Completed
+14-11-2014 01:07:54 : Billing Agreement ID : B-4R219172HC032571P
+14-11-2014 01:07:54 :      Approved? : True
+14-11-2014 01:07:54 :      Message   : SUCCESS
+CallPayPalPayment...
+14-11-2014 01:08:12 : CallPayPalPayment...
+14-11-2014 01:08:13 : PayPal - Started
+14-11-2014 01:08:21 : PayPal - Completed
+14-11-2014 01:08:22 : Billing Agreement ID : B-8WD887771H058445Y
+14-11-2014 01:08:22 :      Approved? : True
+14-11-2014 01:08:22 :      Message   : SUCCESS
+CallPayPalPayment...
+14-11-2014 01:08:39 : 
+14-11-2014 01:08:39 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+14-11-2014 01:07:05 : Payment Processing Started...
+14-11-2014 01:07:05 : 
+14-11-2014 01:07:11 : Processing Individual Payments...
+14-11-2014 01:07:11 : CallAuthorizeNetPayment...
+14-11-2014 01:07:18 : Authorize.net - Started
+14-11-2014 01:07:34 : Error while Processing: The remote name could not be resolved: 'api.authorize.net'
+14-11-2014 01:07:34 : CallAuthorizeNetPayment...
+14-11-2014 01:07:35 : Authorize.net - Started
+14-11-2014 01:07:37 : Error while Processing: The remote name could not be resolved: 'api.authorize.net'
+14-11-2014 01:07:38 : CallPayPalPayment...
+14-11-2014 01:07:39 : PayPal - Started
+14-11-2014 01:07:53 : PayPal - Completed
+14-11-2014 01:07:54 : Billing Agreement ID : B-4R219172HC032571P
+14-11-2014 01:07:54 :      Approved? : True
+14-11-2014 01:07:54 :      Message   : SUCCESS
+CallPayPalPayment...
+14-11-2014 01:08:12 : CallPayPalPayment...
+14-11-2014 01:08:13 : PayPal - Started
+14-11-2014 01:08:21 : PayPal - Completed
+14-11-2014 01:08:22 : Billing Agreement ID : B-8WD887771H058445Y
+14-11-2014 01:08:22 :      Approved? : True
+14-11-2014 01:08:22 :      Message   : SUCCESS
+CallPayPalPayment...
+14-11-2014 01:08:39 : 
+14-11-2014 01:08:39 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+14-11-2014 01:08:39 : De-Activate ExpiredSubscription Processing Started...
+14-11-2014 01:08:39 : 
+14-11-2014 01:08:40 : 
+14-11-2014 01:08:40 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+14-11-2014 01:09:35 : Payment Processing Started...
+14-11-2014 01:09:35 : 
+14-11-2014 01:09:40 : Processing Individual Payments...
+14-11-2014 01:09:40 : CallAuthorizeNetPayment...
+14-11-2014 01:09:45 : Authorize.net - Started
+14-11-2014 01:09:51 : Authorize.net - Completed
+14-11-2014 01:09:52 : Customer Profile ID : 100016057
+14-11-2014 01:09:52 :      Approved? : True
+14-11-2014 01:09:52 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+14-11-2014 01:10:10 : CallAuthorizeNetPayment...
+14-11-2014 01:10:10 : Authorize.net - Started
+14-11-2014 01:10:13 : Authorize.net - Completed
+14-11-2014 01:10:14 : Customer Profile ID : 126498570
+14-11-2014 01:10:14 :      Approved? : True
+14-11-2014 01:10:14 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+14-11-2014 01:10:32 : 
+14-11-2014 01:10:32 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+14-11-2014 01:09:35 : Payment Processing Started...
+14-11-2014 01:09:35 : 
+14-11-2014 01:09:40 : Processing Individual Payments...
+14-11-2014 01:09:40 : CallAuthorizeNetPayment...
+14-11-2014 01:09:45 : Authorize.net - Started
+14-11-2014 01:09:51 : Authorize.net - Completed
+14-11-2014 01:09:52 : Customer Profile ID : 100016057
+14-11-2014 01:09:52 :      Approved? : True
+14-11-2014 01:09:52 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+14-11-2014 01:10:10 : CallAuthorizeNetPayment...
+14-11-2014 01:10:10 : Authorize.net - Started
+14-11-2014 01:10:13 : Authorize.net - Completed
+14-11-2014 01:10:14 : Customer Profile ID : 126498570
+14-11-2014 01:10:14 :      Approved? : True
+14-11-2014 01:10:14 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+14-11-2014 01:10:32 : 
+14-11-2014 01:10:32 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+14-11-2014 01:10:32 : De-Activate ExpiredSubscription Processing Started...
+14-11-2014 01:10:32 : 
+14-11-2014 01:10:33 : 
+14-11-2014 01:10:33 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

@@ -1,0 +1,110 @@
+---------------------------------------------------------
+03-12-2014 01:05:11 : Payment Processing Started...
+03-12-2014 01:05:11 : 
+03-12-2014 01:05:17 : Processing Individual Payments...
+03-12-2014 01:05:17 : CallAuthorizeNetPayment...
+03-12-2014 01:05:22 : Authorize.net - Started
+03-12-2014 01:05:29 : Authorize.net - Completed
+03-12-2014 01:05:30 : Customer Profile ID : 117391482
+03-12-2014 01:05:30 :      Approved? : True
+03-12-2014 01:05:30 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+03-12-2014 01:05:47 : CallAuthorizeNetPayment...
+03-12-2014 01:05:48 : Authorize.net - Started
+03-12-2014 01:05:50 : Authorize.net - Completed
+03-12-2014 01:05:51 : Customer Profile ID : 93624951
+03-12-2014 01:05:51 :      Approved? : False
+03-12-2014 01:05:51 :      Message   : The credit card has expired.
+CallAuthorizeNetPayment...
+03-12-2014 01:06:06 : CallAuthorizeNetPayment...
+03-12-2014 01:06:07 : Authorize.net - Started
+03-12-2014 01:06:10 : Authorize.net - Completed
+03-12-2014 01:06:11 : Customer Profile ID : 98608917
+03-12-2014 01:06:11 :      Approved? : True
+03-12-2014 01:06:11 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+03-12-2014 01:06:26 : CallPayPalPayment...
+03-12-2014 01:06:27 : PayPal - Started
+03-12-2014 01:06:34 : PayPal - Completed
+03-12-2014 01:06:35 : Billing Agreement ID : B-64014079UE6965704
+03-12-2014 01:06:35 :      Approved? : True
+03-12-2014 01:06:35 :      Message   : SUCCESS
+CallPayPalPayment...
+03-12-2014 01:06:51 : 
+03-12-2014 01:06:51 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+03-12-2014 01:05:11 : Payment Processing Started...
+03-12-2014 01:05:11 : 
+03-12-2014 01:05:17 : Processing Individual Payments...
+03-12-2014 01:05:17 : CallAuthorizeNetPayment...
+03-12-2014 01:05:22 : Authorize.net - Started
+03-12-2014 01:05:29 : Authorize.net - Completed
+03-12-2014 01:05:30 : Customer Profile ID : 117391482
+03-12-2014 01:05:30 :      Approved? : True
+03-12-2014 01:05:30 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+03-12-2014 01:05:47 : CallAuthorizeNetPayment...
+03-12-2014 01:05:48 : Authorize.net - Started
+03-12-2014 01:05:50 : Authorize.net - Completed
+03-12-2014 01:05:51 : Customer Profile ID : 93624951
+03-12-2014 01:05:51 :      Approved? : False
+03-12-2014 01:05:51 :      Message   : The credit card has expired.
+CallAuthorizeNetPayment...
+03-12-2014 01:06:06 : CallAuthorizeNetPayment...
+03-12-2014 01:06:07 : Authorize.net - Started
+03-12-2014 01:06:10 : Authorize.net - Completed
+03-12-2014 01:06:11 : Customer Profile ID : 98608917
+03-12-2014 01:06:11 :      Approved? : True
+03-12-2014 01:06:11 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+03-12-2014 01:06:26 : CallPayPalPayment...
+03-12-2014 01:06:27 : PayPal - Started
+03-12-2014 01:06:34 : PayPal - Completed
+03-12-2014 01:06:35 : Billing Agreement ID : B-64014079UE6965704
+03-12-2014 01:06:35 :      Approved? : True
+03-12-2014 01:06:35 :      Message   : SUCCESS
+CallPayPalPayment...
+03-12-2014 01:06:51 : 
+03-12-2014 01:06:51 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+03-12-2014 01:06:51 : De-Activate ExpiredSubscription Processing Started...
+03-12-2014 01:06:51 : 
+03-12-2014 01:06:52 : 
+03-12-2014 01:06:52 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+03-12-2014 04:17:06 : Payment Processing Started...
+03-12-2014 04:17:06 : 
+03-12-2014 04:17:18 : Processing Individual Payments...
+03-12-2014 04:17:18 : CallAuthorizeNetPayment...
+03-12-2014 04:17:26 : Authorize.net - Started
+03-12-2014 04:17:32 : Authorize.net - Completed
+03-12-2014 04:17:33 : Customer Profile ID : 93624951
+03-12-2014 04:17:33 :      Approved? : False
+03-12-2014 04:17:33 :      Message   : The credit card has expired.
+CallAuthorizeNetPayment...
+03-12-2014 04:17:55 : 
+03-12-2014 04:17:55 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+03-12-2014 04:17:06 : Payment Processing Started...
+03-12-2014 04:17:06 : 
+03-12-2014 04:17:18 : Processing Individual Payments...
+03-12-2014 04:17:18 : CallAuthorizeNetPayment...
+03-12-2014 04:17:26 : Authorize.net - Started
+03-12-2014 04:17:32 : Authorize.net - Completed
+03-12-2014 04:17:33 : Customer Profile ID : 93624951
+03-12-2014 04:17:33 :      Approved? : False
+03-12-2014 04:17:33 :      Message   : The credit card has expired.
+CallAuthorizeNetPayment...
+03-12-2014 04:17:55 : 
+03-12-2014 04:17:55 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+03-12-2014 04:17:55 : De-Activate ExpiredSubscription Processing Started...
+03-12-2014 04:17:55 : 
+03-12-2014 04:17:56 : 
+03-12-2014 04:17:56 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

@@ -1,0 +1,106 @@
+---------------------------------------------------------
+25-10-2014 11:15:01 : Payment Processing Started...
+25-10-2014 11:15:01 : 
+25-10-2014 11:15:07 : Processing Individual Payments...
+25-10-2014 11:15:08 : CallAuthorizeNetPayment...
+25-10-2014 11:15:15 : Authorize.net - Started
+25-10-2014 11:15:23 : Authorize.net - Completed
+25-10-2014 11:15:24 : Customer Profile ID : 114369999
+25-10-2014 11:15:24 :      Approved? : True
+25-10-2014 11:15:24 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+25-10-2014 11:15:44 : CallAuthorizeNetPayment...
+25-10-2014 11:15:45 : Authorize.net - Started
+25-10-2014 11:15:48 : Authorize.net - Completed
+25-10-2014 11:15:49 : Customer Profile ID : 116367341
+25-10-2014 11:15:49 :      Approved? : True
+25-10-2014 11:15:49 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+25-10-2014 11:16:06 : CallAuthorizeNetPayment...
+25-10-2014 11:16:07 : Authorize.net - Started
+25-10-2014 11:16:10 : Authorize.net - Completed
+25-10-2014 11:16:11 : Customer Profile ID : 120130512
+25-10-2014 11:16:11 :      Approved? : True
+25-10-2014 11:16:11 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+25-10-2014 11:16:29 : CallAuthorizeNetPayment...
+25-10-2014 11:16:30 : Authorize.net - Started
+25-10-2014 11:16:33 : Authorize.net - Completed
+25-10-2014 11:16:34 : Customer Profile ID : 120143690
+25-10-2014 11:16:34 :      Approved? : True
+25-10-2014 11:16:34 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+25-10-2014 11:16:51 : CallPayPalPayment...
+25-10-2014 11:16:52 : PayPal - Started
+25-10-2014 11:16:59 : PayPal - Completed
+25-10-2014 11:17:01 : Billing Agreement ID : B-3EN80692893892149
+25-10-2014 11:17:01 :      Approved? : True
+25-10-2014 11:17:01 :      Message   : SUCCESS
+CallPayPalPayment...
+25-10-2014 11:17:19 : CallPayPalPayment...
+25-10-2014 11:17:20 : PayPal - Started
+25-10-2014 11:17:23 : Error 1: ErrorCode10201-- Error Message:Agreement was canceledSeverityCodeERROR
+25-10-2014 11:17:23 : PayPal - Completed
+25-10-2014 11:17:24 : Billing Agreement ID : B-7JH27468GA141182W
+25-10-2014 11:17:24 :      Approved? : False
+25-10-2014 11:17:24 :      Message   : FAILED
+CallPayPalPayment...
+25-10-2014 11:17:42 : 
+25-10-2014 11:17:42 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+25-10-2014 11:15:01 : Payment Processing Started...
+25-10-2014 11:15:01 : 
+25-10-2014 11:15:07 : Processing Individual Payments...
+25-10-2014 11:15:08 : CallAuthorizeNetPayment...
+25-10-2014 11:15:15 : Authorize.net - Started
+25-10-2014 11:15:23 : Authorize.net - Completed
+25-10-2014 11:15:24 : Customer Profile ID : 114369999
+25-10-2014 11:15:24 :      Approved? : True
+25-10-2014 11:15:24 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+25-10-2014 11:15:44 : CallAuthorizeNetPayment...
+25-10-2014 11:15:45 : Authorize.net - Started
+25-10-2014 11:15:48 : Authorize.net - Completed
+25-10-2014 11:15:49 : Customer Profile ID : 116367341
+25-10-2014 11:15:49 :      Approved? : True
+25-10-2014 11:15:49 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+25-10-2014 11:16:06 : CallAuthorizeNetPayment...
+25-10-2014 11:16:07 : Authorize.net - Started
+25-10-2014 11:16:10 : Authorize.net - Completed
+25-10-2014 11:16:11 : Customer Profile ID : 120130512
+25-10-2014 11:16:11 :      Approved? : True
+25-10-2014 11:16:11 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+25-10-2014 11:16:29 : CallAuthorizeNetPayment...
+25-10-2014 11:16:30 : Authorize.net - Started
+25-10-2014 11:16:33 : Authorize.net - Completed
+25-10-2014 11:16:34 : Customer Profile ID : 120143690
+25-10-2014 11:16:34 :      Approved? : True
+25-10-2014 11:16:34 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+25-10-2014 11:16:51 : CallPayPalPayment...
+25-10-2014 11:16:52 : PayPal - Started
+25-10-2014 11:16:59 : PayPal - Completed
+25-10-2014 11:17:01 : Billing Agreement ID : B-3EN80692893892149
+25-10-2014 11:17:01 :      Approved? : True
+25-10-2014 11:17:01 :      Message   : SUCCESS
+CallPayPalPayment...
+25-10-2014 11:17:19 : CallPayPalPayment...
+25-10-2014 11:17:20 : PayPal - Started
+25-10-2014 11:17:23 : Error 1: ErrorCode10201-- Error Message:Agreement was canceledSeverityCodeERROR
+25-10-2014 11:17:23 : PayPal - Completed
+25-10-2014 11:17:24 : Billing Agreement ID : B-7JH27468GA141182W
+25-10-2014 11:17:24 :      Approved? : False
+25-10-2014 11:17:24 :      Message   : FAILED
+CallPayPalPayment...
+25-10-2014 11:17:42 : 
+25-10-2014 11:17:42 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+25-10-2014 11:17:42 : De-Activate ExpiredSubscription Processing Started...
+25-10-2014 11:17:42 : 
+25-10-2014 11:17:43 : 
+25-10-2014 11:17:43 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

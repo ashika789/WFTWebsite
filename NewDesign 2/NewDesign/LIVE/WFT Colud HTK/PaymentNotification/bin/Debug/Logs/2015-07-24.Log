@@ -1,0 +1,80 @@
+---------------------------------------------------------
+24-07-2015 01:12:27 : Payment Processing Started...
+24-07-2015 01:12:27 : 
+24-07-2015 01:12:41 : Processing Individual Payments...
+24-07-2015 01:13:00 : CallAuthorizeNetPayment...
+24-07-2015 01:13:11 : Authorize.net - Started
+24-07-2015 01:14:08 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+24-07-2015 01:14:08 : 
+24-07-2015 01:14:08 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+24-07-2015 01:12:27 : Payment Processing Started...
+24-07-2015 01:12:27 : 
+24-07-2015 01:12:41 : Processing Individual Payments...
+24-07-2015 01:13:00 : CallAuthorizeNetPayment...
+24-07-2015 01:13:11 : Authorize.net - Started
+24-07-2015 01:14:08 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+24-07-2015 01:14:08 : 
+24-07-2015 01:14:08 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+24-07-2015 01:14:08 : De-Activate ExpiredSubscription Processing Started...
+24-07-2015 01:14:08 : 
+24-07-2015 01:14:08 : 
+24-07-2015 01:14:08 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+24-07-2015 01:43:10 : Payment Processing Started...
+24-07-2015 01:43:10 : 
+24-07-2015 01:43:10 : Processing Individual Payments...
+24-07-2015 01:43:12 : CallPayPalPayment...
+24-07-2015 01:43:15 : PayPal - Started
+24-07-2015 01:43:24 : PayPal - Completed
+24-07-2015 01:43:55 : 
+24-07-2015 01:43:55 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+24-07-2015 01:43:10 : Payment Processing Started...
+24-07-2015 01:43:10 : 
+24-07-2015 01:43:10 : Processing Individual Payments...
+24-07-2015 01:43:12 : CallPayPalPayment...
+24-07-2015 01:43:15 : PayPal - Started
+24-07-2015 01:43:24 : PayPal - Completed
+24-07-2015 01:43:55 : 
+24-07-2015 01:43:55 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+24-07-2015 01:43:55 : De-Activate ExpiredSubscription Processing Started...
+24-07-2015 01:43:55 : 
+24-07-2015 01:43:55 : 
+24-07-2015 01:43:55 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+24-07-2015 04:24:13 : Payment Processing Started...
+24-07-2015 04:24:13 : 
+24-07-2015 04:24:13 : Processing Individual Payments...
+24-07-2015 04:24:15 : CallPayPalPayment...
+24-07-2015 04:24:16 : PayPal - Notification Started
+24-07-2015 04:24:16 : PayPal - Notification Completed
+24-07-2015 04:24:21 : 
+24-07-2015 04:24:21 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+24-07-2015 04:24:13 : Payment Processing Started...
+24-07-2015 04:24:13 : 
+24-07-2015 04:24:13 : Processing Individual Payments...
+24-07-2015 04:24:15 : CallPayPalPayment...
+24-07-2015 04:24:16 : PayPal - Notification Started
+24-07-2015 04:24:16 : PayPal - Notification Completed
+24-07-2015 04:24:21 : 
+24-07-2015 04:24:21 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+24-07-2015 04:24:21 : De-Activate ExpiredSubscription Processing Started...
+24-07-2015 04:24:21 : 
+24-07-2015 04:24:21 : 
+24-07-2015 04:24:21 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

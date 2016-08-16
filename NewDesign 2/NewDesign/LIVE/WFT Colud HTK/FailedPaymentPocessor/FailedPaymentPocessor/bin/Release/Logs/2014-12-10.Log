@@ -1,0 +1,48 @@
+---------------------------------------------------------
+10-12-2014 06:24:38 : Payment Processing Started...
+10-12-2014 06:24:38 : 
+10-12-2014 06:24:42 : Processing Individual Payments...
+10-12-2014 06:24:43 : CallPayPalPayment...
+10-12-2014 06:24:51 : PayPal - Started
+10-12-2014 06:25:08 : PayPal - Completed
+10-12-2014 06:25:09 : Billing Agreement ID : B-3RX16446YW176342S
+10-12-2014 06:25:09 :      Approved? : False
+10-12-2014 06:25:09 :      Message   : FAILED
+CallPayPalPayment...
+10-12-2014 06:25:29 : CallPayPalPayment...
+10-12-2014 06:25:30 : PayPal - Started
+10-12-2014 06:25:37 : PayPal - Completed
+10-12-2014 06:25:38 : Billing Agreement ID : B-0FH13142YE2605914
+10-12-2014 06:25:38 :      Approved? : True
+10-12-2014 06:25:38 :      Message   : SUCCESS
+CallPayPalPayment...
+10-12-2014 06:26:11 : 
+10-12-2014 06:26:11 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+10-12-2014 06:24:38 : Payment Processing Started...
+10-12-2014 06:24:38 : 
+10-12-2014 06:24:42 : Processing Individual Payments...
+10-12-2014 06:24:43 : CallPayPalPayment...
+10-12-2014 06:24:51 : PayPal - Started
+10-12-2014 06:25:08 : PayPal - Completed
+10-12-2014 06:25:09 : Billing Agreement ID : B-3RX16446YW176342S
+10-12-2014 06:25:09 :      Approved? : False
+10-12-2014 06:25:09 :      Message   : FAILED
+CallPayPalPayment...
+10-12-2014 06:25:29 : CallPayPalPayment...
+10-12-2014 06:25:30 : PayPal - Started
+10-12-2014 06:25:37 : PayPal - Completed
+10-12-2014 06:25:38 : Billing Agreement ID : B-0FH13142YE2605914
+10-12-2014 06:25:38 :      Approved? : True
+10-12-2014 06:25:38 :      Message   : SUCCESS
+CallPayPalPayment...
+10-12-2014 06:26:11 : 
+10-12-2014 06:26:11 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+10-12-2014 06:26:11 : De-Activate ExpiredSubscription Processing Started...
+10-12-2014 06:26:11 : 
+10-12-2014 06:26:12 : 
+10-12-2014 06:26:12 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

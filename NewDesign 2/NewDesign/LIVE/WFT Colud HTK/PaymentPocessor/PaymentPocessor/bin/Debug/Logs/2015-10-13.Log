@@ -1,0 +1,116 @@
+---------------------------------------------------------
+13-10-2015 01:52:16 : Payment Processing Started...
+13-10-2015 01:52:16 : 
+13-10-2015 01:52:24 : Processing Individual Payments...
+13-10-2015 01:52:34 : CallAuthorizeNetPayment...
+13-10-2015 01:52:43 : Authorize.net - Started
+13-10-2015 01:53:52 : Authorize.net - Completed
+13-10-2015 01:53:52 : Customer Profile ID : 36058374
+13-10-2015 01:53:52 :      Approved? : True
+13-10-2015 01:53:52 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+13-10-2015 01:53:52 : 
+13-10-2015 01:53:52 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+13-10-2015 01:52:16 : Payment Processing Started...
+13-10-2015 01:52:16 : 
+13-10-2015 01:52:24 : Processing Individual Payments...
+13-10-2015 01:52:34 : CallAuthorizeNetPayment...
+13-10-2015 01:52:43 : Authorize.net - Started
+13-10-2015 01:53:52 : Authorize.net - Completed
+13-10-2015 01:53:52 : Customer Profile ID : 36058374
+13-10-2015 01:53:52 :      Approved? : True
+13-10-2015 01:53:52 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+13-10-2015 01:53:52 : 
+13-10-2015 01:53:52 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+13-10-2015 01:53:52 : De-Activate ExpiredSubscription Processing Started...
+13-10-2015 01:53:52 : 
+13-10-2015 01:53:52 : 
+13-10-2015 01:53:52 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+13-10-2015 04:09:05 : Payment Processing Started...
+13-10-2015 04:09:05 : 
+13-10-2015 04:09:07 : Processing Individual Payments...
+13-10-2015 04:09:07 : CallAuthorizeNetPayment...
+13-10-2015 04:09:08 : Authorize.net - Started
+13-10-2015 04:09:33 : Authorize.net - Completed
+13-10-2015 04:09:33 : Customer Profile ID : 36058374
+13-10-2015 04:09:33 :      Approved? : True
+13-10-2015 04:09:33 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+13-10-2015 04:09:33 : 
+13-10-2015 04:09:33 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+13-10-2015 04:09:05 : Payment Processing Started...
+13-10-2015 04:09:05 : 
+13-10-2015 04:09:07 : Processing Individual Payments...
+13-10-2015 04:09:07 : CallAuthorizeNetPayment...
+13-10-2015 04:09:08 : Authorize.net - Started
+13-10-2015 04:09:33 : Authorize.net - Completed
+13-10-2015 04:09:33 : Customer Profile ID : 36058374
+13-10-2015 04:09:33 :      Approved? : True
+13-10-2015 04:09:33 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+13-10-2015 04:09:33 : 
+13-10-2015 04:09:33 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+13-10-2015 04:09:33 : De-Activate ExpiredSubscription Processing Started...
+13-10-2015 04:09:33 : 
+13-10-2015 04:09:33 : 
+13-10-2015 04:09:33 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+13-10-2015 07:47:58 : Payment Processing Started...
+13-10-2015 07:47:58 : 
+13-10-2015 07:47:58 : Processing Individual Payments...
+13-10-2015 07:47:59 : CallPayPalPayment...
+13-10-2015 07:48:00 : PayPal - Started
+13-10-2015 07:48:23 : PayPal - Completed
+13-10-2015 07:48:24 : Billing Agreement ID : B-0E120776LL621931R
+13-10-2015 07:48:24 :      Approved? : True
+13-10-2015 07:48:24 :      Message   : SUCCESS
+CallPayPalPayment...
+13-10-2015 07:48:24 : CallPayPalPayment...
+13-10-2015 07:48:24 : PayPal - Started
+13-10-2015 07:48:35 : PayPal - Completed
+13-10-2015 07:48:35 : Billing Agreement ID : B-4A685115P6316810E
+13-10-2015 07:48:35 :      Approved? : True
+13-10-2015 07:48:35 :      Message   : SUCCESS
+CallPayPalPayment...
+13-10-2015 07:48:35 : 
+13-10-2015 07:48:35 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+13-10-2015 07:47:58 : Payment Processing Started...
+13-10-2015 07:47:58 : 
+13-10-2015 07:47:58 : Processing Individual Payments...
+13-10-2015 07:47:59 : CallPayPalPayment...
+13-10-2015 07:48:00 : PayPal - Started
+13-10-2015 07:48:23 : PayPal - Completed
+13-10-2015 07:48:24 : Billing Agreement ID : B-0E120776LL621931R
+13-10-2015 07:48:24 :      Approved? : True
+13-10-2015 07:48:24 :      Message   : SUCCESS
+CallPayPalPayment...
+13-10-2015 07:48:24 : CallPayPalPayment...
+13-10-2015 07:48:24 : PayPal - Started
+13-10-2015 07:48:35 : PayPal - Completed
+13-10-2015 07:48:35 : Billing Agreement ID : B-4A685115P6316810E
+13-10-2015 07:48:35 :      Approved? : True
+13-10-2015 07:48:35 :      Message   : SUCCESS
+CallPayPalPayment...
+13-10-2015 07:48:35 : 
+13-10-2015 07:48:35 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+13-10-2015 07:48:35 : De-Activate ExpiredSubscription Processing Started...
+13-10-2015 07:48:35 : 
+13-10-2015 07:48:35 : 
+13-10-2015 07:48:35 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

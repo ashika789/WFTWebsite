@@ -1,0 +1,96 @@
+---------------------------------------------------------
+08-12-2014 01:03:17 : Payment Processing Started...
+08-12-2014 01:03:17 : 
+08-12-2014 01:03:22 : Processing Individual Payments...
+08-12-2014 01:03:22 : CallAuthorizeNetPayment...
+08-12-2014 01:03:29 : Authorize.net - Started
+08-12-2014 01:03:45 : Error while Processing: The remote name could not be resolved: 'api.authorize.net'
+08-12-2014 01:03:45 : CallAuthorizeNetPayment...
+08-12-2014 01:03:45 : Authorize.net - Started
+08-12-2014 01:03:51 : Authorize.net - Completed
+08-12-2014 01:03:52 : Customer Profile ID : 114369999
+08-12-2014 01:03:52 :      Approved? : False
+08-12-2014 01:03:52 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+08-12-2014 01:04:11 : CallAuthorizeNetPayment...
+08-12-2014 01:04:11 : Authorize.net - Started
+08-12-2014 01:04:15 : Authorize.net - Completed
+08-12-2014 01:04:16 : Customer Profile ID : 91917348
+08-12-2014 01:04:16 :      Approved? : True
+08-12-2014 01:04:16 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+08-12-2014 01:04:29 : CallPayPalPayment...
+08-12-2014 01:04:30 : PayPal - Started
+08-12-2014 01:04:41 : PayPal - Completed
+08-12-2014 01:04:42 : Billing Agreement ID : B-60479261B50111539
+08-12-2014 01:04:42 :      Approved? : True
+08-12-2014 01:04:42 :      Message   : SUCCESS
+CallPayPalPayment...
+08-12-2014 01:04:58 : CallPayPalPayment...
+08-12-2014 01:04:58 : PayPal - Started
+08-12-2014 01:05:02 : PayPal - Completed
+08-12-2014 01:05:03 : Billing Agreement ID : B-71W69248KU4717548
+08-12-2014 01:05:03 :      Approved? : True
+08-12-2014 01:05:03 :      Message   : SUCCESS
+CallPayPalPayment...
+08-12-2014 01:05:15 : CallPayPalPayment...
+08-12-2014 01:05:16 : PayPal - Started
+08-12-2014 01:05:21 : PayPal - Completed
+08-12-2014 01:05:22 : Billing Agreement ID : B-0HF335638D6783009
+08-12-2014 01:05:22 :      Approved? : True
+08-12-2014 01:05:22 :      Message   : SUCCESS
+CallPayPalPayment...
+08-12-2014 01:05:38 : 
+08-12-2014 01:05:38 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+08-12-2014 01:03:17 : Payment Processing Started...
+08-12-2014 01:03:17 : 
+08-12-2014 01:03:22 : Processing Individual Payments...
+08-12-2014 01:03:22 : CallAuthorizeNetPayment...
+08-12-2014 01:03:29 : Authorize.net - Started
+08-12-2014 01:03:45 : Error while Processing: The remote name could not be resolved: 'api.authorize.net'
+08-12-2014 01:03:45 : CallAuthorizeNetPayment...
+08-12-2014 01:03:45 : Authorize.net - Started
+08-12-2014 01:03:51 : Authorize.net - Completed
+08-12-2014 01:03:52 : Customer Profile ID : 114369999
+08-12-2014 01:03:52 :      Approved? : False
+08-12-2014 01:03:52 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+08-12-2014 01:04:11 : CallAuthorizeNetPayment...
+08-12-2014 01:04:11 : Authorize.net - Started
+08-12-2014 01:04:15 : Authorize.net - Completed
+08-12-2014 01:04:16 : Customer Profile ID : 91917348
+08-12-2014 01:04:16 :      Approved? : True
+08-12-2014 01:04:16 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+08-12-2014 01:04:29 : CallPayPalPayment...
+08-12-2014 01:04:30 : PayPal - Started
+08-12-2014 01:04:41 : PayPal - Completed
+08-12-2014 01:04:42 : Billing Agreement ID : B-60479261B50111539
+08-12-2014 01:04:42 :      Approved? : True
+08-12-2014 01:04:42 :      Message   : SUCCESS
+CallPayPalPayment...
+08-12-2014 01:04:58 : CallPayPalPayment...
+08-12-2014 01:04:58 : PayPal - Started
+08-12-2014 01:05:02 : PayPal - Completed
+08-12-2014 01:05:03 : Billing Agreement ID : B-71W69248KU4717548
+08-12-2014 01:05:03 :      Approved? : True
+08-12-2014 01:05:03 :      Message   : SUCCESS
+CallPayPalPayment...
+08-12-2014 01:05:15 : CallPayPalPayment...
+08-12-2014 01:05:16 : PayPal - Started
+08-12-2014 01:05:21 : PayPal - Completed
+08-12-2014 01:05:22 : Billing Agreement ID : B-0HF335638D6783009
+08-12-2014 01:05:22 :      Approved? : True
+08-12-2014 01:05:22 :      Message   : SUCCESS
+CallPayPalPayment...
+08-12-2014 01:05:38 : 
+08-12-2014 01:05:38 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+08-12-2014 01:05:38 : De-Activate ExpiredSubscription Processing Started...
+08-12-2014 01:05:38 : 
+08-12-2014 01:05:38 : 
+08-12-2014 01:05:38 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

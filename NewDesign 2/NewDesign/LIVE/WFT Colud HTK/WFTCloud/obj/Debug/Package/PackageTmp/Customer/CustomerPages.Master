@@ -1,0 +1,136 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CustomerPages.master.cs" Inherits="WFTCloud.Customer.CustomerPages" %>
+<%@ Register src="~/Customer/PageControls/LeftNavigation.ascx" TagName="LeftNavigation" TagPrefix="Customer" %>
+<%@ Register Src="~/Customer/PageControls/TopNavigation.ascx" TagName="TopNavigation" TagPrefix="Customer" %>
+<%@ Register Src="~/Customer/PageControls/BreadCrumb.ascx" TagName="BreadCrumb" TagPrefix="Customer" %>
+<%@ Register Src="~/Customer/PageControls/QuickAccess.ascx" TagName="QuickAccess" TagPrefix="Customer" %>
+
+<!DOCTYPE html>
+
+<html>
+<head id="Head1" runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--basic styles-->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/assets/css/bootstrap-responsive.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
+    <!--[if IE 7]>
+		<link rel="stylesheet" href="/assets/css/font-awesome-ie7.min.css" />
+	<![endif]-->
+    <!--page specific plugin styles-->
+    <!--fonts-->
+    <link rel="stylesheet" href="/assets/css/ace-fonts.css" />
+    <!--ace styles-->
+    <link rel="stylesheet" href="/assets/css/ace.min.css" />
+    <link rel="stylesheet" href="/assets/css/ace-responsive.min.css" />
+    <link rel="stylesheet" href="/assets/css/ace-skins.min.css" />
+    <!--[if lte IE 8]>
+		<link rel="stylesheet" href="/assets/css/ace-ie.min.css" />
+	<![endif]-->
+    <!--basic scripts-->
+    <script src='/assets/js/jquery-2.0.3.min.js' type="text/javascript"></script>
+
+    <script src="/assets/js/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+    <script src="/assets/js/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
+    <script src="/assets/js/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="/assets/js/jquery.easy-pie-chart.min.js" type="text/javascript"></script>
+    <script src="/assets/js/jquery.sparkline.min.js" type="text/javascript"></script>
+    <script src="/assets/js/flot/jquery.flot.min.js" type="text/javascript"></script>
+    <script src="/assets/js/flot/jquery.flot.pie.min.js" type="text/javascript"></script>
+    <script src="/assets/js/flot/jquery.flot.resize.min.js" type="text/javascript"></script>
+
+    <script src="/assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+    <!--jquery datatables script-->
+    <script src="/assets/js/uncompressed/jquery.dataTables.js" type="text/javascript"></script>
+    <script src="/assets/js/jquery.dataTables.bootstrap.js" type="text/javascript"></script>
+
+    <!--ace settings handler-->
+    <script src="/assets/js/ace-extra.min.js" type="text/javascript"></script>
+
+    <!--ace scripts-->
+    <script src="/assets/js/ace-elements.min.js" type="text/javascript"></script>
+    <!-- Fix error in this script 
+    -->
+    <script src="/assets/js/uncompressed/ace.js" type="text/javascript"></script>
+    <!--inline styles related to this page-->
+
+    <script src='/assets/js/jquery.mobile.custom.min.js' type="text/javascript"></script>
+    <!-- Customer validation check script -->
+    <script src="/assets/js/ValidationScript.js" type="text/javascript"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <title>WFT Cloud User</title>
+        <meta name="description" content="Details Of a customer" />
+        <meta name="keywords" content="WFT User Profiles" />
+    </asp:ContentPlaceHolder>
+    <!--For Bing Webmaster :--->
+    <meta name="msvalidate.01" content="77D983F414A5C3EE60325E0688C3254A" />
+    <!--For Google Webmaster :--->
+    <meta name="google-site-verification" content="6-pi7wmfQ8h7MGPL4CyA02WgN_M52YfdJuSaMRzIMV0" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="navbar" id="navbar">
+                <script type="text/javascript">
+                    try { ace.settings.check('navbar', 'fixed') } catch (e) { }
+                </script>
+                <Customer:TopNavigation ID="CustomerTopNavigation" runat="server" />
+            </div>
+
+            <div class="main-container container-fluid">
+                <a class="menu-toggler" id="menu-toggler" href="#">
+                    <span class="menu-text"></span>
+                </a>
+
+                <div id="sidebar" class="sidebar">
+                    <script type="text/javascript">
+                        try { ace.settings.check('sidebar', 'fixed') } catch (e) { }
+                    </script>
+                    <Customer:QuickAccess ID="CustomerQuickAccess" runat="server" />
+                    <Customer:LeftNavigation ID="CustomerLeftNav" runat="server" />
+                    <div id="sidebar-collapse" class="sidebar-collapse">
+                        <i data-icon2="icon-double-angle-right" data-icon1="icon-double-angle-left" class="icon-double-angle-left"></i>
+                    </div>
+                    <script type="text/javascript">
+                        try { ace.settings.check('sidebar', 'collapsed') } catch (e) { }
+                    </script>
+                </div>
+
+                <div class="main-content">
+                    <Customer:BreadCrumb ID="CustomerBreadCrumb" runat="server" />
+                    <div class="page-content">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <!--/.page-content-->
+                </div>
+                <!--/.main-content-->
+            </div>
+            <!--/.main-container-->
+
+            <a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-small btn-inverse">
+                <i class="icon-double-angle-up icon-only bigger-110"></i>
+            </a>
+        </div>
+        <!-- Script to initialize tooltip -->
+        <script type="text/javascript">
+            jQuery(function ($) {
+                $('[data-rel=tooltip]').tooltip({ container: 'body' });
+                $('[data-rel=popover]').popover({ container: 'body' });
+
+                //Code to select all rows in a grid when header checkbox is clicked.
+                $('table th input:checkbox').on('click', function () {
+                    var that = this;
+                    $(this).closest('table').find('tr > td:first-child input:checkbox')
+                        .each(function () {
+                            this.checked = that.checked;
+                            $(this).closest('tr').toggleClass('selected');
+                        });
+
+                });
+            });
+        </script>
+    </form>
+</body>
+</html>

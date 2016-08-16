@@ -1,0 +1,667 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FrontEnd.master.cs" Inherits="WFTCloud.FrontEnd" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8">
+    <!-- Set latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>WFTCloud - SAP Certified Hosting and Cloud Services Provider</title>
+    <!-- Set viewport for mobile devices to zoom to 100% -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Loading fonts in the header makes it work in IE<9 -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Including bootstrap 2.3.1 -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!-- Including Font Awesome 3.0 styles -->
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <!-- Including Slider styles -->
+    <link rel="stylesheet" href="/css/slider.css" />
+    <style>
+    .html5gallery-title-text {
+	    display:none !important;
+    }
+    .font-sm{ font-size:13px;}
+    </style>
+
+    <!-- Loading jQuery liblary from CDN with a local fallback when CDN not responding. 
+                 Version 2.0 is available but it is the same as 1.9.1 but without IE8 support -->
+    <!-- Load jQuery from CDN -->
+  
+    <script src="/js/jquery-1.9.1.min.js"></script>
+   
+    <!-- Check if "window" is available. If not that means jQuery didn't load from CDN so instead use local version (otherwise skip) -->
+    <script>    window.jQuery || document.write('<script src="/js/jquery-1.9.1.min.js"><\/script>')</script>
+
+    <!-- If the browser version of IE is less than 9 load HTML5 & CSS3 polyfills -->
+    <!--[if lt IE 9]>
+                <link rel="stylesheet" href="css/ie.css">
+                <script type="text/javascript" src="js/html5shiv.min.js"></script>
+                <script type="text/javascript" src="js/selectivizr.min.js"></script>       
+            <![endif]-->
+    <link href="/css/corporate_blue.css" rel="stylesheet" type="text/css" />
+    <!--script id="jquery" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/
+    jquery.min.js"></script-->
+    <script id="newsticker-pro" src="/js/newsticker.jquery.min.js"></script>
+        <script src="/js/jquery.marquee.js"></script>
+    <script src="/js/jquery.pause.min.js"></script>
+    		<script>
+
+    		    $(function () {
+    		        $('.marquee-with-options').marquee({
+    		            speed: 15000,
+    		            gap: 50,
+    		            delayBeforeStart: 0,
+    		            direction: 'left',
+    		            duplicated: true,
+    		            pauseOnHover: true
+    		        });
+    		    });
+		</script>
+    <script src="/js/bootstrap-tooltip.js"></script>
+    <script src="/js/bootstrap-popover.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <!--For Bing Webmaster :--->
+    <meta name="msvalidate.01" content="77D983F414A5C3EE60325E0688C3254A" />
+    <!--For Google Webmaster :--->
+    <meta name="google-site-verification" content="6-pi7wmfQ8h7MGPL4CyA02WgN_M52YfdJuSaMRzIMV0" />
+</head>
+<body class="home">
+    <form id="form1" runat="server">
+    <!-- Popover modal box containing client login form -->
+    <div id="customer-login" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h5 id="myModalLabel">Please login:</h5>
+      </div>
+      <!-- modal-header end -->
+  
+      <div class="modal-body">
+        <p>Login
+            <asp:RequiredFieldValidator ID="rfvLoginEmail" runat="server" ControlToValidate="txtLoginEmail" ErrorMessage="*" ForeColor="Red" ValidationGroup="login"></asp:RequiredFieldValidator>
+        </p>
+        <input id="txtLoginEmail" runat="server" type="text" class="customer-login-input" name='login-input' placeholder="Login">
+        <p>Password
+            <asp:RequiredFieldValidator ID="rfvLoginPassword" runat="server" ControlToValidate="txtLoginPassword" ErrorMessage="*" ForeColor="Red" ValidationGroup="login"></asp:RequiredFieldValidator>
+        </p>
+        <input id="txtLoginPassword" runat="server" type="password" class="customer-login-input" name='password-input' placeholder="Password">
+      </div>
+      <!-- modal-body end -->
+  
+      <div class="modal-footer">
+        <div class="customer-help-links"> <a href="#">Forgot your password?</a> </div>
+        <asp:Button ID="btnLogin" CssClass="btn btn-primary" runat="server" Text="Login" 
+              onclick="btnLogin_Click" ValidationGroup="login" />
+      </div>
+      <!-- modal-footer end --> 
+  
+    </div>
+    <!-- customer-login end --> 
+
+    <!-- Popover modal box containing client registration-->
+    <div id="customer-registration" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h5 id="H1">Register:</h5>
+      </div>
+      <!-- modal-header end -->
+  
+      <div class="modal-body">
+        <p>First Name
+            <asp:RequiredFieldValidator ID="rfvFirstName" runat="server" ControlToValidate="txtFirstName" ErrorMessage="*" ForeColor="Red" ValidationGroup="register"></asp:RequiredFieldValidator>
+        </p>
+        <asp:TextBox ID="txtFirstName" runat="server" CssClass="customer-login-input"></asp:TextBox>
+        <p>Middle Name
+        </p>
+        <asp:TextBox ID="txtMiddleName" runat="server" CssClass="customer-login-input"></asp:TextBox>
+        <p>Last Name
+            <asp:RequiredFieldValidator ID="rfvLastName" runat="server" ControlToValidate="txtLastName" ErrorMessage="*" ForeColor="Red" ValidationGroup="register"></asp:RequiredFieldValidator>
+        </p>
+        <asp:TextBox ID="txtLastName" runat="server" CssClass="customer-login-input"></asp:TextBox>
+        <p>Email ID
+            <asp:RequiredFieldValidator ID="rfvEmailID" runat="server" ControlToValidate="txtEmailID" ErrorMessage="*" ForeColor="Red" ValidationGroup="register"></asp:RequiredFieldValidator>
+        </p>
+        <asp:TextBox ID="txtEmailID" runat="server" CssClass="customer-login-input"></asp:TextBox>
+        <asp:RegularExpressionValidator ID="revEmailID" ControlToValidate="txtEmailID" 
+              runat="server" ErrorMessage="Invalid Email ID" ForeColor="Red" 
+              ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" 
+              ValidationGroup="register"></asp:RegularExpressionValidator>
+        <p>Password
+            <asp:RequiredFieldValidator ID="rfvPassword" runat="server" ControlToValidate="txtPassword" ErrorMessage="*" ForeColor="Red" ValidationGroup="register"></asp:RequiredFieldValidator>
+        </p>
+        <asp:TextBox ID="txtPassword" runat="server" CssClass="customer-login-input" TextMode="Password"></asp:TextBox>
+        <p>Confirm Password
+            <asp:RequiredFieldValidator ID="rfvConfPassword" runat="server" ControlToValidate="txtConfPassword" ErrorMessage="*" ForeColor="Red" ValidationGroup="register"></asp:RequiredFieldValidator>
+        </p>
+        <asp:TextBox ID="txtConfPassword" runat="server" CssClass="customer-login-input" TextMode="Password"></asp:TextBox>
+        <asp:CompareValidator ID="cvConfPassword" runat="server" ErrorMessage="Password and Confirm Password must match" ForeColor="Red" ControlToValidate="txtConfPassword" ControlToCompare="txtPassword"></asp:CompareValidator>
+        <p>How did you hear about us?
+            <asp:RequiredFieldValidator ID="rfvHowDidYouHearAboutUs" runat="server" ControlToValidate="ddlHearAboutUs" ErrorMessage="*" ForeColor="Red" ValidationGroup="register"></asp:RequiredFieldValidator>
+        </p>
+          <asp:DropDownList ID="ddlHearAboutUs" runat="server">
+            <asp:ListItem Text="Google" Value="Google"></asp:ListItem>
+            <asp:ListItem Text="Yahoo" Value="Yahoo"></asp:ListItem>
+            <asp:ListItem Text="Bing" Value="Bing"></asp:ListItem>
+          </asp:DropDownList>
+        <p>
+            <asp:CheckBox ID="chkAgree" runat="server" Text=""/><a href="/terms.html" target="_blank" style="color: #F0F0F0;"><u>I agree to the Terms of Service</u></a>
+        </p>
+      </div>
+      <!-- modal-body end -->
+  
+      <div class="modal-footer">
+        <asp:Button ID="btnRegister" CssClass="btn btn-primary" runat="server" 
+              Text="Register" ValidationGroup="register" onclick="btnRegister_Click"/>
+      </div>
+      <!-- modal-footer end --> 
+  
+    </div>
+    <!-- customer-registration end --> 
+
+<!-- Start developing your site here -->
+<div class="main-page-wrapper">
+<div class="top-background">
+  <div class="top-menu-wrapper">  
+    <nav class="top-menu container">
+      <ul>
+          <li runat="server" id="liLanguage" visible="false">
+               <%-- <asp:LinkButton runat="server" ID="LinkButton1">
+                   <img style=" width:48px; height:40px;" src="/img/UK.png" />
+                </asp:LinkButton>
+                <asp:LinkButton runat="server" ID="LinkButton2">
+                 <img style=" width:48px; height:40px;" src="/img/Spain.png" />
+                </asp:LinkButton>--%>
+              <asp:DropDownList ID="ddlLanguage" runat="server" style="margin-top:10px; font-size:12px; height:25px; width:100px;"  OnSelectedIndexChanged="ddlLanguage_SelectedIndexChanged" AutoPostBack="true">
+                  <asp:ListItem Value="English">English</asp:ListItem>
+                  <asp:ListItem Value="Spanish">Español</asp:ListItem>
+              </asp:DropDownList>
+              <asp:HiddenField ID="hdnLanguage" runat="server" Visible="false" />
+          </li>
+        <li class="hidden-phone"><h6 style="font-size:13px; color:#ffffff; margin:0px !important;"><a href="/User/SAP-on-Cloud.aspx"><strong> SAP</strong> Cloud</a></h6></li>
+        <li><a href="/user/contactus.aspx"><%--<i class="icon-phone"></i>--%><img src="/img/email-ss.jpg"><strong> support@wftcloud.com</a></li>
+        <li><a href="#" onclick="$zopim.livechat.window.show();"><%--<i class="icon-comment"></i>--%><img src="/img/chat-s.jpg"><strong> Live</strong> Chat</a></li>
+        <% 
+        /*<li><a href="#"><i class="icon-envelope-alt"></i><strong> Submit</strong> a ticket</a></li>
+        <li id="liregister" runat="server"><a href="/LoginPage.aspx?showview=Register" data-toggle="modal"><i class="icon-user"></i><strong> New Customer</strong></a></li>
+        */       
+        %>   
+        <li runat="server" id="licart" visible="false">
+             <a href="/Customer/CloudPackages.aspx?userid=<%=UserMembershipID %>&showview=ShowMyCart"><img src="/img/shopcart.jpg" /><strong> My Cart</strong></a>
+        </li>        
+        <li class="hidden-desktop"><a href="#" id="mobile-nav-button"><i class="icon-list-ul"></i></a></li>
+        <%--<li><a href="http://legacy.wftcloud.com">Old Customers</a></li> --%>
+          <li runat="server" id="liSignUp">
+              <strong>
+                   <a id="A1" runat="server" href="/LoginPage.aspx?ShowView=Register" data-toggle="modal">
+                      <%--<i class="icon-signin"></i>--%><img src="/img/sign-in-s.jpg" /><strong>&nbsp;&nbsp;Sign up</strong><img src="/img/sign-in-s.jpg" /><strong>&nbsp;&nbsp;Sign up</strong>
+                   </a> 
+              </strong>
+          </li>
+        <li><a id="hrefloggedInLink" runat="server" href="/LoginPage.aspx" data-toggle="modal">
+            <%--<i class="icon-user"></i>--%><img src="/img/log-in-s.jpg" /><strong id="loginUser" runat="server" >&nbsp;&nbsp;Login</strong>
+            </a>          
+            </li>
+          <li runat="server" id="lilogout" visible="false">
+              <strong>
+                  <asp:LinkButton runat="server" ID="lkbtnLogOut" style="color: #F0F0F0" OnClick="lkbtnLogOut_Click" >
+                      <strong>Log Out</strong>
+                     </asp:LinkButton>
+               </strong>
+              </li>
+        <%--  <li>   
+          </li>--%>
+      </ul>
+
+    </nav>
+    <!-- end top-menu --> 
+  </div>
+  <!-- end top-menu-wrapper -->
+  
+  <div class="mobile-nav off"></div>
+  <!-- mobile-nav end -->
+  <div style="clear:both;"></div>
+  <header class="container">
+    <div class="row">
+      <div class="span2.5 pull-left">
+        <h1 class="logo clearfix"> <a href="/Home.aspx"><img src="/img/logo.png" alt="SAP Cloud Computing"></a> </h1>
+      </div>
+      <!-- end span4 -->
+      
+      <div class="span9.5 pull-right">
+        <nav class="main-menu" >
+          <ul>
+            <!--li><a href="#" data-description="Cloud Plans" class="current-menu-item">Enterprise Cloud</a></li-->
+            <li><a href="/user/EnterpriseCloud.aspx" data-description="Services">Enterprise SAP</a></li>
+            <li><a href="/user/express-cloud.aspx" data-description="Cloud Pricing">Express SAP Cloud</a> </li>
+            <li><a href="/user/SAP-Cloud-computing.aspx" data-description="SAP/Cloud">Trainings</a></li>
+            <li><a href="#" data-description="Resources">Media</a>
+            	<ul>
+                    <li><a href="/user/press-release-content.aspx">Press <br />Release</a></li>
+                    <li><a href="http://wftcloud.com/blog/" target="_blank">Blog</a></li>
+                    <li><a href="/user/download-SAP-cloud-computing-brochures.aspx">Brochures</a></li>
+                </ul>
+            </li>
+            <li><a href="#" data-description="Our Company">About Us</a>
+              <ul>
+                <li><a href="/user/aboutus.aspx">Profile</a></li>
+                <li><a href="/user/management-team.aspx">Management Team </a></li>
+                <li><a href="/user/faq.aspx">FAQ</a></li>
+                <li><a href="/user/testimonials.aspx">Testimonials</a></li>
+                <li><a href="/user/contactus.aspx">Contact Us</a></li>
+                <li><a href="/user/Products.aspx">Other Products</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <!-- end main-menu --> 
+        
+      </div>
+      <!-- end span8 --> 
+      
+    </div>
+    <!-- end row -->
+    
+    <hr />
+    <div id="sliderHomePage" runat="server" Visible="false">
+    <div id="slider-container" class="clearfix">
+      <div class="sequence-theme">
+        <div id="sequence"> <img class="sequence-prev" src="/img/bt-prev.png" alt="Previous Frame" /> <img class="sequence-next" src="/img/bt-next.png" alt="Next Frame"/ >
+          <ul class="sequence-canvas">
+            <asp:Repeater ID="rptrCanvasImages" runat="server">
+            <ItemTemplate>
+                <%--<li><img class="slider-image" src="<%# Eval("ImgPath")%>" alt="<%# Eval("ImgTitle")%>"></li>             --%>
+                <li><a class="slider-image" href="<%# Eval("RedirectUrl") == ""?"#":Eval("RedirectUrl") %>" target="<%# Eval("RedirectUrl") == ""?"_self":"_blank" %>"><img src="<%# Eval("ImgPath")%>" alt="<%# Eval("ImgTitle")%>"></a></li>             
+            </ItemTemplate>
+            </asp:Repeater>
+          </ul>
+          <ul class="sequence-pagination">
+            <asp:Repeater ID="rptrPaginationImages" runat="server">
+            <ItemTemplate>
+                <%--<li><img class="slider-image" src="<%# Eval("ImgPath")%>" alt="<%# Eval("ImgTitle")%>"></li>             --%>
+                <li><a class="slider-image" href="<%# Eval("RedirectUrl") %>" target="_blank"><img src="<%# Eval("ImgPath")%>" alt="<%# Eval("ImgTitle")%>"></a></li>             
+            </ItemTemplate>
+            </asp:Repeater>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- slider-container end --> 
+    </div>
+    
+  </header>
+  <!-- end container --> 
+  
+</div>
+<!-- top-background end -->
+
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+      
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="white-section">
+    <div class="container">
+      <div class="row" style="margin-top:20px;">
+        <h1 class="span12 homepage-style">Wharfedale Technologies Customers</h1>
+      </div>
+      <!-- row end --> 
+      
+      <!--div class="row">
+          <p class="span12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam dolores enim impedit iure neque molestiae voluptatum. Quo suscipit repudiandae blanditiis iure amet quaerat eligendi.</p>
+        </div--> 
+      <!-- row end -->
+      
+      <div class="row">
+        <div id="myCarousel1" class="carousel slide">           
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+              <div class="marquee-with-options">
+                <asp:Repeater ID="rptrClientLogoCarousel" runat="server" >
+                    <ItemTemplate>
+                        <div class="span2">
+                                <img src='<%# Eval("ThumbnailPath")%>' alt="Image" style="max-width:99%;" class="thumbnail" />
+                        </div>
+                    </ItemTemplate>
+                </asp:Repeater>
+              </div>
+              <%--<div class="row-fluid">
+                  <div class="marquee-with-options">
+                    <asp:Repeater ID="rptrClientLogoCarousel" runat="server" >
+                      <ItemTemplate>
+                            <div class="span2 pull-left">
+                                    <img src='<%# Eval("ThumbnailPath")%>' alt="Image" style="max-width:99%;" class="thumbnail" />
+                            </div>
+                      </ItemTemplate>
+                    </asp:Repeater>
+                   </div>
+              </div>--%>
+          </div>
+          <!--/carousel-inner--> 
+        </div>
+      <!-- row end --> 
+      
+    </div>
+    <!-- conteiner end --> 
+    </div>
+  </div>
+  <!-- white-section end -->
+  
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="span3"> <h5>Verified &amp; Secured by</h5><!--img src="img/twitter-bird-light-bgs.png" style="margin-bottom:20px;">
+          <p>Lorem ipsum dolor sit amet, consectetur. Quisquam impedit <span style="color:#00aced">http://bit.ly/9lorem11.</span> </p>
+          <p>Lorem ipsum dolor sit adipisicing elit. Quisquam <span style="color:#00aced">http://bit.ly/9lorem11.</span> </p-->
+          <!-- PayPal Logo --><img src="https://www.paypalobjects.com/webstatic/en_IN/mktg/logos/pp_cc_mark_37x23.jpg" border="0" alt="PayPal Logo" style="margin-left:60px;"><!-- PayPal Logo --><br>
+          <!-- Authorize.net Logo --><img src="https://verify.authorize.net/anetseal/images/secure90x72.gif" border="0" alt="Authorize.net Logo" style="margin-top:15px; margin-left:50px;"><!-- Authorize.net Logo -->
+        <br /><br /><span id="siteseal" style="margin-left:35px;"><script type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=V5TQsXzyyUZb5UGNilQkjMFnJoP89ydXeVA0DzJ9xvyDi7Da3eNuU2kfIoyX"></script></span>
+        </div>
+        <!-- span3 end -->
+        <div class="span6">
+          <h5>Partners / Certifications</h5>
+            <div class="well"><%--<img src="/img/cert.png">--%>
+<div id="myCarousel3" class="carousel slide">
+              <%--<img src="/img/cert.png">--%>
+                
+              <!-- Carousel items -->
+              <div class="carousel-inner">
+                <asp:Repeater ID="rptrCertificate" runat="server" OnItemDataBound="rptrCertificate_ItemDataBound">
+                <ItemTemplate>
+                <div class="item <%# GetActiveClassForPageNumber(Eval("PageNo").ToString()) %>">
+                <asp:HiddenField ID="hdnCertificatePageNumber" runat="server" Value='<%# Eval("PageNo")%>' />
+                <div class="row-fluid">
+                <asp:Repeater ID="rptrCertificateInnerItems" runat="server">
+                <ItemTemplate>
+                <div class="span6">
+                <a class="thumbnail" href="#x">
+                    <img src='<%# Eval("ThumbnailPath")%>' alt="Image" style="max-width:100%;" />
+                </a>
+                </div>
+                </ItemTemplate>
+                </asp:Repeater>
+                </div>
+                </div>
+                </ItemTemplate>
+                </asp:Repeater>
+              </div>
+              <!--/carousel-inner--> 
+              
+              <a class="left carousel-control" href="#myCarousel3" data-slide="prev"><img src="/img/bt-prev-fo.png" alt="image" style="margin-top:7px; margin-left:-2px"></a><a class="right carousel-control" href="#myCarousel3" data-slide="next"><img src="/img/bt-next-fo.png" alt="image" style="margin-top:7px; margin-right:-2px;"></a> </div>
+                     
+            <!--/myCarousel--> 
+            
+            <div id="myCarousel2" class="carousel slide"> 
+              
+              <!-- Carousel items -->
+              <div class="carousel-inner">
+                <asp:Repeater ID="rptrPartnerLogoCarousel" runat="server" 
+                      onitemdatabound="rptrPartnerLogoCarousel_ItemDataBound">
+                <ItemTemplate>
+                <div class="item <%# GetActiveClassForPageNumber(Eval("PageNo").ToString()) %>">
+                <asp:HiddenField ID="hdnPageNumber" runat="server" Value='<%# Eval("PageNo")%>' />
+                <div class="row-fluid">
+                <asp:Repeater ID="rptrPartnerLogoInnerItems" runat="server">
+                <ItemTemplate>
+                <div class="span3">
+                <a class="thumbnail" href="#x">
+                    <img src='<%# Eval("ThumbnailPath")%>' alt="Image" style="max-width:100%;" />
+                </a>
+                </div>
+                </ItemTemplate>
+                </asp:Repeater>
+                </div>
+                </div>
+                </ItemTemplate>
+                </asp:Repeater>
+              </div>
+              <!--/carousel-inner--> 
+              
+              <a class="left carousel-control" href="#myCarousel2" data-slide="prev"><img src="/img/bt-prev-fo.png" alt="image" style="margin-top:7px; margin-left:-2px"></a><a class="right carousel-control" href="#myCarousel2" data-slide="next"><img src="/img/bt-next-fo.png" alt="image" style="margin-top:7px; margin-right:-2px;"></a> </div>
+            <!--/myCarousel--> 
+            </div>
+          </div>
+          <div class="span3">
+          <h5>Support Center</h5>
+          <ul class="support-list">
+            <li><a href="#"><%--<i class="icon-phone"></i>--%><img src="/img/email-ss.jpg">&nbsp; support@wftcloud.com</a></li>
+            <% 
+            /*<li><a href="#"><i class="icon-envelope-alt"></i><strong>Submit</strong> a ticket</a></li>*/
+            %>
+            <li><a href="#"><%--<i class="icon-comment"></i>--%><img src="/img/chat-s.png" />&nbsp;<strong>Live</strong> support</a></li>
+            <li><a href="/user/contactus.aspx"><img src="/img/contact-s.jpg" />&nbsp;<strong>Contact</strong> us</a></li>          </ul>
+        </div>
+        <!-- span3 end --> 
+        
+        </div>
+        
+      <!-- row end -->
+      
+      <div class="row">
+<div class="span12">
+        	<p class="ftrlinks"><a href="/user/SAPHANAONCLOUD.aspx">HANA on Cloud</a>|
+                <a href="/user/SAPHANATDI.aspx">SAP TDI</a>|
+                <a href="/user/SAPLVM.aspx">SAP LVM</a>
+                </p>
+        </div>
+      	<div class="span12">
+        	<p class="ftrlinks"><a href="/User/SAP-on-Cloud.aspx">SAP Cloud</a>|
+                <a href="/user/cloud-SAP-ERP-solutions-n-services.aspx">Cloud SAP ERP</a>|
+                <a href="/user/affordable-sap-system-for-small-business.aspx">SAP Systems for Small Business</a>|
+                <a href="/user/SAP-cloud-computing-solutions.aspx">SAP Cloud Computing Solutions</a>|
+                <a href="/user/ERP-solutions-on-cloud.aspx">ERP Solutions on Cloud</a>|
+                <a href="/user/sitemap.aspx">Sitemap</a></p>
+        </div>
+          <div class="span12">
+        	<p class="ftrlinks"><a href="/User/cloud-computing.aspx">Cloud Computing</a>|
+                <a href="/user/how-it-works.aspx">How it Works?</a>|
+                <a href="/user/saas.aspx">SaaS</a>|
+                <a href="/user/SAP-Hana-on-cloud.aspx">SAP HANA Cloud</a>|
+                <a href="/user/SAP-Hana-One.aspx">SAP HANA One</a>|
+                <a href="/user/System-Requirements.aspx">System Requirements</a>|
+                <a href="/user/TermsAndConditions.aspx">Terms of use</a>
+        	</p>
+        </div>
+        <div id="newsletter-wrapper" class="span8">
+          <div id="newsletter">
+            <h5 class="visible-desktop">Sign-up to our newsletter : </h5>
+            <h5 class="hidden-desktop">Newsletter sign-up:</h5>
+            <form method='post' name='ContactForm' id='newsletterForm'>&nbsp;
+              <input type="text" id="newsletteremail" runat="server" class="input-box" name="user-email" placeholder="Enter your email."/>
+              <asp:RequiredFieldValidator ID="rfvNewsLetterEmail" runat="server" ErrorMessage="*" ForeColor="Red" ControlToValidate="newsletteremail" ValidationGroup="newsletter" />
+              <asp:RegularExpressionValidator ID="rgvNewsLetterEmail" runat="server" 
+                  ErrorMessage="*" 
+                  ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" 
+                  ForeColor="Red" ControlToValidate="newsletteremail" 
+                  ValidationGroup="newsletter" />
+              <asp:button text="Sign Up" ID="btnNewsLetter" CssClass="btn btn-primary" 
+                  ValidationGroup="newsletter" runat="server" onclick="btnNewsLetter_Click" />
+            </form>
+          </div>
+          <!-- newsletter end --> 
+        </div>
+        <!-- newsletter-wrapper end -->
+        
+        <div id="social-icons-wrapper" class="span4">
+          <div id="social-icons">
+            <h5 class="visible-desktop">Connect via:</h5>
+            <ul>
+              <li><a href="http://twitter.com/wftus" target="_blank"><%--<i class="icon-twitter"></i>--%><img src="/img/twitter.png"></a></li>
+              <li><a href="http://facebook.com/wftcloud" target="_blank"><%--<i class="icon-facebook"></i>--%><img src="/img/facebook.png"></a></li>
+              <li><a href="https://plus.google.com/100277864576102202208/posts" target="_blank"><%--<i class="icon-google-plus"></i>--%><img src="/img/google-plus.png"></a></li>
+              <li><a href="http://www.linkedin.com/company/wft-cloud" target="_blank"><%--<i class="icon-linkedin"></i>--%><img src="/img/linkedin.png"></a></li>
+            </ul>
+          </div>
+          <!-- social-icons end --> 
+          
+        </div>
+        <!-- social-icons-wrapper end --> 
+        
+      </div>
+      <!-- row end --> 
+      
+      <!-- this is a container for the newsletter fail or success message -->
+      <div id='message_post2'></div>
+      <!-- message_post2 end -->
+        <asp:ContentPlaceHolder ID="footerSEOContent" runat="server">
+            
+        </asp:ContentPlaceHolder>
+      <hr />
+      <div class="row">
+        <p class="span12">© Copyright 2013. WFTCloud. All rights reserved.</p>
+      </div>
+      <!-- row end --> 
+      
+    </div>
+    <!-- container end --> 
+    
+    <a href="#" class="go-top" style="display: inline;">Go Top</a> 
+      </footer>
+</div>
+<!-- end main-page-wrapper --> 
+
+    </form>
+
+    <!-- Loading all JS files the asynchronous way --> 
+    <!-- Twitter Bootstrap JavaScript file required for transitions, pupups, modals and other elements  --> 
+    <script src="/js/bootstrap.min.js"></script> 
+
+    <!-- Slider script --> 
+    <script src="/js/jquery.sequence-min.js"></script> 
+
+    <!-- Main file containing all other scripts. This is done to avoid multiple HTTP requests --> 
+    <script src="/js/main.js"></script> 
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#myCarousel').carousel({
+                interval: 10000
+            })
+        });
+    </script> 
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#myCarousel1').carousel({
+                interval: 4000
+            })
+        });
+    </script> 
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#myCarousel2').carousel({
+                interval: 10000
+            })
+        });
+    </script>
+     <script type="text/javascript">
+         $(document).ready(function () {
+             $('#myCarousel3').carousel({
+                 interval: 10000
+             })
+         });
+    </script>
+     <script>
+         $(function () {
+             $(".wftoffer").popover();
+         });
+    </script>
+
+    <script>
+        (function ($) {
+            $(document).ready(function () {
+                $('#newsticker_1').newsticker({
+                    'style': 'scroll', // Use fade animation
+                    'showControls': true, // Display pause, previous and next
+                    'tickerTitle': '- <img src="img/twitter.png"> - ', // News ticker title
+                    'autoStart': true, // Start animation automatically
+                    'feed': '', // News items will be pulled from the RSS feed
+                    'feedItems': 5, // 5 news items will be displayed
+                    'twitterFormat': 'buzzmedo', // News ticker title                    'feedFormat': '%author% posted <a href="%link%?ref=Studio164a">%title%</a> %timeago%.', // Format that each news item will
+                    'timeAgoFormat': function (date) {
+                        return $.fn.newsticker.api.getTimeAgo(date);
+                    }, // Implements $.fn.newsticker.api.getTimeAgo()
+                    'dateFormat': function (date) {
+                        return $.fn.newsticker.api.getFormattedDate(date);
+                    }, // Implements $.fn.newsticker.api.getFormattedDate()
+                    'fadeOutSpeed': 'slow', // Old news item fades out over 400
+                    'fadeInSpeed': 'slow', // New news item fades in over 400
+                    'transitionSpeed': '4000', // News item will display for 4
+                    'pauseOnHover': true // Animation will be paused when
+                });
+            });
+        })(jQuery)
+    </script>
+
+    <!-- If the browser version of IE is less than 9 load HTML5 & CSS3 polyfills --> 
+    <!--[if lt IE 9]>
+                <link rel="stylesheet" href="/css/ie.css">
+                <script type="text/javascript" src="/js/html5shiv.min.js"></script>
+                <script type="text/javascript" src="/js/selectivizr.js"></script>       
+            <![endif]--> 
+
+    <script type="text/javascript" src="/videogallery/html5gallery/html5gallery.js"></script>
+    <script src="/js/bootstrap-tooltip.js"></script>
+    <script src="/js/bootstrap-popover.js"></script>
+    
+    <!-- Google Analytics Script -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-22849164-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    
+    <!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+    var google_tag_params = {
+        dynx_itemid: ['ERP', 'SAP', 'Dedicated Server', 'Shared Access'],
+        dynx_itemid2: 'DEDICATEDSERVER',
+        dynx_pagetype: 'conversionintent',
+    };
+</script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 981633830;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/981633830/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<!--Start of Zopim Live Chat Script-->
+<script type="text/javascript">
+    window.$zopim || (function (d, s) {
+        var z = $zopim = function (c) { z._.push(c) }, $ = z.s =
+d.createElement(s), e = d.getElementsByTagName(s)[0]; z.set = function (o) {
+    z.set.
+_.push(o)
+}; z._ = []; z.set._ = []; $.async = !0; $.setAttribute('charset', 'utf-8');
+        $.src = '//cdn.zopim.com/?1CwXZ82hvcgjTOSSiwJqa7R8MstmnUZz'; z.t = +new Date; $.
+type = 'text/javascript'; e.parentNode.insertBefore($, e)
+    })(document, 'script');
+</script>
+<!--End of Zopim Live Chat Script-->
+
+
+    
+
+</body>
+</html>

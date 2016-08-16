@@ -1,0 +1,2591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="cgxwftcloudModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="cgxwftcloudModelStoreContainer">
+          <EntitySet Name="AdminPageAccess" EntityType="cgxwftcloudModel.Store.AdminPageAccess" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdminPages" EntityType="cgxwftcloudModel.Store.AdminPages" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AllAutomatedPayments" EntityType="cgxwftcloudModel.Store.AllAutomatedPayments" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AutomatedPayments" EntityType="cgxwftcloudModel.Store.AutomatedPayments" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AutomatedPaymentTransactions" EntityType="cgxwftcloudModel.Store.AutomatedPaymentTransactions" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Banners" EntityType="cgxwftcloudModel.Store.Banners" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ContactRequests" EntityType="cgxwftcloudModel.Store.ContactRequests" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Coupons" EntityType="cgxwftcloudModel.Store.Coupons" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="CouponTypes" EntityType="cgxwftcloudModel.Store.CouponTypes" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="CourseDetails" EntityType="cgxwftcloudModel.Store.CourseDetails" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="CreditCardDetails" EntityType="cgxwftcloudModel.Store.CreditCardDetails" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="CRMIssueTypes" EntityType="cgxwftcloudModel.Store.CRMIssueTypes" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="CRMRequestNotes" EntityType="cgxwftcloudModel.Store.CRMRequestNotes" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="CRMRequests" EntityType="cgxwftcloudModel.Store.CRMRequests" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="CRMRequestStatus" EntityType="cgxwftcloudModel.Store.CRMRequestStatus" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="CustomerPaymentProfiles" EntityType="cgxwftcloudModel.Store.CustomerPaymentProfiles" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="EmailTemplates" EntityType="cgxwftcloudModel.Store.EmailTemplates" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ExLog" EntityType="cgxwftcloudModel.Store.ExLog" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="FAQCategoryTypes" EntityType="cgxwftcloudModel.Store.FAQCategoryTypes" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="FAQs" EntityType="cgxwftcloudModel.Store.FAQs" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="FAQTypes" EntityType="cgxwftcloudModel.Store.FAQTypes" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="IndexDatas" EntityType="cgxwftcloudModel.Store.IndexDatas" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="IndexDataTypes" EntityType="cgxwftcloudModel.Store.IndexDataTypes" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="KnowAboutUs" EntityType="cgxwftcloudModel.Store.KnowAboutUs" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="NewsLetterSignUp" EntityType="cgxwftcloudModel.Store.NewsLetterSignUp" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="RecordStatus" EntityType="cgxwftcloudModel.Store.RecordStatus" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ServiceCatalog" EntityType="cgxwftcloudModel.Store.ServiceCatalog" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ServiceCategories" EntityType="cgxwftcloudModel.Store.ServiceCategories" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ServiceProvisions" EntityType="cgxwftcloudModel.Store.ServiceProvisions" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="SitePagesAndContents" EntityType="cgxwftcloudModel.Store.SitePagesAndContents" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="SocialTweets" EntityType="cgxwftcloudModel.Store.SocialTweets" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="SurveyChoices" EntityType="cgxwftcloudModel.Store.SurveyChoices" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="SurveyQuestions" EntityType="cgxwftcloudModel.Store.SurveyQuestions" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Testimonials" EntityType="cgxwftcloudModel.Store.Testimonials" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="TrainingDetails" EntityType="cgxwftcloudModel.Store.TrainingDetails" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="UserCart" EntityType="cgxwftcloudModel.Store.UserCart" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="UserOrderDetail" EntityType="cgxwftcloudModel.Store.UserOrderDetail" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="UserOrders" EntityType="cgxwftcloudModel.Store.UserOrders" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="UserPaymentTransaction" EntityType="cgxwftcloudModel.Store.UserPaymentTransaction" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="UserProfiles" EntityType="cgxwftcloudModel.Store.UserProfiles" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="UserRefundPayments" EntityType="cgxwftcloudModel.Store.UserRefundPayments" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="UserServicesInvoices" EntityType="cgxwftcloudModel.Store.UserServicesInvoices" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="UserSubscribedServices" EntityType="cgxwftcloudModel.Store.UserSubscribedServices" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="UserSurveyResponses" EntityType="cgxwftcloudModel.Store.UserSurveyResponses" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="VisitorsDetails" EntityType="cgxwftcloudModel.Store.VisitorsDetails" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="WftCloudResource" EntityType="cgxwftcloudModel.Store.WftCloudResource" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="WFTCloudUserTypes" EntityType="cgxwftcloudModel.Store.WFTCloudUserTypes" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="WftSettings" EntityType="cgxwftcloudModel.Store.WftSettings" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="AdminPageAccess">
+          <Key>
+            <PropertyRef Name="AdminPageAccessID" />
+          </Key>
+          <Property Name="AdminPageAccessID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AdminUserID" Type="int" Nullable="false" />
+          <Property Name="WebPageID" Type="int" Nullable="false" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="CreatedOn" Type="datetime" />
+        </EntityType>
+        <EntityType Name="AdminPages">
+          <Key>
+            <PropertyRef Name="WebPageID" />
+          </Key>
+          <Property Name="WebPageID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="WebPageName" Type="varchar" Nullable="false" MaxLength="500" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="LastModifiedOn" Type="datetime" />
+          <Property Name="LastModifiedBy" Type="uniqueidentifier" />
+          <Property Name="RecordStatus" Type="int" />
+        </EntityType>
+        <EntityType Name="AllAutomatedPayments">
+          <Key>
+            <PropertyRef Name="AllPaymentID" />
+          </Key>
+          <Property Name="AllPaymentID" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CustomerProfileID" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="CustomerPaymentProfileID" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="UserSubscriptionID" Type="bigint" Nullable="false" />
+          <Property Name="InitialSubscriptionDate" Type="date" Nullable="false" />
+          <Property Name="PaymentDate" Type="date" Nullable="false" />
+          <Property Name="InitialHoldAmount" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="CurrentMonthBilling" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="PaymentStatus" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="PaymentAmount" Type="decimal" Scale="2" />
+          <Property Name="ApprovalStatus" Type="int" />
+          <Property Name="AuthorizationCode" Type="varchar" MaxLength="50" />
+          <Property Name="CardNumber" Type="varchar" MaxLength="50" />
+          <Property Name="Message" Type="varchar" MaxLength="50" />
+          <Property Name="ResponseCode" Type="varchar" MaxLength="50" />
+          <Property Name="TransactionID" Type="varchar" MaxLength="50" />
+          <Property Name="InvoiceNumber" Type="varchar" MaxLength="50" />
+          <Property Name="Worklog" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="AutomatedPayments">
+          <Key>
+            <PropertyRef Name="AutomatedPaymentID" />
+          </Key>
+          <Property Name="AutomatedPaymentID" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserSubscriptionID" Type="bigint" Nullable="false" />
+          <Property Name="Amount" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="FrequencyInMonths" Type="int" Nullable="false" />
+          <Property Name="BillingStartDate" Type="datetime" Nullable="false" />
+          <Property Name="BillingEndDate" Type="datetime" Nullable="false" />
+          <Property Name="RecordStatus" Type="bigint" />
+        </EntityType>
+        <EntityType Name="AutomatedPaymentTransactions">
+          <Key>
+            <PropertyRef Name="AutomatedPaymentTransID" />
+          </Key>
+          <Property Name="AutomatedPaymentTransID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AutomatedPaymentID" Type="int" Nullable="false" />
+          <Property Name="Amount" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="Approved" Type="bit" Nullable="false" />
+          <Property Name="AuthorizationCode" Type="varchar" Nullable="false" MaxLength="500" />
+          <Property Name="CardNumber" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="InvoiceNumber" Type="varchar" Nullable="false" MaxLength="500" />
+          <Property Name="Message" Type="varchar" Nullable="false" MaxLength="500" />
+          <Property Name="ResponseCode" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="AuthorizeTransID" Type="varchar" Nullable="false" MaxLength="500" />
+          <Property Name="PaymentDate" Type="datetime" Nullable="false" />
+          <Property Name="RefundDate" Type="datetime" />
+          <Property Name="IsRefunded" Type="bit" />
+        </EntityType>
+        <EntityType Name="Banners">
+          <Key>
+            <PropertyRef Name="BannerID" />
+          </Key>
+          <Property Name="BannerID" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ImgTitle" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="ImgPath" Type="varchar(max)" Nullable="false" />
+          <Property Name="ImgPriority" Type="int" />
+          <Property Name="RedirectUrl" Type="varchar(max)" />
+          <Property Name="DisplayStartDateTime" Type="datetime" />
+          <Property Name="DisplayEndDateTime" Type="datetime" />
+          <Property Name="Mandatory" Type="bit" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="LastModifiedOn" Type="datetime" />
+          <Property Name="LastModifiedBy" Type="uniqueidentifier" />
+          <Property Name="RecordStatus" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ContactRequests">
+          <Key>
+            <PropertyRef Name="ContactRequestID" />
+          </Key>
+          <Property Name="ContactRequestID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ContactName" Type="varchar" MaxLength="500" />
+          <Property Name="ContactEmailAddress" Type="varchar" MaxLength="500" />
+          <Property Name="Subject" Type="varchar" MaxLength="500" />
+          <Property Name="Message" Type="varchar" MaxLength="2000" />
+          <Property Name="DateEntered" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Coupons">
+          <Key>
+            <PropertyRef Name="CouponID" />
+          </Key>
+          <Property Name="CouponID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CouponName" Type="varchar" Nullable="false" MaxLength="500" />
+          <Property Name="CouponCode" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="CouponTypeID" Type="int" Nullable="false" />
+          <Property Name="Discount" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="IsUsed" Type="bit" />
+          <Property Name="UserCount" Type="int" />
+          <Property Name="ValidityInDays" Type="int" />
+          <Property Name="ValidityDate" Type="datetime" />
+          <Property Name="ForUser" Type="uniqueidentifier" />
+          <Property Name="ForServiceID" Type="int" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="ModifiedOn" Type="datetime" />
+          <Property Name="ModifiedBy" Type="uniqueidentifier" />
+          <Property Name="RecordStatus" Type="int" Nullable="false" />
+          <Property Name="CouponCount" Type="bigint" />
+        </EntityType>
+        <EntityType Name="CouponTypes">
+          <Key>
+            <PropertyRef Name="CouponTypeID" />
+          </Key>
+          <Property Name="CouponTypeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CouponType" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="ServiceCount" Type="int" Nullable="false" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="ModifiedOn" Type="datetime" />
+          <Property Name="ModifiedBy" Type="uniqueidentifier" />
+          <Property Name="RecordStatus" Type="int" Nullable="false" />
+          <Property Name="IsCouponUnlimited" Type="bit" />
+        </EntityType>
+        <EntityType Name="CourseDetails">
+          <Key>
+            <PropertyRef Name="CourseID" />
+          </Key>
+          <Property Name="CourseID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CourseName" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="Description" Type="varchar(max)" />
+          <Property Name="CourseDuration" Type="varchar" MaxLength="50" />
+          <Property Name="Status" Type="int" Nullable="false" />
+          <Property Name="Opportunities" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="CreditCardDetails">
+          <Key>
+            <PropertyRef Name="CreditCardDetailsID" />
+          </Key>
+          <Property Name="CreditCardDetailsID" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserProfileID" Type="bigint" Nullable="false" />
+          <Property Name="CreditCardNumber" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="ExpirationMonth" Type="varchar" MaxLength="50" />
+          <Property Name="ExpirationYear" Type="varchar" MaxLength="50" />
+          <Property Name="TypeOfCard" Type="varchar" MaxLength="100" />
+          <Property Name="ContactNumber" Type="varchar" MaxLength="50" />
+          <Property Name="Address1" Type="varchar" MaxLength="500" />
+          <Property Name="Address2" Type="varchar" MaxLength="500" />
+          <Property Name="City" Type="varchar" MaxLength="50" />
+          <Property Name="State" Type="varchar" MaxLength="50" />
+          <Property Name="Country" Type="varchar" MaxLength="50" />
+          <Property Name="PostalOrZipCode" Type="varchar" MaxLength="50" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="LastModifiedBy" Type="uniqueidentifier" />
+          <Property Name="LastModifiedOn" Type="datetime" />
+          <Property Name="RecordStatus" Type="int" />
+          <Property Name="NameOnCard" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="CRMIssueTypes">
+          <Key>
+            <PropertyRef Name="CRMIssueTypeID" />
+          </Key>
+          <Property Name="CRMIssueTypeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CRMIssueTypeDesc" Type="varchar" Nullable="false" MaxLength="500" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="LastModifiedOn" Type="datetime" />
+          <Property Name="LastModifiedBy" Type="uniqueidentifier" />
+          <Property Name="RecordStatus" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CRMRequestNotes">
+          <Key>
+            <PropertyRef Name="CRMRequestNotesID" />
+          </Key>
+          <Property Name="CRMRequestNotesID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CRMRequestID" Type="int" Nullable="false" />
+          <Property Name="CRMUpdate" Type="varchar(max)" Nullable="false" />
+          <Property Name="CRMStatusChangeFrom" Type="int" />
+          <Property Name="CRMStatusChangeTo" Type="int" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="LastModifiedBy" Type="uniqueidentifier" />
+          <Property Name="LastModifiedOn" Type="datetime" />
+          <Property Name="RecordStatus" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CRMRequests">
+          <Key>
+            <PropertyRef Name="CRMRequestID" />
+          </Key>
+          <Property Name="CRMRequestID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CustomerID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="ServiceCategoryID" Type="int" />
+          <Property Name="ServiceID" Type="int" />
+          <Property Name="IssueDescription" Type="varchar(max)" Nullable="false" />
+          <Property Name="IssueType" Type="int" Nullable="false" />
+          <Property Name="AssignedToAdmin" Type="uniqueidentifier" />
+          <Property Name="CRMRequestStatus" Type="int" Nullable="false" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="LastModifiedBy" Type="uniqueidentifier" />
+          <Property Name="LastModifiedOn" Type="datetime" />
+          <Property Name="RecordStatus" Type="int" Nullable="false" />
+          <Property Name="AdminNotes" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="CRMRequestStatus">
+          <Key>
+            <PropertyRef Name="CRMRequestStatusID" />
+          </Key>
+          <Property Name="CRMRequestStatusID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CRMRequestStatusDesc" Type="varchar" Nullable="false" MaxLength="500" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="LastModifiedBy" Type="uniqueidentifier" />
+          <Property Name="LastModifiedOn" Type="datetime" />
+          <Property Name="RecordStatus" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CustomerPaymentProfiles">
+          <Key>
+            <PropertyRef Name="CustomerPaymenProfileID" />
+          </Key>
+          <Property Name="CustomerPaymenProfileID" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserProfileID" Type="bigint" />
+          <Property Name="AuthCustomerProfileID" Type="varchar" MaxLength="500" />
+          <Property Name="AuthPaymentProfileID" Type="varchar" MaxLength="500" />
+          <Property Name="AuthBillingAddressID" Type="varchar" MaxLength="500" />
+          <Property Name="DefaultPaymentID" Type="bit" />
+          <Property Name="Status" Type="bit" />
+        </EntityType>
+        <EntityType Name="EmailTemplates">
+          <Key>
+            <PropertyRef Name="HTMLTemplateID" />
+          </Key>
+          <Property Name="HTMLTemplateID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Reason" Type="varchar" Nullable="false" MaxLength="200" />
+          <Property Name="HTMLContent" Type="varchar(max)" Nullable="false" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="LastModifiedOn" Type="datetime" />
+          <Property Name="LastModifiedBy" Type="uniqueidentifier" />
+          <Property Name="RecordStatus" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ExLog">
+          <Key>
+            <PropertyRef Name="ExceptionID" />
+          </Key>
+          <Property Name="ExceptionID" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ClassName" Type="varchar" Nullable="false" MaxLength="400" />
+          <Property Name="ExMessage" Type="varchar" Nullable="false" MaxLength="1000" />
+          <Property Name="ExStackTrace" Type="varchar(max)" Nullable="false" />
+          <Property Name="ExDateTime" Type="datetime" />
+          <Property Name="ExceptionMethodName" Type="varchar" MaxLength="200" />
+        </EntityType>
+        <EntityType Name="FAQCategoryTypes">
+          <Key>
+            <PropertyRef Name="FAQCategoryID" />
+          </Key>
+          <Property Name="FAQCategoryID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FAQCategoryName" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="LastModifiedBy" Type="uniqueidentifier" />
+          <Property Name="LastModifiedOn" Type="datetime" />
+          <Property Name="RecordStatus" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="FAQs">
+          <Key>
+            <PropertyRef Name="FAQID" />
+          </Key>
+          <Property Name="FAQID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Question" Type="varchar" Nullable="false" MaxLength="200" />
+          <Property Name="Answer" Type="varchar" Nullable="false" MaxLength="1000" />
+          <Property Name="MembersOnly" Type="bit" Nullable="false" />
+          <Property Name="FAQTypeID" Type="int" Nullable="false" />
+          <Property Name="Priority" Type="int" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="LastModifiedBy" Type="uniqueidentifier" />
+          <Property Name="LastModifiedOn" Type="datetime" />
+          <Property Name="RecordStatus" Type="int" Nullable="false" />
+          <Property Name="FAQCategoryTypeID" Type="int" />
+        </EntityType>
+        <EntityType Name="FAQTypes">
+          <Key>
+            <PropertyRef Name="FAQTypeID" />
+          </Key>
+          <Property Name="FAQTypeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FAQTypeText" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="LastModifiedBy" Type="uniqueidentifier" />
+          <Property Name="LastModifiedOn" Type="datetime" />
+          <Property Name="RecordStatus" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="IndexDatas">
+          <Key>
+            <PropertyRef Name="IndexDataID" />
+          </Key>
+          <Property Name="IndexDataID" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IndexDataTypeID" Type="int" Nullable="false" />
+          <Property Name="Priority" Type="int" />
+          <Property Name="Description" Type="varchar" Nullable="false" MaxLength="595" />
+          <Property Name="Title" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="Path" Type="varchar" Nullable="false" MaxLength="595" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="ModifiedOn" Type="datetime" />
+          <Property Name="ModifiedBy" Type="uniqueidentifier" />
+          <Property Name="RecordStatus" Type="int" Nullable="false" />
+          <Property Name="ThumbnailPath" Type="varchar" Nullable="false" MaxLength="300" />
+        </EntityType>
+        <EntityType Name="IndexDataTypes">
+          <Key>
+            <PropertyRef Name="IndexDataTypeID" />
+          </Key>
+          <Property Name="IndexDataTypeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IndexDataTypeText" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="LastModifiedOn" Type="datetime" />
+          <Property Name="LastModifiedBy" Type="uniqueidentifier" />
+          <Property Name="RecordStatus" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="KnowAboutUs">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ModeNames" Type="varchar" MaxLength="100" />
+          <Property Name="Status" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="NewsLetterSignUp">
+          <Key>
+            <PropertyRef Name="NewsLetterSignupID" />
+          </Key>
+          <Property Name="NewsLetterSignupID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="EmailID" Type="varchar" Nullable="false" MaxLength="200" />
+          <Property Name="DateSignedUp" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="RecordStatus">
+          <Key>
+            <PropertyRef Name="RecordStatusID" />
+          </Key>
+          <Property Name="RecordStatusID" Type="int" Nullable="false" />
+          <Property Name="RecordStatusDesc" Type="varchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="ServiceCatalog">
+          <Key>
+            <PropertyRef Name="ServiceID" />
+          </Key>
+          <Property Name="ServiceID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ServiceName" Type="varchar" Nullable="false" MaxLength="200" />
+          <Property Name="ServiceDescription" Type="varchar" Nullable="false" />
+          <Property Name="ReleaseVersion" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="SystemType" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="WFTCloudPrice" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="ThirdPartyServicePrice" Type="decimal" Scale="2" />
+          <Property Name="UsageUnit" Type="varchar" MaxLength="20" />
+          <Property Name="InitialHoldAmount" Type="decimal" Scale="2" />
+          <Property Name="SupportIncluded" Type="bit" />
+          <Property Name="Priority" Type="int" />
+          <Property Name="UserSpecific" Type="bit" />
+          <Property Name="ServiceCategoryID" Type="int" />
+          <Property Name="IsPayAsYouGo" Type="bit" />
+          <Property Name="PackageLengthInMonths" Type="int" />
+          <Property Name="ThreeMonthsSaving" Type="decimal" Scale="2" />
+          <Property Name="SixMonthsSaving" Type="decimal" Scale="2" />
+          <Property Name="NineMonthsSaving" Type="decimal" Scale="2" />
+          <Property Name="TwelveMonthsSaving" Type="decimal" Scale="2" />
+          <Property Name="TrialAmount" Type="decimal" Scale="2" />
+          <Property Name="DisplayColor" Type="varchar" MaxLength="20" />
+          <Property Name="DisplayBlinking" Type="bit" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="LastModifiedBy" Type="uniqueidentifier" />
+          <Property Name="LastModifiedOn" Type="datetime" />
+          <Property Name="RecordStatus" Type="int" />
+          <Property Name="UserProfileID" Type="bigint" />
+          <Property Name="MinimumUsageInHours" Type="decimal" Scale="2" />
+          <Property Name="CostPerMinUsage" Type="decimal" Scale="2" />
+          <Property Name="CostPerAdditionalHours" Type="decimal" Scale="2" />
+          <Property Name="IsTrial" Type="bit" />
+        </EntityType>
+        <EntityType Name="ServiceCategories">
+          <Key>
+            <PropertyRef Name="ServiceCategoryID" />
+          </Key>
+          <Property Name="ServiceCategoryID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CategoryName" Type="varchar" Nullable="false" MaxLength="200" />
+          <Property Name="CategoryPriority" Type="int" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="LastModifiedOn" Type="datetime" />
+          <Property Name="LastModifiedBy" Type="uniqueidentifier" />
+          <Property Name="RecordStatus" Type="int" Nullable="false" />
+          <Property Name="IsPayAsYouGo" Type="bit" />
+          <Property Name="IsDedicated" Type="bit" />
+        </EntityType>
+        <EntityType Name="ServiceProvisions">
+          <Key>
+            <PropertyRef Name="ServiceProvisionID" />
+          </Key>
+          <Property Name="ServiceProvisionID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ServiceID" Type="int" Nullable="false" />
+          <Property Name="UserMin" Type="int" Nullable="false" />
+          <Property Name="UserMax" Type="int" Nullable="false" />
+          <Property Name="UserName" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="ServicePassword" Type="varchar" Nullable="false" MaxLength="500" />
+          <Property Name="ServiceUrl" Type="varchar" Nullable="false" MaxLength="1000" />
+          <Property Name="UIDOnServer" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="AdditionalInformation" Type="varchar(max)" Nullable="false" />
+          <Property Name="AttachmentPath" Type="varchar" MaxLength="1000" />
+          <Property Name="NotificationRequiredAt" Type="int" Nullable="false" />
+          <Property Name="CurrentUserCounter" Type="int" Nullable="false" />
+          <Property Name="ExpirationPeriod" Type="int" Nullable="false" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="LastModifiedBy" Type="uniqueidentifier" />
+          <Property Name="LastModifiedOn" Type="datetime" />
+          <Property Name="RecordStatus" Type="int" Nullable="false" />
+          <Property Name="ServiceCategoryID" Type="int" />
+          <Property Name="AttachmentImgPath" Type="varchar" MaxLength="1000" />
+        </EntityType>
+        <EntityType Name="SitePagesAndContents">
+          <Key>
+            <PropertyRef Name="PageID" />
+          </Key>
+          <Property Name="PageID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="PageRelativeUrl" Type="varchar" Nullable="false" MaxLength="250" />
+          <Property Name="HTMLContent" Type="varchar(max)" Nullable="false" />
+          <Property Name="ContentZoneName" Type="varchar(max)" />
+          <Property Name="PageTitle" Type="varchar(max)" />
+          <Property Name="MetaDescription" Type="varchar(max)" />
+          <Property Name="MetaKeywords" Type="varchar(max)" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="LastModifiedOn" Type="datetime" />
+          <Property Name="LastModifiedBy" Type="uniqueidentifier" />
+          <Property Name="RecordStatus" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SocialTweets">
+          <Key>
+            <PropertyRef Name="tweetID" />
+          </Key>
+          <Property Name="tweetID" Type="bigint" Nullable="false" />
+          <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+          <Property Name="tweetPlainText" Type="varchar(max)" Nullable="false" />
+          <Property Name="tweetHTMLText" Type="varchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SurveyChoices">
+          <Key>
+            <PropertyRef Name="SurveyChoiceID" />
+          </Key>
+          <Property Name="SurveyChoiceID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="SurveyQuestionID" Type="int" Nullable="false" />
+          <Property Name="SurveyChoice" Type="varchar(max)" Nullable="false" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="LastModifiedOn" Type="datetime" />
+          <Property Name="LastModifiedBy" Type="uniqueidentifier" />
+          <Property Name="RecordStatus" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SurveyQuestions">
+          <Key>
+            <PropertyRef Name="SurveyQuestionID" />
+          </Key>
+          <Property Name="SurveyQuestionID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="SurveyQuestion" Type="varchar(max)" Nullable="false" />
+          <Property Name="AllowMultipleSelection" Type="bit" Nullable="false" />
+          <Property Name="AllowCustomResponse" Type="bit" Nullable="false" />
+          <Property Name="DisplayOrder" Type="int" Nullable="false" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="LastModifiedBy" Type="uniqueidentifier" />
+          <Property Name="LastModifiedOn" Type="datetime" />
+          <Property Name="RecordStatus" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Testimonials">
+          <Key>
+            <PropertyRef Name="TestimonialID" />
+          </Key>
+          <Property Name="TestimonialID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CustomerName" Type="varchar" MaxLength="200" />
+          <Property Name="Designation" Type="varchar" MaxLength="200" />
+          <Property Name="CustOrg" Type="varchar" MaxLength="200" />
+          <Property Name="CustSince" Type="date" />
+          <Property Name="NoOfDedicatedSystems" Type="varchar" MaxLength="200" />
+          <Property Name="Usage" Type="varchar" MaxLength="200" />
+          <Property Name="Testimonial" Type="varchar(max)" />
+          <Property Name="HomePageVersion" Type="varchar(max)" />
+          <Property Name="RecordStatus" Type="int" />
+          <Property Name="Priority" Type="int" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="ModifiedOn" Type="datetime" />
+          <Property Name="ModifiedBy" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="TrainingDetails">
+          <Key>
+            <PropertyRef Name="TrainnerID" />
+          </Key>
+          <Property Name="TrainnerID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="LastName" Type="varchar" MaxLength="100" />
+          <Property Name="Email" Type="varchar" MaxLength="100" />
+          <Property Name="PhoneNumber" Type="varchar" MaxLength="50" />
+          <Property Name="PermanentAddress" Type="varchar(max)" />
+          <Property Name="TemporaryAddress" Type="varchar(max)" />
+          <Property Name="CourseOfInterest" Type="int" Nullable="false" />
+          <Property Name="KnowAboutUs" Type="int" Nullable="false" />
+          <Property Name="Others" Type="varchar" MaxLength="100" />
+          <Property Name="UGCollege" Type="varchar" MaxLength="500" />
+          <Property Name="UGPercentage" Type="numeric" Scale="2" />
+          <Property Name="PGCollege" Type="varchar" MaxLength="500" />
+          <Property Name="PGPercentage" Type="decimal" Scale="2" />
+          <Property Name="OQCollege" Type="varchar" MaxLength="500" />
+          <Property Name="OQPercentage" Type="decimal" Scale="2" />
+          <Property Name="YearOfExperience" Type="varchar" MaxLength="100" />
+          <Property Name="CurrentCompany" Type="varchar" MaxLength="200" />
+          <Property Name="TechnologyCurrentlyWork" Type="varchar" MaxLength="200" />
+          <Property Name="Status" Type="int" Nullable="false" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="LastModifiedOn" Type="datetime" />
+          <Property Name="CreatedBy" Type="int" />
+          <Property Name="LastModifiedBy" Type="int" />
+        </EntityType>
+        <EntityType Name="UserCart">
+          <Key>
+            <PropertyRef Name="UserCartID" />
+          </Key>
+          <Property Name="UserCartID" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ServiceID" Type="bigint" Nullable="false" />
+          <Property Name="UserProfileID" Type="bigint" Nullable="false" />
+          <Property Name="Quantity" Type="int" Nullable="false" />
+          <Property Name="CouponID" Type="bigint" />
+          <Property Name="SelectedDiscount" Type="int" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="ModifiedOn" Type="datetime" />
+          <Property Name="ModifiedBy" Type="uniqueidentifier" />
+          <Property Name="RecordStatus" Type="int" />
+          <Property Name="IsPayAsYouGo" Type="bit" />
+        </EntityType>
+        <EntityType Name="UserOrderDetail">
+          <Key>
+            <PropertyRef Name="UserOrderDetailID" />
+          </Key>
+          <Property Name="UserOrderDetailID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserOrderID" Type="int" Nullable="false" />
+          <Property Name="ServiceID" Type="int" Nullable="false" />
+          <Property Name="Quantity" Type="int" Nullable="false" />
+          <Property Name="InitialHoldAmount" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="IsPayAsYouGo" Type="bit" />
+          <Property Name="OrderCartID" Type="bigint" />
+          <Property Name="SelectedDiscountDuration" Type="int" />
+        </EntityType>
+        <EntityType Name="UserOrders">
+          <Key>
+            <PropertyRef Name="UserOrderID" />
+          </Key>
+          <Property Name="UserOrderID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserProfileID" Type="int" Nullable="false" />
+          <Property Name="OrderDateTime" Type="datetime" Nullable="false" />
+          <Property Name="OrderStatus" Type="int" Nullable="false" />
+          <Property Name="OrderTotal" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="IsCouponCode" Type="varchar" MaxLength="50" />
+          <Property Name="IsDiscountValue" Type="decimal" Scale="2" />
+          <Property Name="AuthCustomerProfileID" Type="varchar" MaxLength="100" />
+          <Property Name="AuthPaymentProfileID" Type="varchar" MaxLength="100" />
+          <Property Name="InvoiceNumber" Type="varchar" MaxLength="200" />
+        </EntityType>
+        <EntityType Name="UserPaymentTransaction">
+          <Key>
+            <PropertyRef Name="UserPaymentTransactionID" />
+          </Key>
+          <Property Name="UserPaymentTransactionID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserProfileID" Type="int" Nullable="false" />
+          <Property Name="PaymentDateTime" Type="datetime" Nullable="false" />
+          <Property Name="AuthTransactionID" Type="varchar" MaxLength="200" />
+          <Property Name="AuthCardNumber" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="AuthAuthorizationCode" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Approved" Type="bit" Nullable="false" />
+          <Property Name="Amount" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="InvoiceNumber" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="AuthResponseCode" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="AuthMessage" Type="varchar" Nullable="false" MaxLength="500" />
+          <Property Name="IsRefunded" Type="bit" />
+        </EntityType>
+        <EntityType Name="UserProfiles">
+          <Key>
+            <PropertyRef Name="UserProfileID" />
+          </Key>
+          <Property Name="UserProfileID" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserMembershipID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="FirstName" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="LastName" Type="varchar" MaxLength="50" />
+          <Property Name="MiddleName" Type="varchar" MaxLength="50" />
+          <Property Name="UserRole" Type="varchar" MaxLength="50" />
+          <Property Name="EmailID" Type="varchar" MaxLength="500" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="LastModifiedBy" Type="uniqueidentifier" />
+          <Property Name="LastModifiedOn" Type="datetime" />
+          <Property Name="RecordStatus" Type="int" Nullable="false" />
+          <Property Name="ContactNumber" Type="varchar" MaxLength="50" />
+          <Property Name="PhoneNumber" Type="varchar" MaxLength="50" />
+          <Property Name="MobileNumber" Type="varchar" MaxLength="50" />
+          <Property Name="MailingAddress" Type="varchar" MaxLength="500" />
+          <Property Name="CompanyName" Type="varchar" MaxLength="200" />
+          <Property Name="AuthProfileID" Type="varchar" MaxLength="500" />
+          <Property Name="AuthPaymentProfileID" Type="varchar" MaxLength="500" />
+          <Property Name="AuthBillingAddressID" Type="varchar" MaxLength="500" />
+          <Property Name="Location" Type="varchar" MaxLength="200" />
+        </EntityType>
+        <EntityType Name="UserRefundPayments">
+          <Key>
+            <PropertyRef Name="RefundID" />
+          </Key>
+          <Property Name="RefundID" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserPaymentTransactionID" Type="bigint" />
+          <Property Name="UserPaymentInvoiceNumber" Type="varchar" MaxLength="200" />
+          <Property Name="AuthResponseAmount" Type="decimal" Scale="2" />
+          <Property Name="AuthResponseApproved" Type="bit" />
+          <Property Name="AuthResponseAuthorizationCode" Type="varchar" MaxLength="200" />
+          <Property Name="AuthResponseCardNumber" Type="varchar" MaxLength="50" />
+          <Property Name="AuthResponseInvoiceNumber" Type="varchar" MaxLength="200" />
+          <Property Name="AuthResponseMessage" Type="varchar" MaxLength="1000" />
+          <Property Name="AuthResponseCode" Type="varchar" MaxLength="50" />
+          <Property Name="AuthResponseTransactionID" Type="varchar" MaxLength="200" />
+          <Property Name="PaymentDateTime" Type="datetime" />
+          <Property Name="DoneByUserProfileID" Type="bigint" />
+        </EntityType>
+        <EntityType Name="UserServicesInvoices">
+          <Key>
+            <PropertyRef Name="UserServiceInvoiceID" />
+          </Key>
+          <Property Name="UserServiceInvoiceID" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Credit" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="Debit" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="UserSubscriptionID" Type="bigint" Nullable="false" />
+          <Property Name="MessageCode" Type="varchar" MaxLength="50" />
+          <Property Name="Message" Type="varchar" MaxLength="4000" />
+          <Property Name="ResultCode" Type="varchar" MaxLength="100" />
+          <Property Name="Status" Type="varchar" Nullable="false" MaxLength="1" />
+          <Property Name="DateCreated" Type="datetime" />
+          <Property Name="DateModified" Type="datetime" />
+          <Property Name="RefundStatus" Type="bigint" />
+          <Property Name="RefundDate" Type="datetime" />
+          <Property Name="RefundAmount" Type="decimal" Scale="2" />
+          <Property Name="RefundReason" Type="varchar(max)" />
+          <Property Name="RefundedBy" Type="bigint" />
+          <Property Name="RefundCode" Type="bigint" />
+          <Property Name="RefundMessage" Type="varchar(max)" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="LastModifiedBy" Type="uniqueidentifier" />
+          <Property Name="LastModifiedOn" Type="datetime" />
+          <Property Name="RecordStatus" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="UserSubscribedServices">
+          <Key>
+            <PropertyRef Name="UserSubscriptionID" />
+          </Key>
+          <Property Name="UserSubscriptionID" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="ServiceID" Type="int" Nullable="false" />
+          <Property Name="Credit" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="Usage" Type="decimal" Scale="2" />
+          <Property Name="UsageUpdatedBy" Type="uniqueidentifier" />
+          <Property Name="UsageUpdatedDate" Type="datetime" />
+          <Property Name="UserProfileID" Type="bigint" />
+          <Property Name="CustomerPaymentProfileID" Type="bigint" />
+          <Property Name="ServiceUserName" Type="varchar" MaxLength="100" />
+          <Property Name="ServicePassword" Type="varchar" MaxLength="500" />
+          <Property Name="ServiceIPAddress" Type="varchar" MaxLength="1000" />
+          <Property Name="UIDOnServer" Type="varchar" MaxLength="50" />
+          <Property Name="ServiceOtherInformation" Type="varchar(max)" />
+          <Property Name="FilePath" Type="varchar" MaxLength="595" />
+          <Property Name="LastTransactionID" Type="bigint" />
+          <Property Name="Status" Type="char" Nullable="false" MaxLength="1" />
+          <Property Name="RecordStatus" Type="int" Nullable="false" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="ModifiedOn" Type="datetime" />
+          <Property Name="ModifiedBy" Type="uniqueidentifier" />
+          <Property Name="CustomerAddressID" Type="varchar" MaxLength="50" />
+          <Property Name="CouponCode" Type="bigint" />
+          <Property Name="AmazonInstanceId" Type="varchar" MaxLength="100" />
+          <Property Name="UserOrderID" Type="bigint" Nullable="false" />
+          <Property Name="ActiveDate" Type="datetime" />
+          <Property Name="ExpirationDate" Type="datetime" />
+          <Property Name="ARBSubscriptionId" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="ARBPeriod" Type="int" Nullable="false" />
+          <Property Name="SelectedDiscount" Type="decimal" Scale="2" />
+          <Property Name="TrialAmount" Type="decimal" Scale="2" />
+          <Property Name="PreviousBalance" Type="decimal" Scale="2" />
+          <Property Name="UserCart_Id" Type="bigint" />
+          <Property Name="ServiceDetailsUpdatedBy" Type="uniqueidentifier" />
+          <Property Name="ServiceDetailsUpdatedDate" Type="datetime" />
+          <Property Name="AddedBy" Type="uniqueidentifier" />
+          <Property Name="ServiceCategoryID" Type="int" Nullable="false" />
+          <Property Name="ServiceUrl" Type="varchar" MaxLength="500" />
+          <Property Name="ExpirationPeriod" Type="int" />
+          <Property Name="IsPayAsYouGo" Type="bit" />
+          <Property Name="InitialHoldAmount" Type="decimal" Scale="2" />
+          <Property Name="WFTCloudPrice" Type="decimal" Scale="2" />
+          <Property Name="SelectedDiscountDuration" Type="int" />
+          <Property Name="DiscountPercentage" Type="decimal" Scale="2" />
+          <Property Name="AutoProvisioningDone" Type="bit" />
+          <Property Name="UsageUnit" Type="varchar" MaxLength="100" />
+          <Property Name="WorkLog" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="UserSurveyResponses">
+          <Key>
+            <PropertyRef Name="UserSurveyResponseID" />
+          </Key>
+          <Property Name="UserSurveyResponseID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="SurveyQuestionID" Type="int" Nullable="false" />
+          <Property Name="SurveyAnswer" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="CreatedOn" Type="datetime" Nullable="false" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" Nullable="false" />
+        </EntityType>
+        <EntityType Name="VisitorsDetails">
+          <Key>
+            <PropertyRef Name="VisitorID" />
+          </Key>
+          <Property Name="VisitorID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="LastName" Type="varchar" MaxLength="100" />
+          <Property Name="Email" Type="varchar" MaxLength="100" />
+          <Property Name="PhoneNumber" Type="varchar" MaxLength="100" />
+          <Property Name="CompanyNameAddress" Type="varchar(max)" />
+          <Property Name="ToMeet" Type="varchar" MaxLength="100" />
+          <Property Name="Purpose" Type="varchar" MaxLength="100" />
+          <Property Name="TimeIn" Type="datetime" />
+          <Property Name="TimeOut" Type="datetime" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="CreatedBy" Type="varchar" MaxLength="100" />
+          <Property Name="LastModifiedOn" Type="datetime" />
+          <Property Name="LastModifiedBy" Type="varchar" MaxLength="100" />
+          <Property Name="Status" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="WftCloudResource">
+          <Key>
+            <PropertyRef Name="ResourceID" />
+          </Key>
+          <Property Name="ResourceID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="varchar" Nullable="false" MaxLength="500" />
+          <Property Name="Path" Type="varchar" Nullable="false" MaxLength="595" />
+          <Property Name="UserType" Type="int" Nullable="false" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="LastModifiedBy" Type="uniqueidentifier" />
+          <Property Name="LastModifiedOn" Type="datetime" />
+          <Property Name="RecordStatus" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="WFTCloudUserTypes">
+          <Key>
+            <PropertyRef Name="WFTUserTypeID" />
+          </Key>
+          <Property Name="WFTUserTypeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="WFTUserTypeText" Type="varchar" Nullable="false" MaxLength="200" />
+          <Property Name="CreatedBy" Type="uniqueidentifier" />
+          <Property Name="CreatedOn" Type="datetime" />
+          <Property Name="LastModifiedBy" Type="uniqueidentifier" />
+          <Property Name="LastModifiedOn" Type="datetime" />
+          <Property Name="RecordStatus" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="WftSettings">
+          <Key>
+            <PropertyRef Name="SettingsID" />
+          </Key>
+          <Property Name="SettingsID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="SettingKey" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="SettingValue" Type="varchar" MaxLength="500" />
+        </EntityType>
+        <Function Name="pr_UpdatePaymentResponse" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="CustomerProfileID" Type="varchar" Mode="In" />
+          <Parameter Name="PaymentProfileID" Type="varchar" Mode="In" />
+          <Parameter Name="ReturnAmount" Type="decimal" Mode="In" />
+          <Parameter Name="ReturnApproved" Type="int" Mode="In" />
+          <Parameter Name="ReturnAuthorizationCode" Type="varchar" Mode="In" />
+          <Parameter Name="ReturnCardNumber" Type="varchar" Mode="In" />
+          <Parameter Name="ReturnAuthMessage" Type="varchar" Mode="In" />
+          <Parameter Name="ReturnResponseCode" Type="varchar" Mode="In" />
+          <Parameter Name="ReturnTransactionID" Type="varchar" Mode="In" />
+          <Parameter Name="InvoiceNumber" Type="varchar" Mode="In" />
+          <Parameter Name="UserProfileID" Type="int" Mode="In" />
+        </Function>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="cgxwftcloudModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+        <EntityContainer Name="cgxwftcloudEntities1" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="AdminPageAccesses" EntityType="cgxwftcloudModel.AdminPageAccess" />
+          <EntitySet Name="AdminPages" EntityType="cgxwftcloudModel.AdminPage" />
+          <EntitySet Name="AllAutomatedPayments" EntityType="cgxwftcloudModel.AllAutomatedPayment" />
+          <EntitySet Name="AutomatedPayments" EntityType="cgxwftcloudModel.AutomatedPayment" />
+          <EntitySet Name="AutomatedPaymentTransactions" EntityType="cgxwftcloudModel.AutomatedPaymentTransaction" />
+          <EntitySet Name="Banners" EntityType="cgxwftcloudModel.Banner" />
+          <EntitySet Name="ContactRequests" EntityType="cgxwftcloudModel.ContactRequest" />
+          <EntitySet Name="Coupons" EntityType="cgxwftcloudModel.Coupon" />
+          <EntitySet Name="CouponTypes" EntityType="cgxwftcloudModel.CouponType" />
+          <EntitySet Name="CourseDetails" EntityType="cgxwftcloudModel.CourseDetail" />
+          <EntitySet Name="CreditCardDetails" EntityType="cgxwftcloudModel.CreditCardDetail" />
+          <EntitySet Name="CRMIssueTypes" EntityType="cgxwftcloudModel.CRMIssueType" />
+          <EntitySet Name="CRMRequestNotes" EntityType="cgxwftcloudModel.CRMRequestNote" />
+          <EntitySet Name="CRMRequests" EntityType="cgxwftcloudModel.CRMRequest" />
+          <EntitySet Name="CRMRequestStatus" EntityType="cgxwftcloudModel.CRMRequestStatu" />
+          <EntitySet Name="CustomerPaymentProfiles" EntityType="cgxwftcloudModel.CustomerPaymentProfile" />
+          <EntitySet Name="EmailTemplates" EntityType="cgxwftcloudModel.EmailTemplate" />
+          <EntitySet Name="ExLogs" EntityType="cgxwftcloudModel.ExLog" />
+          <EntitySet Name="FAQCategoryTypes" EntityType="cgxwftcloudModel.FAQCategoryType" />
+          <EntitySet Name="FAQs" EntityType="cgxwftcloudModel.FAQ" />
+          <EntitySet Name="FAQTypes" EntityType="cgxwftcloudModel.FAQType" />
+          <EntitySet Name="IndexDatas" EntityType="cgxwftcloudModel.IndexData" />
+          <EntitySet Name="IndexDataTypes" EntityType="cgxwftcloudModel.IndexDataType" />
+          <EntitySet Name="KnowAboutUs" EntityType="cgxwftcloudModel.KnowAboutU" />
+          <EntitySet Name="NewsLetterSignUps" EntityType="cgxwftcloudModel.NewsLetterSignUp" />
+          <EntitySet Name="RecordStatus" EntityType="cgxwftcloudModel.RecordStatu" />
+          <EntitySet Name="ServiceCatalogs" EntityType="cgxwftcloudModel.ServiceCatalog" />
+          <EntitySet Name="ServiceCategories" EntityType="cgxwftcloudModel.ServiceCategory" />
+          <EntitySet Name="ServiceProvisions" EntityType="cgxwftcloudModel.ServiceProvision" />
+          <EntitySet Name="SitePagesAndContents" EntityType="cgxwftcloudModel.SitePagesAndContent" />
+          <EntitySet Name="SocialTweets" EntityType="cgxwftcloudModel.SocialTweet" />
+          <EntitySet Name="SurveyChoices" EntityType="cgxwftcloudModel.SurveyChoice" />
+          <EntitySet Name="SurveyQuestions" EntityType="cgxwftcloudModel.SurveyQuestion" />
+          <EntitySet Name="Testimonials" EntityType="cgxwftcloudModel.Testimonial" />
+          <EntitySet Name="TrainingDetails" EntityType="cgxwftcloudModel.TrainingDetail" />
+          <EntitySet Name="UserCarts" EntityType="cgxwftcloudModel.UserCart" />
+          <EntitySet Name="UserOrderDetails" EntityType="cgxwftcloudModel.UserOrderDetail" />
+          <EntitySet Name="UserOrders" EntityType="cgxwftcloudModel.UserOrder" />
+          <EntitySet Name="UserPaymentTransactions" EntityType="cgxwftcloudModel.UserPaymentTransaction" />
+          <EntitySet Name="UserProfiles" EntityType="cgxwftcloudModel.UserProfile" />
+          <EntitySet Name="UserRefundPayments" EntityType="cgxwftcloudModel.UserRefundPayment" />
+          <EntitySet Name="UserServicesInvoices" EntityType="cgxwftcloudModel.UserServicesInvoice" />
+          <EntitySet Name="UserSubscribedServices" EntityType="cgxwftcloudModel.UserSubscribedService" />
+          <EntitySet Name="UserSurveyResponses" EntityType="cgxwftcloudModel.UserSurveyRespons" />
+          <EntitySet Name="VisitorsDetails" EntityType="cgxwftcloudModel.VisitorsDetail" />
+          <EntitySet Name="WftCloudResources" EntityType="cgxwftcloudModel.WftCloudResource" />
+          <EntitySet Name="WFTCloudUserTypes" EntityType="cgxwftcloudModel.WFTCloudUserType" />
+          <EntitySet Name="WftSettings" EntityType="cgxwftcloudModel.WftSetting" />
+          <FunctionImport Name="pr_UpdatePaymentResponse">
+            <Parameter Name="CustomerProfileID" Mode="In" Type="String" />
+            <Parameter Name="PaymentProfileID" Mode="In" Type="String" />
+            <Parameter Name="ReturnAmount" Mode="In" Type="Decimal" />
+            <Parameter Name="ReturnApproved" Mode="In" Type="Int32" />
+            <Parameter Name="ReturnAuthorizationCode" Mode="In" Type="String" />
+            <Parameter Name="ReturnCardNumber" Mode="In" Type="String" />
+            <Parameter Name="ReturnAuthMessage" Mode="In" Type="String" />
+            <Parameter Name="ReturnResponseCode" Mode="In" Type="String" />
+            <Parameter Name="ReturnTransactionID" Mode="In" Type="String" />
+            <Parameter Name="InvoiceNumber" Mode="In" Type="String" />
+            <Parameter Name="UserProfileID" Mode="In" Type="Int32" />
+          </FunctionImport>
+        </EntityContainer>
+        <EntityType Name="AdminPageAccess">
+          <Key>
+            <PropertyRef Name="AdminPageAccessID" />
+          </Key>
+          <Property Name="AdminPageAccessID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="AdminUserID" Type="Int32" Nullable="false" />
+          <Property Name="WebPageID" Type="Int32" Nullable="false" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="AdminPage">
+          <Key>
+            <PropertyRef Name="WebPageID" />
+          </Key>
+          <Property Name="WebPageID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="WebPageName" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="LastModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="LastModifiedBy" Type="Guid" />
+          <Property Name="RecordStatus" Type="Int32" />
+        </EntityType>
+        <EntityType Name="AllAutomatedPayment">
+          <Key>
+            <PropertyRef Name="AllPaymentID" />
+          </Key>
+          <Property Name="AllPaymentID" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="CustomerProfileID" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="CustomerPaymentProfileID" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="UserSubscriptionID" Type="Int64" Nullable="false" />
+          <Property Name="InitialSubscriptionDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="PaymentDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="InitialHoldAmount" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="CurrentMonthBilling" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="PaymentStatus" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="PaymentAmount" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="ApprovalStatus" Type="Int32" />
+          <Property Name="AuthorizationCode" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="CardNumber" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Message" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="ResponseCode" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="TransactionID" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="InvoiceNumber" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Worklog" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="AutomatedPayment">
+          <Key>
+            <PropertyRef Name="AutomatedPaymentID" />
+          </Key>
+          <Property Name="AutomatedPaymentID" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="UserSubscriptionID" Type="Int64" Nullable="false" />
+          <Property Name="Amount" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="FrequencyInMonths" Type="Int32" Nullable="false" />
+          <Property Name="BillingStartDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="BillingEndDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="RecordStatus" Type="Int64" />
+        </EntityType>
+        <EntityType Name="AutomatedPaymentTransaction">
+          <Key>
+            <PropertyRef Name="AutomatedPaymentTransID" />
+          </Key>
+          <Property Name="AutomatedPaymentTransID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="AutomatedPaymentID" Type="Int32" Nullable="false" />
+          <Property Name="Amount" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="Approved" Type="Boolean" Nullable="false" />
+          <Property Name="AuthorizationCode" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="CardNumber" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="InvoiceNumber" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="Message" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="ResponseCode" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="AuthorizeTransID" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="PaymentDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="RefundDate" Type="DateTime" Precision="3" />
+          <Property Name="IsRefunded" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="Banner">
+          <Key>
+            <PropertyRef Name="BannerID" />
+          </Key>
+          <Property Name="BannerID" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="ImgTitle" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="ImgPath" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="ImgPriority" Type="Int32" />
+          <Property Name="RedirectUrl" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="DisplayStartDateTime" Type="DateTime" Precision="3" />
+          <Property Name="DisplayEndDateTime" Type="DateTime" Precision="3" />
+          <Property Name="Mandatory" Type="Boolean" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="LastModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="LastModifiedBy" Type="Guid" />
+          <Property Name="RecordStatus" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ContactRequest">
+          <Key>
+            <PropertyRef Name="ContactRequestID" />
+          </Key>
+          <Property Name="ContactRequestID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="ContactName" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="ContactEmailAddress" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="Subject" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="Message" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+          <Property Name="DateEntered" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="Coupon">
+          <Key>
+            <PropertyRef Name="CouponID" />
+          </Key>
+          <Property Name="CouponID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="CouponName" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="CouponCode" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="CouponTypeID" Type="Int32" Nullable="false" />
+          <Property Name="Discount" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="IsUsed" Type="Boolean" />
+          <Property Name="UserCount" Type="Int32" />
+          <Property Name="ValidityInDays" Type="Int32" />
+          <Property Name="ValidityDate" Type="DateTime" Precision="3" />
+          <Property Name="ForUser" Type="Guid" />
+          <Property Name="ForServiceID" Type="Int32" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="ModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedBy" Type="Guid" />
+          <Property Name="RecordStatus" Type="Int32" Nullable="false" />
+          <Property Name="CouponCount" Type="Int64" />
+        </EntityType>
+        <EntityType Name="CouponType">
+          <Key>
+            <PropertyRef Name="CouponTypeID" />
+          </Key>
+          <Property Name="CouponTypeID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="CouponType1" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="ServiceCount" Type="Int32" Nullable="false" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="ModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedBy" Type="Guid" />
+          <Property Name="RecordStatus" Type="Int32" Nullable="false" />
+          <Property Name="IsCouponUnlimited" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="CourseDetail">
+          <Key>
+            <PropertyRef Name="CourseID" />
+          </Key>
+          <Property Name="CourseID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="CourseName" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Description" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="CourseDuration" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Status" Type="Int32" Nullable="false" />
+          <Property Name="Opportunities" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="CreditCardDetail">
+          <Key>
+            <PropertyRef Name="CreditCardDetailsID" />
+          </Key>
+          <Property Name="CreditCardDetailsID" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="UserProfileID" Type="Int64" Nullable="false" />
+          <Property Name="CreditCardNumber" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="ExpirationMonth" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="ExpirationYear" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="TypeOfCard" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="ContactNumber" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Address1" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="Address2" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="City" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="State" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Country" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="PostalOrZipCode" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="LastModifiedBy" Type="Guid" />
+          <Property Name="LastModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="RecordStatus" Type="Int32" />
+          <Property Name="NameOnCard" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="CRMIssueType">
+          <Key>
+            <PropertyRef Name="CRMIssueTypeID" />
+          </Key>
+          <Property Name="CRMIssueTypeID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="CRMIssueTypeDesc" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="LastModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="LastModifiedBy" Type="Guid" />
+          <Property Name="RecordStatus" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CRMRequestNote">
+          <Key>
+            <PropertyRef Name="CRMRequestNotesID" />
+          </Key>
+          <Property Name="CRMRequestNotesID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="CRMRequestID" Type="Int32" Nullable="false" />
+          <Property Name="CRMUpdate" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="CRMStatusChangeFrom" Type="Int32" />
+          <Property Name="CRMStatusChangeTo" Type="Int32" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="LastModifiedBy" Type="Guid" />
+          <Property Name="LastModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="RecordStatus" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CRMRequest">
+          <Key>
+            <PropertyRef Name="CRMRequestID" />
+          </Key>
+          <Property Name="CRMRequestID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="CustomerID" Type="Guid" Nullable="false" />
+          <Property Name="ServiceCategoryID" Type="Int32" />
+          <Property Name="ServiceID" Type="Int32" />
+          <Property Name="IssueDescription" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="IssueType" Type="Int32" Nullable="false" />
+          <Property Name="AssignedToAdmin" Type="Guid" />
+          <Property Name="CRMRequestStatus" Type="Int32" Nullable="false" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="LastModifiedBy" Type="Guid" />
+          <Property Name="LastModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="RecordStatus" Type="Int32" Nullable="false" />
+          <Property Name="AdminNotes" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="CRMRequestStatu">
+          <Key>
+            <PropertyRef Name="CRMRequestStatusID" />
+          </Key>
+          <Property Name="CRMRequestStatusID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="CRMRequestStatusDesc" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="LastModifiedBy" Type="Guid" />
+          <Property Name="LastModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="RecordStatus" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CustomerPaymentProfile">
+          <Key>
+            <PropertyRef Name="CustomerPaymenProfileID" />
+          </Key>
+          <Property Name="CustomerPaymenProfileID" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="UserProfileID" Type="Int64" />
+          <Property Name="AuthCustomerProfileID" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="AuthPaymentProfileID" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="AuthBillingAddressID" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="DefaultPaymentID" Type="Boolean" />
+          <Property Name="Status" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="EmailTemplate">
+          <Key>
+            <PropertyRef Name="HTMLTemplateID" />
+          </Key>
+          <Property Name="HTMLTemplateID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Reason" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="HTMLContent" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="LastModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="LastModifiedBy" Type="Guid" />
+          <Property Name="RecordStatus" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ExLog">
+          <Key>
+            <PropertyRef Name="ExceptionID" />
+          </Key>
+          <Property Name="ExceptionID" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="ClassName" Type="String" Nullable="false" MaxLength="400" Unicode="false" FixedLength="false" />
+          <Property Name="ExMessage" Type="String" Nullable="false" MaxLength="1000" Unicode="false" FixedLength="false" />
+          <Property Name="ExStackTrace" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="ExDateTime" Type="DateTime" Precision="3" />
+          <Property Name="ExceptionMethodName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="FAQCategoryType">
+          <Key>
+            <PropertyRef Name="FAQCategoryID" />
+          </Key>
+          <Property Name="FAQCategoryID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="FAQCategoryName" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="LastModifiedBy" Type="Guid" />
+          <Property Name="LastModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="RecordStatus" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="FAQ">
+          <Key>
+            <PropertyRef Name="FAQID" />
+          </Key>
+          <Property Name="FAQID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Question" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="Answer" Type="String" Nullable="false" MaxLength="1000" Unicode="false" FixedLength="false" />
+          <Property Name="MembersOnly" Type="Boolean" Nullable="false" />
+          <Property Name="FAQTypeID" Type="Int32" Nullable="false" />
+          <Property Name="Priority" Type="Int32" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="LastModifiedBy" Type="Guid" />
+          <Property Name="LastModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="RecordStatus" Type="Int32" Nullable="false" />
+          <Property Name="FAQCategoryTypeID" Type="Int32" />
+        </EntityType>
+        <EntityType Name="FAQType">
+          <Key>
+            <PropertyRef Name="FAQTypeID" />
+          </Key>
+          <Property Name="FAQTypeID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="FAQTypeText" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="LastModifiedBy" Type="Guid" />
+          <Property Name="LastModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="RecordStatus" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="IndexData">
+          <Key>
+            <PropertyRef Name="IndexDataID" />
+          </Key>
+          <Property Name="IndexDataID" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="IndexDataTypeID" Type="Int32" Nullable="false" />
+          <Property Name="Priority" Type="Int32" />
+          <Property Name="Description" Type="String" Nullable="false" MaxLength="595" Unicode="false" FixedLength="false" />
+          <Property Name="Title" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Path" Type="String" Nullable="false" MaxLength="595" Unicode="false" FixedLength="false" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="ModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedBy" Type="Guid" />
+          <Property Name="RecordStatus" Type="Int32" Nullable="false" />
+          <Property Name="ThumbnailPath" Type="String" Nullable="false" MaxLength="300" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="IndexDataType">
+          <Key>
+            <PropertyRef Name="IndexDataTypeID" />
+          </Key>
+          <Property Name="IndexDataTypeID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="IndexDataTypeText" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="LastModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="LastModifiedBy" Type="Guid" />
+          <Property Name="RecordStatus" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="KnowAboutU">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="ModeNames" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Status" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="NewsLetterSignUp">
+          <Key>
+            <PropertyRef Name="NewsLetterSignupID" />
+          </Key>
+          <Property Name="NewsLetterSignupID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="EmailID" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="DateSignedUp" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+        <EntityType Name="RecordStatu">
+          <Key>
+            <PropertyRef Name="RecordStatusID" />
+          </Key>
+          <Property Name="RecordStatusID" Type="Int32" Nullable="false" />
+          <Property Name="RecordStatusDesc" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="ServiceCatalog">
+          <Key>
+            <PropertyRef Name="ServiceID" />
+          </Key>
+          <Property Name="ServiceID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="ServiceName" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="ServiceDescription" Type="String" Nullable="false" MaxLength="8000" Unicode="false" FixedLength="false" />
+          <Property Name="ReleaseVersion" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="SystemType" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="WFTCloudPrice" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="ThirdPartyServicePrice" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="UsageUnit" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="InitialHoldAmount" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="SupportIncluded" Type="Boolean" />
+          <Property Name="Priority" Type="Int32" />
+          <Property Name="UserSpecific" Type="Boolean" />
+          <Property Name="ServiceCategoryID" Type="Int32" />
+          <Property Name="IsPayAsYouGo" Type="Boolean" />
+          <Property Name="PackageLengthInMonths" Type="Int32" />
+          <Property Name="ThreeMonthsSaving" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="SixMonthsSaving" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="NineMonthsSaving" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="TwelveMonthsSaving" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="TrialAmount" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="DisplayColor" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="DisplayBlinking" Type="Boolean" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="LastModifiedBy" Type="Guid" />
+          <Property Name="LastModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="RecordStatus" Type="Int32" />
+          <Property Name="UserProfileID" Type="Int64" />
+          <Property Name="MinimumUsageInHours" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="CostPerMinUsage" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="CostPerAdditionalHours" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="IsTrial" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="ServiceCategory">
+          <Key>
+            <PropertyRef Name="ServiceCategoryID" />
+          </Key>
+          <Property Name="ServiceCategoryID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="CategoryName" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="CategoryPriority" Type="Int32" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="LastModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="LastModifiedBy" Type="Guid" />
+          <Property Name="RecordStatus" Type="Int32" Nullable="false" />
+          <Property Name="IsPayAsYouGo" Type="Boolean" />
+          <Property Name="IsDedicated" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="ServiceProvision">
+          <Key>
+            <PropertyRef Name="ServiceProvisionID" />
+          </Key>
+          <Property Name="ServiceProvisionID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="ServiceID" Type="Int32" Nullable="false" />
+          <Property Name="UserMin" Type="Int32" Nullable="false" />
+          <Property Name="UserMax" Type="Int32" Nullable="false" />
+          <Property Name="UserName" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="ServicePassword" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="ServiceUrl" Type="String" Nullable="false" MaxLength="1000" Unicode="false" FixedLength="false" />
+          <Property Name="UIDOnServer" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="AdditionalInformation" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="AttachmentPath" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+          <Property Name="NotificationRequiredAt" Type="Int32" Nullable="false" />
+          <Property Name="CurrentUserCounter" Type="Int32" Nullable="false" />
+          <Property Name="ExpirationPeriod" Type="Int32" Nullable="false" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="LastModifiedBy" Type="Guid" />
+          <Property Name="LastModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="RecordStatus" Type="Int32" Nullable="false" />
+          <Property Name="ServiceCategoryID" Type="Int32" />
+          <Property Name="AttachmentImgPath" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="SitePagesAndContent">
+          <Key>
+            <PropertyRef Name="PageID" />
+          </Key>
+          <Property Name="PageID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="PageRelativeUrl" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+          <Property Name="HTMLContent" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="ContentZoneName" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="PageTitle" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="MetaDescription" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="MetaKeywords" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="LastModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="LastModifiedBy" Type="Guid" />
+          <Property Name="RecordStatus" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SocialTweet">
+          <Key>
+            <PropertyRef Name="tweetID" />
+          </Key>
+          <Property Name="tweetID" Type="Int64" Nullable="false" />
+          <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="tweetPlainText" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="tweetHTMLText" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="SurveyChoice">
+          <Key>
+            <PropertyRef Name="SurveyChoiceID" />
+          </Key>
+          <Property Name="SurveyChoiceID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="SurveyQuestionID" Type="Int32" Nullable="false" />
+          <Property Name="SurveyChoice1" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="LastModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="LastModifiedBy" Type="Guid" />
+          <Property Name="RecordStatus" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SurveyQuestion">
+          <Key>
+            <PropertyRef Name="SurveyQuestionID" />
+          </Key>
+          <Property Name="SurveyQuestionID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="SurveyQuestion1" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="AllowMultipleSelection" Type="Boolean" Nullable="false" />
+          <Property Name="AllowCustomResponse" Type="Boolean" Nullable="false" />
+          <Property Name="DisplayOrder" Type="Int32" Nullable="false" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="LastModifiedBy" Type="Guid" />
+          <Property Name="LastModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="RecordStatus" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Testimonial">
+          <Key>
+            <PropertyRef Name="TestimonialID" />
+          </Key>
+          <Property Name="TestimonialID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="CustomerName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="Designation" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="CustOrg" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="CustSince" Type="DateTime" Precision="0" />
+          <Property Name="NoOfDedicatedSystems" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="Usage" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="Testimonial1" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="HomePageVersion" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="RecordStatus" Type="Int32" />
+          <Property Name="Priority" Type="Int32" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="ModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedBy" Type="Guid" />
+        </EntityType>
+        <EntityType Name="TrainingDetail">
+          <Key>
+            <PropertyRef Name="TrainnerID" />
+          </Key>
+          <Property Name="TrainnerID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="LastName" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Email" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="PermanentAddress" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="TemporaryAddress" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="CourseOfInterest" Type="Int32" Nullable="false" />
+          <Property Name="KnowAboutUs" Type="Int32" Nullable="false" />
+          <Property Name="Others" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="UGCollege" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="UGPercentage" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="PGCollege" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="PGPercentage" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="OQCollege" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="OQPercentage" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="YearOfExperience" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="CurrentCompany" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="TechnologyCurrentlyWork" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="Status" Type="Int32" Nullable="false" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="LastModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="CreatedBy" Type="Int32" />
+          <Property Name="LastModifiedBy" Type="Int32" />
+        </EntityType>
+        <EntityType Name="UserCart">
+          <Key>
+            <PropertyRef Name="UserCartID" />
+          </Key>
+          <Property Name="UserCartID" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="ServiceID" Type="Int64" Nullable="false" />
+          <Property Name="UserProfileID" Type="Int64" Nullable="false" />
+          <Property Name="Quantity" Type="Int32" Nullable="false" />
+          <Property Name="CouponID" Type="Int64" />
+          <Property Name="SelectedDiscount" Type="Int32" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="ModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedBy" Type="Guid" />
+          <Property Name="RecordStatus" Type="Int32" />
+          <Property Name="IsPayAsYouGo" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="UserOrderDetail">
+          <Key>
+            <PropertyRef Name="UserOrderDetailID" />
+          </Key>
+          <Property Name="UserOrderDetailID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="UserOrderID" Type="Int32" Nullable="false" />
+          <Property Name="ServiceID" Type="Int32" Nullable="false" />
+          <Property Name="Quantity" Type="Int32" Nullable="false" />
+          <Property Name="InitialHoldAmount" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="IsPayAsYouGo" Type="Boolean" />
+          <Property Name="OrderCartID" Type="Int64" />
+          <Property Name="SelectedDiscountDuration" Type="Int32" />
+        </EntityType>
+        <EntityType Name="UserOrder">
+          <Key>
+            <PropertyRef Name="UserOrderID" />
+          </Key>
+          <Property Name="UserOrderID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="UserProfileID" Type="Int32" Nullable="false" />
+          <Property Name="OrderDateTime" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="OrderStatus" Type="Int32" Nullable="false" />
+          <Property Name="OrderTotal" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="IsCouponCode" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="IsDiscountValue" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="AuthCustomerProfileID" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="AuthPaymentProfileID" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="InvoiceNumber" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="UserPaymentTransaction">
+          <Key>
+            <PropertyRef Name="UserPaymentTransactionID" />
+          </Key>
+          <Property Name="UserPaymentTransactionID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="UserProfileID" Type="Int32" Nullable="false" />
+          <Property Name="PaymentDateTime" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="AuthTransactionID" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="AuthCardNumber" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="AuthAuthorizationCode" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Approved" Type="Boolean" Nullable="false" />
+          <Property Name="Amount" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="InvoiceNumber" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="AuthResponseCode" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="AuthMessage" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="IsRefunded" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="UserProfile">
+          <Key>
+            <PropertyRef Name="UserProfileID" />
+          </Key>
+          <Property Name="UserProfileID" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="UserMembershipID" Type="Guid" Nullable="false" />
+          <Property Name="FirstName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="LastName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="MiddleName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="UserRole" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="EmailID" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="LastModifiedBy" Type="Guid" />
+          <Property Name="LastModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="RecordStatus" Type="Int32" Nullable="false" />
+          <Property Name="ContactNumber" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="MobileNumber" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="MailingAddress" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="CompanyName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="AuthProfileID" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="AuthPaymentProfileID" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="AuthBillingAddressID" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="Location" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="UserRefundPayment">
+          <Key>
+            <PropertyRef Name="RefundID" />
+          </Key>
+          <Property Name="RefundID" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="UserPaymentTransactionID" Type="Int64" />
+          <Property Name="UserPaymentInvoiceNumber" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="AuthResponseAmount" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="AuthResponseApproved" Type="Boolean" />
+          <Property Name="AuthResponseAuthorizationCode" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="AuthResponseCardNumber" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="AuthResponseInvoiceNumber" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="AuthResponseMessage" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+          <Property Name="AuthResponseCode" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="AuthResponseTransactionID" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="PaymentDateTime" Type="DateTime" Precision="3" />
+          <Property Name="DoneByUserProfileID" Type="Int64" />
+        </EntityType>
+        <EntityType Name="UserServicesInvoice">
+          <Key>
+            <PropertyRef Name="UserServiceInvoiceID" />
+          </Key>
+          <Property Name="UserServiceInvoiceID" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Credit" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="Debit" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="UserSubscriptionID" Type="Int64" Nullable="false" />
+          <Property Name="MessageCode" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Message" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+          <Property Name="ResultCode" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Status" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="false" />
+          <Property Name="DateCreated" Type="DateTime" Precision="3" />
+          <Property Name="DateModified" Type="DateTime" Precision="3" />
+          <Property Name="RefundStatus" Type="Int64" />
+          <Property Name="RefundDate" Type="DateTime" Precision="3" />
+          <Property Name="RefundAmount" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="RefundReason" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="RefundedBy" Type="Int64" />
+          <Property Name="RefundCode" Type="Int64" />
+          <Property Name="RefundMessage" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="LastModifiedBy" Type="Guid" />
+          <Property Name="LastModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="RecordStatus" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="UserSubscribedService">
+          <Key>
+            <PropertyRef Name="UserSubscriptionID" />
+          </Key>
+          <Property Name="UserSubscriptionID" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="UserID" Type="Guid" Nullable="false" />
+          <Property Name="ServiceID" Type="Int32" Nullable="false" />
+          <Property Name="Credit" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="Usage" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="UsageUpdatedBy" Type="Guid" />
+          <Property Name="UsageUpdatedDate" Type="DateTime" Precision="3" />
+          <Property Name="UserProfileID" Type="Int64" />
+          <Property Name="CustomerPaymentProfileID" Type="Int64" />
+          <Property Name="ServiceUserName" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="ServicePassword" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="ServiceIPAddress" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+          <Property Name="UIDOnServer" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="ServiceOtherInformation" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="FilePath" Type="String" MaxLength="595" Unicode="false" FixedLength="false" />
+          <Property Name="LastTransactionID" Type="Int64" />
+          <Property Name="Status" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+          <Property Name="RecordStatus" Type="Int32" Nullable="false" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="ModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedBy" Type="Guid" />
+          <Property Name="CustomerAddressID" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="CouponCode" Type="Int64" />
+          <Property Name="AmazonInstanceId" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="UserOrderID" Type="Int64" Nullable="false" />
+          <Property Name="ActiveDate" Type="DateTime" Precision="3" />
+          <Property Name="ExpirationDate" Type="DateTime" Precision="3" />
+          <Property Name="ARBSubscriptionId" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="ARBPeriod" Type="Int32" Nullable="false" />
+          <Property Name="SelectedDiscount" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="TrialAmount" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="PreviousBalance" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="UserCart_Id" Type="Int64" />
+          <Property Name="ServiceDetailsUpdatedBy" Type="Guid" />
+          <Property Name="ServiceDetailsUpdatedDate" Type="DateTime" Precision="3" />
+          <Property Name="AddedBy" Type="Guid" />
+          <Property Name="ServiceCategoryID" Type="Int32" Nullable="false" />
+          <Property Name="ServiceUrl" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="ExpirationPeriod" Type="Int32" />
+          <Property Name="IsPayAsYouGo" Type="Boolean" />
+          <Property Name="InitialHoldAmount" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="WFTCloudPrice" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="SelectedDiscountDuration" Type="Int32" />
+          <Property Name="DiscountPercentage" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="AutoProvisioningDone" Type="Boolean" />
+          <Property Name="UsageUnit" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="WorkLog" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="UserSurveyRespons">
+          <Key>
+            <PropertyRef Name="UserSurveyResponseID" />
+          </Key>
+          <Property Name="UserSurveyResponseID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="SurveyQuestionID" Type="Int32" Nullable="false" />
+          <Property Name="SurveyAnswer" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="CreatedOn" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="CreatedBy" Type="Guid" Nullable="false" />
+        </EntityType>
+        <EntityType Name="VisitorsDetail">
+          <Key>
+            <PropertyRef Name="VisitorID" />
+          </Key>
+          <Property Name="VisitorID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="LastName" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Email" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="CompanyNameAddress" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="ToMeet" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Purpose" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="TimeIn" Type="DateTime" Precision="3" />
+          <Property Name="TimeOut" Type="DateTime" Precision="3" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="CreatedBy" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="LastModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="LastModifiedBy" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Status" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="WftCloudResource">
+          <Key>
+            <PropertyRef Name="ResourceID" />
+          </Key>
+          <Property Name="ResourceID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="Path" Type="String" Nullable="false" MaxLength="595" Unicode="false" FixedLength="false" />
+          <Property Name="UserType" Type="Int32" Nullable="false" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="LastModifiedBy" Type="Guid" />
+          <Property Name="LastModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="RecordStatus" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="WFTCloudUserType">
+          <Key>
+            <PropertyRef Name="WFTUserTypeID" />
+          </Key>
+          <Property Name="WFTUserTypeID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="WFTUserTypeText" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="CreatedBy" Type="Guid" />
+          <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+          <Property Name="LastModifiedBy" Type="Guid" />
+          <Property Name="LastModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="RecordStatus" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="WftSetting">
+          <Key>
+            <PropertyRef Name="SettingsID" />
+          </Key>
+          <Property Name="SettingsID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="SettingKey" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="SettingValue" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="cgxwftcloudModelStoreContainer" CdmEntityContainer="cgxwftcloudEntities1">
+          <EntitySetMapping Name="AdminPageAccesses">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.AdminPageAccess">
+              <MappingFragment StoreEntitySet="AdminPageAccess">
+                <ScalarProperty Name="AdminPageAccessID" ColumnName="AdminPageAccessID" />
+                <ScalarProperty Name="AdminUserID" ColumnName="AdminUserID" />
+                <ScalarProperty Name="WebPageID" ColumnName="WebPageID" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AdminPages">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.AdminPage">
+              <MappingFragment StoreEntitySet="AdminPages">
+                <ScalarProperty Name="WebPageID" ColumnName="WebPageID" />
+                <ScalarProperty Name="WebPageName" ColumnName="WebPageName" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AllAutomatedPayments">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.AllAutomatedPayment">
+              <MappingFragment StoreEntitySet="AllAutomatedPayments">
+                <ScalarProperty Name="AllPaymentID" ColumnName="AllPaymentID" />
+                <ScalarProperty Name="CustomerProfileID" ColumnName="CustomerProfileID" />
+                <ScalarProperty Name="CustomerPaymentProfileID" ColumnName="CustomerPaymentProfileID" />
+                <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+                <ScalarProperty Name="InitialSubscriptionDate" ColumnName="InitialSubscriptionDate" />
+                <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+                <ScalarProperty Name="InitialHoldAmount" ColumnName="InitialHoldAmount" />
+                <ScalarProperty Name="CurrentMonthBilling" ColumnName="CurrentMonthBilling" />
+                <ScalarProperty Name="PaymentStatus" ColumnName="PaymentStatus" />
+                <ScalarProperty Name="PaymentAmount" ColumnName="PaymentAmount" />
+                <ScalarProperty Name="ApprovalStatus" ColumnName="ApprovalStatus" />
+                <ScalarProperty Name="AuthorizationCode" ColumnName="AuthorizationCode" />
+                <ScalarProperty Name="CardNumber" ColumnName="CardNumber" />
+                <ScalarProperty Name="Message" ColumnName="Message" />
+                <ScalarProperty Name="ResponseCode" ColumnName="ResponseCode" />
+                <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+                <ScalarProperty Name="InvoiceNumber" ColumnName="InvoiceNumber" />
+                <ScalarProperty Name="Worklog" ColumnName="Worklog" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AutomatedPayments">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.AutomatedPayment">
+              <MappingFragment StoreEntitySet="AutomatedPayments">
+                <ScalarProperty Name="AutomatedPaymentID" ColumnName="AutomatedPaymentID" />
+                <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="FrequencyInMonths" ColumnName="FrequencyInMonths" />
+                <ScalarProperty Name="BillingStartDate" ColumnName="BillingStartDate" />
+                <ScalarProperty Name="BillingEndDate" ColumnName="BillingEndDate" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AutomatedPaymentTransactions">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.AutomatedPaymentTransaction">
+              <MappingFragment StoreEntitySet="AutomatedPaymentTransactions">
+                <ScalarProperty Name="AutomatedPaymentTransID" ColumnName="AutomatedPaymentTransID" />
+                <ScalarProperty Name="AutomatedPaymentID" ColumnName="AutomatedPaymentID" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="Approved" ColumnName="Approved" />
+                <ScalarProperty Name="AuthorizationCode" ColumnName="AuthorizationCode" />
+                <ScalarProperty Name="CardNumber" ColumnName="CardNumber" />
+                <ScalarProperty Name="InvoiceNumber" ColumnName="InvoiceNumber" />
+                <ScalarProperty Name="Message" ColumnName="Message" />
+                <ScalarProperty Name="ResponseCode" ColumnName="ResponseCode" />
+                <ScalarProperty Name="AuthorizeTransID" ColumnName="AuthorizeTransID" />
+                <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+                <ScalarProperty Name="RefundDate" ColumnName="RefundDate" />
+                <ScalarProperty Name="IsRefunded" ColumnName="IsRefunded" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Banners">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.Banner">
+              <MappingFragment StoreEntitySet="Banners">
+                <ScalarProperty Name="BannerID" ColumnName="BannerID" />
+                <ScalarProperty Name="ImgTitle" ColumnName="ImgTitle" />
+                <ScalarProperty Name="ImgPath" ColumnName="ImgPath" />
+                <ScalarProperty Name="ImgPriority" ColumnName="ImgPriority" />
+                <ScalarProperty Name="RedirectUrl" ColumnName="RedirectUrl" />
+                <ScalarProperty Name="DisplayStartDateTime" ColumnName="DisplayStartDateTime" />
+                <ScalarProperty Name="DisplayEndDateTime" ColumnName="DisplayEndDateTime" />
+                <ScalarProperty Name="Mandatory" ColumnName="Mandatory" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ContactRequests">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.ContactRequest">
+              <MappingFragment StoreEntitySet="ContactRequests">
+                <ScalarProperty Name="ContactRequestID" ColumnName="ContactRequestID" />
+                <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+                <ScalarProperty Name="ContactEmailAddress" ColumnName="ContactEmailAddress" />
+                <ScalarProperty Name="Subject" ColumnName="Subject" />
+                <ScalarProperty Name="Message" ColumnName="Message" />
+                <ScalarProperty Name="DateEntered" ColumnName="DateEntered" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Coupons">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.Coupon">
+              <MappingFragment StoreEntitySet="Coupons">
+                <ScalarProperty Name="CouponID" ColumnName="CouponID" />
+                <ScalarProperty Name="CouponName" ColumnName="CouponName" />
+                <ScalarProperty Name="CouponCode" ColumnName="CouponCode" />
+                <ScalarProperty Name="CouponTypeID" ColumnName="CouponTypeID" />
+                <ScalarProperty Name="Discount" ColumnName="Discount" />
+                <ScalarProperty Name="IsUsed" ColumnName="IsUsed" />
+                <ScalarProperty Name="UserCount" ColumnName="UserCount" />
+                <ScalarProperty Name="ValidityInDays" ColumnName="ValidityInDays" />
+                <ScalarProperty Name="ValidityDate" ColumnName="ValidityDate" />
+                <ScalarProperty Name="ForUser" ColumnName="ForUser" />
+                <ScalarProperty Name="ForServiceID" ColumnName="ForServiceID" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+                <ScalarProperty Name="CouponCount" ColumnName="CouponCount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CouponTypes">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.CouponType">
+              <MappingFragment StoreEntitySet="CouponTypes">
+                <ScalarProperty Name="CouponTypeID" ColumnName="CouponTypeID" />
+                <ScalarProperty Name="CouponType1" ColumnName="CouponType" />
+                <ScalarProperty Name="ServiceCount" ColumnName="ServiceCount" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+                <ScalarProperty Name="IsCouponUnlimited" ColumnName="IsCouponUnlimited" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CourseDetails">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.CourseDetail">
+              <MappingFragment StoreEntitySet="CourseDetails">
+                <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+                <ScalarProperty Name="CourseName" ColumnName="CourseName" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="CourseDuration" ColumnName="CourseDuration" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Opportunities" ColumnName="Opportunities" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CreditCardDetails">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.CreditCardDetail">
+              <MappingFragment StoreEntitySet="CreditCardDetails">
+                <ScalarProperty Name="CreditCardDetailsID" ColumnName="CreditCardDetailsID" />
+                <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+                <ScalarProperty Name="CreditCardNumber" ColumnName="CreditCardNumber" />
+                <ScalarProperty Name="ExpirationMonth" ColumnName="ExpirationMonth" />
+                <ScalarProperty Name="ExpirationYear" ColumnName="ExpirationYear" />
+                <ScalarProperty Name="TypeOfCard" ColumnName="TypeOfCard" />
+                <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+                <ScalarProperty Name="Address1" ColumnName="Address1" />
+                <ScalarProperty Name="Address2" ColumnName="Address2" />
+                <ScalarProperty Name="City" ColumnName="City" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="Country" ColumnName="Country" />
+                <ScalarProperty Name="PostalOrZipCode" ColumnName="PostalOrZipCode" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+                <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+                <ScalarProperty Name="NameOnCard" ColumnName="NameOnCard" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CRMIssueTypes">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.CRMIssueType">
+              <MappingFragment StoreEntitySet="CRMIssueTypes">
+                <ScalarProperty Name="CRMIssueTypeID" ColumnName="CRMIssueTypeID" />
+                <ScalarProperty Name="CRMIssueTypeDesc" ColumnName="CRMIssueTypeDesc" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CRMRequestNotes">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.CRMRequestNote">
+              <MappingFragment StoreEntitySet="CRMRequestNotes">
+                <ScalarProperty Name="CRMRequestNotesID" ColumnName="CRMRequestNotesID" />
+                <ScalarProperty Name="CRMRequestID" ColumnName="CRMRequestID" />
+                <ScalarProperty Name="CRMUpdate" ColumnName="CRMUpdate" />
+                <ScalarProperty Name="CRMStatusChangeFrom" ColumnName="CRMStatusChangeFrom" />
+                <ScalarProperty Name="CRMStatusChangeTo" ColumnName="CRMStatusChangeTo" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+                <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CRMRequests">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.CRMRequest">
+              <MappingFragment StoreEntitySet="CRMRequests">
+                <ScalarProperty Name="CRMRequestID" ColumnName="CRMRequestID" />
+                <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+                <ScalarProperty Name="ServiceCategoryID" ColumnName="ServiceCategoryID" />
+                <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+                <ScalarProperty Name="IssueDescription" ColumnName="IssueDescription" />
+                <ScalarProperty Name="IssueType" ColumnName="IssueType" />
+                <ScalarProperty Name="AssignedToAdmin" ColumnName="AssignedToAdmin" />
+                <ScalarProperty Name="CRMRequestStatus" ColumnName="CRMRequestStatus" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+                <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+                <ScalarProperty Name="AdminNotes" ColumnName="AdminNotes" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CRMRequestStatus">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.CRMRequestStatu">
+              <MappingFragment StoreEntitySet="CRMRequestStatus">
+                <ScalarProperty Name="CRMRequestStatusID" ColumnName="CRMRequestStatusID" />
+                <ScalarProperty Name="CRMRequestStatusDesc" ColumnName="CRMRequestStatusDesc" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+                <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CustomerPaymentProfiles">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.CustomerPaymentProfile">
+              <MappingFragment StoreEntitySet="CustomerPaymentProfiles">
+                <ScalarProperty Name="CustomerPaymenProfileID" ColumnName="CustomerPaymenProfileID" />
+                <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+                <ScalarProperty Name="AuthCustomerProfileID" ColumnName="AuthCustomerProfileID" />
+                <ScalarProperty Name="AuthPaymentProfileID" ColumnName="AuthPaymentProfileID" />
+                <ScalarProperty Name="AuthBillingAddressID" ColumnName="AuthBillingAddressID" />
+                <ScalarProperty Name="DefaultPaymentID" ColumnName="DefaultPaymentID" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EmailTemplates">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.EmailTemplate">
+              <MappingFragment StoreEntitySet="EmailTemplates">
+                <ScalarProperty Name="HTMLTemplateID" ColumnName="HTMLTemplateID" />
+                <ScalarProperty Name="Reason" ColumnName="Reason" />
+                <ScalarProperty Name="HTMLContent" ColumnName="HTMLContent" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ExLogs">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.ExLog">
+              <MappingFragment StoreEntitySet="ExLog">
+                <ScalarProperty Name="ExceptionID" ColumnName="ExceptionID" />
+                <ScalarProperty Name="ClassName" ColumnName="ClassName" />
+                <ScalarProperty Name="ExMessage" ColumnName="ExMessage" />
+                <ScalarProperty Name="ExStackTrace" ColumnName="ExStackTrace" />
+                <ScalarProperty Name="ExDateTime" ColumnName="ExDateTime" />
+                <ScalarProperty Name="ExceptionMethodName" ColumnName="ExceptionMethodName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FAQCategoryTypes">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.FAQCategoryType">
+              <MappingFragment StoreEntitySet="FAQCategoryTypes">
+                <ScalarProperty Name="FAQCategoryID" ColumnName="FAQCategoryID" />
+                <ScalarProperty Name="FAQCategoryName" ColumnName="FAQCategoryName" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+                <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FAQs">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.FAQ">
+              <MappingFragment StoreEntitySet="FAQs">
+                <ScalarProperty Name="FAQID" ColumnName="FAQID" />
+                <ScalarProperty Name="Question" ColumnName="Question" />
+                <ScalarProperty Name="Answer" ColumnName="Answer" />
+                <ScalarProperty Name="MembersOnly" ColumnName="MembersOnly" />
+                <ScalarProperty Name="FAQTypeID" ColumnName="FAQTypeID" />
+                <ScalarProperty Name="Priority" ColumnName="Priority" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+                <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+                <ScalarProperty Name="FAQCategoryTypeID" ColumnName="FAQCategoryTypeID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FAQTypes">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.FAQType">
+              <MappingFragment StoreEntitySet="FAQTypes">
+                <ScalarProperty Name="FAQTypeID" ColumnName="FAQTypeID" />
+                <ScalarProperty Name="FAQTypeText" ColumnName="FAQTypeText" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+                <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="IndexDatas">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.IndexData">
+              <MappingFragment StoreEntitySet="IndexDatas">
+                <ScalarProperty Name="IndexDataID" ColumnName="IndexDataID" />
+                <ScalarProperty Name="IndexDataTypeID" ColumnName="IndexDataTypeID" />
+                <ScalarProperty Name="Priority" ColumnName="Priority" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Path" ColumnName="Path" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+                <ScalarProperty Name="ThumbnailPath" ColumnName="ThumbnailPath" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="IndexDataTypes">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.IndexDataType">
+              <MappingFragment StoreEntitySet="IndexDataTypes">
+                <ScalarProperty Name="IndexDataTypeID" ColumnName="IndexDataTypeID" />
+                <ScalarProperty Name="IndexDataTypeText" ColumnName="IndexDataTypeText" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="KnowAboutUs">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.KnowAboutU">
+              <MappingFragment StoreEntitySet="KnowAboutUs">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="ModeNames" ColumnName="ModeNames" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="NewsLetterSignUps">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.NewsLetterSignUp">
+              <MappingFragment StoreEntitySet="NewsLetterSignUp">
+                <ScalarProperty Name="NewsLetterSignupID" ColumnName="NewsLetterSignupID" />
+                <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+                <ScalarProperty Name="DateSignedUp" ColumnName="DateSignedUp" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RecordStatus">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.RecordStatu">
+              <MappingFragment StoreEntitySet="RecordStatus">
+                <ScalarProperty Name="RecordStatusID" ColumnName="RecordStatusID" />
+                <ScalarProperty Name="RecordStatusDesc" ColumnName="RecordStatusDesc" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ServiceCatalogs">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.ServiceCatalog">
+              <MappingFragment StoreEntitySet="ServiceCatalog">
+                <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+                <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+                <ScalarProperty Name="ServiceDescription" ColumnName="ServiceDescription" />
+                <ScalarProperty Name="ReleaseVersion" ColumnName="ReleaseVersion" />
+                <ScalarProperty Name="SystemType" ColumnName="SystemType" />
+                <ScalarProperty Name="WFTCloudPrice" ColumnName="WFTCloudPrice" />
+                <ScalarProperty Name="ThirdPartyServicePrice" ColumnName="ThirdPartyServicePrice" />
+                <ScalarProperty Name="UsageUnit" ColumnName="UsageUnit" />
+                <ScalarProperty Name="InitialHoldAmount" ColumnName="InitialHoldAmount" />
+                <ScalarProperty Name="SupportIncluded" ColumnName="SupportIncluded" />
+                <ScalarProperty Name="Priority" ColumnName="Priority" />
+                <ScalarProperty Name="UserSpecific" ColumnName="UserSpecific" />
+                <ScalarProperty Name="ServiceCategoryID" ColumnName="ServiceCategoryID" />
+                <ScalarProperty Name="IsPayAsYouGo" ColumnName="IsPayAsYouGo" />
+                <ScalarProperty Name="PackageLengthInMonths" ColumnName="PackageLengthInMonths" />
+                <ScalarProperty Name="ThreeMonthsSaving" ColumnName="ThreeMonthsSaving" />
+                <ScalarProperty Name="SixMonthsSaving" ColumnName="SixMonthsSaving" />
+                <ScalarProperty Name="NineMonthsSaving" ColumnName="NineMonthsSaving" />
+                <ScalarProperty Name="TwelveMonthsSaving" ColumnName="TwelveMonthsSaving" />
+                <ScalarProperty Name="TrialAmount" ColumnName="TrialAmount" />
+                <ScalarProperty Name="DisplayColor" ColumnName="DisplayColor" />
+                <ScalarProperty Name="DisplayBlinking" ColumnName="DisplayBlinking" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+                <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+                <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+                <ScalarProperty Name="MinimumUsageInHours" ColumnName="MinimumUsageInHours" />
+                <ScalarProperty Name="CostPerMinUsage" ColumnName="CostPerMinUsage" />
+                <ScalarProperty Name="CostPerAdditionalHours" ColumnName="CostPerAdditionalHours" />
+                <ScalarProperty Name="IsTrial" ColumnName="IsTrial" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ServiceCategories">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.ServiceCategory">
+              <MappingFragment StoreEntitySet="ServiceCategories">
+                <ScalarProperty Name="ServiceCategoryID" ColumnName="ServiceCategoryID" />
+                <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+                <ScalarProperty Name="CategoryPriority" ColumnName="CategoryPriority" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+                <ScalarProperty Name="IsPayAsYouGo" ColumnName="IsPayAsYouGo" />
+                <ScalarProperty Name="IsDedicated" ColumnName="IsDedicated" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ServiceProvisions">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.ServiceProvision">
+              <MappingFragment StoreEntitySet="ServiceProvisions">
+                <ScalarProperty Name="ServiceProvisionID" ColumnName="ServiceProvisionID" />
+                <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+                <ScalarProperty Name="UserMin" ColumnName="UserMin" />
+                <ScalarProperty Name="UserMax" ColumnName="UserMax" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="ServicePassword" ColumnName="ServicePassword" />
+                <ScalarProperty Name="ServiceUrl" ColumnName="ServiceUrl" />
+                <ScalarProperty Name="UIDOnServer" ColumnName="UIDOnServer" />
+                <ScalarProperty Name="AdditionalInformation" ColumnName="AdditionalInformation" />
+                <ScalarProperty Name="AttachmentPath" ColumnName="AttachmentPath" />
+                <ScalarProperty Name="NotificationRequiredAt" ColumnName="NotificationRequiredAt" />
+                <ScalarProperty Name="CurrentUserCounter" ColumnName="CurrentUserCounter" />
+                <ScalarProperty Name="ExpirationPeriod" ColumnName="ExpirationPeriod" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+                <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+                <ScalarProperty Name="ServiceCategoryID" ColumnName="ServiceCategoryID" />
+                <ScalarProperty Name="AttachmentImgPath" ColumnName="AttachmentImgPath" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SitePagesAndContents">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.SitePagesAndContent">
+              <MappingFragment StoreEntitySet="SitePagesAndContents">
+                <ScalarProperty Name="PageID" ColumnName="PageID" />
+                <ScalarProperty Name="PageRelativeUrl" ColumnName="PageRelativeUrl" />
+                <ScalarProperty Name="HTMLContent" ColumnName="HTMLContent" />
+                <ScalarProperty Name="ContentZoneName" ColumnName="ContentZoneName" />
+                <ScalarProperty Name="PageTitle" ColumnName="PageTitle" />
+                <ScalarProperty Name="MetaDescription" ColumnName="MetaDescription" />
+                <ScalarProperty Name="MetaKeywords" ColumnName="MetaKeywords" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SocialTweets">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.SocialTweet">
+              <MappingFragment StoreEntitySet="SocialTweets">
+                <ScalarProperty Name="tweetID" ColumnName="tweetID" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="tweetPlainText" ColumnName="tweetPlainText" />
+                <ScalarProperty Name="tweetHTMLText" ColumnName="tweetHTMLText" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SurveyChoices">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.SurveyChoice">
+              <MappingFragment StoreEntitySet="SurveyChoices">
+                <ScalarProperty Name="SurveyChoiceID" ColumnName="SurveyChoiceID" />
+                <ScalarProperty Name="SurveyQuestionID" ColumnName="SurveyQuestionID" />
+                <ScalarProperty Name="SurveyChoice1" ColumnName="SurveyChoice" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SurveyQuestions">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.SurveyQuestion">
+              <MappingFragment StoreEntitySet="SurveyQuestions">
+                <ScalarProperty Name="SurveyQuestionID" ColumnName="SurveyQuestionID" />
+                <ScalarProperty Name="SurveyQuestion1" ColumnName="SurveyQuestion" />
+                <ScalarProperty Name="AllowMultipleSelection" ColumnName="AllowMultipleSelection" />
+                <ScalarProperty Name="AllowCustomResponse" ColumnName="AllowCustomResponse" />
+                <ScalarProperty Name="DisplayOrder" ColumnName="DisplayOrder" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+                <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Testimonials">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.Testimonial">
+              <MappingFragment StoreEntitySet="Testimonials">
+                <ScalarProperty Name="TestimonialID" ColumnName="TestimonialID" />
+                <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+                <ScalarProperty Name="Designation" ColumnName="Designation" />
+                <ScalarProperty Name="CustOrg" ColumnName="CustOrg" />
+                <ScalarProperty Name="CustSince" ColumnName="CustSince" />
+                <ScalarProperty Name="NoOfDedicatedSystems" ColumnName="NoOfDedicatedSystems" />
+                <ScalarProperty Name="Usage" ColumnName="Usage" />
+                <ScalarProperty Name="Testimonial1" ColumnName="Testimonial" />
+                <ScalarProperty Name="HomePageVersion" ColumnName="HomePageVersion" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+                <ScalarProperty Name="Priority" ColumnName="Priority" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TrainingDetails">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.TrainingDetail">
+              <MappingFragment StoreEntitySet="TrainingDetails">
+                <ScalarProperty Name="TrainnerID" ColumnName="TrainnerID" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+                <ScalarProperty Name="PermanentAddress" ColumnName="PermanentAddress" />
+                <ScalarProperty Name="TemporaryAddress" ColumnName="TemporaryAddress" />
+                <ScalarProperty Name="CourseOfInterest" ColumnName="CourseOfInterest" />
+                <ScalarProperty Name="KnowAboutUs" ColumnName="KnowAboutUs" />
+                <ScalarProperty Name="Others" ColumnName="Others" />
+                <ScalarProperty Name="UGCollege" ColumnName="UGCollege" />
+                <ScalarProperty Name="UGPercentage" ColumnName="UGPercentage" />
+                <ScalarProperty Name="PGCollege" ColumnName="PGCollege" />
+                <ScalarProperty Name="PGPercentage" ColumnName="PGPercentage" />
+                <ScalarProperty Name="OQCollege" ColumnName="OQCollege" />
+                <ScalarProperty Name="OQPercentage" ColumnName="OQPercentage" />
+                <ScalarProperty Name="YearOfExperience" ColumnName="YearOfExperience" />
+                <ScalarProperty Name="CurrentCompany" ColumnName="CurrentCompany" />
+                <ScalarProperty Name="TechnologyCurrentlyWork" ColumnName="TechnologyCurrentlyWork" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserCarts">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.UserCart">
+              <MappingFragment StoreEntitySet="UserCart">
+                <ScalarProperty Name="UserCartID" ColumnName="UserCartID" />
+                <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+                <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+                <ScalarProperty Name="CouponID" ColumnName="CouponID" />
+                <ScalarProperty Name="SelectedDiscount" ColumnName="SelectedDiscount" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+                <ScalarProperty Name="IsPayAsYouGo" ColumnName="IsPayAsYouGo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserOrderDetails">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.UserOrderDetail">
+              <MappingFragment StoreEntitySet="UserOrderDetail">
+                <ScalarProperty Name="UserOrderDetailID" ColumnName="UserOrderDetailID" />
+                <ScalarProperty Name="UserOrderID" ColumnName="UserOrderID" />
+                <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+                <ScalarProperty Name="InitialHoldAmount" ColumnName="InitialHoldAmount" />
+                <ScalarProperty Name="IsPayAsYouGo" ColumnName="IsPayAsYouGo" />
+                <ScalarProperty Name="OrderCartID" ColumnName="OrderCartID" />
+                <ScalarProperty Name="SelectedDiscountDuration" ColumnName="SelectedDiscountDuration" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserOrders">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.UserOrder">
+              <MappingFragment StoreEntitySet="UserOrders">
+                <ScalarProperty Name="UserOrderID" ColumnName="UserOrderID" />
+                <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+                <ScalarProperty Name="OrderDateTime" ColumnName="OrderDateTime" />
+                <ScalarProperty Name="OrderStatus" ColumnName="OrderStatus" />
+                <ScalarProperty Name="OrderTotal" ColumnName="OrderTotal" />
+                <ScalarProperty Name="IsCouponCode" ColumnName="IsCouponCode" />
+                <ScalarProperty Name="IsDiscountValue" ColumnName="IsDiscountValue" />
+                <ScalarProperty Name="AuthCustomerProfileID" ColumnName="AuthCustomerProfileID" />
+                <ScalarProperty Name="AuthPaymentProfileID" ColumnName="AuthPaymentProfileID" />
+                <ScalarProperty Name="InvoiceNumber" ColumnName="InvoiceNumber" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserPaymentTransactions">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.UserPaymentTransaction">
+              <MappingFragment StoreEntitySet="UserPaymentTransaction">
+                <ScalarProperty Name="UserPaymentTransactionID" ColumnName="UserPaymentTransactionID" />
+                <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+                <ScalarProperty Name="PaymentDateTime" ColumnName="PaymentDateTime" />
+                <ScalarProperty Name="AuthTransactionID" ColumnName="AuthTransactionID" />
+                <ScalarProperty Name="AuthCardNumber" ColumnName="AuthCardNumber" />
+                <ScalarProperty Name="AuthAuthorizationCode" ColumnName="AuthAuthorizationCode" />
+                <ScalarProperty Name="Approved" ColumnName="Approved" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="InvoiceNumber" ColumnName="InvoiceNumber" />
+                <ScalarProperty Name="AuthResponseCode" ColumnName="AuthResponseCode" />
+                <ScalarProperty Name="AuthMessage" ColumnName="AuthMessage" />
+                <ScalarProperty Name="IsRefunded" ColumnName="IsRefunded" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserProfiles">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.UserProfile">
+              <MappingFragment StoreEntitySet="UserProfiles">
+                <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+                <ScalarProperty Name="UserMembershipID" ColumnName="UserMembershipID" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+                <ScalarProperty Name="UserRole" ColumnName="UserRole" />
+                <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+                <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+                <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+                <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+                <ScalarProperty Name="MailingAddress" ColumnName="MailingAddress" />
+                <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+                <ScalarProperty Name="AuthProfileID" ColumnName="AuthProfileID" />
+                <ScalarProperty Name="AuthPaymentProfileID" ColumnName="AuthPaymentProfileID" />
+                <ScalarProperty Name="AuthBillingAddressID" ColumnName="AuthBillingAddressID" />
+                <ScalarProperty Name="Location" ColumnName="Location" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserRefundPayments">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.UserRefundPayment">
+              <MappingFragment StoreEntitySet="UserRefundPayments">
+                <ScalarProperty Name="RefundID" ColumnName="RefundID" />
+                <ScalarProperty Name="UserPaymentTransactionID" ColumnName="UserPaymentTransactionID" />
+                <ScalarProperty Name="UserPaymentInvoiceNumber" ColumnName="UserPaymentInvoiceNumber" />
+                <ScalarProperty Name="AuthResponseAmount" ColumnName="AuthResponseAmount" />
+                <ScalarProperty Name="AuthResponseApproved" ColumnName="AuthResponseApproved" />
+                <ScalarProperty Name="AuthResponseAuthorizationCode" ColumnName="AuthResponseAuthorizationCode" />
+                <ScalarProperty Name="AuthResponseCardNumber" ColumnName="AuthResponseCardNumber" />
+                <ScalarProperty Name="AuthResponseInvoiceNumber" ColumnName="AuthResponseInvoiceNumber" />
+                <ScalarProperty Name="AuthResponseMessage" ColumnName="AuthResponseMessage" />
+                <ScalarProperty Name="AuthResponseCode" ColumnName="AuthResponseCode" />
+                <ScalarProperty Name="AuthResponseTransactionID" ColumnName="AuthResponseTransactionID" />
+                <ScalarProperty Name="PaymentDateTime" ColumnName="PaymentDateTime" />
+                <ScalarProperty Name="DoneByUserProfileID" ColumnName="DoneByUserProfileID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserServicesInvoices">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.UserServicesInvoice">
+              <MappingFragment StoreEntitySet="UserServicesInvoices">
+                <ScalarProperty Name="UserServiceInvoiceID" ColumnName="UserServiceInvoiceID" />
+                <ScalarProperty Name="Credit" ColumnName="Credit" />
+                <ScalarProperty Name="Debit" ColumnName="Debit" />
+                <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+                <ScalarProperty Name="MessageCode" ColumnName="MessageCode" />
+                <ScalarProperty Name="Message" ColumnName="Message" />
+                <ScalarProperty Name="ResultCode" ColumnName="ResultCode" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+                <ScalarProperty Name="DateModified" ColumnName="DateModified" />
+                <ScalarProperty Name="RefundStatus" ColumnName="RefundStatus" />
+                <ScalarProperty Name="RefundDate" ColumnName="RefundDate" />
+                <ScalarProperty Name="RefundAmount" ColumnName="RefundAmount" />
+                <ScalarProperty Name="RefundReason" ColumnName="RefundReason" />
+                <ScalarProperty Name="RefundedBy" ColumnName="RefundedBy" />
+                <ScalarProperty Name="RefundCode" ColumnName="RefundCode" />
+                <ScalarProperty Name="RefundMessage" ColumnName="RefundMessage" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+                <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserSubscribedServices">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.UserSubscribedService">
+              <MappingFragment StoreEntitySet="UserSubscribedServices">
+                <ScalarProperty Name="UserSubscriptionID" ColumnName="UserSubscriptionID" />
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+                <ScalarProperty Name="Credit" ColumnName="Credit" />
+                <ScalarProperty Name="Usage" ColumnName="Usage" />
+                <ScalarProperty Name="UsageUpdatedBy" ColumnName="UsageUpdatedBy" />
+                <ScalarProperty Name="UsageUpdatedDate" ColumnName="UsageUpdatedDate" />
+                <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+                <ScalarProperty Name="CustomerPaymentProfileID" ColumnName="CustomerPaymentProfileID" />
+                <ScalarProperty Name="ServiceUserName" ColumnName="ServiceUserName" />
+                <ScalarProperty Name="ServicePassword" ColumnName="ServicePassword" />
+                <ScalarProperty Name="ServiceIPAddress" ColumnName="ServiceIPAddress" />
+                <ScalarProperty Name="UIDOnServer" ColumnName="UIDOnServer" />
+                <ScalarProperty Name="ServiceOtherInformation" ColumnName="ServiceOtherInformation" />
+                <ScalarProperty Name="FilePath" ColumnName="FilePath" />
+                <ScalarProperty Name="LastTransactionID" ColumnName="LastTransactionID" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+                <ScalarProperty Name="CustomerAddressID" ColumnName="CustomerAddressID" />
+                <ScalarProperty Name="CouponCode" ColumnName="CouponCode" />
+                <ScalarProperty Name="AmazonInstanceId" ColumnName="AmazonInstanceId" />
+                <ScalarProperty Name="UserOrderID" ColumnName="UserOrderID" />
+                <ScalarProperty Name="ActiveDate" ColumnName="ActiveDate" />
+                <ScalarProperty Name="ExpirationDate" ColumnName="ExpirationDate" />
+                <ScalarProperty Name="ARBSubscriptionId" ColumnName="ARBSubscriptionId" />
+                <ScalarProperty Name="ARBPeriod" ColumnName="ARBPeriod" />
+                <ScalarProperty Name="SelectedDiscount" ColumnName="SelectedDiscount" />
+                <ScalarProperty Name="TrialAmount" ColumnName="TrialAmount" />
+                <ScalarProperty Name="PreviousBalance" ColumnName="PreviousBalance" />
+                <ScalarProperty Name="UserCart_Id" ColumnName="UserCart_Id" />
+                <ScalarProperty Name="ServiceDetailsUpdatedBy" ColumnName="ServiceDetailsUpdatedBy" />
+                <ScalarProperty Name="ServiceDetailsUpdatedDate" ColumnName="ServiceDetailsUpdatedDate" />
+                <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+                <ScalarProperty Name="ServiceCategoryID" ColumnName="ServiceCategoryID" />
+                <ScalarProperty Name="ServiceUrl" ColumnName="ServiceUrl" />
+                <ScalarProperty Name="ExpirationPeriod" ColumnName="ExpirationPeriod" />
+                <ScalarProperty Name="IsPayAsYouGo" ColumnName="IsPayAsYouGo" />
+                <ScalarProperty Name="InitialHoldAmount" ColumnName="InitialHoldAmount" />
+                <ScalarProperty Name="WFTCloudPrice" ColumnName="WFTCloudPrice" />
+                <ScalarProperty Name="SelectedDiscountDuration" ColumnName="SelectedDiscountDuration" />
+                <ScalarProperty Name="DiscountPercentage" ColumnName="DiscountPercentage" />
+                <ScalarProperty Name="AutoProvisioningDone" ColumnName="AutoProvisioningDone" />
+                <ScalarProperty Name="UsageUnit" ColumnName="UsageUnit" />
+                <ScalarProperty Name="WorkLog" ColumnName="WorkLog" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserSurveyResponses">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.UserSurveyRespons">
+              <MappingFragment StoreEntitySet="UserSurveyResponses">
+                <ScalarProperty Name="UserSurveyResponseID" ColumnName="UserSurveyResponseID" />
+                <ScalarProperty Name="SurveyQuestionID" ColumnName="SurveyQuestionID" />
+                <ScalarProperty Name="SurveyAnswer" ColumnName="SurveyAnswer" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="VisitorsDetails">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.VisitorsDetail">
+              <MappingFragment StoreEntitySet="VisitorsDetails">
+                <ScalarProperty Name="VisitorID" ColumnName="VisitorID" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+                <ScalarProperty Name="CompanyNameAddress" ColumnName="CompanyNameAddress" />
+                <ScalarProperty Name="ToMeet" ColumnName="ToMeet" />
+                <ScalarProperty Name="Purpose" ColumnName="Purpose" />
+                <ScalarProperty Name="TimeIn" ColumnName="TimeIn" />
+                <ScalarProperty Name="TimeOut" ColumnName="TimeOut" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="WftCloudResources">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.WftCloudResource">
+              <MappingFragment StoreEntitySet="WftCloudResource">
+                <ScalarProperty Name="ResourceID" ColumnName="ResourceID" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Path" ColumnName="Path" />
+                <ScalarProperty Name="UserType" ColumnName="UserType" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+                <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="WFTCloudUserTypes">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.WFTCloudUserType">
+              <MappingFragment StoreEntitySet="WFTCloudUserTypes">
+                <ScalarProperty Name="WFTUserTypeID" ColumnName="WFTUserTypeID" />
+                <ScalarProperty Name="WFTUserTypeText" ColumnName="WFTUserTypeText" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+                <ScalarProperty Name="LastModifiedOn" ColumnName="LastModifiedOn" />
+                <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="WftSettings">
+            <EntityTypeMapping TypeName="cgxwftcloudModel.WftSetting">
+              <MappingFragment StoreEntitySet="WftSettings">
+                <ScalarProperty Name="SettingsID" ColumnName="SettingsID" />
+                <ScalarProperty Name="SettingKey" ColumnName="SettingKey" />
+                <ScalarProperty Name="SettingValue" ColumnName="SettingValue" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="pr_UpdatePaymentResponse" FunctionName="cgxwftcloudModel.Store.pr_UpdatePaymentResponse" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams />
+  </Designer>
+</edmx:Edmx>

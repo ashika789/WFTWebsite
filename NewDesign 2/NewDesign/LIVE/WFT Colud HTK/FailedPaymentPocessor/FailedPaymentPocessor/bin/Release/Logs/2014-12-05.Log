@@ -1,0 +1,34 @@
+---------------------------------------------------------
+05-12-2014 04:10:49 : Payment Processing Started...
+05-12-2014 04:10:49 : 
+05-12-2014 04:10:53 : Processing Individual Payments...
+05-12-2014 04:10:54 : CallPayPalPayment...
+05-12-2014 04:11:01 : PayPal - Started
+05-12-2014 04:11:17 : PayPal - Completed
+05-12-2014 04:11:18 : Billing Agreement ID : B-3MX35234R6759401A
+05-12-2014 04:11:18 :      Approved? : True
+05-12-2014 04:11:18 :      Message   : SUCCESS
+CallPayPalPayment...
+05-12-2014 04:11:46 : 
+05-12-2014 04:11:46 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+05-12-2014 04:10:49 : Payment Processing Started...
+05-12-2014 04:10:49 : 
+05-12-2014 04:10:53 : Processing Individual Payments...
+05-12-2014 04:10:54 : CallPayPalPayment...
+05-12-2014 04:11:01 : PayPal - Started
+05-12-2014 04:11:17 : PayPal - Completed
+05-12-2014 04:11:18 : Billing Agreement ID : B-3MX35234R6759401A
+05-12-2014 04:11:18 :      Approved? : True
+05-12-2014 04:11:18 :      Message   : SUCCESS
+CallPayPalPayment...
+05-12-2014 04:11:46 : 
+05-12-2014 04:11:46 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+05-12-2014 04:11:46 : De-Activate ExpiredSubscription Processing Started...
+05-12-2014 04:11:46 : 
+05-12-2014 04:11:46 : 
+05-12-2014 04:11:46 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

@@ -1,0 +1,57 @@
+.Grid {background-color: #fff; margin: 5px 0 10px 0; border-collapse:collapse;background-color:transparent; font-family:Cambria; font-size:12px; color: #474747;}
+
+.Grid td {
+
+      padding: 2px;
+       vertical-align: top;
+    
+     background-color:transparent;
+}
+     
+
+.Grid th  {
+
+      padding : 4px 2px;
+
+      color: #494444;
+
+      background: transparent;
+
+     
+
+      font-size:12px; 
+      text-align:match-parent;
+}
+
+.Grid .alt {
+
+      background: transparent; }
+
+.Grid .pgr {background: transparent; }
+
+.Grid .pgr table { margin: 3px 0; }
+
+.Grid .pgr td { border-width: 0; padding: 0 6px; border-left: solid 1px #666;  font-size:12px; font-weight: bold; color: #fff; line-height: 12px;}  
+
+.Grid .pgr a { color: Gray; text-decoration: none; }
+
+.Grid .pgr a:hover { color: #000; text-decoration: none; }
+
+
+
+.customCalloutStyle div, .customCalloutStyle td{
+
+background-color: #ebf5fb;
+font-family:Cambria;
+font-size: 12px;
+font-weight:bold;
+color:black;
+}
+
+.ModelPopUpImg {
+    background-image:url(/img/iconclose.png);
+    background-repeat:no-repeat;
+    cursor:pointer;
+    border:none;
+   background-color:gray;
+}

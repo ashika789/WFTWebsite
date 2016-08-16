@@ -1,0 +1,34 @@
+---------------------------------------------------------
+29-01-2016 02:40:03 : Payment Processing Started...
+29-01-2016 02:40:03 : 
+29-01-2016 02:40:03 : Processing Individual Payments...
+29-01-2016 02:40:03 : CallAuthorizeNetPayment...
+29-01-2016 02:40:03 : Authorize.net - Started
+29-01-2016 02:40:49 : Authorize.net - Completed
+29-01-2016 02:40:49 : Customer Profile ID : 36058374
+29-01-2016 02:40:49 :      Approved? : True
+29-01-2016 02:40:49 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+29-01-2016 02:40:49 : 
+29-01-2016 02:40:49 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+29-01-2016 02:40:03 : Payment Processing Started...
+29-01-2016 02:40:03 : 
+29-01-2016 02:40:03 : Processing Individual Payments...
+29-01-2016 02:40:03 : CallAuthorizeNetPayment...
+29-01-2016 02:40:03 : Authorize.net - Started
+29-01-2016 02:40:49 : Authorize.net - Completed
+29-01-2016 02:40:49 : Customer Profile ID : 36058374
+29-01-2016 02:40:49 :      Approved? : True
+29-01-2016 02:40:49 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+29-01-2016 02:40:49 : 
+29-01-2016 02:40:49 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+29-01-2016 02:40:49 : De-Activate ExpiredSubscription Processing Started...
+29-01-2016 02:40:49 : 
+29-01-2016 02:40:49 : 
+29-01-2016 02:40:49 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

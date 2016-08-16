@@ -1,0 +1,128 @@
+---------------------------------------------------------
+19-11-2014 12:25:31 : Payment Processing Started...
+19-11-2014 12:25:31 : 
+19-11-2014 12:25:37 : Processing Individual Payments...
+19-11-2014 12:25:37 : CallAuthorizeNetPayment...
+19-11-2014 12:25:44 : Authorize.net - Started
+19-11-2014 12:25:53 : Error while Processing: Error processing request: E00003 - The 'AnetApi/xml/v1/schema/AnetApiSchema.xsd:customerPaymentProfileId' element is invalid - The value '' is invalid according to its datatype 'AnetApi/xml/v1/schema/AnetApiSchema.xsd:numericString' - The Pattern constraint failed.
+19-11-2014 12:25:53 : CallAuthorizeNetPayment...
+19-11-2014 12:25:54 : Authorize.net - Started
+19-11-2014 12:25:57 : Authorize.net - Completed
+19-11-2014 12:25:58 : Customer Profile ID : 112120625
+19-11-2014 12:25:58 :      Approved? : True
+19-11-2014 12:25:58 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+19-11-2014 12:26:18 : CallAuthorizeNetPayment...
+19-11-2014 12:26:19 : Authorize.net - Started
+19-11-2014 12:26:21 : Authorize.net - Completed
+19-11-2014 12:26:22 : Customer Profile ID : 97258506
+19-11-2014 12:26:22 :      Approved? : False
+19-11-2014 12:26:22 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+19-11-2014 12:26:41 : CallPayPalPayment...
+19-11-2014 12:26:42 : PayPal - Started
+19-11-2014 12:26:49 : PayPal - Completed
+19-11-2014 12:26:50 : Billing Agreement ID : B-1NL560052M9279314
+19-11-2014 12:26:50 :      Approved? : True
+19-11-2014 12:26:50 :      Message   : SUCCESS
+CallPayPalPayment...
+19-11-2014 12:27:09 : 
+19-11-2014 12:27:09 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-11-2014 12:25:31 : Payment Processing Started...
+19-11-2014 12:25:31 : 
+19-11-2014 12:25:37 : Processing Individual Payments...
+19-11-2014 12:25:37 : CallAuthorizeNetPayment...
+19-11-2014 12:25:44 : Authorize.net - Started
+19-11-2014 12:25:53 : Error while Processing: Error processing request: E00003 - The 'AnetApi/xml/v1/schema/AnetApiSchema.xsd:customerPaymentProfileId' element is invalid - The value '' is invalid according to its datatype 'AnetApi/xml/v1/schema/AnetApiSchema.xsd:numericString' - The Pattern constraint failed.
+19-11-2014 12:25:53 : CallAuthorizeNetPayment...
+19-11-2014 12:25:54 : Authorize.net - Started
+19-11-2014 12:25:57 : Authorize.net - Completed
+19-11-2014 12:25:58 : Customer Profile ID : 112120625
+19-11-2014 12:25:58 :      Approved? : True
+19-11-2014 12:25:58 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+19-11-2014 12:26:18 : CallAuthorizeNetPayment...
+19-11-2014 12:26:19 : Authorize.net - Started
+19-11-2014 12:26:21 : Authorize.net - Completed
+19-11-2014 12:26:22 : Customer Profile ID : 97258506
+19-11-2014 12:26:22 :      Approved? : False
+19-11-2014 12:26:22 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+19-11-2014 12:26:41 : CallPayPalPayment...
+19-11-2014 12:26:42 : PayPal - Started
+19-11-2014 12:26:49 : PayPal - Completed
+19-11-2014 12:26:50 : Billing Agreement ID : B-1NL560052M9279314
+19-11-2014 12:26:50 :      Approved? : True
+19-11-2014 12:26:50 :      Message   : SUCCESS
+CallPayPalPayment...
+19-11-2014 12:27:09 : 
+19-11-2014 12:27:09 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-11-2014 12:27:09 : De-Activate ExpiredSubscription Processing Started...
+19-11-2014 12:27:09 : 
+19-11-2014 12:27:11 : 
+19-11-2014 12:27:11 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-11-2014 12:28:43 : Payment Processing Started...
+19-11-2014 12:28:43 : 
+19-11-2014 12:28:54 : Processing Individual Payments...
+19-11-2014 12:28:54 : CallAuthorizeNetPayment...
+19-11-2014 12:28:58 : Authorize.net - Started
+19-11-2014 12:29:05 : Error while Processing: Error processing request: E00003 - The 'AnetApi/xml/v1/schema/AnetApiSchema.xsd:customerPaymentProfileId' element is invalid - The value '' is invalid according to its datatype 'AnetApi/xml/v1/schema/AnetApiSchema.xsd:numericString' - The Pattern constraint failed.
+19-11-2014 12:29:05 : 
+19-11-2014 12:29:05 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-11-2014 12:28:43 : Payment Processing Started...
+19-11-2014 12:28:43 : 
+19-11-2014 12:28:54 : Processing Individual Payments...
+19-11-2014 12:28:54 : CallAuthorizeNetPayment...
+19-11-2014 12:28:58 : Authorize.net - Started
+19-11-2014 12:29:05 : Error while Processing: Error processing request: E00003 - The 'AnetApi/xml/v1/schema/AnetApiSchema.xsd:customerPaymentProfileId' element is invalid - The value '' is invalid according to its datatype 'AnetApi/xml/v1/schema/AnetApiSchema.xsd:numericString' - The Pattern constraint failed.
+19-11-2014 12:29:05 : 
+19-11-2014 12:29:05 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-11-2014 12:29:05 : De-Activate ExpiredSubscription Processing Started...
+19-11-2014 12:29:05 : 
+19-11-2014 12:29:06 : 
+19-11-2014 12:29:06 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-11-2014 01:28:15 : Payment Processing Started...
+19-11-2014 01:28:15 : 
+19-11-2014 01:28:22 : Processing Individual Payments...
+19-11-2014 01:28:22 : CallAuthorizeNetPayment...
+19-11-2014 01:28:27 : Authorize.net - Started
+19-11-2014 01:28:38 : Authorize.net - Completed
+19-11-2014 01:28:39 : Customer Profile ID : 89731302
+19-11-2014 01:28:39 :      Approved? : True
+19-11-2014 01:28:39 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+19-11-2014 01:28:56 : 
+19-11-2014 01:28:56 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-11-2014 01:28:15 : Payment Processing Started...
+19-11-2014 01:28:15 : 
+19-11-2014 01:28:22 : Processing Individual Payments...
+19-11-2014 01:28:22 : CallAuthorizeNetPayment...
+19-11-2014 01:28:27 : Authorize.net - Started
+19-11-2014 01:28:38 : Authorize.net - Completed
+19-11-2014 01:28:39 : Customer Profile ID : 89731302
+19-11-2014 01:28:39 :      Approved? : True
+19-11-2014 01:28:39 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+19-11-2014 01:28:56 : 
+19-11-2014 01:28:56 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-11-2014 01:28:56 : De-Activate ExpiredSubscription Processing Started...
+19-11-2014 01:28:56 : 
+19-11-2014 01:28:57 : 
+19-11-2014 01:28:57 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

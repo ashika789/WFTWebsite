@@ -1,0 +1,74 @@
+---------------------------------------------------------
+04-12-2014 12:29:39 : Payment Processing Started...
+04-12-2014 12:29:39 : 
+04-12-2014 12:29:43 : Processing Individual Payments...
+04-12-2014 12:29:44 : CallAuthorizeNetPayment...
+04-12-2014 12:29:49 : Authorize.net - Started
+04-12-2014 12:30:05 : Error while Processing: The remote name could not be resolved: 'api.authorize.net'
+04-12-2014 12:30:05 : CallPayPalPayment...
+04-12-2014 12:30:06 : PayPal - Started
+04-12-2014 12:30:13 : PayPal - Completed
+04-12-2014 12:30:14 : Billing Agreement ID : B-36L19404RF9938839
+04-12-2014 12:30:14 :      Approved? : True
+04-12-2014 12:30:14 :      Message   : SUCCESS
+CallPayPalPayment...
+04-12-2014 12:30:32 : 
+04-12-2014 12:30:32 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+04-12-2014 12:29:39 : Payment Processing Started...
+04-12-2014 12:29:39 : 
+04-12-2014 12:29:43 : Processing Individual Payments...
+04-12-2014 12:29:44 : CallAuthorizeNetPayment...
+04-12-2014 12:29:49 : Authorize.net - Started
+04-12-2014 12:30:05 : Error while Processing: The remote name could not be resolved: 'api.authorize.net'
+04-12-2014 12:30:05 : CallPayPalPayment...
+04-12-2014 12:30:06 : PayPal - Started
+04-12-2014 12:30:13 : PayPal - Completed
+04-12-2014 12:30:14 : Billing Agreement ID : B-36L19404RF9938839
+04-12-2014 12:30:14 :      Approved? : True
+04-12-2014 12:30:14 :      Message   : SUCCESS
+CallPayPalPayment...
+04-12-2014 12:30:32 : 
+04-12-2014 12:30:32 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+04-12-2014 12:30:32 : De-Activate ExpiredSubscription Processing Started...
+04-12-2014 12:30:32 : 
+04-12-2014 12:30:33 : 
+04-12-2014 12:30:33 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+04-12-2014 12:31:18 : Payment Processing Started...
+04-12-2014 12:31:18 : 
+04-12-2014 12:31:22 : Processing Individual Payments...
+04-12-2014 12:31:22 : CallAuthorizeNetPayment...
+04-12-2014 12:31:26 : Authorize.net - Started
+04-12-2014 12:31:31 : Authorize.net - Completed
+04-12-2014 12:31:32 : Customer Profile ID : 89731302
+04-12-2014 12:31:32 :      Approved? : False
+04-12-2014 12:31:32 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+04-12-2014 12:31:36 : 
+04-12-2014 12:31:36 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+04-12-2014 12:31:18 : Payment Processing Started...
+04-12-2014 12:31:18 : 
+04-12-2014 12:31:22 : Processing Individual Payments...
+04-12-2014 12:31:22 : CallAuthorizeNetPayment...
+04-12-2014 12:31:26 : Authorize.net - Started
+04-12-2014 12:31:31 : Authorize.net - Completed
+04-12-2014 12:31:32 : Customer Profile ID : 89731302
+04-12-2014 12:31:32 :      Approved? : False
+04-12-2014 12:31:32 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+04-12-2014 12:31:36 : 
+04-12-2014 12:31:36 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+04-12-2014 12:31:36 : De-Activate ExpiredSubscription Processing Started...
+04-12-2014 12:31:36 : 
+04-12-2014 12:31:37 : 
+04-12-2014 12:31:37 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

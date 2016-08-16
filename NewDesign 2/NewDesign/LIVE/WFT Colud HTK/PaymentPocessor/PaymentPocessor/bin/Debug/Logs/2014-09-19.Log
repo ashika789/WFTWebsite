@@ -1,0 +1,48 @@
+---------------------------------------------------------
+19-09-2014 04:33:43 : Payment Processing Started...
+19-09-2014 04:33:43 : 
+19-09-2014 04:33:46 : Processing Individual Payments...
+19-09-2014 04:33:46 : CallAuthorizeNetPayPalPayment...
+19-09-2014 04:33:50 : Authorize.net - Started
+19-09-2014 04:33:58 : Authorize.net - Completed
+19-09-2014 04:33:59 : Customer Profile ID : 112120625
+19-09-2014 04:33:59 :      Approved? : True
+19-09-2014 04:33:59 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayPalPayment...
+19-09-2014 04:34:14 : CallAuthorizeNetPayPalPayment...
+19-09-2014 04:34:14 : Authorize.net - Started
+19-09-2014 04:34:17 : Authorize.net - Completed
+19-09-2014 04:34:18 : Customer Profile ID : 97258506
+19-09-2014 04:34:18 :      Approved? : True
+19-09-2014 04:34:18 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayPalPayment...
+19-09-2014 04:34:34 : 
+19-09-2014 04:34:34 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-09-2014 04:33:43 : Payment Processing Started...
+19-09-2014 04:33:43 : 
+19-09-2014 04:33:46 : Processing Individual Payments...
+19-09-2014 04:33:46 : CallAuthorizeNetPayPalPayment...
+19-09-2014 04:33:50 : Authorize.net - Started
+19-09-2014 04:33:58 : Authorize.net - Completed
+19-09-2014 04:33:59 : Customer Profile ID : 112120625
+19-09-2014 04:33:59 :      Approved? : True
+19-09-2014 04:33:59 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayPalPayment...
+19-09-2014 04:34:14 : CallAuthorizeNetPayPalPayment...
+19-09-2014 04:34:14 : Authorize.net - Started
+19-09-2014 04:34:17 : Authorize.net - Completed
+19-09-2014 04:34:18 : Customer Profile ID : 97258506
+19-09-2014 04:34:18 :      Approved? : True
+19-09-2014 04:34:18 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayPalPayment...
+19-09-2014 04:34:34 : 
+19-09-2014 04:34:34 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-09-2014 04:34:34 : De-Activate ExpiredSubscription Processing Started...
+19-09-2014 04:34:34 : 
+19-09-2014 04:34:35 : 
+19-09-2014 04:34:35 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

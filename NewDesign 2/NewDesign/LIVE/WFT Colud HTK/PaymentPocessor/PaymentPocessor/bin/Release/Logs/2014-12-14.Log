@@ -1,0 +1,76 @@
+---------------------------------------------------------
+14-12-2014 11:36:16 : Payment Processing Started...
+14-12-2014 11:36:16 : 
+14-12-2014 11:36:22 : Processing Individual Payments...
+14-12-2014 11:36:22 : CallPayPalPayment...
+14-12-2014 11:36:31 : PayPal - Started
+14-12-2014 11:36:39 : PayPal - Completed
+14-12-2014 11:36:40 : Billing Agreement ID : B-6VX26241Y3445643D
+14-12-2014 11:36:40 :      Approved? : True
+14-12-2014 11:36:40 :      Message   : SUCCESS
+CallPayPalPayment...
+14-12-2014 11:37:00 : CallPayPalPayment...
+14-12-2014 11:37:01 : PayPal - Started
+14-12-2014 11:37:08 : PayPal - Completed
+14-12-2014 11:37:09 : Billing Agreement ID : B-4R219172HC032571P
+14-12-2014 11:37:09 :      Approved? : True
+14-12-2014 11:37:09 :      Message   : SUCCESS
+CallPayPalPayment...
+14-12-2014 11:37:28 : CallPayPalPayment...
+14-12-2014 11:37:29 : PayPal - Started
+14-12-2014 11:37:35 : PayPal - Completed
+14-12-2014 11:37:36 : Billing Agreement ID : B-0AN9235056520170V
+14-12-2014 11:37:36 :      Approved? : True
+14-12-2014 11:37:36 :      Message   : SUCCESS
+CallPayPalPayment...
+14-12-2014 11:37:56 : CallPayPalPayment...
+14-12-2014 11:37:57 : PayPal - Started
+14-12-2014 11:38:03 : PayPal - Completed
+14-12-2014 11:38:04 : Billing Agreement ID : B-8WD887771H058445Y
+14-12-2014 11:38:04 :      Approved? : True
+14-12-2014 11:38:04 :      Message   : SUCCESS
+CallPayPalPayment...
+14-12-2014 11:38:24 : 
+14-12-2014 11:38:24 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+14-12-2014 11:36:16 : Payment Processing Started...
+14-12-2014 11:36:16 : 
+14-12-2014 11:36:22 : Processing Individual Payments...
+14-12-2014 11:36:22 : CallPayPalPayment...
+14-12-2014 11:36:31 : PayPal - Started
+14-12-2014 11:36:39 : PayPal - Completed
+14-12-2014 11:36:40 : Billing Agreement ID : B-6VX26241Y3445643D
+14-12-2014 11:36:40 :      Approved? : True
+14-12-2014 11:36:40 :      Message   : SUCCESS
+CallPayPalPayment...
+14-12-2014 11:37:00 : CallPayPalPayment...
+14-12-2014 11:37:01 : PayPal - Started
+14-12-2014 11:37:08 : PayPal - Completed
+14-12-2014 11:37:09 : Billing Agreement ID : B-4R219172HC032571P
+14-12-2014 11:37:09 :      Approved? : True
+14-12-2014 11:37:09 :      Message   : SUCCESS
+CallPayPalPayment...
+14-12-2014 11:37:28 : CallPayPalPayment...
+14-12-2014 11:37:29 : PayPal - Started
+14-12-2014 11:37:35 : PayPal - Completed
+14-12-2014 11:37:36 : Billing Agreement ID : B-0AN9235056520170V
+14-12-2014 11:37:36 :      Approved? : True
+14-12-2014 11:37:36 :      Message   : SUCCESS
+CallPayPalPayment...
+14-12-2014 11:37:56 : CallPayPalPayment...
+14-12-2014 11:37:57 : PayPal - Started
+14-12-2014 11:38:03 : PayPal - Completed
+14-12-2014 11:38:04 : Billing Agreement ID : B-8WD887771H058445Y
+14-12-2014 11:38:04 :      Approved? : True
+14-12-2014 11:38:04 :      Message   : SUCCESS
+CallPayPalPayment...
+14-12-2014 11:38:24 : 
+14-12-2014 11:38:24 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+14-12-2014 11:38:24 : De-Activate ExpiredSubscription Processing Started...
+14-12-2014 11:38:24 : 
+14-12-2014 11:38:26 : 
+14-12-2014 11:38:26 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

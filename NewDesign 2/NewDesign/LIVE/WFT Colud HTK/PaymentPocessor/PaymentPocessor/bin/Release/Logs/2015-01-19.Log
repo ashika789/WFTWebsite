@@ -1,0 +1,594 @@
+---------------------------------------------------------
+19-01-2015 12:57:46 : Payment Processing Started...
+19-01-2015 12:57:46 : 
+19-01-2015 12:57:52 : Processing Individual Payments...
+19-01-2015 12:57:52 : CallAuthorizeNetPayment...
+19-01-2015 12:58:03 : Authorize.net - Started
+19-01-2015 12:58:17 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 12:58:17 : CallAuthorizeNetPayment...
+19-01-2015 12:58:20 : Authorize.net - Started
+19-01-2015 12:58:23 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 12:58:23 : CallAuthorizeNetPayment...
+19-01-2015 12:58:24 : Authorize.net - Started
+19-01-2015 12:58:30 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 12:58:30 : CallPayPalPayment...
+19-01-2015 12:58:31 : PayPal - Started
+19-01-2015 12:58:32 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 12:58:32 : 
+19-01-2015 12:58:32 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-01-2015 12:57:46 : Payment Processing Started...
+19-01-2015 12:57:46 : 
+19-01-2015 12:57:52 : Processing Individual Payments...
+19-01-2015 12:57:52 : CallAuthorizeNetPayment...
+19-01-2015 12:58:03 : Authorize.net - Started
+19-01-2015 12:58:17 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 12:58:17 : CallAuthorizeNetPayment...
+19-01-2015 12:58:20 : Authorize.net - Started
+19-01-2015 12:58:23 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 12:58:23 : CallAuthorizeNetPayment...
+19-01-2015 12:58:24 : Authorize.net - Started
+19-01-2015 12:58:30 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 12:58:30 : CallPayPalPayment...
+19-01-2015 12:58:31 : PayPal - Started
+19-01-2015 12:58:32 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 12:58:32 : 
+19-01-2015 12:58:32 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-01-2015 12:58:32 : De-Activate ExpiredSubscription Processing Started...
+19-01-2015 12:58:32 : 
+19-01-2015 12:58:33 : 
+19-01-2015 12:58:33 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-01-2015 01:03:18 : Payment Processing Started...
+19-01-2015 01:03:18 : 
+19-01-2015 01:03:33 : Processing Individual Payments...
+19-01-2015 01:03:41 : CallAuthorizeNetPayment...
+19-01-2015 01:03:44 : Authorize.net - Started
+19-01-2015 01:03:50 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 01:03:50 : CallAuthorizeNetPayment...
+19-01-2015 01:03:50 : Authorize.net - Started
+19-01-2015 01:03:53 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 01:03:53 : CallAuthorizeNetPayment...
+19-01-2015 01:03:54 : Authorize.net - Started
+19-01-2015 01:03:56 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 01:03:56 : CallPayPalPayment...
+19-01-2015 01:03:57 : PayPal - Started
+19-01-2015 01:03:58 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 01:03:58 : 
+19-01-2015 01:03:58 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-01-2015 01:03:18 : Payment Processing Started...
+19-01-2015 01:03:18 : 
+19-01-2015 01:03:33 : Processing Individual Payments...
+19-01-2015 01:03:41 : CallAuthorizeNetPayment...
+19-01-2015 01:03:44 : Authorize.net - Started
+19-01-2015 01:03:50 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 01:03:50 : CallAuthorizeNetPayment...
+19-01-2015 01:03:50 : Authorize.net - Started
+19-01-2015 01:03:53 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 01:03:53 : CallAuthorizeNetPayment...
+19-01-2015 01:03:54 : Authorize.net - Started
+19-01-2015 01:03:56 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 01:03:56 : CallPayPalPayment...
+19-01-2015 01:03:57 : PayPal - Started
+19-01-2015 01:03:58 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 01:03:58 : 
+19-01-2015 01:03:58 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-01-2015 01:03:58 : De-Activate ExpiredSubscription Processing Started...
+19-01-2015 01:03:58 : 
+19-01-2015 01:03:58 : 
+19-01-2015 01:03:58 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-01-2015 01:24:56 : Payment Processing Started...
+19-01-2015 01:24:56 : 
+19-01-2015 01:24:58 : Processing Individual Payments...
+19-01-2015 01:24:58 : CallAuthorizeNetPayment...
+19-01-2015 01:25:00 : Authorize.net - Started
+19-01-2015 01:25:07 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 01:25:07 : CallAuthorizeNetPayment...
+19-01-2015 01:25:08 : Authorize.net - Started
+19-01-2015 01:25:10 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 01:25:10 : CallAuthorizeNetPayment...
+19-01-2015 01:25:11 : Authorize.net - Started
+19-01-2015 01:25:14 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 01:25:14 : CallPayPalPayment...
+19-01-2015 01:25:14 : PayPal - Started
+19-01-2015 01:25:15 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 01:25:15 : 
+19-01-2015 01:25:15 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-01-2015 01:24:56 : Payment Processing Started...
+19-01-2015 01:24:56 : 
+19-01-2015 01:24:58 : Processing Individual Payments...
+19-01-2015 01:24:58 : CallAuthorizeNetPayment...
+19-01-2015 01:25:00 : Authorize.net - Started
+19-01-2015 01:25:07 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 01:25:07 : CallAuthorizeNetPayment...
+19-01-2015 01:25:08 : Authorize.net - Started
+19-01-2015 01:25:10 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 01:25:10 : CallAuthorizeNetPayment...
+19-01-2015 01:25:11 : Authorize.net - Started
+19-01-2015 01:25:14 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 01:25:14 : CallPayPalPayment...
+19-01-2015 01:25:14 : PayPal - Started
+19-01-2015 01:25:15 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 01:25:15 : 
+19-01-2015 01:25:15 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-01-2015 01:25:15 : De-Activate ExpiredSubscription Processing Started...
+19-01-2015 01:25:15 : 
+19-01-2015 01:25:16 : 
+19-01-2015 01:25:16 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-01-2015 01:26:43 : Payment Processing Started...
+19-01-2015 01:26:43 : 
+19-01-2015 01:26:52 : Processing Individual Payments...
+19-01-2015 01:27:04 : CallAuthorizeNetPayment...
+19-01-2015 01:27:32 : Authorize.net - Started
+19-01-2015 01:28:31 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 01:28:31 : CallAuthorizeNetPayment...
+19-01-2015 01:28:31 : Authorize.net - Started
+19-01-2015 01:28:34 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 01:28:34 : CallAuthorizeNetPayment...
+19-01-2015 01:28:34 : Authorize.net - Started
+19-01-2015 01:28:37 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 01:28:37 : CallPayPalPayment...
+19-01-2015 01:28:38 : PayPal - Started
+19-01-2015 01:28:39 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 01:28:39 : 
+19-01-2015 01:28:39 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-01-2015 01:26:43 : Payment Processing Started...
+19-01-2015 01:26:43 : 
+19-01-2015 01:26:52 : Processing Individual Payments...
+19-01-2015 01:27:04 : CallAuthorizeNetPayment...
+19-01-2015 01:27:32 : Authorize.net - Started
+19-01-2015 01:28:31 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 01:28:31 : CallAuthorizeNetPayment...
+19-01-2015 01:28:31 : Authorize.net - Started
+19-01-2015 01:28:34 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 01:28:34 : CallAuthorizeNetPayment...
+19-01-2015 01:28:34 : Authorize.net - Started
+19-01-2015 01:28:37 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 01:28:37 : CallPayPalPayment...
+19-01-2015 01:28:38 : PayPal - Started
+19-01-2015 01:28:39 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+19-01-2015 01:28:39 : 
+19-01-2015 01:28:39 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-01-2015 01:28:39 : De-Activate ExpiredSubscription Processing Started...
+19-01-2015 01:28:39 : 
+19-01-2015 01:28:39 : 
+19-01-2015 01:28:39 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-01-2015 01:32:05 : Payment Processing Started...
+19-01-2015 01:32:05 : 
+19-01-2015 01:32:16 : Processing Individual Payments...
+19-01-2015 01:32:37 : CallAuthorizeNetPayment...
+19-01-2015 01:32:46 : Authorize.net - Started
+19-01-2015 01:33:49 : Authorize.net - Completed
+19-01-2015 01:34:01 : Customer Profile ID : 112120625
+19-01-2015 01:34:01 :      Approved? : True
+19-01-2015 01:34:01 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+19-01-2015 01:34:30 : CallAuthorizeNetPayment...
+19-01-2015 01:34:30 : Authorize.net - Started
+19-01-2015 01:34:33 : Authorize.net - Completed
+19-01-2015 01:34:33 : Customer Profile ID : 97258506
+19-01-2015 01:34:33 :      Approved? : False
+19-01-2015 01:34:33 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+19-01-2015 01:34:46 : 
+19-01-2015 01:34:46 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-01-2015 01:32:05 : Payment Processing Started...
+19-01-2015 01:32:05 : 
+19-01-2015 01:32:16 : Processing Individual Payments...
+19-01-2015 01:32:37 : CallAuthorizeNetPayment...
+19-01-2015 01:32:46 : Authorize.net - Started
+19-01-2015 01:33:49 : Authorize.net - Completed
+19-01-2015 01:34:01 : Customer Profile ID : 112120625
+19-01-2015 01:34:01 :      Approved? : True
+19-01-2015 01:34:01 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+19-01-2015 01:34:30 : CallAuthorizeNetPayment...
+19-01-2015 01:34:30 : Authorize.net - Started
+19-01-2015 01:34:33 : Authorize.net - Completed
+19-01-2015 01:34:33 : Customer Profile ID : 97258506
+19-01-2015 01:34:33 :      Approved? : False
+19-01-2015 01:34:33 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+19-01-2015 01:34:46 : 
+19-01-2015 01:34:46 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-01-2015 01:34:46 : De-Activate ExpiredSubscription Processing Started...
+19-01-2015 01:34:46 : 
+19-01-2015 01:34:47 : 
+19-01-2015 01:34:47 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-01-2015 03:32:25 : Payment Processing Started...
+19-01-2015 03:32:25 : 
+19-01-2015 03:32:27 : Processing Individual Payments...
+19-01-2015 03:32:27 : CallAuthorizeNetPayment...
+19-01-2015 03:32:29 : Authorize.net - Started
+19-01-2015 03:32:34 : Authorize.net - Completed
+19-01-2015 03:32:35 : Customer Profile ID : 89559039
+19-01-2015 03:32:35 :      Approved? : False
+19-01-2015 03:32:35 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+19-01-2015 03:32:49 : CallAuthorizeNetPayment...
+19-01-2015 03:32:49 : Authorize.net - Started
+19-01-2015 03:32:51 : Authorize.net - Completed
+19-01-2015 03:32:52 : Customer Profile ID : 89807337
+19-01-2015 03:32:52 :      Approved? : False
+19-01-2015 03:32:52 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+19-01-2015 03:33:06 : CallAuthorizeNetPayment...
+19-01-2015 03:33:07 : Authorize.net - Started
+19-01-2015 03:33:10 : Authorize.net - Completed
+19-01-2015 03:33:10 : Customer Profile ID : 89945574
+19-01-2015 03:33:10 :      Approved? : False
+19-01-2015 03:33:10 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+19-01-2015 03:33:26 : CallAuthorizeNetPayment...
+19-01-2015 03:33:27 : Authorize.net - Started
+19-01-2015 03:33:29 : Authorize.net - Completed
+19-01-2015 03:33:29 : Customer Profile ID : 100016057
+19-01-2015 03:33:29 :      Approved? : False
+19-01-2015 03:33:29 :      Message   : The credit card has expired.
+CallAuthorizeNetPayment...
+19-01-2015 03:33:44 : CallAuthorizeNetPayment...
+19-01-2015 03:33:44 : Authorize.net - Started
+19-01-2015 03:33:47 : Authorize.net - Completed
+19-01-2015 03:33:47 : Customer Profile ID : 100438575
+19-01-2015 03:33:47 :      Approved? : False
+19-01-2015 03:33:47 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+19-01-2015 03:34:01 : CallAuthorizeNetPayment...
+19-01-2015 03:34:02 : Authorize.net - Started
+19-01-2015 03:34:04 : Authorize.net - Completed
+19-01-2015 03:34:05 : Customer Profile ID : 100521741
+19-01-2015 03:34:05 :      Approved? : True
+19-01-2015 03:34:05 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+19-01-2015 03:34:21 : CallAuthorizeNetPayment...
+19-01-2015 03:34:22 : Authorize.net - Started
+19-01-2015 03:34:24 : Authorize.net - Completed
+19-01-2015 03:34:25 : Customer Profile ID : 103919008
+19-01-2015 03:34:25 :      Approved? : True
+19-01-2015 03:34:25 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+19-01-2015 03:34:38 : CallAuthorizeNetPayment...
+19-01-2015 03:34:39 : Authorize.net - Started
+19-01-2015 03:34:42 : Authorize.net - Completed
+19-01-2015 03:34:43 : Customer Profile ID : 106685299
+19-01-2015 03:34:43 :      Approved? : True
+19-01-2015 03:34:43 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+19-01-2015 03:34:56 : CallAuthorizeNetPayment...
+19-01-2015 03:34:57 : Authorize.net - Started
+19-01-2015 03:34:59 : Authorize.net - Completed
+19-01-2015 03:35:00 : Customer Profile ID : 111625832
+19-01-2015 03:35:00 :      Approved? : False
+19-01-2015 03:35:00 :      Message   : Your order has been received. Thank you for your business!
+CallAuthorizeNetPayment...
+19-01-2015 03:35:14 : CallAuthorizeNetPayment...
+19-01-2015 03:35:14 : Authorize.net - Started
+19-01-2015 03:35:17 : Authorize.net - Completed
+19-01-2015 03:35:18 : Customer Profile ID : 114369999
+19-01-2015 03:35:18 :      Approved? : True
+19-01-2015 03:35:18 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+19-01-2015 03:35:32 : CallAuthorizeNetPayment...
+19-01-2015 03:35:33 : Authorize.net - Started
+19-01-2015 03:35:35 : Authorize.net - Completed
+19-01-2015 03:35:36 : Customer Profile ID : 115521824
+19-01-2015 03:35:36 :      Approved? : True
+19-01-2015 03:35:36 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+19-01-2015 03:35:49 : CallAuthorizeNetPayment...
+19-01-2015 03:35:50 : Authorize.net - Started
+19-01-2015 03:35:53 : Authorize.net - Completed
+19-01-2015 03:35:54 : Customer Profile ID : 130835490
+19-01-2015 03:35:54 :      Approved? : True
+19-01-2015 03:35:54 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+19-01-2015 03:36:08 : CallAuthorizeNetPayment...
+19-01-2015 03:36:08 : Authorize.net - Started
+19-01-2015 03:36:11 : Authorize.net - Completed
+19-01-2015 03:36:12 : Customer Profile ID : 93281454
+19-01-2015 03:36:12 :      Approved? : True
+19-01-2015 03:36:12 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+19-01-2015 03:36:25 : CallPayPalPayment...
+19-01-2015 03:36:26 : PayPal - Started
+19-01-2015 03:36:34 : PayPal - Completed
+19-01-2015 03:36:35 : Billing Agreement ID : B-58K646277C143242P
+19-01-2015 03:36:35 :      Approved? : True
+19-01-2015 03:36:35 :      Message   : SUCCESS
+CallPayPalPayment...
+19-01-2015 03:36:49 : CallPayPalPayment...
+19-01-2015 03:36:50 : PayPal - Started
+19-01-2015 03:36:54 : PayPal - Completed
+19-01-2015 03:36:55 : Billing Agreement ID : B-63C83157DH023745P
+19-01-2015 03:36:55 :      Approved? : True
+19-01-2015 03:36:55 :      Message   : SUCCESS
+CallPayPalPayment...
+19-01-2015 03:37:08 : CallPayPalPayment...
+19-01-2015 03:37:09 : PayPal - Started
+19-01-2015 03:37:14 : PayPal - Completed
+19-01-2015 03:37:15 : Billing Agreement ID : B-08L10389FX6269002
+19-01-2015 03:37:15 :      Approved? : True
+19-01-2015 03:37:15 :      Message   : SUCCESS
+CallPayPalPayment...
+19-01-2015 03:37:29 : CallPayPalPayment...
+19-01-2015 03:37:30 : PayPal - Started
+19-01-2015 03:37:34 : PayPal - Completed
+19-01-2015 03:37:35 : Billing Agreement ID : B-6VX26241Y3445643D
+19-01-2015 03:37:35 :      Approved? : True
+19-01-2015 03:37:35 :      Message   : SUCCESS
+CallPayPalPayment...
+19-01-2015 03:37:48 : CallPayPalPayment...
+19-01-2015 03:37:49 : PayPal - Started
+19-01-2015 03:37:54 : PayPal - Completed
+19-01-2015 03:37:56 : Billing Agreement ID : B-86M88493BJ826812Y
+19-01-2015 03:37:56 :      Approved? : True
+19-01-2015 03:37:56 :      Message   : SUCCESS
+CallPayPalPayment...
+19-01-2015 03:38:09 : CallPayPalPayment...
+19-01-2015 03:38:10 : PayPal - Started
+19-01-2015 03:38:15 : PayPal - Completed
+19-01-2015 03:38:16 : Billing Agreement ID : B-1NL560052M9279314
+19-01-2015 03:38:16 :      Approved? : True
+19-01-2015 03:38:16 :      Message   : SUCCESS
+CallPayPalPayment...
+19-01-2015 03:38:29 : CallPayPalPayment...
+19-01-2015 03:38:30 : PayPal - Started
+19-01-2015 03:38:35 : PayPal - Completed
+19-01-2015 03:38:38 : Error while Processing: An error occurred while executing the command definition. See the inner exception for details.
+19-01-2015 03:38:38 : CallPayPalPayment...
+19-01-2015 03:38:38 : PayPal - Started
+19-01-2015 03:38:41 : Error 1: ErrorCode10417-- Error Message:Instruct the customer to retry the transaction using an alternative payment method from the customers PayPal wallet. The transaction did not complete with the customers selected payment method.SeverityCodeERROR
+19-01-2015 03:38:41 : PayPal - Completed
+19-01-2015 03:38:42 : Error while Processing: An error occurred while executing the command definition. See the inner exception for details.
+19-01-2015 03:38:42 : CallPayPalPayment...
+19-01-2015 03:38:43 : PayPal - Started
+19-01-2015 03:38:48 : Error 1: ErrorCode10417-- Error Message:Instruct the customer to retry the transaction using an alternative payment method from the customers PayPal wallet. The transaction did not complete with the customers selected payment method.SeverityCodeERROR
+19-01-2015 03:38:48 : PayPal - Completed
+19-01-2015 03:38:49 : Error while Processing: An error occurred while executing the command definition. See the inner exception for details.
+19-01-2015 03:38:49 : CallPayPalPayment...
+19-01-2015 03:38:50 : PayPal - Started
+19-01-2015 03:38:57 : PayPal - Completed
+19-01-2015 03:38:58 : Error while Processing: An error occurred while executing the command definition. See the inner exception for details.
+19-01-2015 03:38:58 : CallPayPalPayment...
+19-01-2015 03:38:59 : PayPal - Started
+19-01-2015 03:39:04 : PayPal - Completed
+19-01-2015 03:39:05 : Error while Processing: An error occurred while executing the command definition. See the inner exception for details.
+19-01-2015 03:39:05 : CallPayPalPayment...
+19-01-2015 03:39:06 : PayPal - Started
+19-01-2015 03:39:13 : PayPal - Completed
+19-01-2015 03:39:14 : Error while Processing: An error occurred while executing the command definition. See the inner exception for details.
+19-01-2015 03:39:14 : 
+19-01-2015 03:39:14 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-01-2015 03:32:25 : Payment Processing Started...
+19-01-2015 03:32:25 : 
+19-01-2015 03:32:27 : Processing Individual Payments...
+19-01-2015 03:32:27 : CallAuthorizeNetPayment...
+19-01-2015 03:32:29 : Authorize.net - Started
+19-01-2015 03:32:34 : Authorize.net - Completed
+19-01-2015 03:32:35 : Customer Profile ID : 89559039
+19-01-2015 03:32:35 :      Approved? : False
+19-01-2015 03:32:35 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+19-01-2015 03:32:49 : CallAuthorizeNetPayment...
+19-01-2015 03:32:49 : Authorize.net - Started
+19-01-2015 03:32:51 : Authorize.net - Completed
+19-01-2015 03:32:52 : Customer Profile ID : 89807337
+19-01-2015 03:32:52 :      Approved? : False
+19-01-2015 03:32:52 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+19-01-2015 03:33:06 : CallAuthorizeNetPayment...
+19-01-2015 03:33:07 : Authorize.net - Started
+19-01-2015 03:33:10 : Authorize.net - Completed
+19-01-2015 03:33:10 : Customer Profile ID : 89945574
+19-01-2015 03:33:10 :      Approved? : False
+19-01-2015 03:33:10 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+19-01-2015 03:33:26 : CallAuthorizeNetPayment...
+19-01-2015 03:33:27 : Authorize.net - Started
+19-01-2015 03:33:29 : Authorize.net - Completed
+19-01-2015 03:33:29 : Customer Profile ID : 100016057
+19-01-2015 03:33:29 :      Approved? : False
+19-01-2015 03:33:29 :      Message   : The credit card has expired.
+CallAuthorizeNetPayment...
+19-01-2015 03:33:44 : CallAuthorizeNetPayment...
+19-01-2015 03:33:44 : Authorize.net - Started
+19-01-2015 03:33:47 : Authorize.net - Completed
+19-01-2015 03:33:47 : Customer Profile ID : 100438575
+19-01-2015 03:33:47 :      Approved? : False
+19-01-2015 03:33:47 :      Message   : This transaction has been declined.
+CallAuthorizeNetPayment...
+19-01-2015 03:34:01 : CallAuthorizeNetPayment...
+19-01-2015 03:34:02 : Authorize.net - Started
+19-01-2015 03:34:04 : Authorize.net - Completed
+19-01-2015 03:34:05 : Customer Profile ID : 100521741
+19-01-2015 03:34:05 :      Approved? : True
+19-01-2015 03:34:05 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+19-01-2015 03:34:21 : CallAuthorizeNetPayment...
+19-01-2015 03:34:22 : Authorize.net - Started
+19-01-2015 03:34:24 : Authorize.net - Completed
+19-01-2015 03:34:25 : Customer Profile ID : 103919008
+19-01-2015 03:34:25 :      Approved? : True
+19-01-2015 03:34:25 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+19-01-2015 03:34:38 : CallAuthorizeNetPayment...
+19-01-2015 03:34:39 : Authorize.net - Started
+19-01-2015 03:34:42 : Authorize.net - Completed
+19-01-2015 03:34:43 : Customer Profile ID : 106685299
+19-01-2015 03:34:43 :      Approved? : True
+19-01-2015 03:34:43 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+19-01-2015 03:34:56 : CallAuthorizeNetPayment...
+19-01-2015 03:34:57 : Authorize.net - Started
+19-01-2015 03:34:59 : Authorize.net - Completed
+19-01-2015 03:35:00 : Customer Profile ID : 111625832
+19-01-2015 03:35:00 :      Approved? : False
+19-01-2015 03:35:00 :      Message   : Your order has been received. Thank you for your business!
+CallAuthorizeNetPayment...
+19-01-2015 03:35:14 : CallAuthorizeNetPayment...
+19-01-2015 03:35:14 : Authorize.net - Started
+19-01-2015 03:35:17 : Authorize.net - Completed
+19-01-2015 03:35:18 : Customer Profile ID : 114369999
+19-01-2015 03:35:18 :      Approved? : True
+19-01-2015 03:35:18 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+19-01-2015 03:35:32 : CallAuthorizeNetPayment...
+19-01-2015 03:35:33 : Authorize.net - Started
+19-01-2015 03:35:35 : Authorize.net - Completed
+19-01-2015 03:35:36 : Customer Profile ID : 115521824
+19-01-2015 03:35:36 :      Approved? : True
+19-01-2015 03:35:36 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+19-01-2015 03:35:49 : CallAuthorizeNetPayment...
+19-01-2015 03:35:50 : Authorize.net - Started
+19-01-2015 03:35:53 : Authorize.net - Completed
+19-01-2015 03:35:54 : Customer Profile ID : 130835490
+19-01-2015 03:35:54 :      Approved? : True
+19-01-2015 03:35:54 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+19-01-2015 03:36:08 : CallAuthorizeNetPayment...
+19-01-2015 03:36:08 : Authorize.net - Started
+19-01-2015 03:36:11 : Authorize.net - Completed
+19-01-2015 03:36:12 : Customer Profile ID : 93281454
+19-01-2015 03:36:12 :      Approved? : True
+19-01-2015 03:36:12 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+19-01-2015 03:36:25 : CallPayPalPayment...
+19-01-2015 03:36:26 : PayPal - Started
+19-01-2015 03:36:34 : PayPal - Completed
+19-01-2015 03:36:35 : Billing Agreement ID : B-58K646277C143242P
+19-01-2015 03:36:35 :      Approved? : True
+19-01-2015 03:36:35 :      Message   : SUCCESS
+CallPayPalPayment...
+19-01-2015 03:36:49 : CallPayPalPayment...
+19-01-2015 03:36:50 : PayPal - Started
+19-01-2015 03:36:54 : PayPal - Completed
+19-01-2015 03:36:55 : Billing Agreement ID : B-63C83157DH023745P
+19-01-2015 03:36:55 :      Approved? : True
+19-01-2015 03:36:55 :      Message   : SUCCESS
+CallPayPalPayment...
+19-01-2015 03:37:08 : CallPayPalPayment...
+19-01-2015 03:37:09 : PayPal - Started
+19-01-2015 03:37:14 : PayPal - Completed
+19-01-2015 03:37:15 : Billing Agreement ID : B-08L10389FX6269002
+19-01-2015 03:37:15 :      Approved? : True
+19-01-2015 03:37:15 :      Message   : SUCCESS
+CallPayPalPayment...
+19-01-2015 03:37:29 : CallPayPalPayment...
+19-01-2015 03:37:30 : PayPal - Started
+19-01-2015 03:37:34 : PayPal - Completed
+19-01-2015 03:37:35 : Billing Agreement ID : B-6VX26241Y3445643D
+19-01-2015 03:37:35 :      Approved? : True
+19-01-2015 03:37:35 :      Message   : SUCCESS
+CallPayPalPayment...
+19-01-2015 03:37:48 : CallPayPalPayment...
+19-01-2015 03:37:49 : PayPal - Started
+19-01-2015 03:37:54 : PayPal - Completed
+19-01-2015 03:37:56 : Billing Agreement ID : B-86M88493BJ826812Y
+19-01-2015 03:37:56 :      Approved? : True
+19-01-2015 03:37:56 :      Message   : SUCCESS
+CallPayPalPayment...
+19-01-2015 03:38:09 : CallPayPalPayment...
+19-01-2015 03:38:10 : PayPal - Started
+19-01-2015 03:38:15 : PayPal - Completed
+19-01-2015 03:38:16 : Billing Agreement ID : B-1NL560052M9279314
+19-01-2015 03:38:16 :      Approved? : True
+19-01-2015 03:38:16 :      Message   : SUCCESS
+CallPayPalPayment...
+19-01-2015 03:38:29 : CallPayPalPayment...
+19-01-2015 03:38:30 : PayPal - Started
+19-01-2015 03:38:35 : PayPal - Completed
+19-01-2015 03:38:38 : Error while Processing: An error occurred while executing the command definition. See the inner exception for details.
+19-01-2015 03:38:38 : CallPayPalPayment...
+19-01-2015 03:38:38 : PayPal - Started
+19-01-2015 03:38:41 : Error 1: ErrorCode10417-- Error Message:Instruct the customer to retry the transaction using an alternative payment method from the customers PayPal wallet. The transaction did not complete with the customers selected payment method.SeverityCodeERROR
+19-01-2015 03:38:41 : PayPal - Completed
+19-01-2015 03:38:42 : Error while Processing: An error occurred while executing the command definition. See the inner exception for details.
+19-01-2015 03:38:42 : CallPayPalPayment...
+19-01-2015 03:38:43 : PayPal - Started
+19-01-2015 03:38:48 : Error 1: ErrorCode10417-- Error Message:Instruct the customer to retry the transaction using an alternative payment method from the customers PayPal wallet. The transaction did not complete with the customers selected payment method.SeverityCodeERROR
+19-01-2015 03:38:48 : PayPal - Completed
+19-01-2015 03:38:49 : Error while Processing: An error occurred while executing the command definition. See the inner exception for details.
+19-01-2015 03:38:49 : CallPayPalPayment...
+19-01-2015 03:38:50 : PayPal - Started
+19-01-2015 03:38:57 : PayPal - Completed
+19-01-2015 03:38:58 : Error while Processing: An error occurred while executing the command definition. See the inner exception for details.
+19-01-2015 03:38:58 : CallPayPalPayment...
+19-01-2015 03:38:59 : PayPal - Started
+19-01-2015 03:39:04 : PayPal - Completed
+19-01-2015 03:39:05 : Error while Processing: An error occurred while executing the command definition. See the inner exception for details.
+19-01-2015 03:39:05 : CallPayPalPayment...
+19-01-2015 03:39:06 : PayPal - Started
+19-01-2015 03:39:13 : PayPal - Completed
+19-01-2015 03:39:14 : Error while Processing: An error occurred while executing the command definition. See the inner exception for details.
+19-01-2015 03:39:14 : 
+19-01-2015 03:39:14 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+19-01-2015 03:39:14 : De-Activate ExpiredSubscription Processing Started...
+19-01-2015 03:39:14 : 
+19-01-2015 03:39:16 : 
+19-01-2015 03:39:16 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

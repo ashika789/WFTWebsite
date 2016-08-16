@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="/Index.aspx" title="Home"  description="About Us">
+    <siteMapNode url="/User/EnterpriseCloud.aspx" title="Enterprise Cloud"  description="EnterpriseCloud Page" />
+    <siteMapNode url="/User/express-cloud.aspx" title="Express SAP Cloud"  description="Express SAP Cloud" />
+    <siteMapNode url="/User/SAP-training.aspx" title="Trainings"  description="Training SAP /Cloud" />
+    
+    <siteMapNode url="/user/press-release.aspx" title="Press Release"  description="Press Release" />
+    <siteMapNode url="/user/download-SAP-cloud-computing-brochures.aspx" title="Brochures"  description="Brochures" />
+    <siteMapNode url="/user/aboutus.aspx" title="About us"  description="About us" />
+    <siteMapNode url="/user/management-team.aspx" title="Management Team"  description="Management Team" />
+    <siteMapNode url="/user/faq.aspx" title="FAQ"  description="FAQ" />
+    <siteMapNode url="/user/testimonials.aspx" title="Testimonials"  description="Testimonials" />
+    <siteMapNode url="/user/contactus.aspx" title="Contact Us"  description="Contact Us" />
+    
+    <siteMapNode url="/user/SAP-on-Cloud.aspx" title="SAP on Cloud"  description="SAP on Cloud" />
+    <siteMapNode url="/user/cloud-SAP-ERP-solutions-n-services.aspx" title="Cloud SAP ERP"  description="Cloud SAP ERP" />
+    <siteMapNode url="/user/affordable-sap-system-for-small-business.aspx" title="SAP Systems for Small Business"  description="SAP Systems for Small Business" />
+    <siteMapNode url="/user/SAP-cloud-computing-solutions.aspx" title="SAP Cloud Computing Solutions"  description="SAP Cloud Computing Solutions" />
+    <siteMapNode url="/user/ERP-solutions-on-cloud.aspx" title="ERP Solutions on Cloud"  description="ERP Solutions on Cloud" />
+    <siteMapNode url="/user/sitemap.aspx" title="Sitemap"  description="Sitemap" />
+    <siteMapNode url="/user/cloud-computing.aspx" title="Cloud Computing"  description="Cloud Computing" />
+    <siteMapNode url="/user/how-it-works.aspx" title="How it Works"  description="How it Works" />
+    <siteMapNode url="/user/saas.aspx" title="saas"  description="saas" />
+    <siteMapNode url="/user/SAP-Hana-on-cloud.aspx" title="SAP HANA Cloud"  description="SAP HANA Cloud" />
+    <siteMapNode url="/user/SAP-Hana-One.aspx" title="SAP HANA One"  description="SAP HANA One" />
+    <siteMapNode url="/user/System-Requirements.aspx" title="System Requirements"  description="System Requirements" />
+    <siteMapNode url="/user/TermsAndConditions.aspx" title="Terms And Conditions"  description="Terms And Conditions" />
+    <siteMapNode url="/user/SAP-Basic-Administration.aspx" title="SAP Basis Administration Training"  description="SAP Basis Administration Training" />
+    <siteMapNode url="/user/SAP-HANA-Administration.aspx" title="SAP HANA Administration - Online Training"  description="SAP HANA Administration - Online Training" />
+    <siteMapNode url="/user/SAP-Cloud-computing.aspx" title="SAP Cloud Computing Training"  description="SAP Cloud Computing Training" />
+    <siteMapNode url="/user/Products.aspx" title="Other Products"  description="Other Products" />
+  </siteMapNode>
+ 
+</siteMap>

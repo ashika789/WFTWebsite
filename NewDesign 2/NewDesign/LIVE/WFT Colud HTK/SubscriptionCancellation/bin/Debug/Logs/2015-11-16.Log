@@ -1,0 +1,186 @@
+---------------------------------------------------------
+16-11-2015 03:41:48 : Payment Processing Started...
+16-11-2015 03:41:48 : 
+16-11-2015 03:41:49 : Processing Individual Payments...
+16-11-2015 03:41:49 : CallAuthorizeNetPayment...
+16-11-2015 03:41:52 : Authorize.net - Started
+16-11-2015 03:41:52 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+16-11-2015 03:41:52 : 
+16-11-2015 03:41:52 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+16-11-2015 03:41:48 : Payment Processing Started...
+16-11-2015 03:41:48 : 
+16-11-2015 03:41:49 : Processing Individual Payments...
+16-11-2015 03:41:49 : CallAuthorizeNetPayment...
+16-11-2015 03:41:52 : Authorize.net - Started
+16-11-2015 03:41:52 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+16-11-2015 03:41:52 : 
+16-11-2015 03:41:52 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+16-11-2015 03:41:52 : De-Activate ExpiredSubscription Processing Started...
+16-11-2015 03:41:52 : 
+16-11-2015 03:41:52 : 
+16-11-2015 03:41:52 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+16-11-2015 03:42:31 : Payment Processing Started...
+16-11-2015 03:42:31 : 
+16-11-2015 03:42:31 : Processing Individual Payments...
+16-11-2015 03:42:33 : CallAuthorizeNetPayment...
+16-11-2015 03:42:41 : Authorize.net - Started
+16-11-2015 03:42:58 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+16-11-2015 03:42:58 : 
+16-11-2015 03:42:58 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+16-11-2015 03:42:31 : Payment Processing Started...
+16-11-2015 03:42:31 : 
+16-11-2015 03:42:31 : Processing Individual Payments...
+16-11-2015 03:42:33 : CallAuthorizeNetPayment...
+16-11-2015 03:42:41 : Authorize.net - Started
+16-11-2015 03:42:58 : Error while Processing: StartIndex cannot be less than zero.
+Parameter name: startIndex
+16-11-2015 03:42:58 : 
+16-11-2015 03:42:58 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+16-11-2015 03:42:58 : De-Activate ExpiredSubscription Processing Started...
+16-11-2015 03:42:58 : 
+16-11-2015 03:42:58 : 
+16-11-2015 03:42:58 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+16-11-2015 03:51:26 : Payment Processing Started...
+16-11-2015 03:51:26 : 
+16-11-2015 03:51:26 : Processing Individual Payments...
+16-11-2015 03:51:28 : CallAuthorizeNetPayment...
+16-11-2015 03:51:29 : Authorize.net - Started
+16-11-2015 03:51:36 : Authorize.net - Completed
+16-11-2015 03:51:36 : 
+16-11-2015 03:51:36 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+16-11-2015 03:51:26 : Payment Processing Started...
+16-11-2015 03:51:26 : 
+16-11-2015 03:51:26 : Processing Individual Payments...
+16-11-2015 03:51:28 : CallAuthorizeNetPayment...
+16-11-2015 03:51:29 : Authorize.net - Started
+16-11-2015 03:51:36 : Authorize.net - Completed
+16-11-2015 03:51:36 : 
+16-11-2015 03:51:36 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+16-11-2015 03:51:36 : De-Activate ExpiredSubscription Processing Started...
+16-11-2015 03:51:36 : 
+16-11-2015 03:51:36 : 
+16-11-2015 03:51:36 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+16-11-2015 04:49:29 : Payment Processing Started...
+16-11-2015 04:49:29 : 
+16-11-2015 04:49:29 : Processing Individual Payments...
+16-11-2015 04:49:41 : CallAuthorizeNetPayment...
+16-11-2015 04:49:42 : Authorize.net - Started
+16-11-2015 04:49:46 : Authorize.net - Completed
+16-11-2015 04:49:46 : 
+16-11-2015 04:49:46 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+16-11-2015 04:49:29 : Payment Processing Started...
+16-11-2015 04:49:29 : 
+16-11-2015 04:49:29 : Processing Individual Payments...
+16-11-2015 04:49:41 : CallAuthorizeNetPayment...
+16-11-2015 04:49:42 : Authorize.net - Started
+16-11-2015 04:49:46 : Authorize.net - Completed
+16-11-2015 04:49:46 : 
+16-11-2015 04:49:46 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+16-11-2015 04:49:46 : De-Activate ExpiredSubscription Processing Started...
+16-11-2015 04:49:46 : 
+16-11-2015 04:49:46 : 
+16-11-2015 04:49:46 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+16-11-2015 04:53:14 : Payment Processing Started...
+16-11-2015 04:53:14 : 
+16-11-2015 04:53:15 : Processing Individual Payments...
+16-11-2015 04:53:15 : CallAuthorizeNetPayment...
+16-11-2015 04:53:15 : Authorize.net - Started
+16-11-2015 04:53:19 : Authorize.net - Completed
+16-11-2015 04:53:19 : 
+16-11-2015 04:53:19 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+16-11-2015 04:53:14 : Payment Processing Started...
+16-11-2015 04:53:14 : 
+16-11-2015 04:53:15 : Processing Individual Payments...
+16-11-2015 04:53:15 : CallAuthorizeNetPayment...
+16-11-2015 04:53:15 : Authorize.net - Started
+16-11-2015 04:53:19 : Authorize.net - Completed
+16-11-2015 04:53:19 : 
+16-11-2015 04:53:19 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+16-11-2015 04:53:19 : De-Activate ExpiredSubscription Processing Started...
+16-11-2015 04:53:19 : 
+16-11-2015 04:53:19 : 
+16-11-2015 04:53:19 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+16-11-2015 04:54:01 : Payment Processing Started...
+16-11-2015 04:54:01 : 
+16-11-2015 04:54:01 : Processing Individual Payments...
+16-11-2015 04:54:01 : CallAuthorizeNetPayment...
+16-11-2015 04:54:01 : Authorize.net - Started
+16-11-2015 04:54:05 : Authorize.net - Completed
+16-11-2015 04:54:05 : 
+16-11-2015 04:54:05 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+16-11-2015 04:54:01 : Payment Processing Started...
+16-11-2015 04:54:01 : 
+16-11-2015 04:54:01 : Processing Individual Payments...
+16-11-2015 04:54:01 : CallAuthorizeNetPayment...
+16-11-2015 04:54:01 : Authorize.net - Started
+16-11-2015 04:54:05 : Authorize.net - Completed
+16-11-2015 04:54:05 : 
+16-11-2015 04:54:05 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+16-11-2015 04:54:05 : De-Activate ExpiredSubscription Processing Started...
+16-11-2015 04:54:05 : 
+16-11-2015 04:54:05 : 
+16-11-2015 04:54:05 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+16-11-2015 04:57:03 : Payment Processing Started...
+16-11-2015 04:57:03 : 
+16-11-2015 04:57:03 : Processing Individual Payments...
+16-11-2015 04:57:03 : CallAuthorizeNetPayment...
+16-11-2015 04:57:04 : Authorize.net - Started
+16-11-2015 04:57:08 : Authorize.net - Completed
+16-11-2015 04:57:08 : 
+16-11-2015 04:57:08 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+16-11-2015 04:57:03 : Payment Processing Started...
+16-11-2015 04:57:03 : 
+16-11-2015 04:57:03 : Processing Individual Payments...
+16-11-2015 04:57:03 : CallAuthorizeNetPayment...
+16-11-2015 04:57:04 : Authorize.net - Started
+16-11-2015 04:57:08 : Authorize.net - Completed
+16-11-2015 04:57:08 : 
+16-11-2015 04:57:08 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+16-11-2015 04:57:08 : De-Activate ExpiredSubscription Processing Started...
+16-11-2015 04:57:08 : 
+16-11-2015 04:57:08 : 
+16-11-2015 04:57:08 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------

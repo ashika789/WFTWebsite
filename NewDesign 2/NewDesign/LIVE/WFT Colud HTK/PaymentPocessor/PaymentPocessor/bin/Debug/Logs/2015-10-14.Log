@@ -1,0 +1,62 @@
+---------------------------------------------------------
+14-10-2015 12:10:54 : Payment Processing Started...
+14-10-2015 12:10:54 : 
+14-10-2015 12:10:55 : Processing Individual Payments...
+14-10-2015 12:10:55 : CallAuthorizeNetPayment...
+14-10-2015 12:10:58 : Authorize.net - Started
+14-10-2015 12:11:21 : Authorize.net - Completed
+14-10-2015 12:11:21 : Customer Profile ID : 31492015
+14-10-2015 12:11:21 :      Approved? : True
+14-10-2015 12:11:21 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+14-10-2015 12:11:22 : CallPayPalPayment...
+14-10-2015 12:11:22 : PayPal - Started
+14-10-2015 12:11:45 : PayPal - Completed
+14-10-2015 12:11:45 : Billing Agreement ID : B-0E120776LL621931R
+14-10-2015 12:11:45 :      Approved? : True
+14-10-2015 12:11:45 :      Message   : SUCCESS
+CallPayPalPayment...
+14-10-2015 12:11:45 : CallPayPalPayment...
+14-10-2015 12:11:45 : PayPal - Started
+14-10-2015 12:11:56 : PayPal - Completed
+14-10-2015 12:11:57 : Billing Agreement ID : B-4A685115P6316810E
+14-10-2015 12:11:57 :      Approved? : True
+14-10-2015 12:11:57 :      Message   : SUCCESS
+CallPayPalPayment...
+14-10-2015 12:11:57 : 
+14-10-2015 12:11:57 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+14-10-2015 12:10:54 : Payment Processing Started...
+14-10-2015 12:10:54 : 
+14-10-2015 12:10:55 : Processing Individual Payments...
+14-10-2015 12:10:55 : CallAuthorizeNetPayment...
+14-10-2015 12:10:58 : Authorize.net - Started
+14-10-2015 12:11:21 : Authorize.net - Completed
+14-10-2015 12:11:21 : Customer Profile ID : 31492015
+14-10-2015 12:11:21 :      Approved? : True
+14-10-2015 12:11:21 :      Message   : This transaction has been approved.
+CallAuthorizeNetPayment...
+14-10-2015 12:11:22 : CallPayPalPayment...
+14-10-2015 12:11:22 : PayPal - Started
+14-10-2015 12:11:45 : PayPal - Completed
+14-10-2015 12:11:45 : Billing Agreement ID : B-0E120776LL621931R
+14-10-2015 12:11:45 :      Approved? : True
+14-10-2015 12:11:45 :      Message   : SUCCESS
+CallPayPalPayment...
+14-10-2015 12:11:45 : CallPayPalPayment...
+14-10-2015 12:11:45 : PayPal - Started
+14-10-2015 12:11:56 : PayPal - Completed
+14-10-2015 12:11:57 : Billing Agreement ID : B-4A685115P6316810E
+14-10-2015 12:11:57 :      Approved? : True
+14-10-2015 12:11:57 :      Message   : SUCCESS
+CallPayPalPayment...
+14-10-2015 12:11:57 : 
+14-10-2015 12:11:57 : Payment Processing for the day Completed!!!
+---------------------------------------------------------
+---------------------------------------------------------
+14-10-2015 12:11:57 : De-Activate ExpiredSubscription Processing Started...
+14-10-2015 12:11:57 : 
+14-10-2015 12:11:57 : 
+14-10-2015 12:11:57 : De-Activate ExpiredSubscription Processing for the day Completed!!!
+---------------------------------------------------------
